@@ -318,6 +318,11 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv4hd.png"
             },
             {
+                "name": "SCTV5 HD",
+                "id": "sctv5hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv5.png"
+            },
+            {
                 "name": "SCTV6 HD",
                 "id": "sctv6hd",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv6hd.png"
@@ -336,6 +341,11 @@
                 "name": "SCTV9 HD",
                 "id": "sctv9hd",
                 "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv9.png"
+            },
+            {
+                "name": "SCTV10 HD",
+                "id": "sctv10hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv10.png"
             },
             {
                 "name": "SCTV11 HD",
@@ -358,9 +368,44 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv14hd.png"
             },
             {
+                "name": "SCTV15 HD",
+                "id": "sctv15hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv15.png"
+            },
+            {
+                "name": "SCTV16 HD",
+                "id": "sctv16hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv16.png"
+            },
+            {
+                "name": "SCTV17 HD",
+                "id": "sctv17hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv17.png"
+            },
+            {
                 "name": "SCTV18 HD",
                 "id": "sctv18hd",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv18hd.png"
+            },
+            {
+                "name": "SCTV19 HD",
+                "id": "sctv19hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv19.png"
+            },
+            {
+                "name": "SCTV20 HD",
+                "id": "sctv20hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv20.png"
+            },
+            {
+                "name": "SCTV21 HD",
+                "id": "sctv21hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv21.png"
+            },
+            {
+                "name": "SCTV22 HD",
+                "id": "sctv22hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv22.png"
             },
             {
                 "name": "SCTV Phim Tổng Hợp",
