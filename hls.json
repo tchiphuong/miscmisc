@@ -320,7 +320,7 @@
             {
                 "name": "SCTV5 HD",
                 "id": "sctv5hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv5.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv5hd.png"
             },
             {
                 "name": "SCTV6 HD",
@@ -340,12 +340,12 @@
             {
                 "name": "SCTV9 HD",
                 "id": "sctv9hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv9.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv9hd.png"
             },
             {
                 "name": "SCTV10 HD",
                 "id": "sctv10hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv10.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv10hd.png"
             },
             {
                 "name": "SCTV11 HD",
@@ -370,17 +370,17 @@
             {
                 "name": "SCTV15 HD",
                 "id": "sctv15hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv15.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv15hd.png"
             },
             {
                 "name": "SCTV16 HD",
                 "id": "sctv16hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv16.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv16hd.png"
             },
             {
                 "name": "SCTV17 HD",
                 "id": "sctv17hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv17.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv17hd.png"
             },
             {
                 "name": "SCTV18 HD",
@@ -390,22 +390,22 @@
             {
                 "name": "SCTV19 HD",
                 "id": "sctv19hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv19.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv19hd.png"
             },
             {
                 "name": "SCTV20 HD",
                 "id": "sctv20hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv20.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv20hd.png"
             },
             {
                 "name": "SCTV21 HD",
                 "id": "sctv21hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv21.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv21hd.png"
             },
             {
                 "name": "SCTV22 HD",
                 "id": "sctv22hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv22.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv22hd.png"
             },
             {
                 "name": "SCTV Phim Tổng Hợp",
