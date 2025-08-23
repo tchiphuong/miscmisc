@@ -7,57 +7,57 @@
             {
                 "id": "vtv1hd",
                 "name": "VTV1",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv1.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv1hd.png"
             },
             {
                 "id": "vtv2hd",
                 "name": "VTV2",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv2.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv2hd.png"
             },
             {
                 "id": "vtv3hd",
                 "name": "VTV3",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv3.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv3hd.png"
             },
             {
                 "id": "vtv4hd",
                 "name": "VTV4",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv4.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv4hd.png"
             },
             {
                 "id": "vtv5hd",
                 "name": "VTV5",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv5.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv5hd.png"
             },
             {
                 "id": "vtv5hdtnb",
                 "name": "VTV5 Tây Nam Bộ",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv5_tnb.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv5hdtnb.png"
             },
             {
                 "id": "vtv5hdtn",
                 "name": "VTV5 Tây Nguyên",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv5_tn.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv5hdtn.png"
             },
             {
                 "id": "vtvcantho",
                 "name": "VTV Cần Thơ",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv6.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcantho.png"
             },
             {
                 "id": "vtv7hd",
                 "name": "VTV7",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv7.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv7hd.png"
             },
             {
                 "id": "vtv8hd",
                 "name": "VTV8",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv8.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv8hd.png"
             },
             {
                 "id": "vtv9hd",
                 "name": "VTV9",
-                "logo": "https://xzenprox.github.io/cdn/images/vtv/vtv9.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv9hd.png"
             }
         ]
     },
@@ -69,42 +69,42 @@
             {
                 "id": "kcinehd",
                 "name": "K+ Cine",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KCINE%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kcinehd.png"
             },
             {
                 "id": "kaction",
                 "name": "K+ Action",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KACTION%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kaction.png"
             },
             {
                 "id": "ksport1hd",
                 "name": "K+ Sport 1",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KSPORT1%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/ksport1hd.png"
             },
             {
                 "id": "ksport2hd",
                 "name": "K+ Sport 2",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KSPORT2%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/ksport2hd.png"
             },
             {
                 "id": "kkidshd",
                 "name": "K+ Kids",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KKIDS%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kkidshd.png"
             },
             {
                 "id": "klive1",
                 "name": "K+ Live 1",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KLIVE%201%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/klive1.png"
             },
             {
                 "id": "klive2",
                 "name": "K+ Live 2",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KLIVE%202%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/klive2.png"
             },
             {
                 "id": "klive3",
                 "name": "K+ Live 3",
-                "logo": "https://img.kplus.vn/images?filename=media/channels/sg/channelicons/KLIVE%203%20HD.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/klive3.png"
             }
         ]
     },
@@ -116,102 +116,102 @@
             {
                 "name": "ON Vie Giải trí",
                 "id": "onviegiaitri",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab1.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onviegiaitri.png"
             },
             {
                 "name": "ON Phim Việt",
                 "id": "onphimviet",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab2.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onphimviet.png"
             },
             {
                 "name": "ON Sports",
                 "id": "onsports",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab3.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onsports.png"
             },
             {
                 "name": "ON Movies",
                 "id": "onmovies",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab4.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onmovies.png"
             },
             {
                 "name": "ON EChannel",
                 "id": "onechannel",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab5.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onechannel.png"
             },
             {
                 "name": "ON Sports+",
                 "id": "onsportsplus",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab6.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onsportsplus.png"
             },
             {
                 "name": "ON O2TV",
                 "id": "ono2tv",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab7.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/ono2tv.png"
             },
             {
                 "name": "ON BiBi",
                 "id": "onbibi",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab8.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onbibi.png"
             },
             {
                 "name": "ON Info TV",
                 "id": "oninfotv",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab9.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/oninfotv.png"
             },
             {
                 "name": "ON Cine",
                 "id": "oncine",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab10.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/oncine.png"
             },
             {
                 "name": "ON Style TV",
                 "id": "onstyle",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab11.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onstyle.png"
             },
             {
                 "name": "ON Music",
                 "id": "onmusic",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab12.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onmusic.png"
             },
             {
                 "name": "ON Football",
                 "id": "onfootball",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab13.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onfootball.png"
             },
             {
                 "name": "ON Trending TV",
                 "id": "ontrending",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab14.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/ontrending.png"
             },
             {
                 "name": "ON Sports News",
                 "id": "onsportsnews",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab18.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onsportsnews.png"
             },
             {
                 "name": "ON Vie Dramas",
                 "id": "onviedramas",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab19.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onviedramas.png"
             },
             {
                 "name": "ON VFamily",
                 "id": "onvfamily",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab20.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onvfamily.png"
             },
             {
                 "name": "ON Kids",
                 "id": "onkids",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab21.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onkids.png"
             },
             {
                 "name": "ON Life",
                 "id": "onlife",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab22.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/onlife.png"
             },
             {
                 "name": "ON Golf",
                 "id": "ongolf",
-                "logo": "https://xzenprox.github.io/cdn/images/vtvcab/vtvcab22.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/ongolf.png"
             }
         ]
     },
@@ -223,72 +223,72 @@
             {
                 "name": "HTV1",
                 "id": "htv1",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htv1.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv1.png"
             },
             {
                 "name": "HTV2 - Vie Channel",
                 "id": "htv2hd",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htv2.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv2hd.png"
             },
             {
                 "name": "HTV3 - Heo TV (Hplus)",
                 "id": "htv3",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htv3.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv3.png"
             },
             {
                 "name": "HTV Key",
                 "id": "htvkey",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htv4.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvkey.png"
             },
             {
                 "name": "HTV7 HD",
                 "id": "htv7hd",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htv7.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv7hd.png"
             },
             {
                 "name": "HTV9 HD",
                 "id": "htv9hd",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htv9.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv9hd.png"
             },
             {
                 "name": "HTV Thể Thao",
                 "id": "htvthethaohd",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvthethao.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvthethaohd.png"
             },
             {
                 "id": "htvccanhachd",
                 "name": "HTVC Ca nhạc HD",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvccanhac.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvccanhachd.png"
             },
             {
                 "id": "htvcdulichhd",
                 "name": "HTVC Du lịch Cuộc sống HD",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvcdulich.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvcdulichhd.png"
             },
             {
                 "id": "htvcgiadinhhd",
                 "name": "HTVC Gia đình HD",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvcgiadinh.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvcgiadinhhd.png"
             },
             {
                 "id": "htvcphimhd",
                 "name": "HTVC Phim HD",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvcphim.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvcphimhd.png"
             },
             {
                 "id": "htvcphunuhd",
                 "name": "HTVC Phụ nữ HD",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvcphunu.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvcphunuhd.png"
             },
             {
                 "id": "htvcplushd",
                 "name": "HTVC Plus HD",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvcphim.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvcplushd.png"
             },
             {
                 "id": "htvcthuanviet",
                 "name": "HTVC Thuần Việt",
-                "logo": "https://xzenprox.github.io/cdn/images/hplus/htvcthuanviet.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htvcthuanviet.png"
             }
         ]
     },
@@ -300,72 +300,77 @@
             {
                 "name": "SCTV1 HD",
                 "id": "sctv1hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv1.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv1hd.png"
             },
             {
                 "name": "SCTV2 HD - TODAY TV",
                 "id": "sctv2hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv2.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv2hd.png"
             },
             {
                 "name": "SCTV3 - SEE TV",
                 "id": "sctv3hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv3.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv3hd.png"
             },
             {
                 "name": "SCTV4 HD",
                 "id": "sctv4hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv4.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv4hd.png"
             },
             {
                 "name": "SCTV6 HD",
                 "id": "sctv6hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv6.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv6hd.png"
             },
             {
                 "name": "SCTV7 HD",
                 "id": "sctv7hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv7.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv7hd.png"
             },
             {
                 "name": "SCTV8 HD",
                 "id": "sctv8hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv8.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv8hd.png"
+            },
+            {
+                "name": "SCTV9 HD",
+                "id": "sctv9hd",
+                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv9.png"
             },
             {
                 "name": "SCTV11 HD",
                 "id": "sctv11hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv11.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv11hd.png"
             },
             {
                 "name": "SCTV12 HD",
                 "id": "sctv12hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv12.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv12hd.png"
             },
             {
                 "name": "SCTV13 HD",
                 "id": "sctv13hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv13.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv13hd.png"
             },
             {
                 "name": "SCTV14 HD",
                 "id": "sctv14hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv14.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv14hd.png"
             },
             {
                 "name": "SCTV18 HD",
                 "id": "sctv18hd",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctv18.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv18hd.png"
             },
             {
                 "name": "SCTV Phim Tổng Hợp",
                 "id": "sctvhdpth",
-                "logo": "https://xzenprox.github.io/cdn/images/sctv/sctvhdpth.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctvhdpth.png"
             },
             {
                 "name": "SCTV4K",
                 "id": "sctv4k",
-                "logo": "https://static.wikia.nocookie.net/logos/images/3/37/SCTV_4K.png/revision/latest/scale-to-width-down/1200?cb=20250620065611&path-prefix=vi"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv4k.png"
             }
         ]
     },
@@ -377,52 +382,52 @@
             {
                 "name": "TV360+ 1",
                 "id": "tv360plus1",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189720461/dc4ee8910c25_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus1.png"
             },
             {
                 "name": "TV360+ 2",
                 "id": "tv360plus2",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189794311/c4d18ecff9f7_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus2.png"
             },
             {
                 "name": "TV360+ 3",
                 "id": "tv360plus3",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189872609/e569653d09d3_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus3.png"
             },
             {
                 "name": "TV360+ 4",
                 "id": "tv360plus4",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189917617/5db9e5a7d0fd_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus4.png"
             },
             {
                 "name": "TV360+ 5",
                 "id": "tv360plus5",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189978632/51f31c767a91_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus5.png"
             },
             {
                 "name": "TV360+ 6",
                 "id": "tv360plus6",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/22/1727190010448/7463a4b5c14d_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus6.png"
             },
             {
                 "name": "TV360+ 7",
                 "id": "tv360plus7",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/22/1727190077791/4922144877f1_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus7.png"
             },
             {
                 "name": "TV360+ 8",
                 "id": "tv360plus8",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/24/22/172719012995/8df54b2f7576_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus8.png"
             },
             {
                 "name": "TV360+ 9",
                 "id": "tv360plus9",
-                "logo": "https://img-zlr1.tv360.vn/image1/2024/09/30/22/1727709197325/1be646ba55c5_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360plus9.png"
             },
             {
                 "name": "Mê Kông",
                 "id": "tv360.Mekong",
-                "logo": "https://img-zlr1.tv360.vn/image1/2025/03/24/23/1742835047229/a15638593826_640_360.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360.Mekong.png"
             }
         ]
     },
@@ -434,52 +439,52 @@
             {
                 "id": "boxhits",
                 "name": "Box Hits",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/BOXHITS.jpg"
+                "logo": "https://static.wikia.nocookie.net/logos/images/4/4a/Box_Hits_logo_b%E1%BA%A3n_2.png/revision/latest/scale-to-width-down/200?cb=20240816102244&path-prefix=vi"
             },
             {
                 "id": "boxmovie1",
                 "name": "Box Movie 1",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3b/BOXMOVIE1.jpg"
+                "logo": "https://static.wikia.nocookie.net/logos/images/5/55/Box_Movie_1_logo_2023.png/revision/latest/scale-to-width-down/200?cb=20230515132648&path-prefix=vi"
             },
             {
                 "id": "drfithd",
                 "name": "Dr.Fit",
-                "logo": "https://img-zlr1.tv360.vn/image1/2020_09_23/1600822429190/7b74ab00eb3e_640_360.png"
+                "logo": "https://static.wikia.nocookie.net/logos/images/b/b4/Dr.Fit_Channel.png/revision/latest/scale-to-width-down/1200?cb=20230114060753&path-prefix=vi"
             },
             {
                 "id": "happykids",
                 "name": "Happy Kids",
-                "logo": "https://img-zlr1.tv360.vn/image1/2020_09_23/1600823512270/ee08dd0e8b64_640_360.png"
+                "logo": "https://static.wikia.nocookie.net/logos/images/a/a7/Happy_Kids_2018.png/revision/latest?cb=20220224003859&path-prefix=vi"
             },
             {
                 "id": "hollywoodclassics",
                 "name": "Hollywood Classics",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/HollywoodClassic.jpg"
+                "logo": "https://static.wikia.nocookie.net/logos/images/f/f4/Hollywood_Classics_logo.png/revision/latest?cb=20230114060812&path-prefix=vi"
             },
             {
                 "id": "inthebox",
                 "name": "In The Box",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/INTHEBOX.jpg"
+                "logo": "https://static.wikia.nocookie.net/logos/images/b/b8/InTheBOX_Channel_screenbug.png/revision/latest?cb=20230205100709&path-prefix=vi"
             },
             {
                 "id": "manhd",
                 "name": "Man",
-                "logo": "https://img-zlr1.tv360.vn/image1/2021/08/02/18/1627902182400/125faee2618c_640_360.png"
+                "logo": "https://static.wikia.nocookie.net/logos/images/2/29/MAN.png/revision/latest?cb=20230624144840&path-prefix=vi"
             },
             {
                 "id": "musicbox",
                 "name": "Music Box",
-                "logo": "https://img-zlr1.tv360.vn/image1/2023/07/20/10/1689822939536/68d521f6938e_640_360.png"
+                "logo": "https://static.wikia.nocookie.net/logos/images/e/e4/Music_Box_logo_Gold.png/revision/latest/scale-to-width-down/1000?cb=20230111080113&path-prefix=vi"
             },
             {
                 "id": "planetearthhd",
                 "name": "Planet Earth",
-                "logo": "https://img-zlr1.tv360.vn/image1/2020_09_23/1600823484363/34cadc4f9c06_640_360.png"
+                "logo": "https://static.wikia.nocookie.net/logos/images/7/7c/Planet_Earth_logo.png/revision/latest/scale-to-width-down/1000?cb=20220714132655&path-prefix=vi"
             },
             {
                 "id": "woman",
                 "name": "Woman",
-                "logo": "https://img-zlr1.tv360.vn/image1/2020_09_23/1600822442611/f6b738c3d05a_640_360.png"
+                "logo": "https://static.wikia.nocookie.net/logos/images/1/19/WOMAN_logo.png/revision/latest?cb=20230120034059&path-prefix=vi"
             }
         ]
     },
