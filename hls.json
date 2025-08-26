@@ -1023,7 +1023,8 @@
             {
                 "id": "cctv1",
                 "altIds": [
-                    "cctv-1"
+                    "cctv-1",
+                    "cctv-1 综合"
                 ],
                 "name": "CCTV-1 综合 (Tổng hợp)",
                 "altNames": [
