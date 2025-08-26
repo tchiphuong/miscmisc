@@ -477,65 +477,8 @@
         ]
     },
     {
-        "groupName": "In The Box",
-        "groupLogo": "In The Box",
-        "sortOrder": 7,
-        "channels": [
-            {
-                "id": "boxhits",
-                "name": "Box Hits",
-                "logo": "https://static.wikia.nocookie.net/logos/images/4/4a/Box_Hits_logo_b%E1%BA%A3n_2.png/revision/latest/scale-to-width-down/200?cb=20240816102244&path-prefix=vi"
-            },
-            {
-                "id": "boxmovie1",
-                "name": "Box Movie 1",
-                "logo": "https://static.wikia.nocookie.net/logos/images/5/55/Box_Movie_1_logo_2023.png/revision/latest/scale-to-width-down/200?cb=20230515132648&path-prefix=vi"
-            },
-            {
-                "id": "drfithd",
-                "name": "Dr.Fit",
-                "logo": "https://static.wikia.nocookie.net/logos/images/b/b4/Dr.Fit_Channel.png/revision/latest/scale-to-width-down/1200?cb=20230114060753&path-prefix=vi"
-            },
-            {
-                "id": "happykids",
-                "name": "Happy Kids",
-                "logo": "https://static.wikia.nocookie.net/logos/images/a/a7/Happy_Kids_2018.png/revision/latest?cb=20220224003859&path-prefix=vi"
-            },
-            {
-                "id": "hollywoodclassics",
-                "name": "Hollywood Classics",
-                "logo": "https://static.wikia.nocookie.net/logos/images/f/f4/Hollywood_Classics_logo.png/revision/latest?cb=20230114060812&path-prefix=vi"
-            },
-            {
-                "id": "inthebox",
-                "name": "In The Box",
-                "logo": "https://static.wikia.nocookie.net/logos/images/b/b8/InTheBOX_Channel_screenbug.png/revision/latest?cb=20230205100709&path-prefix=vi"
-            },
-            {
-                "id": "manhd",
-                "name": "Man",
-                "logo": "https://static.wikia.nocookie.net/logos/images/2/29/MAN.png/revision/latest?cb=20230624144840&path-prefix=vi"
-            },
-            {
-                "id": "musicbox",
-                "name": "Music Box",
-                "logo": "https://static.wikia.nocookie.net/logos/images/e/e4/Music_Box_logo_Gold.png/revision/latest/scale-to-width-down/1000?cb=20230111080113&path-prefix=vi"
-            },
-            {
-                "id": "planetearthhd",
-                "name": "Planet Earth",
-                "logo": "https://static.wikia.nocookie.net/logos/images/7/7c/Planet_Earth_logo.png/revision/latest/scale-to-width-down/1000?cb=20220714132655&path-prefix=vi"
-            },
-            {
-                "id": "woman",
-                "name": "Woman",
-                "logo": "https://static.wikia.nocookie.net/logos/images/1/19/WOMAN_logo.png/revision/latest?cb=20230120034059&path-prefix=vi"
-            }
-        ]
-    },
-    {
         "groupName": "Địa phương",
-        "groupLogo": "Địa phương",
+        "groupLogo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
         "sortOrder": 8,
         "channels": [
             {
@@ -817,9 +760,59 @@
     },
     {
         "groupName": "Quốc Tế",
-        "groupLogo": "Quốc Tế",
+        "groupLogo": "https://cdn-icons-png.freepik.com/512/7296/7296866.png",
         "sortOrder": 9,
         "channels": [
+            {
+                "id": "boxhits",
+                "name": "Box Hits",
+                "logo": "https://static.wikia.nocookie.net/logos/images/4/4a/Box_Hits_logo_b%E1%BA%A3n_2.png/revision/latest/scale-to-width-down/200?cb=20240816102244&path-prefix=vi"
+            },
+            {
+                "id": "boxmovie1",
+                "name": "Box Movie 1",
+                "logo": "https://static.wikia.nocookie.net/logos/images/5/55/Box_Movie_1_logo_2023.png/revision/latest/scale-to-width-down/200?cb=20230515132648&path-prefix=vi"
+            },
+            {
+                "id": "drfithd",
+                "name": "Dr.Fit",
+                "logo": "https://static.wikia.nocookie.net/logos/images/b/b4/Dr.Fit_Channel.png/revision/latest/scale-to-width-down/1200?cb=20230114060753&path-prefix=vi"
+            },
+            {
+                "id": "happykids",
+                "name": "Happy Kids",
+                "logo": "https://static.wikia.nocookie.net/logos/images/a/a7/Happy_Kids_2018.png/revision/latest?cb=20220224003859&path-prefix=vi"
+            },
+            {
+                "id": "hollywoodclassics",
+                "name": "Hollywood Classics",
+                "logo": "https://static.wikia.nocookie.net/logos/images/f/f4/Hollywood_Classics_logo.png/revision/latest?cb=20230114060812&path-prefix=vi"
+            },
+            {
+                "id": "inthebox",
+                "name": "In The Box",
+                "logo": "https://static.wikia.nocookie.net/logos/images/b/b8/InTheBOX_Channel_screenbug.png/revision/latest?cb=20230205100709&path-prefix=vi"
+            },
+            {
+                "id": "manhd",
+                "name": "Man",
+                "logo": "https://static.wikia.nocookie.net/logos/images/2/29/MAN.png/revision/latest?cb=20230624144840&path-prefix=vi"
+            },
+            {
+                "id": "musicbox",
+                "name": "Music Box",
+                "logo": "https://static.wikia.nocookie.net/logos/images/e/e4/Music_Box_logo_Gold.png/revision/latest/scale-to-width-down/1000?cb=20230111080113&path-prefix=vi"
+            },
+            {
+                "id": "planetearthhd",
+                "name": "Planet Earth",
+                "logo": "https://static.wikia.nocookie.net/logos/images/7/7c/Planet_Earth_logo.png/revision/latest/scale-to-width-down/1000?cb=20220714132655&path-prefix=vi"
+            },
+            {
+                "id": "woman",
+                "name": "Woman",
+                "logo": "https://static.wikia.nocookie.net/logos/images/1/19/WOMAN_logo.png/revision/latest?cb=20230120034059&path-prefix=vi"
+            },
             {
                 "id": "abcaustralia",
                 "name": "ABC Australia",
