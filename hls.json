@@ -1017,98 +1017,257 @@
     },
     {
         "groupName": "China",
-        "groupLogo": "China",
-        "sortOrder": 3,
+        "groupLogo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
+        "sortOrder": 9,
         "channels": [
             {
                 "id": "cctv1",
+                "altIds": [
+                    "cctv-1"
+                ],
                 "name": "CCTV-1 综合 (Tổng hợp)",
+                "altNames": [
+                    "CCTV1",
+                    "CCTV-1"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv1.png"
             },
             {
                 "id": "cctv2",
+                "altIds": [
+                    "cctv-2"
+                ],
                 "name": "CCTV-2 财经 (Tài chính)",
+                "altNames": [
+                    "CCTV2",
+                    "CCTV-2"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv2.png"
             },
             {
                 "id": "cctv3",
+                "altIds": [
+                    "cctv-3"
+                ],
                 "name": "CCTV-3 综艺 (Giải trí tổng hợp)",
+                "altNames": [
+                    "CCTV3",
+                    "CCTV-3"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv3.png"
             },
             {
                 "id": "cctv4",
+                "altIds": [
+                    "cctv-4"
+                ],
                 "name": "CCTV-4 亚洲 (Kênh quốc tế - Châu Á)",
+                "altNames": [
+                    "CCTV4",
+                    "CCTV-4"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv4.png"
             },
             {
                 "id": "cctv5",
+                "altIds": [
+                    "cctv-5"
+                ],
                 "name": "CCTV-5 体育 (Thể thao)",
+                "altNames": [
+                    "CCTV5",
+                    "CCTV-5"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv5.png"
             },
             {
                 "id": "cctv5plus",
+                "altIds": [
+                    "cctv5+",
+                    "cctv-5+",
+                    "cctv5-plus",
+                    "cctv-5-plus"
+                ],
                 "name": "CCTV-5+ 体育赛事 (Sự kiện thể thao)",
+                "altNames": [
+                    "CCTV5+",
+                    "CCTV-5+"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv5plus.png"
             },
             {
                 "id": "cctv6",
+                "altIds": [
+                    "cctv-6"
+                ],
                 "name": "CCTV-6 电影 (Điện ảnh)",
+                "altNames": [
+                    "CCTV6",
+                    "CCTV-6"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv6.png"
             },
             {
                 "id": "cctv7",
+                "altIds": [
+                    "cctv-7"
+                ],
                 "name": "CCTV-7 国防军事 (Quốc phòng - Quân sự)",
+                "altNames": [
+                    "CCTV7",
+                    "CCTV-7"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv7.png"
             },
             {
                 "id": "cctv8",
+                "altIds": [
+                    "cctv-8"
+                ],
                 "name": "CCTV-8 电视剧 (Phim truyền hình)",
+                "altNames": [
+                    "CCTV8",
+                    "CCTV-8"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv8.png"
             },
             {
                 "id": "cctvjilu",
+                "altIds": [
+                    "cctv9",
+                    "cctv-9"
+                ],
                 "name": "CCTV-9 纪录 (Tài liệu)",
+                "altNames": [
+                    "CCTV9",
+                    "CCTV-9",
+                    "CCTV纪录"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctvjilu.png"
             },
             {
                 "id": "cctv10",
+                "altIds": [
+                    "cctv-10"
+                ],
                 "name": "CCTV-10 科教 (Khoa học - Giáo dục)",
+                "altNames": [
+                    "CCTV10",
+                    "CCTV-10"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv10.png"
             },
             {
                 "id": "cctv11",
+                "altIds": [
+                    "cctv-11"
+                ],
                 "name": "CCTV-11 戏曲 (Kinh kịch - Nghệ thuật sân khấu)",
+                "altNames": [
+                    "CCTV11",
+                    "CCTV-11"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv11.png"
             },
             {
                 "id": "cctv12",
+                "altIds": [
+                    "cctv-12"
+                ],
                 "name": "CCTV-12 社会与法 (Xã hội & Pháp luật)",
+                "altNames": [
+                    "CCTV12",
+                    "CCTV-12"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv12.png"
             },
             {
                 "id": "cctv13",
+                "altIds": [
+                    "cctv-13"
+                ],
                 "name": "CCTV-13 新闻 (Tin tức)",
+                "altNames": [
+                    "CCTV13",
+                    "CCTV-13"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv13.png"
             },
             {
                 "id": "cctvchild",
+                "altIds": [
+                    "cctv14",
+                    "cctv-14"
+                ],
                 "name": "CCTV-14 少儿 (Thiếu nhi)",
+                "altNames": [
+                    "CCTV14",
+                    "CCTV-14",
+                    "CCTV少儿"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctvchild.png"
             },
             {
                 "id": "cctv15",
+                "altIds": [
+                    "cctv-15"
+                ],
                 "name": "CCTV-15 音乐 (Âm nhạc)",
+                "altNames": [
+                    "CCTV15",
+                    "CCTV-15"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv15.png"
             },
             {
                 "id": "cctv16",
+                "altIds": [
+                    "cctv-16"
+                ],
                 "name": "CCTV-16 奥林匹克 (Olympic)",
+                "altNames": [
+                    "CCTV16",
+                    "CCTV-16"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv16.png"
             },
             {
                 "id": "cctv17",
+                "altIds": [
+                    "cctv-17"
+                ],
                 "name": "CCTV-17 农业农村 (Nông nghiệp - Nông thôn)",
+                "altNames": [
+                    "CCTV17",
+                    "CCTV-17"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/cctv17.png"
+            },
+            {
+                "id": "cctv4k",
+                "altIds": [
+                    "cctv-4k",
+                    "cctv4-k"
+                ],
+                "name": "CCTV-4K 超高清",
+                "altNames": [
+                    "CCTV4K",
+                    "CCTV-4K"
+                ],
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4K.png"
+            },
+            {
+                "id": "cctv8k",
+                "altIds": [
+                    "cctv-8k",
+                    "cctv8-k"
+                ],
+                "name": "CCTV-8K 超高清",
+                "altNames": [
+                    "CCTV8K",
+                    "CCTV-8K"
+                ],
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8K.png"
             },
             {
                 "id": "anhui",
