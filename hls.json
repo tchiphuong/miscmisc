@@ -1291,78 +1291,260 @@
             },
             {
                 "id": "anhui",
+                "altIds": [
+                    "安徽卫视"
+                ],
                 "name": "安徽卫视 (An Huy)",
+                "altNames": [
+                    "安徽卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/anhui.png"
             },
             {
                 "id": "bingtuan",
+                "altIds": [
+                    "兵团卫视"
+                ],
                 "name": "兵团卫视 (Binh đoàn)",
+                "altNames": [
+                    "兵团卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/bingtuan.png"
             },
             {
                 "id": "btv1",
+                "altIds": [
+                    "北京卫视"
+                ],
                 "name": "北京卫视 (Bắc Kinh)",
+                "altNames": [
+                    "北京卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/btv1.png"
             },
             {
                 "id": "btvchild",
+                "altIds": [
+                    "卡酷少儿"
+                ],
                 "name": "BRTV 卡酷少儿 (Bắc Kinh - Thiếu nhi)",
+                "altNames": [
+                    "卡酷少儿",
+                    "BRTV 卡酷少儿"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/btvchild.png"
             },
             {
                 "id": "btvjishi",
+                "altIds": [
+                    "体育休闲"
+                ],
                 "name": "BRTV 体育休闲 (Bắc Kinh - Thể thao & Giải trí)",
+                "altNames": [
+                    "体育休闲",
+                    "BRTV 体育休闲"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/btvjishi.png"
             },
             {
                 "id": "dongfang",
+                "altIds": [
+                    "东方卫视"
+                ],
                 "name": "东方卫视 (Đông Phương - Thượng Hải)",
+                "altNames": [
+                    "东方卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/dongfang.png"
             },
             {
                 "id": "hunan",
+                "altIds": [
+                    "湖南卫视"
+                ],
                 "name": "湖南卫视 (Hồ Nam)",
+                "altNames": [
+                    "湖南卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/hunan.png"
             },
             {
                 "id": "jiangsu",
+                "altIds": [
+                    "江苏卫视"
+                ],
                 "name": "江苏卫视 (Giang Tô)",
+                "altNames": [
+                    "江苏卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/jiangsu.png"
             },
             {
                 "id": "zhejiang",
+                "altIds": [
+                    "浙江卫视"
+                ],
                 "name": "浙江卫视 (Chiết Giang)",
+                "altNames": [
+                    "浙江卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/zhejiang.png"
             },
             {
                 "id": "guangdong",
+                "altIds": [
+                    "广东卫视"
+                ],
                 "name": "广东卫视 (Quảng Đông)",
+                "altNames": [
+                    "广东卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/guangdong.png"
             },
             {
                 "id": "shandong",
+                "altIds": [
+                    "山东卫视"
+                ],
                 "name": "山东卫视 (Sơn Đông)",
+                "altNames": [
+                    "山东卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/shandong.png"
             },
             {
                 "id": "liaoning",
+                "altIds": [
+                    "辽宁卫视"
+                ],
                 "name": "辽宁卫视 (Liêu Ninh)",
+                "altNames": [
+                    "辽宁卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/liaoning.png"
             },
             {
                 "id": "heilongjiang",
+                "altIds": [
+                    "黑龙江卫视"
+                ],
                 "name": "黑龙江卫视 (Hắc Long Giang)",
+                "altNames": [
+                    "黑龙江卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/heilongjiang.png"
             },
             {
                 "id": "xinjiang",
+                "altIds": [
+                    "新疆卫视"
+                ],
                 "name": "新疆卫视 (Tân Cương)",
+                "altNames": [
+                    "新疆卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/xinjiang.png"
             },
             {
                 "id": "xizang",
+                "altIds": [
+                    "西藏卫视"
+                ],
                 "name": "西藏卫视 (Tây Tạng)",
+                "altNames": [
+                    "西藏卫视"
+                ],
                 "logo": "https://iptv.burningc4.com/tvg-logo/xizang.png"
+            },
+            {
+                "id": "shenzhen",
+                "altIds": [
+                    "深圳卫视"
+                ],
+                "name": "深圳卫视 (Thâm Quyến)",
+                "altNames": [
+                    "深圳卫视"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/shenzhen.png"
+            },
+            {
+                "id": "dawanqu",
+                "altIds": [
+                    "大湾区卫视"
+                ],
+                "name": "大湾区卫视 (Đại Vịnh Khu)",
+                "altNames": [
+                    "大湾区卫视"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/dawanqu.png"
+            },
+            {
+                "id": "zhujiang",
+                "altIds": [
+                    "珠江台",
+                    "广东珠江"
+                ],
+                "name": "广东珠江 (Châu Giang)",
+                "altNames": [
+                    "珠江台",
+                    "广东珠江"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/zhujiang.png"
+            },
+            {
+                "id": "dongnan",
+                "altIds": [
+                    "东南卫视"
+                ],
+                "name": "东南卫视 (Đông Nam)",
+                "altNames": [
+                    "东南卫视"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/dongnan.png"
+            },
+            {
+                "id": "guangxi",
+                "altIds": [
+                    "广西卫视"
+                ],
+                "name": "广西卫视 (Quảng Tây)",
+                "altNames": [
+                    "广西卫视"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/guangxi.png"
+            },
+            {
+                "id": "hubei",
+                "altIds": [
+                    "湖北卫视"
+                ],
+                "name": "湖北卫视 (Hồ Bắc)",
+                "altNames": [
+                    "湖北卫视"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/hubei.png"
+            },
+            {
+                "id": "sichuan",
+                "altIds": [
+                    "四川卫视"
+                ],
+                "name": "四川卫视 (Tứ Xuyên)",
+                "altNames": [
+                    "四川卫视"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/sichuan.png"
+            },
+            {
+                "id": "cgtn",
+                "altIds": [
+                    "CGTN"
+                ],
+                "name": "CGTN",
+                "altNames": [
+                    "CGTN"
+                ],
+                "logo": "https://iptv.burningc4.com/tvg-logo/cgtn.png"
             }
         ]
     }
