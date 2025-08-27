@@ -72,7 +72,10 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kcinehd.png"
             },
             {
-                "id": "kaction",
+                "id": "kactionhd",
+                "altIds": [
+                    "kaction"
+                ],
                 "name": "K+ Action",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kaction.png"
             },
