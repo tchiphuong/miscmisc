@@ -1006,6 +1006,15 @@
                 ]
             },
             {
+                "id": "vinhlong5hd",
+                "name": "Vĩnh Long 5",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong5hd.png",
+                "altIds": [],
+                "altNames": [
+                    "THVL5 HD - Báo và PTTH Vĩnh Long"
+                ]
+            },
+            {
                 "id": "vungtau",
                 "name": "Vũng Tàu",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vungtau.png",
