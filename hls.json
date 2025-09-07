@@ -58,6 +58,11 @@
                 "id": "vtv9hd",
                 "name": "VTV9",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv9hd.png"
+            },
+            {
+                "id": "vietnamtoday",
+                "name": "Vietnam Today",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vietnamtoday.png"
             }
         ]
     },
