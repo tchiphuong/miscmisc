@@ -856,7 +856,9 @@
                 "name": "Lâm Đồng 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/lamdong1.png",
                 "altIds": [],
-                "altNames": []
+                "altNames": [
+                    "LTV1 HD - Báo và PTTH Lâm Đồng"
+                ]
             },
             {
                 "id": "lamdong2",
@@ -879,13 +881,6 @@
                 "altNames": [
                     "LTV3 HD - Báo và PTTH Lâm Đồng"
                 ]
-            },
-            {
-                "id": "lamdong",
-                "name": "LTV1 HD - Báo và PTTH Lâm Đồng",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/lamdong.png",
-                "altIds": [],
-                "altNames": []
             },
             {
                 "id": "nghean",
