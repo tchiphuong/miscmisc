@@ -626,7 +626,8 @@
                 "name": "Cần Thơ 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/cantho3.png",
                 "altIds": [
-                    "soctrang"
+                    "soctrang",
+                    "soctrang1"
                 ],
                 "altNames": [
                     "THTPCT3 HD - Báo và PTTH Cần Thơ"
@@ -634,9 +635,11 @@
             },
             {
                 "id": "camau",
-                "name": "Cà Mau",
+                "name": "CTV - Báo và PTTH Cà Mau",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/camau.png",
-                "altIds": [],
+                "altIds": [
+                    "baclieu"
+                ],
                 "altNames": [
                     "CTV HD - Báo và PTTH Cà Mau"
                 ]
@@ -654,7 +657,9 @@
                 "id": "daklak",
                 "name": "Đắk Lắk",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/daklak.png",
-                "altIds": [],
+                "altIds": [
+                    "phuyen"
+                ],
                 "altNames": [
                     "DRT HD - Báo và PTTH Đắk Lắk"
                 ]
@@ -681,7 +686,9 @@
                 "id": "danang2",
                 "name": "Đà Nẵng 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/danang2.png",
-                "altIds": [],
+                "altIds": [
+                    "quangnam"
+                ],
                 "altNames": [
                     "ĐNRT2 - Báo và PTTH Đà Nẵng"
                 ]
@@ -690,7 +697,9 @@
                 "id": "dongnai1",
                 "name": "Đồng Nai 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dongnai1.png",
-                "altIds": [],
+                "altIds": [
+                    "binhphuoc1"
+                ],
                 "altNames": [
                     "ĐNNRTV1 - Báo và PTTH Đồng Nai"
                 ]
@@ -739,7 +748,9 @@
                 "id": "gialai",
                 "name": "Gia Lai",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/gialai.png",
-                "altIds": [],
+                "altIds": [
+                    "binhdinh"
+                ],
                 "altNames": [
                     "GTV - Báo và PTTH Gia Lai"
                 ]
@@ -811,7 +822,9 @@
                 "id": "hungyen",
                 "name": "Hưng Yên",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/hungyen.png",
-                "altIds": [],
+                "altIds": [
+                    "thaibinh"
+                ],
                 "altNames": [
                     "HYTV HD - Báo và PTTH Hưng Yên"
                 ]
@@ -858,7 +871,9 @@
                 "id": "laocai",
                 "name": "Lào Cai",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/laocai.png",
-                "altIds": [],
+                "altIds": [
+                    "yenbai"
+                ],
                 "altNames": [
                     "THLC HD - Báo và PTTH Lào Cai"
                 ]
@@ -907,7 +922,10 @@
                 "id": "ninhbinh",
                 "name": "Ninh Bình",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/ninhbinh.png",
-                "altIds": [],
+                "altIds": [
+                    "hanam",
+                    "namdinh"
+                ],
                 "altNames": [
                     "NBTV - Báo và PTTH Ninh Bình"
                 ]
@@ -916,7 +934,10 @@
                 "id": "phutho",
                 "name": "Phú Thọ",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/phutho.png",
-                "altIds": [],
+                "altIds": [
+                    "hoabinh",
+                    "vinhphuc"
+                ],
                 "altNames": [
                     "PTV HD - Báo và PTTH Phú Thọ"
                 ]
@@ -925,7 +946,9 @@
                 "id": "quangngai",
                 "name": "Quảng Ngãi",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/quangngai.png",
-                "altIds": [],
+                "altIds": [
+                    "komtum"
+                ],
                 "altNames": [
                     "QNgTV - Báo và PTTH Quảng Ngãi"
                 ]
@@ -952,7 +975,9 @@
                 "id": "quangtri",
                 "name": "Quảng Trị",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/quangtri.png",
-                "altIds": [],
+                "altIds": [
+                    "quangbinh"
+                ],
                 "altNames": [
                     "QTTV - Báo và PTTH Quảng Trị"
                 ]
@@ -990,7 +1015,9 @@
                 "id": "thainguyen",
                 "name": "Thái Nguyên",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/thainguyen.png",
-                "altIds": [],
+                "altIds": [
+                    "backan"
+                ],
                 "altNames": [
                     "TN - Báo và PTTH Thái Nguyên"
                 ]
@@ -1008,7 +1035,9 @@
                 "id": "tuyenquang",
                 "name": "Tuyên Quang",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/tuyenquang.png",
-                "altIds": [],
+                "altIds": [
+                    "hagiang"
+                ],
                 "altNames": [
                     "TTV HD - Báo và PTTH Tuyên Quang"
                 ]
@@ -1026,7 +1055,9 @@
                 "id": "vinhlong2hd",
                 "name": "Vĩnh Long 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong2hd.png",
-                "altIds": [],
+                "altIds": [
+                    "bentre"
+                ],
                 "altNames": [
                     "THVL2 HD - Báo và PTTH Vĩnh Long"
                 ]
@@ -1054,7 +1085,8 @@
                 "name": "Vĩnh Long 5",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong5hd.png",
                 "altIds": [
-                    "travinh"
+                    "travinh",
+                    "travinh1"
                 ],
                 "altNames": [
                     "THVL5 HD - Báo và PTTH Vĩnh Long"
