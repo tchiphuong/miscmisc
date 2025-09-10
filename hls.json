@@ -597,7 +597,9 @@
                 "id": "cantho1",
                 "name": "Cần Thơ 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/cantho1.png",
-                "altIds": ["cantho"],
+                "altIds": [
+                    "cantho"
+                ],
                 "altNames": [
                     "THTPCT1 HD - Báo và PTTH Cần Thơ"
                 ]
@@ -606,7 +608,9 @@
                 "id": "cantho2",
                 "name": "Cần Thơ 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/cantho2.png",
-                "altIds": ["haugiang"],
+                "altIds": [
+                    "haugiang"
+                ],
                 "altNames": [
                     "THTPCT2 HD - Báo và PTTH Cần Thơ"
                 ]
@@ -615,7 +619,9 @@
                 "id": "cantho3",
                 "name": "Cần Thơ 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/cantho3.png",
-                "altIds": ["soctrang"],
+                "altIds": [
+                    "soctrang"
+                ],
                 "altNames": [
                     "THTPCT3 HD - Báo và PTTH Cần Thơ"
                 ]
@@ -1317,7 +1323,7 @@
         ]
     },
     {
-        "groupName": "China",
+        "groupName": "Trung Quốc",
         "groupLogo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
         "sortOrder": 9,
         "channels": [
