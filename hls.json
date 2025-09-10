@@ -506,6 +506,9 @@
             },
             {
                 "id": "tv360.Mekong",
+                "altIds": [
+                    "mê kông"
+                ],
                 "name": "Mê Kông",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360.Mekong.png"
             },
