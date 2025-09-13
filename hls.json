@@ -1,540 +1,615 @@
 [
     {
-        "groupName": "VTV",
-        "groupLogo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv.png",
+        "name": "VTV",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv.png",
         "sortOrder": 1,
         "channels": [
             {
                 "id": "vtv1hd",
                 "name": "VTV1",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv1hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv1hd.png",
+                "tags": []
             },
             {
                 "id": "vtv2hd",
                 "name": "VTV2",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv2hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv2hd.png",
+                "tags": []
             },
             {
                 "id": "vtv3hd",
                 "name": "VTV3",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv3hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv3hd.png",
+                "tags": []
             },
             {
                 "id": "vtv4hd",
                 "name": "VTV4",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv4hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv4hd.png",
+                "tags": []
             },
             {
                 "id": "vtv5hd",
                 "name": "VTV5",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv5hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv5hd.png",
+                "tags": []
             },
             {
                 "id": "vtv5hdtnb",
                 "name": "VTV5 Tây Nam Bộ",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv5hdtnb.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv5hdtnb.png",
+                "tags": []
             },
             {
                 "id": "vtv5hdtn",
                 "name": "VTV5 Tây Nguyên",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv5hdtn.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv5hdtn.png",
+                "tags": []
             },
             {
                 "id": "vtvcantho",
                 "name": "VTV Cần Thơ",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtvcantho.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtvcantho.png",
+                "tags": []
             },
             {
                 "id": "vtv7hd",
                 "name": "VTV7",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv7hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv7hd.png",
+                "tags": []
             },
             {
                 "id": "vtv8hd",
                 "name": "VTV8",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv8hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv8hd.png",
+                "tags": []
             },
             {
                 "id": "vtv9hd",
                 "name": "VTV9",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv9hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vtv9hd.png",
+                "tags": []
             },
             {
                 "id": "vietnamtoday",
                 "name": "Vietnam Today",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vietnamtoday.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv/vietnamtoday.png",
+                "tags": []
             }
         ]
     },
     {
-        "groupName": "K+",
-        "groupLogo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus.png",
+        "name": "K+",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus.png",
         "sortOrder": 2,
         "channels": [
             {
                 "id": "kcinehd",
                 "name": "K+ Cine",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kcinehd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kcinehd.png",
+                "tags": []
             },
             {
                 "id": "kactionhd",
-                "altIds": [
-                    "kaction"
-                ],
                 "name": "K+ Action",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kaction.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kaction.png",
+                "tags": [
+                    "kaction"
+                ]
             },
             {
                 "id": "ksport1hd",
                 "name": "K+ Sport 1",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/ksport1hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/ksport1hd.png",
+                "tags": []
             },
             {
                 "id": "ksport2hd",
                 "name": "K+ Sport 2",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/ksport2hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/ksport2hd.png",
+                "tags": []
             },
             {
                 "id": "kkidshd",
                 "name": "K+ Kids",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kkidshd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/kkidshd.png",
+                "tags": []
             },
             {
                 "id": "klive1",
                 "name": "K+ Live 1",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/klive1.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/klive1.png",
+                "tags": []
             },
             {
                 "id": "klive2",
                 "name": "K+ Live 2",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/klive2.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/klive2.png",
+                "tags": []
             },
             {
                 "id": "klive3",
                 "name": "K+ Live 3",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/klive3.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus/klive3.png",
+                "tags": []
             }
         ]
     },
     {
-        "groupName": "VTVcab",
-        "groupLogo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab.png",
+        "name": "VTVcab",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab.png",
         "sortOrder": 3,
         "channels": [
             {
                 "id": "onviegiaitri",
                 "name": "ON Vie Giải trí",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onviegiaitri.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onviegiaitri.png",
+                "tags": []
             },
             {
                 "id": "onphimviet",
                 "name": "ON Phim Việt",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onphimviet.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onphimviet.png",
+                "tags": []
             },
             {
                 "id": "onsports",
                 "name": "ON Sports",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onsports.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onsports.png",
+                "tags": []
             },
             {
                 "id": "onmovies",
                 "name": "ON Movies",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onmovies.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onmovies.png",
+                "tags": []
             },
             {
                 "id": "onechannel",
                 "name": "ON EChannel",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onechannel.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onechannel.png",
+                "tags": []
             },
             {
                 "id": "onsportsplus",
                 "name": "ON Sports+",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onsportsplus.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onsportsplus.png",
+                "tags": []
             },
             {
                 "id": "ono2tv",
                 "name": "ON O2TV",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/ono2tv.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/ono2tv.png",
+                "tags": []
             },
             {
                 "id": "onbibi",
                 "name": "ON BiBi",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onbibi.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onbibi.png",
+                "tags": []
             },
             {
                 "id": "oninfotv",
                 "name": "ON Info TV",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/oninfotv.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/oninfotv.png",
+                "tags": []
             },
             {
                 "id": "oncine",
                 "name": "ON Cine",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/oncine.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/oncine.png",
+                "tags": []
             },
             {
                 "id": "onstyle",
                 "name": "ON Style TV",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onstyle.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onstyle.png",
+                "tags": []
             },
             {
                 "id": "onmusic",
                 "name": "ON Music",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onmusic.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onmusic.png",
+                "tags": []
             },
             {
                 "id": "onfootball",
                 "name": "ON Football",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onfootball.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onfootball.png",
+                "tags": []
             },
             {
                 "id": "ontrending",
                 "name": "ON Trending TV",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/ontrending.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/ontrending.png",
+                "tags": []
             },
             {
                 "id": "onsportsnews",
                 "name": "ON Sports News",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onsportsnews.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onsportsnews.png",
+                "tags": []
             },
             {
                 "id": "onviedramas",
                 "name": "ON Vie Dramas",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onviedramas.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onviedramas.png",
+                "tags": []
             },
             {
                 "id": "onvfamily",
                 "name": "ON VFamily",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onvfamily.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onvfamily.png",
+                "tags": []
             },
             {
                 "id": "onkids",
                 "name": "ON Kids",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onkids.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onkids.png",
+                "tags": []
             },
             {
                 "id": "onlife",
                 "name": "ON Life",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onlife.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/onlife.png",
+                "tags": []
             },
             {
                 "id": "ongolf",
                 "name": "ON Golf",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/ongolf.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab/ongolf.png",
+                "tags": []
             }
         ]
     },
     {
-        "groupName": "HTV - HTVC",
-        "groupLogo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv.png",
+        "name": "HTV - HTVC",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv.png",
         "sortOrder": 4,
         "channels": [
             {
                 "id": "htv1",
                 "name": "HTV1",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv1.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv1.png",
+                "tags": []
             },
             {
                 "id": "htv2hd",
                 "name": "HTV2 - Vie Channel",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv2hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv2hd.png",
+                "tags": []
             },
             {
                 "id": "htv3",
                 "name": "HTV3 - Heo TV (Hplus)",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv3.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv3.png",
+                "tags": []
             },
             {
                 "id": "htvkey",
                 "name": "HTV Key",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvkey.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvkey.png",
+                "tags": []
             },
             {
                 "id": "htv7hd",
                 "name": "HTV7 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv7hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv7hd.png",
+                "tags": []
             },
             {
                 "id": "htv9hd",
-                "altIds": [
-                    "htv bình dương 1"
-                ],
                 "name": "HTV9 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv9hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htv9hd.png",
+                "tags": [
+                    "htv bình dương 1"
+                ]
             },
             {
                 "id": "htvthethaohd",
                 "name": "HTV Thể Thao",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvthethaohd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvthethaohd.png",
+                "tags": []
             },
             {
                 "id": "htvccanhachd",
                 "name": "HTVC Ca nhạc HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvccanhachd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvccanhachd.png",
+                "tags": []
             },
             {
                 "id": "htvcdulichhd",
                 "name": "HTVC Du lịch Cuộc sống HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcdulichhd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcdulichhd.png",
+                "tags": []
             },
             {
                 "id": "htvcgiadinhhd",
                 "name": "HTVC Gia đình HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcgiadinhhd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcgiadinhhd.png",
+                "tags": []
             },
             {
                 "id": "htvcphimhd",
                 "name": "HTVC Phim HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcphimhd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcphimhd.png",
+                "tags": []
             },
             {
                 "id": "htvcphunuhd",
                 "name": "HTVC Phụ nữ HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcphunuhd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcphunuhd.png",
+                "tags": []
             },
             {
                 "id": "htvcplushd",
                 "name": "HTVC Plus HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcplushd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcplushd.png",
+                "tags": []
             },
             {
                 "id": "htvcthuanviet",
                 "name": "HTVC Thuần Việt",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcthuanviet.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcthuanviet.png",
+                "tags": []
             }
         ]
     },
     {
-        "groupName": "SCTV",
-        "groupLogo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv.png",
+        "name": "SCTV",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv.png",
         "sortOrder": 5,
         "channels": [
             {
                 "id": "sctv1hd",
                 "name": "SCTV1 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv1hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv1hd.png",
+                "tags": []
             },
             {
                 "id": "sctv2hd",
                 "name": "SCTV2 HD - TODAY TV",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv2hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv2hd.png",
+                "tags": []
             },
             {
                 "id": "sctv3hd",
                 "name": "SCTV3 - SEE TV",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv3hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv3hd.png",
+                "tags": []
             },
             {
                 "id": "sctv4hd",
                 "name": "SCTV4 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv4hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv4hd.png",
+                "tags": []
             },
             {
                 "id": "sctv5hd",
                 "name": "SCTV5 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv5hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv5hd.png",
+                "tags": []
             },
             {
                 "id": "sctv6hd",
                 "name": "SCTV6 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv6hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv6hd.png",
+                "tags": []
             },
             {
                 "id": "sctv7hd",
                 "name": "SCTV7 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv7hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv7hd.png",
+                "tags": []
             },
             {
                 "id": "sctv8hd",
                 "name": "SCTV8 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv8hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv8hd.png",
+                "tags": []
             },
             {
                 "id": "sctv9hd",
                 "name": "SCTV9 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv9hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv9hd.png",
+                "tags": []
             },
             {
                 "id": "sctv10hd",
                 "name": "SCTV10 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv10hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv10hd.png",
+                "tags": []
             },
             {
                 "id": "sctv11hd",
                 "name": "SCTV11 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv11hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv11hd.png",
+                "tags": []
             },
             {
                 "id": "sctv12hd",
                 "name": "SCTV12 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv12hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv12hd.png",
+                "tags": []
             },
             {
                 "id": "sctv13hd",
                 "name": "SCTV13 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv13hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv13hd.png",
+                "tags": []
             },
             {
                 "id": "sctv14hd",
                 "name": "SCTV14 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv14hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv14hd.png",
+                "tags": []
             },
             {
                 "id": "sctv15hd",
                 "name": "SCTV15 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv15hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv15hd.png",
+                "tags": []
             },
             {
                 "id": "sctv16hd",
                 "name": "SCTV16 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv16hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv16hd.png",
+                "tags": []
             },
             {
                 "id": "sctv17hd",
                 "name": "SCTV17 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv17hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv17hd.png",
+                "tags": []
             },
             {
                 "id": "sctv18hd",
                 "name": "SCTV18 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv18hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv18hd.png",
+                "tags": []
             },
             {
                 "id": "sctv19hd",
                 "name": "SCTV19 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv19hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv19hd.png",
+                "tags": []
             },
             {
                 "id": "sctv20hd",
                 "name": "SCTV20 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv20hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv20hd.png",
+                "tags": []
             },
             {
                 "id": "sctv21hd",
                 "name": "SCTV21 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv21hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv21hd.png",
+                "tags": []
             },
             {
                 "id": "sctv22hd",
                 "name": "SCTV22 HD",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv22hd.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv22hd.png",
+                "tags": []
             },
             {
                 "id": "sctvhdpth",
                 "name": "SCTV Phim Tổng Hợp",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctvhdpth.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctvhdpth.png",
+                "tags": []
             },
             {
                 "id": "sctv4k",
                 "name": "SCTV4K",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv4k.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv/sctv4k.png",
+                "tags": []
             }
         ]
     },
     {
-        "groupName": "Sự kiện thể thao",
-        "groupLogo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360.png",
+        "name": "Sự kiện thể thao",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360.png",
         "sortOrder": 6,
         "channels": [
             {
                 "id": "tv360plus1",
                 "name": "TV360+ 1",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus1.png",
+                "tags": [
                     "TV360+1"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus1.png"
+                ]
             },
             {
                 "id": "tv360plus2",
                 "name": "TV360+ 2",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus2.png",
+                "tags": [
                     "TV360+2"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus2.png"
+                ]
             },
             {
                 "id": "tv360plus3",
                 "name": "TV360+ 3",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus3.png",
+                "tags": [
                     "TV360+3"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus3.png"
+                ]
             },
             {
                 "id": "tv360plus4",
                 "name": "TV360+ 4",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus4.png",
+                "tags": [
                     "TV360+4"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus4.png"
+                ]
             },
             {
                 "id": "tv360plus5",
                 "name": "TV360+ 5",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus5.png",
+                "tags": [
                     "TV360+5"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus5.png"
+                ]
             },
             {
                 "id": "tv360plus6",
                 "name": "TV360+ 6",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus6.png",
+                "tags": [
                     "TV360+6"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus6.png"
+                ]
             },
             {
                 "id": "tv360plus7",
                 "name": "TV360+ 7",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus7.png",
+                "tags": [
                     "TV360+7"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus7.png"
+                ]
             },
             {
                 "id": "tv360plus8",
                 "name": "TV360+ 8",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus8.png",
+                "tags": [
                     "TV360+8"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus8.png"
+                ]
             },
             {
                 "id": "tv360plus9",
                 "name": "TV360+ 9",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus9.png",
+                "tags": [
                     "TV360+9"
-                ],
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360plus9.png"
+                ]
             },
             {
                 "id": "tv360.Mekong",
-                "altIds": [
-                    "mê kông"
-                ],
                 "name": "Mê Kông",
-                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360.Mekong.png"
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360/tv360.Mekong.png",
+                "tags": [
+                    "mê kông"
+                ]
             },
             {
                 "id": "tv360.PhimAuMy",
                 "name": "Phim Âu Mỹ",
-                "logo": "https://img-zlr1.tv360.vn/image1/2025/03/24/23/1742835081398/4e6776be1efd_640_360.png"
+                "logo": "https://img-zlr1.tv360.vn/image1/2025/03/24/23/1742835081398/4e6776be1efd_640_360.png",
+                "tags": []
             }
         ]
     },
     {
-        "groupName": "Trong nước",
-        "groupLogo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
+        "name": "Trong nước",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
         "sortOrder": 8,
         "channels": [
             {
                 "id": "angiang1",
                 "name": "An Giang 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/angiang1.png",
-                "altIds": [
-                    "kiengiang"
-                ],
-                "altNames": [
+                "tags": [
+                    "kiengiang",
                     "ATV1 - Báo và PTTH An Giang"
                 ]
             },
@@ -542,8 +617,7 @@
                 "id": "angiang2",
                 "name": "An Giang 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/angiang2.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "ATV2 | Báo và PTTH An Giang"
                 ]
             },
@@ -551,10 +625,8 @@
                 "id": "angiang3",
                 "name": "An Giang 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/angiang3.png",
-                "altIds": [
-                    "kiengiang1"
-                ],
-                "altNames": [
+                "tags": [
+                    "kiengiang1",
                     "ATV3 - Báo và PTTH An Giang"
                 ]
             },
@@ -562,10 +634,8 @@
                 "id": "bacninh",
                 "name": "Bắc Ninh",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/bacninh.png",
-                "altIds": [
-                    "bacgiang"
-                ],
-                "altNames": [
+                "tags": [
+                    "bacgiang",
                     "BTV - Báo và PTTH Bắc Ninh"
                 ]
             },
@@ -573,8 +643,7 @@
                 "id": "binhduong1",
                 "name": "Bình Dương 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/binhduong1.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "BTV1 HD - Đài PTTH Bình Dương"
                 ]
             },
@@ -582,8 +651,7 @@
                 "id": "binhduong2",
                 "name": "Bình Dương 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/binhduong2.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "BTV2 HD - Đài PTTH Bình Dương"
                 ]
             },
@@ -591,11 +659,9 @@
                 "id": "anvienhd",
                 "name": "Bình Dương 9",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/anvienhd.png",
-                "altIds": [
+                "tags": [
                     "btv9",
-                    "binhduong9"
-                ],
-                "altNames": [
+                    "binhduong9",
                     "BTV9"
                 ]
             },
@@ -603,10 +669,8 @@
                 "id": "cantho1",
                 "name": "Cần Thơ 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/cantho1.png",
-                "altIds": [
-                    "cantho"
-                ],
-                "altNames": [
+                "tags": [
+                    "cantho",
                     "THTPCT1 HD - Báo và PTTH Cần Thơ"
                 ]
             },
@@ -614,10 +678,8 @@
                 "id": "cantho2",
                 "name": "Cần Thơ 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/cantho2.png",
-                "altIds": [
-                    "haugiang"
-                ],
-                "altNames": [
+                "tags": [
+                    "haugiang",
                     "THTPCT2 HD - Báo và PTTH Cần Thơ"
                 ]
             },
@@ -625,11 +687,9 @@
                 "id": "cantho3",
                 "name": "Cần Thơ 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/cantho3.png",
-                "altIds": [
+                "tags": [
                     "soctrang",
-                    "soctrang1"
-                ],
-                "altNames": [
+                    "soctrang1",
                     "THTPCT3 HD - Báo và PTTH Cần Thơ"
                 ]
             },
@@ -637,10 +697,8 @@
                 "id": "camau",
                 "name": "CTV - Báo và PTTH Cà Mau",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/camau.png",
-                "altIds": [
-                    "baclieu"
-                ],
-                "altNames": [
+                "tags": [
+                    "baclieu",
                     "CTV HD - Báo và PTTH Cà Mau"
                 ]
             },
@@ -648,8 +706,7 @@
                 "id": "caobang",
                 "name": "Cao Bằng",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/caobang.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "CRTV HD - Báo Cao Bằng"
                 ]
             },
@@ -657,10 +714,8 @@
                 "id": "daklak",
                 "name": "Đắk Lắk",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/daklak.png",
-                "altIds": [
-                    "phuyen"
-                ],
-                "altNames": [
+                "tags": [
+                    "phuyen",
                     "DRT HD - Báo và PTTH Đắk Lắk"
                 ]
             },
@@ -668,8 +723,7 @@
                 "id": "dienbien",
                 "name": "Điện Biên",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dienbien.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "ĐTV HD - Báo Điện Biên Phủ"
                 ]
             },
@@ -677,8 +731,7 @@
                 "id": "danang1",
                 "name": "Đà Nẵng 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/danang1.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "ĐNRT1 - Báo và PTTH Đà Nẵng"
                 ]
             },
@@ -686,10 +739,8 @@
                 "id": "danang2",
                 "name": "Đà Nẵng 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/danang2.png",
-                "altIds": [
-                    "quangnam"
-                ],
-                "altNames": [
+                "tags": [
+                    "quangnam",
                     "ĐNRT2 - Báo và PTTH Đà Nẵng"
                 ]
             },
@@ -697,10 +748,8 @@
                 "id": "dongnai1",
                 "name": "Đồng Nai 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dongnai1.png",
-                "altIds": [
-                    "binhphuoc1"
-                ],
-                "altNames": [
+                "tags": [
+                    "binhphuoc1",
                     "ĐNNRTV1 - Báo và PTTH Đồng Nai"
                 ]
             },
@@ -708,8 +757,7 @@
                 "id": "dongnai2",
                 "name": "Đồng Nai 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dongnai2.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "ĐNNRTV2 - Báo và PTTH Đồng Nai"
                 ]
             },
@@ -717,8 +765,7 @@
                 "id": "dongnai3",
                 "name": "Đồng Nai 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dongnai3.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "ĐNNRTV3 - Báo và PTTH Đồng Nai"
                 ]
             },
@@ -726,10 +773,8 @@
                 "id": "dongthap1",
                 "name": "Đồng Tháp 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dongthap1.png",
-                "altIds": [
-                    "dongthap"
-                ],
-                "altNames": [
+                "tags": [
+                    "dongthap",
                     "THĐT1 HD - Báo và PTTH Đồng Tháp"
                 ]
             },
@@ -737,10 +782,8 @@
                 "id": "dongthap2",
                 "name": "Đồng Tháp 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dongthap2.png",
-                "altIds": [
-                    "tiengiang"
-                ],
-                "altNames": [
+                "tags": [
+                    "tiengiang",
                     "THĐT2 - Báo và PTTH Đồng Tháp"
                 ]
             },
@@ -748,10 +791,8 @@
                 "id": "gialai",
                 "name": "Gia Lai",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/gialai.png",
-                "altIds": [
-                    "binhdinh"
-                ],
-                "altNames": [
+                "tags": [
+                    "binhdinh",
                     "GTV - Báo và PTTH Gia Lai"
                 ]
             },
@@ -759,8 +800,7 @@
                 "id": "hanoi1",
                 "name": "Hà Nội 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/hanoi1.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "Hà Nội 1 HD - Đài Hà Nội"
                 ]
             },
@@ -768,8 +808,7 @@
                 "id": "hanoi2",
                 "name": "Hà Nội 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/hanoi2.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "Hà Nội 2 HD - Đài Hà Nội"
                 ]
             },
@@ -777,8 +816,7 @@
                 "id": "hatinh",
                 "name": "Hà Tĩnh",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/hatinh.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "BHTTV - Báo Hà Tĩnh"
                 ]
             },
@@ -786,8 +824,7 @@
                 "id": "haiphong",
                 "name": "Hải Phòng",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/haiphong.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "THP HD - Báo và PTTH Hải Phòng"
                 ]
             },
@@ -795,8 +832,7 @@
                 "id": "haiphongplus",
                 "name": "Hải Phòng+",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/haiphongplus.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "THP+ HD - Báo và PTTH Hải Phòng"
                 ]
             },
@@ -804,8 +840,7 @@
                 "id": "haiphong3",
                 "name": "Hải Phòng 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/haiphong3.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "THP3 HD - Báo và PTTH Hải Phòng"
                 ]
             },
@@ -813,8 +848,7 @@
                 "id": "hue",
                 "name": "Huế",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/hue.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "Huế TV - Báo và PTTH Huế"
                 ]
             },
@@ -822,10 +856,8 @@
                 "id": "hungyen",
                 "name": "Hưng Yên",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/hungyen.png",
-                "altIds": [
-                    "thaibinh"
-                ],
-                "altNames": [
+                "tags": [
+                    "thaibinh",
                     "HYTV HD - Báo và PTTH Hưng Yên"
                 ]
             },
@@ -833,8 +865,7 @@
                 "id": "khanhhoa",
                 "name": "Khánh Hòa",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/khanhhoa.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "KTV HD - Báo và PTTH Khánh Hòa"
                 ]
             },
@@ -842,10 +873,8 @@
                 "id": "khanhhoa1",
                 "name": "Khánh Hòa 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/khanhhoa1.png",
-                "altIds": [
-                    "ninhthuan"
-                ],
-                "altNames": [
+                "tags": [
+                    "ninhthuan",
                     "KTV1 HD - Báo và PTTH Khánh Hòa"
                 ]
             },
@@ -853,8 +882,7 @@
                 "id": "laichau",
                 "name": "Lai Châu",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/laichau.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "LTV - Báo Lai Châu"
                 ]
             },
@@ -862,8 +890,7 @@
                 "id": "langson",
                 "name": "Lạng Sơn",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/langson.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "LSTV HD - Báo và PTTH Lạng Sơn"
                 ]
             },
@@ -871,10 +898,8 @@
                 "id": "laocai",
                 "name": "Lào Cai",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/laocai.png",
-                "altIds": [
-                    "yenbai"
-                ],
-                "altNames": [
+                "tags": [
+                    "yenbai",
                     "THLC HD - Báo và PTTH Lào Cai"
                 ]
             },
@@ -882,8 +907,7 @@
                 "id": "lamdong1",
                 "name": "Lâm Đồng 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/lamdong1.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "LTV1 HD - Báo và PTTH Lâm Đồng"
                 ]
             },
@@ -891,10 +915,8 @@
                 "id": "lamdong2",
                 "name": "Lâm Đồng 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/lamdong2.png",
-                "altIds": [
-                    "binhthuan"
-                ],
-                "altNames": [
+                "tags": [
+                    "binhthuan",
                     "LTV2 HD - Báo và PTTH Lâm Đồng"
                 ]
             },
@@ -902,10 +924,8 @@
                 "id": "lamdong3",
                 "name": "Lâm Đồng 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/lamdong3.png",
-                "altIds": [
-                    "daknong"
-                ],
-                "altNames": [
+                "tags": [
+                    "daknong",
                     "LTV3 HD - Báo và PTTH Lâm Đồng"
                 ]
             },
@@ -913,8 +933,7 @@
                 "id": "nghean",
                 "name": "Nghệ An",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/nghean.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "NTV - Báo và PTTH Nghệ An"
                 ]
             },
@@ -922,11 +941,9 @@
                 "id": "ninhbinh",
                 "name": "Ninh Bình",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/ninhbinh.png",
-                "altIds": [
+                "tags": [
                     "hanam",
-                    "namdinh"
-                ],
-                "altNames": [
+                    "namdinh",
                     "NBTV - Báo và PTTH Ninh Bình"
                 ]
             },
@@ -934,11 +951,9 @@
                 "id": "phutho",
                 "name": "Phú Thọ",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/phutho.png",
-                "altIds": [
+                "tags": [
                     "hoabinh",
-                    "vinhphuc"
-                ],
-                "altNames": [
+                    "vinhphuc",
                     "PTV HD - Báo và PTTH Phú Thọ"
                 ]
             },
@@ -946,10 +961,8 @@
                 "id": "quangngai",
                 "name": "Quảng Ngãi",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/quangngai.png",
-                "altIds": [
-                    "komtum"
-                ],
-                "altNames": [
+                "tags": [
+                    "komtum",
                     "QNgTV - Báo và PTTH Quảng Ngãi"
                 ]
             },
@@ -957,8 +970,7 @@
                 "id": "quangninh1",
                 "name": "Quảng Ninh 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/quangninh1.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "QTV1 HD - Trung tâm truyền thông Quảng Ninh"
                 ]
             },
@@ -966,8 +978,7 @@
                 "id": "quangninh3",
                 "name": "Quảng Ninh 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/quangninh3.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "QTV3 HD - Trung tâm truyền thông Quảng Ninh"
                 ]
             },
@@ -975,10 +986,8 @@
                 "id": "quangtri",
                 "name": "Quảng Trị",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/quangtri.png",
-                "altIds": [
-                    "quangbinh"
-                ],
-                "altNames": [
+                "tags": [
+                    "quangbinh",
                     "QTTV - Báo và PTTH Quảng Trị"
                 ]
             },
@@ -986,8 +995,7 @@
                 "id": "sonla",
                 "name": "Sơn La",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/sonla.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "STV HD - Báo và PTTH Sơn La"
                 ]
             },
@@ -995,10 +1003,8 @@
                 "id": "tayninh1",
                 "name": "Tây Ninh 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/tayninh1.png",
-                "altIds": [
-                    "longan"
-                ],
-                "altNames": [
+                "tags": [
+                    "longan",
                     "TTV1 - Báo và PTTH Tây Ninh"
                 ]
             },
@@ -1006,8 +1012,7 @@
                 "id": "tayninh2",
                 "name": "Tây Ninh 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/tayninh2.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "TTV2 - Báo và PTTH Tây Ninh"
                 ]
             },
@@ -1015,10 +1020,8 @@
                 "id": "thainguyen",
                 "name": "Thái Nguyên",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/thainguyen.png",
-                "altIds": [
-                    "backan"
-                ],
-                "altNames": [
+                "tags": [
+                    "backan",
                     "TN - Báo và PTTH Thái Nguyên"
                 ]
             },
@@ -1026,8 +1029,7 @@
                 "id": "thanhhoa",
                 "name": "Thanh Hóa",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/thanhhoa.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "TTV HD - Báo và PTTH Thanh Hóa"
                 ]
             },
@@ -1035,10 +1037,8 @@
                 "id": "tuyenquang",
                 "name": "Tuyên Quang",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/tuyenquang.png",
-                "altIds": [
-                    "hagiang"
-                ],
-                "altNames": [
+                "tags": [
+                    "hagiang",
                     "TTV HD - Báo và PTTH Tuyên Quang"
                 ]
             },
@@ -1046,8 +1046,7 @@
                 "id": "vinhlong1hd",
                 "name": "Vĩnh Long 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong1hd.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "THVL1 HD - Báo và PTTH Vĩnh Long"
                 ]
             },
@@ -1055,10 +1054,8 @@
                 "id": "vinhlong2hd",
                 "name": "Vĩnh Long 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong2hd.png",
-                "altIds": [
-                    "bentre"
-                ],
-                "altNames": [
+                "tags": [
+                    "bentre",
                     "THVL2 HD - Báo và PTTH Vĩnh Long"
                 ]
             },
@@ -1066,8 +1063,7 @@
                 "id": "vinhlong3hd",
                 "name": "Vĩnh Long 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong3hd.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "THVL3 HD - Báo và PTTH Vĩnh Long"
                 ]
             },
@@ -1075,8 +1071,7 @@
                 "id": "vinhlong4hd",
                 "name": "Vĩnh Long 4",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong4hd.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "THVL4 HD - Báo và PTTH Vĩnh Long"
                 ]
             },
@@ -1084,11 +1079,9 @@
                 "id": "vinhlong5hd",
                 "name": "Vĩnh Long 5",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vinhlong5hd.png",
-                "altIds": [
+                "tags": [
                     "travinh",
-                    "travinh1"
-                ],
-                "altNames": [
+                    "travinh1",
                     "THVL5 HD - Báo và PTTH Vĩnh Long"
                 ]
             },
@@ -1096,797 +1089,1040 @@
                 "id": "vungtau",
                 "name": "Vũng Tàu",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vungtau.png",
-                "altIds": [],
-                "altNames": [
+                "tags": [
                     "BRT - Đài PTTH Bà Rịa Vũng Tàu"
                 ]
             }
         ]
     },
     {
-        "groupName": "Quốc Tế",
-        "groupLogo": "https://cdn-icons-png.freepik.com/512/7296/7296866.png",
+        "name": "Quốc Tế",
+        "logo": "https://cdn-icons-png.freepik.com/512/7296/7296866.png",
         "sortOrder": 9,
         "channels": [
             {
                 "id": "boxhits",
                 "name": "Box Hits",
-                "logo": "https://static.wikia.nocookie.net/logos/images/4/4a/Box_Hits_logo_b%E1%BA%A3n_2.png/revision/latest/scale-to-width-down/200?cb=20240816102244&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/4/4a/Box_Hits_logo_b%E1%BA%A3n_2.png/revision/latest/scale-to-width-down/200?cb=20240816102244&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "boxmovie1",
                 "name": "Box Movie 1",
-                "logo": "https://static.wikia.nocookie.net/logos/images/5/55/Box_Movie_1_logo_2023.png/revision/latest/scale-to-width-down/200?cb=20230515132648&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/5/55/Box_Movie_1_logo_2023.png/revision/latest/scale-to-width-down/200?cb=20230515132648&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "drfithd",
                 "name": "Dr.Fit",
-                "logo": "https://static.wikia.nocookie.net/logos/images/b/b4/Dr.Fit_Channel.png/revision/latest/scale-to-width-down/1200?cb=20230114060753&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/b/b4/Dr.Fit_Channel.png/revision/latest/scale-to-width-down/1200?cb=20230114060753&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "happykids",
                 "name": "Happy Kids",
-                "logo": "https://static.wikia.nocookie.net/logos/images/a/a7/Happy_Kids_2018.png/revision/latest?cb=20220224003859&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/a/a7/Happy_Kids_2018.png/revision/latest?cb=20220224003859&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "hollywoodclassics",
                 "name": "Hollywood Classics",
-                "logo": "https://static.wikia.nocookie.net/logos/images/f/f4/Hollywood_Classics_logo.png/revision/latest?cb=20230114060812&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/f/f4/Hollywood_Classics_logo.png/revision/latest?cb=20230114060812&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "inthebox",
                 "name": "In The Box",
-                "logo": "https://static.wikia.nocookie.net/logos/images/b/b8/InTheBOX_Channel_screenbug.png/revision/latest?cb=20230205100709&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/b/b8/InTheBOX_Channel_screenbug.png/revision/latest?cb=20230205100709&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "manhd",
                 "name": "Man",
-                "logo": "https://static.wikia.nocookie.net/logos/images/2/29/MAN.png/revision/latest?cb=20230624144840&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/2/29/MAN.png/revision/latest?cb=20230624144840&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "musicbox",
                 "name": "Music Box",
-                "logo": "https://static.wikia.nocookie.net/logos/images/e/e4/Music_Box_logo_Gold.png/revision/latest/scale-to-width-down/1000?cb=20230111080113&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/e/e4/Music_Box_logo_Gold.png/revision/latest/scale-to-width-down/1000?cb=20230111080113&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "planetearthhd",
                 "name": "Planet Earth",
-                "logo": "https://static.wikia.nocookie.net/logos/images/7/7c/Planet_Earth_logo.png/revision/latest/scale-to-width-down/1000?cb=20220714132655&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/7/7c/Planet_Earth_logo.png/revision/latest/scale-to-width-down/1000?cb=20220714132655&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "woman",
                 "name": "Woman",
-                "logo": "https://static.wikia.nocookie.net/logos/images/1/19/WOMAN_logo.png/revision/latest?cb=20230120034059&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/1/19/WOMAN_logo.png/revision/latest?cb=20230120034059&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "abcaustralia",
                 "name": "ABC Australia",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_160_115",
+                "tags": []
             },
             {
                 "id": "afnhd",
                 "name": "Asian Food Network",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch527_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch527_160_115",
+                "tags": []
             },
             {
                 "id": "animalhd",
                 "name": "Animal Planet",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch210_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch210_160_115",
+                "tags": []
             },
             {
                 "id": "animaxhd",
                 "name": "Animax HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_160_115",
+                "tags": []
             },
             {
                 "id": "arirang",
                 "name": "Arirang",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Arirang_logo.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Arirang_logo.png",
+                "tags": []
             },
             {
                 "id": "axnhd",
                 "name": "AXN HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch512_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch512_160_115",
+                "tags": []
             },
             {
                 "id": "babytvhd",
                 "name": "BabyTV",
-                "logo": "https://www.babytv.com/app/uploads/2019/12/LogoBabyTV-2019.png"
+                "logo": "https://www.babytv.com/app/uploads/2019/12/LogoBabyTV-2019.png",
+                "tags": []
             },
             {
                 "id": "bbcearth",
                 "name": "BBC Earth",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_160_115",
+                "tags": []
             },
             {
                 "id": "cbeebies",
                 "name": "BBC Cbeebies",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_160_115",
+                "tags": []
             },
             {
                 "id": "bbclifestyle",
                 "name": "BBC Lifestyle",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch502_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch502_160_115",
+                "tags": []
             },
             {
                 "id": "bbcworldnews",
                 "name": "BBC World News",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch320_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch320_160_115",
+                "tags": []
             },
             {
                 "id": "bloomberg",
                 "name": "Bloomberg",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch321_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch321_160_115",
+                "tags": []
             },
             {
                 "id": "boomerang",
                 "name": "Cartoonito",
-                "logo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/451e1b93-9c46-4e4d-9e4e-570ffa420eee/dj7v0c7-de7be794-7ce9-4aa9-85fb-564a99dfb133.png/v1/fill/w_1280,h_291/cartoonito_logo__white___twbc_au__by_potolo2009_dj7v0c7-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjkxIiwicGF0aCI6IlwvZlwvNDUxZTFiOTMtOWM0Ni00ZTRkLTllNGUtNTcwZmZhNDIwZWVlXC9kajd2MGM3LWRlN2JlNzk0LTdjZTktNGFhOS04NWZiLTU2NGE5OWRmYjEzMy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4_94Phrz0PgTCUaXEQF1liS55RZeu0Ncaj6d8P2YiyM"
+                "logo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/451e1b93-9c46-4e4d-9e4e-570ffa420eee/dj7v0c7-de7be794-7ce9-4aa9-85fb-564a99dfb133.png/v1/fill/w_1280,h_291/cartoonito_logo__white___twbc_au__by_potolo2009_dj7v0c7-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjkxIiwicGF0aCI6IlwvZlwvNDUxZTFiOTMtOWM0Ni00ZTRkLTllNGUtNTcwZmZhNDIwZWVlXC9kajd2MGM3LWRlN2JlNzk0LTdjZTktNGFhOS04NWZiLTU2NGE5OWRmYjEzMy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4_94Phrz0PgTCUaXEQF1liS55RZeu0Ncaj6d8P2YiyM",
+                "tags": []
             },
             {
                 "id": "cartoonhd",
                 "name": "Cartoon Network HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_160_115",
+                "tags": []
             },
             {
                 "id": "cinemaxhd",
                 "name": "Cinemax HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_160_115",
+                "tags": []
             },
             {
                 "id": "cinemaworldhd",
                 "name": "Cinema World",
-                "logo": "https://www.voilah.sg/wp-content/uploads/2020/04/cinema-world-2.png"
+                "logo": "https://www.voilah.sg/wp-content/uploads/2020/04/cinema-world-2.png",
+                "tags": []
             },
             {
                 "id": "cna",
                 "name": "CNA",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/1200px-CNA_new_logo.svg.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/1200px-CNA_new_logo.svg.png",
+                "tags": []
             },
             {
                 "id": "cnbc",
                 "name": "CNBC",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch319_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch319_160_115",
+                "tags": []
             },
             {
                 "id": "cnn",
                 "name": "CNN",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch316_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch316_160_115",
+                "tags": []
             },
             {
                 "id": "davincihd",
                 "name": "Da Vinci HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch460_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch460_160_115",
+                "tags": []
             },
             {
                 "id": "discoveryhd",
                 "name": "Discovery",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch209_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch209_160_115",
+                "tags": []
             },
             {
                 "id": "discoveryasiahd",
                 "name": "Discovery Asia",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_160_115",
+                "tags": []
             },
             {
                 "id": "dreamworks",
                 "name": "Dreamworks",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch440_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch440_160_115",
+                "tags": []
             },
             {
                 "id": "dmax",
                 "name": "DMAX",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch212_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch212_160_115",
+                "tags": []
             },
             {
                 "id": "dw",
                 "name": "DW",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch324_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch324_160_115",
+                "tags": []
             },
             {
                 "id": "fashionhd",
                 "name": "Fashion TV",
-                "logo": "https://vits.tv/images/tvstation/russia/fashiontv.webp"
+                "logo": "https://vits.tv/images/tvstation/russia/fashiontv.webp",
+                "tags": []
             },
             {
                 "id": "france24eng",
                 "name": "France 24",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch327_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch327_160_115",
+                "tags": []
             },
             {
                 "id": "hbohd",
                 "name": "HBO",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115",
+                "tags": []
             },
             {
                 "id": "hbofamily",
                 "name": "HBO Family",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch112_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch112_160_115",
+                "tags": []
             },
             {
                 "id": "hbohits",
                 "name": "HBO Hits",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_160_115",
+                "tags": []
             },
             {
                 "id": "hbosignaturehd",
                 "name": "HBO Signature HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_160_115",
+                "tags": []
             },
             {
                 "id": "historyhd",
                 "name": "History HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_160_115",
+                "tags": []
             },
             {
                 "id": "kbsworld",
                 "name": "KBS World",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_160_115",
+                "tags": []
             },
             {
                 "id": "kix",
                 "name": "KIX HD",
-                "logo": "https://static.wikia.nocookie.net/logos/images/2/26/KIX.png/revision/latest/scale-to-width-down/1200?cb=20211017094335&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/2/26/KIX.png/revision/latest/scale-to-width-down/1200?cb=20211017094335&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "lovenature",
                 "name": "Love Nature 4K",
-                "logo": "https://static.wikia.nocookie.net/logos/images/c/c2/Love_Nature_4K.png/revision/latest?cb=20211105035409&path-prefix=vi"
+                "logo": "https://static.wikia.nocookie.net/logos/images/c/c2/Love_Nature_4K.png/revision/latest?cb=20211105035409&path-prefix=vi",
+                "tags": []
             },
             {
                 "id": "blueantext",
                 "name": "Rock Action",
-                "logo": "https://i.ibb.co/1Qd6pxW/Rock-Extreme.png"
+                "logo": "https://i.ibb.co/1Qd6pxW/Rock-Extreme.png",
+                "tags": []
             },
             {
                 "id": "blueantent",
                 "name": "Rock Entertainment",
-                "logo": "https://i.ibb.co/L5yHTzj/Rock-Entertainment.png"
+                "logo": "https://i.ibb.co/L5yHTzj/Rock-Entertainment.png",
+                "tags": []
             },
             {
                 "id": "tlchd",
                 "name": "TLC",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/1280px-TLC_Logo.svg.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/1280px-TLC_Logo.svg.png",
+                "tags": []
             },
             {
                 "id": "outdoor",
                 "name": "Outdoor Channel",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch221_160_115"
+                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch221_160_115",
+                "tags": []
             },
             {
                 "id": "warnertvhd",
                 "name": "Warner TV",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Warner_Bros_logo.svg/355px-Warner_Bros_logo.svg.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Warner_Bros_logo.svg/355px-Warner_Bros_logo.svg.png",
+                "tags": []
             }
         ]
     },
     {
-        "groupName": "Trung Quốc",
-        "groupLogo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
+        "name": "Trung Quốc",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
         "sortOrder": 9,
         "channels": [
             {
                 "id": "cctv1",
-                "altIds": [
-                    "cctv-1",
-                    "cctv-1 综合"
-                ],
                 "name": "CCTV-1 综合 (Tổng hợp)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png",
+                "tags": [
+                    "cctv-1",
+                    "cctv-1 综合",
                     "CCTV1",
                     "CCTV-1",
                     "CCTV-1 综合"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png"
+                ]
             },
             {
                 "id": "cctv2",
-                "altIds": [
-                    "cctv-2"
-                ],
                 "name": "CCTV-2 财经 (Tài chính)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png",
+                "tags": [
+                    "cctv-2",
                     "CCTV2",
                     "CCTV-2",
                     "CCTV-2 财经"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png"
+                ]
             },
             {
                 "id": "cctv3",
-                "altIds": [
-                    "cctv-3"
-                ],
                 "name": "CCTV-3 综艺 (Giải trí tổng hợp)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png",
+                "tags": [
+                    "cctv-3",
                     "CCTV3",
                     "CCTV-3",
                     "CCTV-3 综艺"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png"
+                ]
             },
             {
                 "id": "cctv4",
-                "altIds": [
-                    "cctv-4"
-                ],
                 "name": "CCTV-4 中文国际 (Châu Á)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png",
+                "tags": [
+                    "cctv-4",
                     "CCTV4",
                     "CCTV-4",
                     "CCTV-4 中文国际"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png"
+                ]
             },
             {
                 "id": "cctv5",
-                "altIds": [
-                    "cctv-5"
-                ],
                 "name": "CCTV-5 体育 (Thể thao)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png",
+                "tags": [
+                    "cctv-5",
                     "CCTV5",
                     "CCTV-5",
                     "CCTV-5 体育"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png"
+                ]
             },
             {
                 "id": "cctv5plus",
-                "altIds": [
+                "name": "CCTV-5+ 体育赛事 (Sự kiện thể thao)",
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png",
+                "tags": [
                     "cctv5+",
                     "cctv-5+",
                     "cctv5-plus",
-                    "cctv-5-plus"
-                ],
-                "name": "CCTV-5+ 体育赛事 (Sự kiện thể thao)",
-                "altNames": [
+                    "cctv-5-plus",
                     "CCTV5+",
                     "CCTV-5+",
                     "CCTV-5+ 体育赛事"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png"
+                ]
             },
             {
                 "id": "cctv6",
-                "altIds": [
-                    "cctv-6"
-                ],
                 "name": "CCTV-6 电影 (Điện ảnh)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png",
+                "tags": [
+                    "cctv-6",
                     "CCTV6",
                     "CCTV-6",
                     "CCTV-6 电影"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png"
+                ]
             },
             {
                 "id": "cctv7",
-                "altIds": [
-                    "cctv-7"
-                ],
                 "name": "CCTV-7 国防军事 (Quốc phòng - Quân sự)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png",
+                "tags": [
+                    "cctv-7",
                     "CCTV7",
                     "CCTV-7",
                     "CCTV-7 国防军事"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png"
+                ]
             },
             {
                 "id": "cctv8",
-                "altIds": [
-                    "cctv-8"
-                ],
                 "name": "CCTV-8 电视剧 (Phim truyền hình)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png",
+                "tags": [
+                    "cctv-8",
                     "CCTV8",
                     "CCTV-8",
                     "CCTV-8 电视剧"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png"
+                ]
             },
             {
                 "id": "cctvjilu",
-                "altIds": [
-                    "cctv9",
-                    "cctv-9"
-                ],
                 "name": "CCTV-9 记录 (Tài liệu)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png",
+                "tags": [
+                    "cctv9",
+                    "cctv-9",
                     "CCTV9",
                     "CCTV-9",
                     "CCTV-9 记录"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png"
+                ]
             },
             {
                 "id": "cctv10",
-                "altIds": [
-                    "cctv-10"
-                ],
                 "name": "CCTV-10 科教 (Khoa học - Giáo dục)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png",
+                "tags": [
+                    "cctv-10",
                     "CCTV10",
                     "CCTV-10",
                     "CCTV-10 科教"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png"
+                ]
             },
             {
                 "id": "cctv11",
-                "altIds": [
-                    "cctv-11"
-                ],
                 "name": "CCTV-11 戏曲 (Kinh kịch - Nghệ thuật sân khấu)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png",
+                "tags": [
+                    "cctv-11",
                     "CCTV11",
                     "CCTV-11",
                     "CCTV-11 戏曲"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png"
+                ]
             },
             {
                 "id": "cctv12",
-                "altIds": [
-                    "cctv-12"
-                ],
                 "name": "CCTV-12 社会与法 (Xã hội & Pháp luật)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png",
+                "tags": [
+                    "cctv-12",
                     "CCTV12",
                     "CCTV-12",
                     "CCTV-12 社会与法"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png"
+                ]
             },
             {
                 "id": "cctv13",
-                "altIds": [
-                    "cctv-13"
-                ],
                 "name": "CCTV-13 新闻 (Tin tức)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV13.png",
+                "tags": [
+                    "cctv-13",
                     "CCTV13",
                     "CCTV-13",
                     "CCTV-13 新闻"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV13.png"
+                ]
             },
             {
                 "id": "cctvchild",
-                "altIds": [
-                    "cctv14",
-                    "cctv-14"
-                ],
                 "name": "CCTV-14 少儿 (Thiếu nhi)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png",
+                "tags": [
+                    "cctv14",
+                    "cctv-14",
                     "CCTV14",
                     "CCTV-14",
                     "CCTV-14 少儿"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png"
+                ]
             },
             {
                 "id": "cctv15",
-                "altIds": [
-                    "cctv-15"
-                ],
                 "name": "CCTV-15 音乐 (Âm nhạc)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png",
+                "tags": [
+                    "cctv-15",
                     "CCTV15",
                     "CCTV-15",
                     "CCTV-15 音乐"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png"
+                ]
             },
             {
                 "id": "cctv16",
-                "altIds": [
-                    "cctv-16"
-                ],
                 "name": "CCTV-16 奥林匹克 (Olympic)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png",
+                "tags": [
+                    "cctv-16",
                     "CCTV16",
                     "CCTV-16",
                     "CCTV-16 奥林匹克"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png"
+                ]
             },
             {
                 "id": "cctv17",
-                "altIds": [
-                    "cctv-17"
-                ],
                 "name": "CCTV-17 农业农村 (Nông nghiệp - Nông thôn)",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png",
+                "tags": [
+                    "cctv-17",
                     "CCTV17",
                     "CCTV-17",
                     "CCTV-17 农业农村"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png"
+                ]
             },
             {
                 "id": "cctv4k",
-                "altIds": [
-                    "cctv-4k",
-                    "cctv4-k"
-                ],
                 "name": "CCTV-4K 超高清",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4K.png",
+                "tags": [
+                    "cctv-4k",
+                    "cctv4-k",
                     "CCTV4K",
                     "CCTV-4K"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4K.png"
+                ]
             },
             {
                 "id": "cctv8k",
-                "altIds": [
-                    "cctv-8k",
-                    "cctv8-k"
-                ],
                 "name": "CCTV-8K 超高清",
-                "altNames": [
+                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8K.png",
+                "tags": [
+                    "cctv-8k",
+                    "cctv8-k",
                     "CCTV8K",
                     "CCTV-8K"
-                ],
-                "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8K.png"
+                ]
             },
             {
                 "id": "anhui",
-                "altIds": [
-                    "安徽卫视"
-                ],
                 "name": "安徽卫视 (An Huy)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/anhui.png",
+                "tags": [
                     "安徽卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/anhui.png"
+                ]
             },
             {
                 "id": "bingtuan",
-                "altIds": [
-                    "兵团卫视"
-                ],
                 "name": "兵团卫视 (Binh đoàn)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/bingtuan.png",
+                "tags": [
                     "兵团卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/bingtuan.png"
+                ]
             },
             {
                 "id": "btv1",
-                "altIds": [
-                    "北京卫视"
-                ],
                 "name": "北京卫视 (Bắc Kinh)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/btv1.png",
+                "tags": [
                     "北京卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/btv1.png"
+                ]
             },
             {
                 "id": "btvchild",
-                "altIds": [
-                    "卡酷少儿"
-                ],
                 "name": "BRTV 卡酷少儿 (Bắc Kinh - Thiếu nhi)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/btvchild.png",
+                "tags": [
                     "卡酷少儿",
                     "BRTV 卡酷少儿"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/btvchild.png"
+                ]
             },
             {
                 "id": "btvjishi",
-                "altIds": [
-                    "体育休闲"
-                ],
                 "name": "BRTV 体育休闲 (Bắc Kinh - Thể thao & Giải trí)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/btvjishi.png",
+                "tags": [
                     "体育休闲",
                     "BRTV 体育休闲"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/btvjishi.png"
+                ]
             },
             {
                 "id": "dongfang",
-                "altIds": [
-                    "东方卫视"
-                ],
                 "name": "东方卫视 (Đông Phương - Thượng Hải)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/dongfang.png",
+                "tags": [
                     "东方卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/dongfang.png"
+                ]
             },
             {
                 "id": "hunan",
-                "altIds": [
-                    "湖南卫视"
-                ],
                 "name": "湖南卫视 (Hồ Nam)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/hunan.png",
+                "tags": [
                     "湖南卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/hunan.png"
+                ]
             },
             {
                 "id": "jiangsu",
-                "altIds": [
-                    "江苏卫视"
-                ],
                 "name": "江苏卫视 (Giang Tô)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/jiangsu.png",
+                "tags": [
                     "江苏卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/jiangsu.png"
+                ]
             },
             {
                 "id": "zhejiang",
-                "altIds": [
-                    "浙江卫视"
-                ],
                 "name": "浙江卫视 (Chiết Giang)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/zhejiang.png",
+                "tags": [
                     "浙江卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/zhejiang.png"
+                ]
             },
             {
                 "id": "guangdong",
-                "altIds": [
-                    "广东卫视"
-                ],
                 "name": "广东卫视 (Quảng Đông)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/guangdong.png",
+                "tags": [
                     "广东卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/guangdong.png"
+                ]
             },
             {
                 "id": "shandong",
-                "altIds": [
-                    "山东卫视"
-                ],
                 "name": "山东卫视 (Sơn Đông)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/shandong.png",
+                "tags": [
                     "山东卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/shandong.png"
+                ]
             },
             {
                 "id": "liaoning",
-                "altIds": [
-                    "辽宁卫视"
-                ],
                 "name": "辽宁卫视 (Liêu Ninh)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/liaoning.png",
+                "tags": [
                     "辽宁卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/liaoning.png"
+                ]
             },
             {
                 "id": "heilongjiang",
-                "altIds": [
-                    "黑龙江卫视"
-                ],
                 "name": "黑龙江卫视 (Hắc Long Giang)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/heilongjiang.png",
+                "tags": [
                     "黑龙江卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/heilongjiang.png"
+                ]
             },
             {
                 "id": "xinjiang",
-                "altIds": [
-                    "新疆卫视"
-                ],
                 "name": "新疆卫视 (Tân Cương)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/xinjiang.png",
+                "tags": [
                     "新疆卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/xinjiang.png"
+                ]
             },
             {
                 "id": "xizang",
-                "altIds": [
-                    "西藏卫视"
-                ],
                 "name": "西藏卫视 (Tây Tạng)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/xizang.png",
+                "tags": [
                     "西藏卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/xizang.png"
+                ]
             },
             {
                 "id": "shenzhen",
-                "altIds": [
-                    "深圳卫视"
-                ],
                 "name": "深圳卫视 (Thâm Quyến)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/shenzhen.png",
+                "tags": [
                     "深圳卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/shenzhen.png"
+                ]
             },
             {
                 "id": "dawanqu",
-                "altIds": [
-                    "大湾区卫视"
-                ],
                 "name": "大湾区卫视 (Đại Vịnh Khu)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/dawanqu.png",
+                "tags": [
                     "大湾区卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/dawanqu.png"
+                ]
             },
             {
                 "id": "zhujiang",
-                "altIds": [
-                    "珠江台",
-                    "广东珠江"
-                ],
                 "name": "广东珠江 (Châu Giang)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/zhujiang.png",
+                "tags": [
                     "珠江台",
                     "广东珠江"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/zhujiang.png"
+                ]
             },
             {
                 "id": "dongnan",
-                "altIds": [
-                    "东南卫视"
-                ],
                 "name": "东南卫视 (Đông Nam)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/dongnan.png",
+                "tags": [
                     "东南卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/dongnan.png"
+                ]
             },
             {
                 "id": "guangxi",
-                "altIds": [
-                    "广西卫视"
-                ],
                 "name": "广西卫视 (Quảng Tây)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/guangxi.png",
+                "tags": [
                     "广西卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/guangxi.png"
+                ]
             },
             {
                 "id": "hubei",
-                "altIds": [
-                    "湖北卫视"
-                ],
                 "name": "湖北卫视 (Hồ Bắc)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/hubei.png",
+                "tags": [
                     "湖北卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/hubei.png"
+                ]
             },
             {
                 "id": "sichuan",
-                "altIds": [
-                    "四川卫视"
-                ],
                 "name": "四川卫视 (Tứ Xuyên)",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/sichuan.png",
+                "tags": [
                     "四川卫视"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/sichuan.png"
+                ]
             },
             {
                 "id": "cgtn",
-                "altIds": [
-                    "CGTN"
-                ],
                 "name": "CGTN",
-                "altNames": [
+                "logo": "https://iptv.burningc4.com/tvg-logo/cgtn.png",
+                "tags": [
                     "CGTN"
-                ],
-                "logo": "https://iptv.burningc4.com/tvg-logo/cgtn.png"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Thái Lan",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/thailand-flag-icon.png",
+        "sortOrder": 9,
+        "channels": [
+            {
+                "id": "3 HD.th",
+                "name": "3HD",
+                "logo": "https://media-mvtv.imgix.net/channel/132_y_TFYiXWvrUf4s8tbIwJ29S3zMNeqghGmB.png",
+                "tags": [
+                    "CH3 HD",
+                    "ch3 hd",
+                    "3HD.th"
+                ]
+            },
+            {
+                "id": "ALTV4.th",
+                "name": "ALTV4",
+                "logo": "https://media-mvtv.imgix.net/channel/117_y_8JTfbUnwW9t2kuVh6ZpONEqv7MeBIsQR.png",
+                "tags": [
+                    "ALTV",
+                    "altv.th"
+                ]
+            },
+            {
+                "id": "AmarinTV HD.th",
+                "name": "AMARIN TV HD",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/AmarinTV_NEW512.png",
+                "tags": [
+                    "AMARIN",
+                    "amarin.th"
+                ]
+            },
+            {
+                "id": "Boomerang.th",
+                "name": "BOOMERANG",
+                "logo": "https://media-mvtv8.imgix.net/channel/153_y_3V9s1SWHcnaNILkoXMmF8GER4ZTrxJvg.jpg",
+                "tags": []
+            },
+            {
+                "id": "CNA.th",
+                "name": "CNA",
+                "logo": "https://media-mvtv.imgix.net/channel/152_y_zynZw6RpjUoxHbGMh28eCKk9BlqIXJAa.png",
+                "tags": [
+                    "Channel News Asia.th",
+                    "Channel News Asia"
+                ]
+            },
+            {
+                "id": "CH5 HD.th",
+                "name": "5HD",
+                "logo": "https://media-mvtv.imgix.net/channel/118_y_0kEyP9Yrw5jTWflXevIZ1Dqhoa2mi4QO.png",
+                "tags": [
+                    "CH5 HD",
+                    "5HD.th"
+                ]
+            },
+            {
+                "id": "CH7 HD.th",
+                "name": "7HD",
+                "logo": "https://media-mvtv.imgix.net/channel/134_y_YTkIZJDsbmX26owPRpAFSfW0eyz95vn4.png",
+                "tags": [
+                    "CH7 HD",
+                    "7HD.th"
+                ]
+            },
+            {
+                "id": "CH8.th",
+                "name": "CH8",
+                "logo": "https://media-mvtv.imgix.net/channel/127_y_uhsXzFBxYD6Wq2mpZeIUb4M7RK1ECkn8.png",
+                "tags": [
+                    "ช่อง 8",
+                    "ch8 hd"
+                ]
+            },
+            {
+                "id": "DLTV1.th",
+                "name": "DLTV1",
+                "logo": "https://media-mvtv.imgix.net/channel/136_y_tPkVabFhc7iUGQdmlEDC5IxvJZj4326M.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV10.th",
+                "name": "DLTV10",
+                "logo": "https://media-mvtv.imgix.net/channel/145_y_9Fkli2DoLIP0EX56AHW74MhquQKfng1a.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV11.th",
+                "name": "DLTV11",
+                "logo": "https://media-mvtv.imgix.net/channel/146_y_5LVm0hDdr2N19IOlU3MAtqscKSk6xgZe.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV12.th",
+                "name": "DLTV12",
+                "logo": "https://media-mvtv.imgix.net/channel/147_y_Uel5LZmKGoutv2PJiFIx60jayQbpnzqT.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV13.th",
+                "name": "DLTV13",
+                "logo": "https://media-mvtv.imgix.net/channel/148_y_23K7iaWFMTnyxjfH5NIhUpCgZc8SB4s9.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV14.th",
+                "name": "DLTV14",
+                "logo": "https://media-mvtv.imgix.net/channel/149_y_EzhGev4MFkQUOR08CdZisfP5Lnw9Jx6A.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV15.th",
+                "name": "DLTV15",
+                "logo": "https://media-mvtv.imgix.net/channel/150_y_eUWs21cyV38ARS0OZmtgILodzKiJqfaD.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV2.th",
+                "name": "DLTV2",
+                "logo": "https://media-mvtv.imgix.net/channel/137_y_yQOMjhFVupi8I1oal5TScnbkfAYtJC2v.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV3.th",
+                "name": "DLTV3",
+                "logo": "https://media-mvtv.imgix.net/channel/138_y_NrPWRcyIBzbd5kJ3n8MqHDOmoVpA19fS.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV4.th",
+                "name": "DLTV4",
+                "logo": "https://media-mvtv.imgix.net/channel/139_y_gx6RdEWuPqjBnAwoCI2mrltX5vJU4bDO.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV5.th",
+                "name": "DLTV5",
+                "logo": "https://media-mvtv.imgix.net/channel/140_y_0NYqGlHdDfQeZFoSUcMWsx1rtOyTXb78.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV6.th",
+                "name": "DLTV6",
+                "logo": "https://media-mvtv.imgix.net/channel/141_y_gIp8YiEP6MQsdeb9hjKcBFmUHVw1kNxy.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV7.th",
+                "name": "DLTV7",
+                "logo": "https://media-mvtv.imgix.net/channel/142_y_U53zK2mOiFQ9xsCMS7AJrvTtoEf6dpIc.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV8.th",
+                "name": "DLTV8",
+                "logo": "https://media-mvtv.imgix.net/channel/143_y_k4YNqBSgRW1OndxQuU6Pac0CMJVKIf57.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV9.th",
+                "name": "DLTV9",
+                "logo": "https://media-mvtv.imgix.net/channel/144_y_9yo8mDwnI5OLgCHKvfsZ42BMXTzEbrSe.png",
+                "tags": []
+            },
+            {
+                "id": "France 24.th",
+                "name": "FRANCE 24",
+                "logo": "https://media-mvtv.imgix.net/channel/151_y_YrFS8xk32BmplLV4NcHgdXRsuU7TvWZ5.png",
+                "tags": []
+            },
+            {
+                "id": "GMM25.th",
+                "name": "GMM25",
+                "logo": "https://cms.dmpcdn.com/livetv/2020/11/19/ed873d50-2a22-11eb-bed4-0972e345f90c_320.png",
+                "tags": [
+                    "gmm25.th",
+                    "GMM25"
+                ]
+            },
+            {
+                "id": "JKN 18.th",
+                "name": "JKN18",
+                "logo": "https://media-mvtv.imgix.net/channel/122_y_bzfht4O5uRNHylcq1D6nV9TvxmdXWaQP.png",
+                "tags": [
+                    "jkn18.th",
+                    "JKN18"
+                ]
+            },
+            {
+                "id": "MCOT HD.th",
+                "name": "MCOT HD",
+                "logo": "https://media-mvtv.imgix.net/channel/129_y_hG7Nj2qWnldBu0fkMDyvT8CwYXLI649F.png",
+                "tags": [
+                    "MCOT",
+                    "mcot.th"
+                ]
+            },
+            {
+                "id": "MONO.th",
+                "name": "MONO 29",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mono_29_Logo.png",
+                "tags": [
+                    "mono 29.th",
+                    "MONO29",
+                    "mono29"
+                ]
+            },
+            {
+                "id": "Nation TV.th",
+                "name": "NATION TV",
+                "logo": "https://media-mvtv.imgix.net/channel/123_y_3vyW276UFjIStew9DHJNs8AGKfdmZXpu.png",
+                "tags": [
+                    "NATION",
+                    "nation.th"
+                ]
+            },
+            {
+                "id": "NBT 2 HD.th",
+                "name": "NBT 2 HD",
+                "logo": "",
+                "tags": []
+            },
+            {
+                "id": "ONE 31 HD.th",
+                "name": "ONE 31 HD",
+                "logo": "https://media-mvtv.imgix.net/channel/130_y_3Lx4j6ZzpIidKPqChaF2QRYeWorw79Jv.png",
+                "tags": [
+                    "ONE",
+                    "one.th"
+                ]
+            },
+            {
+                "id": "Parliament.th",
+                "name": "TPTV (Parliament)",
+                "logo": "https://media-mvtv.imgix.net/channel/120_y_VSgE7P9GiDCxrhFWUALYpvzfM12cdqmH.png",
+                "tags": [
+                    "TPTV",
+                    "tptv.th"
+                ]
+            },
+            {
+                "id": "PPTV HD.th",
+                "name": "PPTV HD",
+                "logo": "https://image.makewebcdn.com/makeweb/m_1920x0/fwsVrxqVa/3PPTV36/PPTV_By_HSTN.jpg",
+                "tags": [
+                    "PPTV",
+                    "PPTV36",
+                    "pptv.th"
+                ]
+            },
+            {
+                "id": "TNN.th",
+                "name": "TNN",
+                "logo": "https://media-mvtv.imgix.net/channel/121_y_uQNBde5zrpo4TKm9kOZPx6iRbGaACfFE.png",
+                "tags": [
+                    "tnn.th"
+                ]
+            },
+            {
+                "id": "Thairath TV HD.th",
+                "name": "THAIRATH TV HD",
+                "logo": "https://www.thairath.co.th/static/img/thairathTV/logo.png",
+                "tags": [
+                    "thairath.th",
+                    "THAIRATH"
+                ]
+            },
+            {
+                "id": "TPBS.th",
+                "name": "THAI PBS",
+                "logo": "https://media-mvtv.imgix.net/channel/116_y_cze67bhJwH8CIOaqnULfg0kKPAs2TQW1.png",
+                "tags": [
+                    "TPBS",
+                    "thai pbs"
+                ]
+            },
+            {
+                "id": "True 4 U.th",
+                "name": "TRUE4U",
+                "logo": "",
+                "tags": [
+                    "true4u"
+                ]
+            },
+            {
+                "id": "T-Sports7.th",
+                "name": "T SPORTS 7",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/T-SPorts_7_Final.png",
+                "tags": [
+                    "t sports 7"
+                ]
+            },
+            {
+                "id": "Workpoint TV.th",
+                "name": "WORKPOINT TV",
+                "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon//0015_R.png",
+                "tags": [
+                    "WORKPOINT",
+                    "workpoint.th"
+                ]
             }
         ]
     }
