@@ -1904,42 +1904,6 @@
                 "tags": []
             },
             {
-                "id": "DLTV10.th",
-                "name": "DLTV10",
-                "logo": "https://media-mvtv.imgix.net/channel/145_y_9Fkli2DoLIP0EX56AHW74MhquQKfng1a.png",
-                "tags": []
-            },
-            {
-                "id": "DLTV11.th",
-                "name": "DLTV11",
-                "logo": "https://media-mvtv.imgix.net/channel/146_y_5LVm0hDdr2N19IOlU3MAtqscKSk6xgZe.png",
-                "tags": []
-            },
-            {
-                "id": "DLTV12.th",
-                "name": "DLTV12",
-                "logo": "https://media-mvtv.imgix.net/channel/147_y_Uel5LZmKGoutv2PJiFIx60jayQbpnzqT.png",
-                "tags": []
-            },
-            {
-                "id": "DLTV13.th",
-                "name": "DLTV13",
-                "logo": "https://media-mvtv.imgix.net/channel/148_y_23K7iaWFMTnyxjfH5NIhUpCgZc8SB4s9.png",
-                "tags": []
-            },
-            {
-                "id": "DLTV14.th",
-                "name": "DLTV14",
-                "logo": "https://media-mvtv.imgix.net/channel/149_y_EzhGev4MFkQUOR08CdZisfP5Lnw9Jx6A.png",
-                "tags": []
-            },
-            {
-                "id": "DLTV15.th",
-                "name": "DLTV15",
-                "logo": "https://media-mvtv.imgix.net/channel/150_y_eUWs21cyV38ARS0OZmtgILodzKiJqfaD.png",
-                "tags": []
-            },
-            {
                 "id": "DLTV2.th",
                 "name": "DLTV2",
                 "logo": "https://media-mvtv.imgix.net/channel/137_y_yQOMjhFVupi8I1oal5TScnbkfAYtJC2v.png",
@@ -1985,6 +1949,42 @@
                 "id": "DLTV9.th",
                 "name": "DLTV9",
                 "logo": "https://media-mvtv.imgix.net/channel/144_y_9yo8mDwnI5OLgCHKvfsZ42BMXTzEbrSe.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV10.th",
+                "name": "DLTV10",
+                "logo": "https://media-mvtv.imgix.net/channel/145_y_9Fkli2DoLIP0EX56AHW74MhquQKfng1a.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV11.th",
+                "name": "DLTV11",
+                "logo": "https://media-mvtv.imgix.net/channel/146_y_5LVm0hDdr2N19IOlU3MAtqscKSk6xgZe.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV12.th",
+                "name": "DLTV12",
+                "logo": "https://media-mvtv.imgix.net/channel/147_y_Uel5LZmKGoutv2PJiFIx60jayQbpnzqT.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV13.th",
+                "name": "DLTV13",
+                "logo": "https://media-mvtv.imgix.net/channel/148_y_23K7iaWFMTnyxjfH5NIhUpCgZc8SB4s9.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV14.th",
+                "name": "DLTV14",
+                "logo": "https://media-mvtv.imgix.net/channel/149_y_EzhGev4MFkQUOR08CdZisfP5Lnw9Jx6A.png",
+                "tags": []
+            },
+            {
+                "id": "DLTV15.th",
+                "name": "DLTV15",
+                "logo": "https://media-mvtv.imgix.net/channel/150_y_eUWs21cyV38ARS0OZmtgILodzKiJqfaD.png",
                 "tags": []
             },
             {

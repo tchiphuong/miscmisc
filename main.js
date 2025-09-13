@@ -22,11 +22,11 @@ const FETCH_RETRY = 1; // retry 1 lần nếu lỗi/timeout
 /* =========================
  * WORKER ENTRY: CHỈ GỌI HÀM
  * ========================= */
-export default {
-    async fetch(request, env, ctx) {
-        return handleRequest(request, env, ctx);
-    },
-};
+// export default {
+//     async fetch(request, env, ctx) {
+//         return handleRequest(request, env, ctx);
+//     },
+// };
 
 /* =========================
  * HÀM XỬ LÝ CHÍNH
