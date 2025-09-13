@@ -22,30 +22,17 @@ const FETCH_RETRY = 1; // retry 1 lần nếu lỗi/timeout
 /* =========================
  * WORKER ENTRY: CHỈ GỌI HÀM
  * ========================= */
-// export default {
-//     async fetch(request, env, ctx) {
-//         return handleRequest(request, env, ctx);
-//     },
-// };
+export default {
+    async fetch(request, env, ctx) {
+        return handleRequest(request, env, ctx);
+    },
+};
 
 /* =========================
  * HÀM XỬ LÝ CHÍNH
  * ========================= */
 async function handleRequest(request, env, ctx) {
     try {
-        // Edge cache theo URL
-        const cache = caches.default;
-        const cacheKey = new Request(new URL(request.url).toString(), request);
-
-        // ⬇️ ép refresh nếu có query refresh=1
-        const url = new URL(request.url);
-        const forceRefresh = url.searchParams.get("refresh") === "1" || true;
-
-        if (!forceRefresh) {
-            const cached = await cache.match(cacheKey);
-            if (cached) return cached;
-        }
-
         // 1) LẤY DỮ LIỆU NGUỒN (đã tách riêng)
         const {
             hlsOrg,
@@ -96,8 +83,6 @@ async function handleRequest(request, env, ctx) {
 
         const resp = new Response(body, { status: 200, headers });
 
-        // 5) CACHE (không chặn trả về)
-        ctx.waitUntil(cache.put(cacheKey, resp.clone()));
         return resp;
     } catch (err) {
         console.error("Worker error:", err);
@@ -133,15 +118,18 @@ async function fetchAllSources() {
         aceStreamText,
         sportText,
     ] = await Promise.all([
-        fetchJsonWithPolicy(SRC.HLS_ORG),
-        fetchJsonWithPolicy(SRC.HLS_MERGE),
-        fetchJsonWithPolicy(SRC.MPD),
-        fetchTextWithPolicy(SRC.KLINH),
-        fetchTextWithPolicy(SRC.KPLUS),
-        fetchTextWithPolicy(SRC.VMTTV),
-        fetchTextWithPolicy(SRC.DAKLAK),
-        fetchTextWithPolicy(SRC.ACESTREAM),
-        fetchTextWithPolicy(SRC.SPORT),
+        // @ts-ignore
+        fetchWithPolicy(SRC.HLS_ORG, { as: "json" }),
+        // @ts-ignore
+        fetchWithPolicy(SRC.HLS_MERGE, { as: "json" }),
+        // @ts-ignore
+        fetchWithPolicy(SRC.MPD, { as: "json" }),
+        fetchWithPolicy(SRC.KLINH),
+        fetchWithPolicy(SRC.KPLUS),
+        fetchWithPolicy(SRC.VMTTV),
+        fetchWithPolicy(SRC.DAKLAK),
+        fetchWithPolicy(SRC.ACESTREAM),
+        fetchWithPolicy(SRC.SPORT),
     ]);
 
     return {
@@ -157,46 +145,53 @@ async function fetchAllSources() {
     };
 }
 
-// fetch JSON có timeout + retry
-async function fetchJsonWithPolicy(
+// One-shot fetch (timeout + retry + auto parse)
+// as: 'json' | 'text' | 'arrayBuffer' | 'auto' (mặc định auto theo Content-Type)
+async function fetchWithPolicy(
     url,
-    { timeoutMs = FETCH_TIMEOUT_MS, retry = FETCH_RETRY } = {}
+    {
+        as = "auto",
+        // @ts-ignore
+        init,
+        timeoutMs = typeof FETCH_TIMEOUT_MS !== "undefined" ? FETCH_TIMEOUT_MS : 7000,
+        retry = typeof FETCH_RETRY !== "undefined" ? FETCH_RETRY : 1,
+    } = {}
 ) {
-    for (let attempt = 0; attempt <= retry; attempt++) {
-        try {
-            const res = await fetchWithTimeout(url, { timeoutMs });
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            return await res.json();
-        } catch (e) {
-            if (attempt === retry) throw e;
-        }
-    }
-}
+    const parseBody = async (res) => {
+        if (as === "json") return res.json();
+        if (as === "text") return res.text();
+        if (as === "arrayBuffer") return res.arrayBuffer();
+        // auto
+        const ct = (res.headers.get("content-type") || "").toLowerCase();
+        return ct.includes("json") ? res.json() : res.text();
+    };
 
-// fetch TEXT có timeout + retry
-async function fetchTextWithPolicy(
-    url,
-    { timeoutMs = FETCH_TIMEOUT_MS, retry = FETCH_RETRY } = {}
-) {
     for (let attempt = 0; attempt <= retry; attempt++) {
+        const ctrl = new AbortController();
+        const timer = setTimeout(() => ctrl.abort(), timeoutMs);
         try {
-            const res = await fetchWithTimeout(url, { timeoutMs });
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            return await res.text();
-        } catch (e) {
-            if (attempt === retry) throw e;
-        }
-    }
-}
+            const res = await fetch(url, { ...(init || {}), signal: ctrl.signal });
+            if (!res.ok) {
+                // Lỗi HTTP → không retry (thường retry vô ích)
+                throw new Error(`HTTP ${res.status} at ${url}`);
+            }
+            return await parseBody(res);
+        } catch (err) {
+            // Hết retry thì quăng lỗi
+            if (attempt === retry) {
+                if (err.name === "AbortError")
+                    throw new Error(`Timeout after ${timeoutMs}ms: ${url}`);
+                throw err;
+            }
+            // HTTP lỗi thì không retry
+            if (typeof err?.message === "string" && /^HTTP \d+/.test(err.message)) throw err;
 
-// fetch có timeout qua AbortController
-async function fetchWithTimeout(url, { timeoutMs }) {
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort("timeout"), timeoutMs);
-    try {
-        return await fetch(url, { signal: ctrl.signal });
-    } finally {
-        clearTimeout(timer);
+            // Nhẹ nhàng backoff 100*attempt ms (0,100,200…)
+            await new Promise((r) => setTimeout(r, 100 * attempt));
+            continue;
+        } finally {
+            clearTimeout(timer);
+        }
     }
 }
 
@@ -400,6 +395,7 @@ function parseOttNavigationFast(m3uText, opts = {}) {
     }
     function fromBase64ToHex(b64) {
         try {
+            // @ts-ignore
             if (typeof Buffer !== "undefined") return toHex(Buffer.from(b64, "base64"));
             const bin = atob(b64.replace(/-/g, "+").replace(/_/g, "/"));
             const bytes = new Uint8Array(bin.length);
@@ -515,14 +511,10 @@ function parseOttNavigationFast(m3uText, opts = {}) {
                 name: tvgName || display,
                 logo: tvgLogo || undefined,
                 sources: [],
-                tags: tvgId && tvgName && display && display !== tvgName ? [display] : [],
             };
             group.channels.push(ch);
             channelIndex.set(key, ch);
         } else {
-            if (display && display !== ch.name && display !== ch.id) {
-                if (!ch.tags.includes(display)) ch.tags.push(display);
-            }
             if (tvgLogo && !ch.logo) ch.logo = tvgLogo;
         }
 
@@ -684,7 +676,6 @@ function parseOttNavigationFast(m3uText, opts = {}) {
         ),
     }));
     for (const g of groups) {
-        g.channels.sort((a, b) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0));
         for (const ch of g.channels) {
             ch.sources.sort((a, b) => {
                 const tw = (s) => (s?.type === "hls" ? 2 : s?.type === "dash" ? 1 : 0);
@@ -827,13 +818,19 @@ function moveDuplicateChannels(groups, { maxSourcesPerChannel = 120 } = {}) {
                 .map((x) => x || "")
                 .filter(Boolean)
         );
-        dst.tags = Array.from(set);
     };
 
     for (const g of toArray(groups)) {
         const merged = [];
+        // if (g.name === "Sports") {
+        //     debugger;
+        // }
 
         for (const c0 of toArray(g.channels)) {
+            // if (c0.name === "beIN Sports" || c0.id === "beInSports1.id") {
+            //     debugger;
+            // }
+
             if (!c0) continue;
             const keyCandidates = [c0.id, c0.name, ...(c0.tags || [])].map(norm).filter(Boolean);
 
@@ -855,11 +852,9 @@ function moveDuplicateChannels(groups, { maxSourcesPerChannel = 120 } = {}) {
                     tags: Array.isArray(c0.tags) ? [...c0.tags] : [],
                 };
                 merged.push(clone);
-                for (const k of keyCandidates) seen.set(k, clone);
+                seen.set(c0.id, clone);
             } else {
                 mergeChannel(existing, c0);
-                // cập nhật index cho key mới phát sinh
-                for (const k of keyCandidates) if (!seen.has(k)) seen.set(k, existing);
             }
         }
 
@@ -873,144 +868,101 @@ function moveDuplicateChannels(groups, { maxSourcesPerChannel = 120 } = {}) {
  * STREAM M3U8 (TIẾT KIỆM RAM/CPU)
  * ========================= */
 
-/**
- * streamM3U — one function for both Workers (stream) and local (string)
- *
- * @param {Array|Object} data    - Nhóm/kênh theo schema của mày (có group.name, group.channels[].id/name/logo/sources[])
- * @param {Array<string>} epgData- (optional) thêm URL EPG
- * @param {Object} opts
- *  - mode: "auto" | "stream" | "string" (default: "auto") — ưu tiên Workers stream
- *  - useAvatarFallback: boolean (default: true) — có dùng avatar nếu thiếu logo gốc hay không
- * @returns {ReadableStream|String}
- */
-function streamM3U(data, epgData, opts = {}) {
-    const { mode = "auto", useAvatarFallback = true } = opts;
-
-    // EPG defaults
-    const defaults = [
-        "https://vnepg.site/epg.xml", // VN
-        "https://lichphatsong.site/schedule/epg.xml", // VN
-        "https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml", // CN
-        "https://www.open-epg.com/files/thailand1.xml", // TH
-        "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz", // Global
-    ];
-    const epgs = [...new Set([...(Array.isArray(epgData) ? epgData : []), ...defaults])];
-
-    // utils
+function streamM3U(data, epgs = []) {
+    // ==== Helpers cực cơ bản (đủ xài, dễ bảo trì) ====
     const toArr = (x) => (Array.isArray(x) ? x : x ? [x] : []);
-    const keepLogo = (url) => (url || "").trim(); // GIỮ LINK LOGO GỐC
-    const normalizeGroup = (s) => (s || "").toString().trim();
     const avatar = (name) =>
-        `https://ui-avatars.com/api/?format=png&rounded=true&background=random&length=2&size=256&name=${encodeURIComponent(
-            name || ""
+        `https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=${encodeURIComponent(
+            name
         )}`;
 
-    // core writer (generator -> yield từng chunk)
-    function* generate() {
-        yield `#EXTM3U url-tvg="${epgs.join(",")}"\n`;
-        yield `# Generated: ${new Date().toISOString()}\n`;
-
-        for (const group of toArr(data)) {
-            const groupTitle = normalizeGroup(group?.name);
-            const channels = toArr(group?.channels);
-            if (!groupTitle || !channels.length) continue;
-
-            yield `\n#▽ ================================= ${groupTitle} =================================\n\n`;
-
-            let isFirst = true; // first channel in this group
-
-            for (const ch of channels) {
-                const sources = toArr(ch?.sources);
-                if (!sources.length) continue;
-
-                let logo = logoProxy(ch?.logo, true);
-                if (!logo && useAvatarFallback) logo = avatar(ch?.name || ch?.id || "");
-
-                const channelName = (
-                    groupTitle.toLowerCase().includes("radio")
-                        ? `${ch?.name || ch?.id || ""} (Radio)`
-                        : ch?.name || ch?.id || ""
-                ).toUpperCase();
-
-                for (const src of sources) {
-                    // EXTINF
-                    if (isFirst) {
-                        const groupLogo = keepLogo(group?.groupLogo || "");
-                        yield `#EXTINF:-1 tvg-id="${
-                            ch?.id || ""
-                        }" group-title="${groupTitle}" tvg-logo="${logo}"${
-                            groupLogo ? ` group-logo="${groupLogo}"` : ""
-                        },${channelName}\n`;
-                        isFirst = false;
-                    } else {
-                        yield `#EXTINF:-1 tvg-id="${
-                            ch?.id || ""
-                        }" group-title="${groupTitle}" tvg-logo="${logo}",${channelName}\n`;
-                    }
-
-                    // VLC headers
-                    if (src?.headers?.userAgent)
-                        yield `#EXTVLCOPT:http-user-agent=${src.headers.userAgent}\n`;
-                    if (src?.headers?.referer)
-                        yield `#EXTVLCOPT:http-referrer=${src.headers.referer}\n`;
-
-                    // DRM (Kodi)
-                    if (src?.drm) {
-                        const { licenseType, keys, licenseServer } = src.drm;
-                        if (licenseType)
-                            yield `#KODIPROP:inputstream.adaptive.license_type=${licenseType}\n`;
-
-                        // ClearKey list: [{kid, key}]
-                        if (Array.isArray(keys)) {
-                            for (const k of keys) {
-                                if (k?.kid && k?.key) {
-                                    yield `#KODIPROP:inputstream.adaptive.license_key=${k.kid}:${k.key}\n`;
-                                }
-                            }
-                        }
-                        // Widevine server URL (có thể có header dạng url|H1=..&H2=..|R{SSM}|)
-                        if (licenseServer)
-                            yield `#KODIPROP:inputstream.adaptive.license_key=${licenseServer}\n`;
-                    }
-
-                    // URL nguồn
-                    yield `${src?.url || ""}\n`;
-                }
-
-                yield `\n`;
-            }
-
-            yield `#△ ================================= ${groupTitle} =================================\n`;
-        }
-    }
-
-    // decide mode
-    const canStream = typeof TransformStream !== "undefined" && typeof TextEncoder !== "undefined";
-
-    const wantStream = mode === "stream" || (mode === "auto" && canStream);
-
-    if (wantStream) {
-        // Stream (Workers/Edge)
-        const ts = new TransformStream();
-        const writer = ts.writable.getWriter();
-        const enc = new TextEncoder();
-
-        (async () => {
-            try {
-                for (const chunk of generate()) {
-                    await writer.write(enc.encode(chunk));
-                }
-            } finally {
-                await writer.close();
-            }
-        })();
-
-        return ts.readable; // dùng trực tiếp trong Response ở Workers
-    }
-
-    // String (local)
+    // ==== Bắt đầu build ====
     let out = "";
-    for (const chunk of generate()) out += chunk;
+    out += `#EXTM3U${epgs.length ? ` url-tvg="${epgs.join(",")}"` : ""}\n`;
+    out += `# Generated: ${new Date().toISOString()}\n`;
+
+    for (const group of toArr(data)) {
+        const groupTitle = groupNameMapping(group?.name);
+        const groupLogo = logoProxy(group?.logo || avatar(groupTitle));
+
+        const channels = toArr(group?.channels);
+        if (!groupTitle || channels.length === 0) continue;
+
+        out += `\n#▽ ================================= ${groupTitle} =================================\n\n`;
+
+        for (let i = 0; i < channels.length; i++) {
+            const ch = channels[i];
+            if (!ch) continue;
+
+            const sources = toArr(ch?.sources);
+            if (sources.length === 0) continue;
+
+            // Logo kênh (có thì xài, không thì dùng avatar)
+            let logo = (ch.logo = logoProxy(ch.logo) || avatar(ch?.name || ch?.id || ""));
+
+            // Nếu group chứa "radio" → thêm (Radio)
+            const isRadio = groupTitle.toLowerCase().includes("radio");
+            let displayName = (
+                isRadio ? `${ch?.name || ch?.id || ""} (Radio)` : ch?.name || ch?.id || ""
+            ).toUpperCase();
+
+            for (const src of sources) {
+                // group-logo chỉ cho kênh đầu (i === 0)
+                const groupLogoStr =
+                    i === 0 && groupLogo && sources.indexOf(src) === 0
+                        ? ` group-logo="${groupLogo}"`
+                        : "";
+
+                //   if(src.quality){
+                //     displayName += ` ${src.quality}`;
+                //   }
+
+                // 1) Dòng EXTINF
+                out += `#EXTINF:-1 tvg-id="${ch?.id}" group-title="${groupTitle}" tvg-logo="${logo}"${groupLogoStr},${displayName}\n`;
+
+                // 2) VLC headers (tuỳ chọn)
+                const ua = src?.headers?.userAgent;
+                const ref = src?.headers?.referer || src?.headers?.referrer;
+                if (ua) out += `#EXTVLCOPT:http-user-agent=${ua}\n`;
+                if (ref) out += `#EXTVLCOPT:http-referrer=${ref}\n`;
+
+                // 3) DRM cho Kodi (tuỳ chọn)
+                const drm = src?.drm;
+                if (drm) {
+                    const licenseType = drm.licenseType;
+                    if (licenseType) {
+                        out += `#KODIPROP:inputstream.adaptive.license_type=${licenseType}\n`;
+                    }
+
+                    // ClearKey: danh sách { kid, key }
+                    const keys = toArr(drm.keys);
+                    for (const k of keys) {
+                        const kid = k?.kid;
+                        const key = k?.key;
+                        if (kid && key) {
+                            out += `#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}\n`;
+                        }
+                    }
+
+                    // Widevine license server (có thể kèm header dạng url|H1=..|H2=..|R{SSM}|)
+                    const licenseServer = drm.licenseServer;
+                    if (licenseServer) {
+                        out += `#KODIPROP:inputstream.adaptive.license_key=${licenseServer}\n`;
+                    }
+                }
+
+                // 4) URL nguồn
+                const url = src?.url;
+                if (!url) continue; // bỏ dòng rỗng
+                out += `${url}\n`;
+            }
+
+            out += `\n`;
+        }
+
+        out += `#△ ================================= ${groupTitle} =================================\n`;
+    }
+
     return out;
 }
 
