@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>M3U → JSON Parser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="assets/css/prism-tomorrow.css" rel="stylesheet" />
+    <script src="assets/js/prism-core.js"></script>
+    <script src="assets/js/prism-autoloader.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eef2ff', 100: '#e0e7ff', 200: '#c7d2fe', 300: '#a5b4fc',
+                            400: '#818cf8', 500: '#6366f1', 600: '#4f46e5', 700: '#4338ca',
+                            800: '#3730a3', 900: '#312e81', 950: '#1e1b4b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar cho phần kết quả */
+        #out::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #out::-webkit-scrollbar-track {
+            background: #1f2937;
+            /* gray-800 */
+            border-radius: 4px;
+        }
+
+        #out::-webkit-scrollbar-thumb {
+            background: #4b5563;
+            /* gray-600 */
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+
+        #out::-webkit-scrollbar-thumb:hover {
+            background: #6b7280;
+            /* gray-500 */
+        }
+
+        /* Dark mode scrollbar */
+        .dark #out::-webkit-scrollbar-track {
+            background: #111827;
+            /* gray-900 */
+        }
+
+        .dark #out::-webkit-scrollbar-thumb {
+            background: #374151;
+            /* gray-700 */
+        }
+
+        .dark #out::-webkit-scrollbar-thumb:hover {
+            background: #4b5563;
+            /* gray-600 */
+        }
+
+        /* Firefox scrollbar */
+        #out {
+            scrollbar-width: thin;
+            scrollbar-color: #4b5563 #1f2937;
+        }
+
+        .dark #out {
+            scrollbar-color: #374151 #111827;
+        }
+
+        /* VS Code style syntax highlighting */
+        #out {
+            background: #1e1e1e !important;
+            color: #d4d4d4 !important;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* JSON syntax colors */
+        .token.string {
+            color: #ce9178;
+        }
+
+        .token.number {
+            color: #b5cea8;
+        }
+
+        .token.boolean {
+            color: #569cd6;
+        }
+
+        .token.null {
+            color: #569cd6;
+        }
+
+        .token.property {
+            color: #9cdcfe;
+        }
+
+        .token.punctuation {
+            color: #d4d4d4;
+        }
+
+        .token.operator {
+            color: #d4d4d4;
+        }
+
+        /* Dark mode adjustments */
+        .dark #out {
+            background: #1e1e1e !important;
+        }
+    </style>
+</head>
+<body class="transition-colors overflow-hidden">
+    <div class="h-screen bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100 flex flex-col">
+        <div class="container mx-auto px-4 py-8 flex flex-col flex-grow overflow-hidden">
+            <div class="flex items-center justify-between mb-6">
+                <h1 class="text-2xl font-bold tracking-tight">M3U ⇄ JSON Playground</h1>
+                <button id="btnTheme" class="rounded-md border border-gray-200 dark:border-gray-800 px-3 py-1.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-900">Toggle theme</button>
+            </div>
+
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl shadow-sm p-4 md:p-6">
+                <label for="url" class="block text-sm font-medium mb-2">Nguồn M3U hoặc URL</label>
+                <input id="url" type="text" value="https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/playlist25" class="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-950 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <button id="btnParse" class="inline-flex items-center gap-2 rounded-lg bg-brand-600 hover:bg-brand-500 text-white px-4 py-2 text-sm font-medium">Parse</button>
+                    <button id="btnToM3U8" class="inline-flex items-center gap-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 text-sm font-medium">Xuất M3U8 từ JSON</button>
+                    <button id="btnDownload" class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800">Tải xuống JSON</button>
+                    <button id="btnCopy" class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800">Copy JSON</button>
+                </div>
+            </div>
+
+            <div class="mt-6 flex flex-col flex-1 min-h-0">
+                <div class="flex items-center justify-between mb-2">
+                    <h3 class="text-sm font-medium text-gray-600 dark:text-gray-400">Kết quả</h3>
+                    <button id="btnCopyResult" class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800">Copy Result</button>
+                </div>
+                <pre id="out" class="bg-gray-900 text-indigo-50 border border-gray-800 rounded-xl p-4 md:p-6 flex-1 min-h-0 overflow-y-auto">// JSON sẽ hiện ở đây</pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
+    <script>
+            // Theme toggle (persist)
+            (function initTheme() {
+                const root = document.documentElement;
+                const saved = localStorage.getItem('theme');
+                if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    root.classList.add('dark');
+                }
+                const btn = document.getElementById('btnTheme');
+                if (btn) btn.addEventListener('click', () => {
+                    root.classList.toggle('dark');
+                    localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
+                });
+            })();
+
+
+        const out = document.getElementById('out');
+        const inputUrl = document.getElementById('url');
+
+        function show(obj) {
+            const jsonString = JSON.stringify(obj, null, 2);
+            out.innerHTML = `<code class="language-json">${jsonString}</code>`;
+            Prism.highlightElement(out.querySelector('code'));
+        }
+
+        function download(filename, text) {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(a.href);
+        }
+
+        // ======= Hàm duy nhất =======
+        // Dùng: const data = await parseM3U(input); // input = URL hoặc raw text
+        async function parseM3U(input) {
+            // ---- lấy dữ liệu
+            let text = String(input ?? '');
+            const looksLikeUrl = /^https?:\/\//i.test(text) && !text.includes('\n');
+            if (looksLikeUrl) {
+                text = await fetch(text, { cache: 'no-store' }).then(r => r.text());
+            }
+            return parseOttNavigationFast(text)
+        }
+
+        // ===== Events =====
+        document.getElementById('btnParse').addEventListener('click', async () => {
+            const url = inputUrl.value.trim();
+            if (!url) return alert('Điền URL vào đã.');
+
+            out.textContent = 'Đang tải & parse...';
+
+            try {
+                const result = await parseM3U(url);
+                show(result);
+                window.__LAST_JSON__ = result;
+            } catch (err) {
+                show({ error: true, message: String(err) });
+            }
+        });
+
+        document.getElementById('btnDownload').addEventListener('click', () => {
+            const data = window.__LAST_JSON__ || { note: 'Chưa parse gì cả' };
+            download('m3u-parsed.json', JSON.stringify(data, null, 2));
+        });
+
+        document.getElementById('btnCopy').addEventListener('click', () => {
+            const data = window.__LAST_JSON__ || { note: 'Chưa parse gì cả' };
+            navigator.clipboard.writeText(JSON.stringify(data, null, 2))
+                .then(() => alert("Đã copy JSON vào clipboard"));
+        });
+
+        document.getElementById('btnCopyResult').addEventListener('click', () => {
+            const codeElement = out.querySelector('code');
+            const resultText = codeElement ? codeElement.textContent : out.textContent;
+            navigator.clipboard.writeText(resultText)
+                .then(() => alert("Đã copy kết quả vào clipboard"));
+        });
+
+        document.getElementById('btnToM3U8').addEventListener('click', async () => {
+            const data = window.__LAST_JSON__;
+            if (!data) {
+                const result = await parseM3U(url);
+                show(result);
+                window.__LAST_JSON__ = result;
+            }
+            try {
+                const m3u = streamM3U(data, [], { mode: "string" });
+                out.innerHTML = `<code class="language-m3u">${m3u}</code>`;
+                Prism.highlightElement(out.querySelector('code'));
+            } catch (err) {
+                show({ error: true, message: String(err) });
+            }
+        });
+
+    </script>
+</body>
+</html>

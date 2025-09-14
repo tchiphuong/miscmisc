@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi" ng-app="hlsApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HLS Groups Viewer – AngularJS + Tailwind</title>
+    <!-- Tailwind (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bg: '#0b0c0f',
+                        card: '#14161a',
+                        border: '#232833',
+                        chip: '#1f232a',
+                        accent: '#60a5fa',
+                        muted: '#9aa4b2',
+                    },
+                    boxShadow: {
+                        glass: '0 8px 30px rgba(0,0,0,0.25)'
+                    },
+                    borderRadius: {
+                        xl2: '1rem'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- AngularJS 1.8 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+</head>
+<body class="min-h-screen bg-bg text-white" ng-controller="MainCtrl">
+
+    <div class="sticky top-0 z-10 backdrop-blur supports-[backdrop-filter]:bg-bg/70 bg-bg/90 border-b border-border">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+            <div class="text-lg font-semibold tracking-tight">HLS Groups Viewer</div>
+            <div class="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
+                <input ng-model="q" ng-change="apply()" type="search" placeholder="Tìm kênh hoặc nhóm…" class="w-full sm:w-72 rounded-xl2 border border-border bg-card/80 px-3 py-2 outline-none focus:ring-2 focus:ring-accent/60 placeholder:text-muted" />
+                <select ng-model="selectedGroup" ng-change="apply()" class="rounded-xl2 border border-border bg-card/80 px-3 py-2 w-full sm:w-56 outline-none focus:ring-2 focus:ring-accent/60">
+                    <option value="">— Tất cả nhóm —</option>
+                    <option ng-repeat="g in groups" ng-value="g">{{g}}</option>
+                </select>
+                <button ng-click="reload()" class="rounded-xl2 border border-border bg-chip px-3 py-2 hover:brightness-110 active:scale-[.99] transition">↻ Tải lại</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="max-w-6xl mx-auto px-4 py-4">
+        <div class="flex flex-wrap gap-3 text-sm text-muted mb-3">
+            <span>Nhóm: <b class="text-white">{{stats.groups}}</b></span>
+            <span>Kênh: <b class="text-white">{{stats.channels}}</b></span>
+        </div>
+
+        <div ng-if="!vm.length" class="border border-dashed border-border rounded-2xl p-8 text-center text-muted">
+            Không có dữ liệu phù hợp.
+        </div>
+
+        <div class="space-y-6" ng-if="vm.length">
+            <section ng-repeat="gr in vm | orderBy:'sortOrder' track by gr.__key" class="bg-card/60 border border-border rounded-2xl shadow-glass overflow-hidden">
+                <div class="flex items-center gap-3 p-4">
+                    <div class="h-12 w-12 rounded-xl flex-shrink-0 overflow-hidden border border-border p-1 bg-black/30">
+                        <img class="h-10 w-10 object-contain" ng-src="{{gr.logo || fallbackLogo(gr.name)}}" alt="{{gr.name}}" on-error-fallback />
+                    </div>
+                    <div class="min-w-0">
+                        <div class="font-semibold text-base">{{gr.name || 'Unknown'}}</div>
+                        <div class="text-xs text-muted">{{gr.channels.length}} kênh · sort={{gr.sortOrder || 0}}</div>
+                    </div>
+                </div>
+                <div class="grid gap-3 p-4 pt-0 sm:grid-cols-2 md:grid-cols-3">
+                    <article ng-repeat="ch in gr.channels track by ch.id" class="group rounded-2xl border border-border bg-[#0f1216] hover:bg-[#12161b] transition shadow-glass p-3 flex gap-3">
+                        <div class="h-16 w-16 rounded-xl flex-shrink-0 overflow-hidden border border-border p-1 bg-black/30">
+                            <img class="h-14 w-14 object-contain" ng-src="{{ch.logo || fallbackLogo(ch.name)}}" alt="{{ch.name}}" on-error-fallback />
+                        </div>
+                        <div class="min-w-0 flex-1">
+                            <div class="font-semibold truncate" title="{{ch.name}}">{{ch.name}}</div>
+                            <div class="text-xs text-muted truncate">{{ch.id}}</div>
+                            <div class="mt-1 flex flex-wrap gap-1">
+                                <span ng-repeat="t in (ch.tags||[])" class="text-[11px] px-2 py-0.5 rounded-full border border-border bg-chip text-muted">{{t}}</span>
+                            </div>
+                        </div>
+                        <button type="button" class="self-start text-xs px-2 py-1 rounded-lg border border-border bg-chip hover:brightness-110" ng-click="copy(ch)">Copy ID</button>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        angular.module('hlsApp', [])
+            .directive('onErrorFallback', function () {
+                return {
+                    restrict: 'A',
+                    link: function (scope, el) {
+                        el.on('error', function () {
+                            var name = (scope.ch && scope.ch.name) || (scope.gr && scope.gr.name) || 'TV';
+                            el.attr('src', 'https://ui-avatars.com/api/?format=png&rounded=true&background=random&length=2&name=' + encodeURIComponent(name));
+                        });
+                    }
+                };
+            })
+            .controller('MainCtrl', function ($scope, $http) {
+                $scope.q = '';
+                $scope.selectedGroup = '';
+                $scope.groups = [];
+                $scope.vm = [];
+                $scope.stats = { groups: 0, channels: 0 };
+
+                function normalize(input) {
+                    var groups = Array.isArray(input) ? input : (input && input.groups) || [];
+                    groups.forEach(function (g, idx) { g.__key = (g.name || 'g') + '-' + (g.sortOrder || idx); });
+                    return groups.filter(function (g) { return (g.channels || []).length; });
+                }
+
+                function buildStats(groups) {
+                    var chCount = 0; groups.forEach(function (g) { chCount += (g.channels || []).length; });
+                    $scope.stats.groups = groups.length; $scope.stats.channels = chCount;
+                }
+
+                function buildGroupList(groups) {
+                    var names = groups.map(function (g) { return g.name || 'Unknown'; });
+                    $scope.groups = Array.from(new Set(names));//.sort(function (a, b) { return a.localeCompare(b) });
+                }
+
+                function filterVM() {
+                    var q = ($scope.q || '').toLowerCase().trim();
+                    var gsel = ($scope.selectedGroup || '').toLowerCase();
+                    var out = [];
+                    ($scope.raw || []).forEach(function (gr) {
+                        if (gsel && (gr.name || '').toLowerCase() !== gsel) return;
+                        var channels = (gr.channels || []).filter(function (ch) {
+                            if (!q) return true;
+                            var name = (ch.name || '').toLowerCase();
+                            var id = (ch.id || '').toLowerCase();
+                            return name.includes(q) || id.includes(q) || (gr.name || '').toLowerCase().includes(q);
+                        });
+                        if (channels.length) out.push({
+                            name: gr.name, logo: gr.logo, sortOrder: gr.sortOrder || 0, channels: channels, __key: gr.__key
+                        });
+                    });
+                    $scope.vm = out;
+                    buildStats(out);
+                }
+
+                $scope.apply = filterVM;
+
+                $scope.copy = function (ch) {
+                    if (!ch || !ch.id) return;
+                    navigator.clipboard.writeText(ch.id);
+                };
+
+                $scope.fallbackLogo = function (name) {
+                    return 'https://ui-avatars.com/api/?format=png&rounded=true&background=random&length=2&name=' + encodeURIComponent(name || '?');
+                };
+
+                $scope.reload = function () {
+                    var url = 'hls.json?_ts=' + Date.now();
+                    $http.get(url, { cache: false }).then(function (res) {
+                        $scope.raw = normalize(res.data || []);
+                        buildGroupList($scope.raw);
+                        filterVM();
+                    }, function () {
+                        $scope.raw = [];
+                        $scope.vm = [];
+                        $scope.stats = { groups: 0, channels: 0 };
+                    });
+                };
+
+                (function init() {
+                    $scope.reload();
+                })();
+            });
+    </script>
+</body>
+</html>

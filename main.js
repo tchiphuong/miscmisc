@@ -22,11 +22,11 @@ const FETCH_RETRY = 1; // retry 1 lần nếu lỗi/timeout
 /* =========================
  * WORKER ENTRY: CHỈ GỌI HÀM
  * ========================= */
-export default {
-    async fetch(request, env, ctx) {
-        return handleRequest(request, env, ctx);
-    },
-};
+// export default {
+//     async fetch(request, env, ctx) {
+//         return handleRequest(request, env, ctx);
+//     },
+// };
 
 /* =========================
  * HÀM XỬ LÝ CHÍNH
@@ -71,6 +71,9 @@ async function handleRequest(request, env, ctx) {
         // 3) CHUẨN HÓA + DEDUPE (O(n))
         merged = normalizeGroups(merged);
         merged = moveDuplicateChannels(merged);
+
+        console.log(merged);
+        return merged;
 
         // 4) STREAM M3U8
         const body = streamM3U(merged);
@@ -247,7 +250,7 @@ function parseOttNavigationFast(m3uText, opts = {}) {
         const u = lc(url);
         if (u.endsWith(".m3u8") || u.includes(".m3u8?")) return "hls";
         if (u.endsWith(".mpd") || u.includes(".mpd?")) return "dash";
-        return "unknown";
+        return "hls"; // mặc định là HLS
     };
 
     // Dòng URL dạng comment/noise: toàn ký tự dấu, hoặc // không phải URL hợp lệ
@@ -754,8 +757,8 @@ function findExistedChannel(seen, c0) {
 
     // --- Fast path: tra trực tiếp bằng key trong Map (O(1))
     if (id && seen.has(id)) return seen.get(id);
-    for (const t of tags) {
-        if (seen.has(t)) return seen.get(t);
+    for (const a of tags) {
+        if (seen.has(a)) return seen.get(a);
     }
 
     // --- Fallback: duyệt 1 vòng qua values (O(n))
@@ -764,97 +767,121 @@ function findExistedChannel(seen, c0) {
         if (id && chId === id) return ch; // id ↔ ch.id
         if (tags.has(chId)) return ch; // tags (c0) ↔ ch.id
 
-        // ch.tags chứa id/name/tags của c0?
-        const chTags = (ch.tags || []).map(norm);
-        if (id && chTags.includes(id)) return ch; // ch.tags ↔ id
-        if ([...tags].some((t) => chTags.includes(t))) return ch; // giao tags
+        // ch.tags có chứa id/name/tags của c0?
+        const chTagIds = ch.tags ? ch.tags : [];
+        for (let i = 0; i < chTagIds.length; i++) {
+            const v = norm(chTagIds[i]);
+            if (id && v === id) return ch; // ch.tags ↔ id
+            if (tags.has(v)) return ch; // ch.tags ↔ tags (c0)
+        }
 
-        // So sánh tên
+        // So tên
         const chName = norm(ch.name);
         if (name && chName === name) return ch; // name ↔ ch.name
         if (tags.has(chName)) return ch; // tags (c0) ↔ ch.name
-        if (chTags.includes(name)) return ch; // ch.tags ↔ name
+
+        const chTagNames = ch.tags ? ch.tags : [];
+        for (let i = 0; i < chTagNames.length; i++) {
+            const v = norm(chTagNames[i]);
+            if (name && v === name) return ch; // ch.altNames ↔ name
+            if (tags.has(v)) return ch; // ch.altNames ↔ tags (c0)
+        }
     }
 
     return null;
 }
 
-function moveDuplicateChannels(groups, { maxSourcesPerChannel = 120 } = {}) {
+function moveDuplicateChannels(groups, { maxUrlsPerChannel = 120 } = {}) {
     const out = [];
-    const seen = new Map(); // key: id/name/tags (lower) -> channel
+    const seen = new Map(); // id(lowercase) -> firstChannel
 
     const toArray = (x) => (Array.isArray(x) ? x : x ? [x] : []);
-    const norm = (s) => (s || "").toLowerCase().trim();
-    const uniqBy = (arr, keyFn) => {
-        const m = new Set();
-        const r = [];
-        for (const it of arr || []) {
-            const k = keyFn(it);
-            if (!m.has(k)) {
-                m.add(k);
-                r.push(it);
-            }
-        }
-        return r;
+    const normStr = (s) => (s || "").trim();
+    const uniq = (arr) => [...new Set(toArray(arr).map(normStr).filter(Boolean))];
+    const uniqLower = (arr) => [
+        ...new Set(
+            toArray(arr)
+                .map((s) => normStr(s).toLowerCase())
+                .filter(Boolean)
+        ),
+    ];
+
+    const makeChannel = (c0, sources) => {
+        return {
+            id: normStr(c0.id).toLowerCase(),
+            name: normStr(c0.name),
+            logo: normStr(c0.logo),
+            sources: sources,
+            tags: uniq([...(c0.tags || []), normStr(c0.id), normStr(c0.name)]),
+        };
     };
 
-    const mergeChannel = (dst, src) => {
-        // merge sources (theo url)
-        const mergedSources = uniqBy(
-            [...(dst.sources || []), ...(src.sources || [])],
-            (s) => s?.url || ""
-        );
-        if (maxSourcesPerChannel && mergedSources.length > maxSourcesPerChannel)
-            mergedSources.length = maxSourcesPerChannel;
-        dst.sources = mergedSources;
+    const mergeInto = (existed, c0, sources) => {
+        // Sources: gộp duy nhất, giới hạn max
+        existed.sources = [...toArray(existed.sources || []), ...toArray(sources || [])];
 
-        // giữ logo/name nếu thiếu
-        if (!dst.logo && src.logo) dst.logo = src.logo;
-        if (!dst.name && src.name) dst.name = src.name;
+        // Logo/Name chỉ bổ sung khi thiếu
+        if (!existed.logo && c0.logo) existed.logo = normStr(c0.logo);
+        if (!existed.name && c0.name) existed.name = normStr(c0.name);
 
-        // merge tags
-        const set = new Set(
-            [...(dst.tags || []), ...(src.tags || []), src.id, src.name]
-                .map((x) => x || "")
-                .filter(Boolean)
-        );
+        // Tags: gộp duy nhất
+        existed.tags = uniq([...(existed.tags || []), ...(c0.tags || [])]);
     };
 
     for (const g of toArray(groups)) {
         const merged = [];
-        // if (g.name === "Sports") {
-        //     debugger;
-        // }
-
+        debugger;
         for (const c0 of toArray(g.channels)) {
-            // if (c0.name === "beIN Sports" || c0.id === "beInSports1.id") {
-            //     debugger;
-            // }
-
             if (!c0) continue;
-            const keyCandidates = [c0.id, c0.name, ...(c0.tags || [])].map(norm).filter(Boolean);
+            const idNew = normStr(c0.id).toLowerCase();
+            if (!idNew) continue;
 
-            // tìm nhanh trong seen theo bất kỳ key
-            let existing = null;
-            for (const k of keyCandidates) {
-                if (seen.has(k)) {
-                    existing = seen.get(k);
-                    break;
-                }
+            // Chuẩn hoá URL -> array
+            const sources = [
+                ...(c0.sources || []),
+                ...(Array.isArray(c0.url)
+                    ? uniq(c0.url)
+                    : typeof c0.url === "string"
+                    ? uniq(c0.url.split(","))
+                    : []),
+            ];
+            debugger;
+            // Tìm kênh đã có (theo logic của mày)
+            const existed = findExistedChannel(seen, c0);
+
+            if (!existed) {
+                const first = makeChannel(c0, sources);
+                // nếu chưa có trong seen theo idNew thì set
+                if (!seen.has(idNew)) seen.set(idNew, first);
+                merged.push(first);
+                continue;
             }
 
-            if (!existing) {
-                const clone = {
-                    id: c0.id,
-                    name: c0.name,
-                    logo: c0.logo,
-                    sources: Array.isArray(c0.sources) ? [...c0.sources] : [],
-                    tags: Array.isArray(c0.tags) ? [...c0.tags] : [],
-                };
-                merged.push(clone);
-                seen.set(c0.id, clone);
+            // —— Gate merge theo rule —— //
+            const idOld = normStr(existed.id).toLowerCase();
+            const nameNew = normStr(c0.name);
+
+            const tags = uniq(existed.tags);
+
+            const condSameId = idNew && idOld && idNew === idOld;
+            const condNameInAltNamesOld = !!nameNew && tags.includes(nameNew);
+            const condIdInAltIdsOld = !!idNew && tags.includes(idNew);
+
+            const canMerge = condSameId || condNameInAltNamesOld || condIdInAltIdsOld;
+
+            if (canMerge) {
+                mergeInto(existed, c0, sources);
             } else {
-                mergeChannel(existing, c0);
+                // Không merge: tạo kênh mới độc lập theo idNew (nếu chưa có seed cùng id)
+                if (!seen.has(idNew)) {
+                    const first = makeChannel(c0, sources);
+                    seen.set(idNew, first);
+                    merged.push(first);
+                } else {
+                    // Đã có seed với idNew (trường hợp hiếm) -> merge vào seed idNew
+                    const seed = seen.get(idNew);
+                    mergeInto(seed, c0, urls);
+                }
             }
         }
 
