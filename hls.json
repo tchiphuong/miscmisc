@@ -507,7 +507,7 @@
         ]
     },
     {
-        "name": "Sự kiện thể thao",
+        "name": "TV 360",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360.png",
         "sortOrder": 6,
         "channels": [
@@ -595,6 +595,25 @@
                 "id": "tv360.PhimAuMy",
                 "name": "Phim Âu Mỹ",
                 "logo": "https://img-zlr1.tv360.vn/image1/2025/03/24/23/1742835081398/4e6776be1efd_640_360.png",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "name": "Thiết yếu",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thietyeu.png",
+        "sortOrder": 0,
+        "channels": [
+            {
+                "id": "antvhd",
+                "name": "ANTV HD",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thietyeu/antvhd.png",
+                "tags": []
+            },
+            {
+                "id": "qpvnhd",
+                "name": "QPVN HD",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thietyeu/qpvnhd.png",
                 "tags": []
             }
         ]
@@ -1103,302 +1122,507 @@
             {
                 "id": "boxhits",
                 "name": "Box Hits",
-                "logo": "https://static.wikia.nocookie.net/logos/images/4/4a/Box_Hits_logo_b%E1%BA%A3n_2.png/revision/latest/scale-to-width-down/200?cb=20240816102244&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/boxhits.png",
                 "tags": []
             },
             {
                 "id": "boxmovie1",
                 "name": "Box Movie 1",
-                "logo": "https://static.wikia.nocookie.net/logos/images/5/55/Box_Movie_1_logo_2023.png/revision/latest/scale-to-width-down/200?cb=20230515132648&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/boxmovie1.png",
                 "tags": []
             },
             {
                 "id": "drfithd",
                 "name": "Dr.Fit",
-                "logo": "https://static.wikia.nocookie.net/logos/images/b/b4/Dr.Fit_Channel.png/revision/latest/scale-to-width-down/1200?cb=20230114060753&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/drfithd.png",
                 "tags": []
             },
             {
                 "id": "happykids",
                 "name": "Happy Kids",
-                "logo": "https://static.wikia.nocookie.net/logos/images/a/a7/Happy_Kids_2018.png/revision/latest?cb=20220224003859&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/happykids.png",
                 "tags": []
             },
             {
                 "id": "hollywoodclassics",
                 "name": "Hollywood Classics",
-                "logo": "https://static.wikia.nocookie.net/logos/images/f/f4/Hollywood_Classics_logo.png/revision/latest?cb=20230114060812&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/hollywoodclassics.png",
                 "tags": []
             },
             {
                 "id": "inthebox",
                 "name": "In The Box",
-                "logo": "https://static.wikia.nocookie.net/logos/images/b/b8/InTheBOX_Channel_screenbug.png/revision/latest?cb=20230205100709&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/inthebox.png",
                 "tags": []
             },
             {
                 "id": "manhd",
                 "name": "Man",
-                "logo": "https://static.wikia.nocookie.net/logos/images/2/29/MAN.png/revision/latest?cb=20230624144840&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/manhd.png",
                 "tags": []
             },
             {
                 "id": "musicbox",
                 "name": "Music Box",
-                "logo": "https://static.wikia.nocookie.net/logos/images/e/e4/Music_Box_logo_Gold.png/revision/latest/scale-to-width-down/1000?cb=20230111080113&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/musicbox.png",
                 "tags": []
             },
             {
                 "id": "planetearthhd",
                 "name": "Planet Earth",
-                "logo": "https://static.wikia.nocookie.net/logos/images/7/7c/Planet_Earth_logo.png/revision/latest/scale-to-width-down/1000?cb=20220714132655&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/planetearthhd.png",
                 "tags": []
             },
             {
                 "id": "woman",
                 "name": "Woman",
-                "logo": "https://static.wikia.nocookie.net/logos/images/1/19/WOMAN_logo.png/revision/latest?cb=20230120034059&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/woman.png",
                 "tags": []
             },
             {
                 "id": "abcaustralia",
                 "name": "ABC Australia",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/abcaustralia.png",
                 "tags": []
             },
             {
                 "id": "afnhd",
                 "name": "Asian Food Network",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch527_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/afnhd.png",
                 "tags": []
             },
             {
                 "id": "animalhd",
                 "name": "Animal Planet",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch210_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/animalhd.png",
                 "tags": []
             },
             {
                 "id": "animaxhd",
                 "name": "Animax HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/animaxhd.png",
                 "tags": []
             },
             {
                 "id": "arirang",
                 "name": "Arirang",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Arirang_logo.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/arirang.png",
                 "tags": []
             },
             {
                 "id": "axnhd",
                 "name": "AXN HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch512_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/axnhd.png",
                 "tags": []
             },
             {
                 "id": "babytvhd",
                 "name": "BabyTV",
-                "logo": "https://www.babytv.com/app/uploads/2019/12/LogoBabyTV-2019.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/babytvhd.png",
                 "tags": []
             },
             {
                 "id": "bbcearth",
                 "name": "BBC Earth",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/bbcearth.png",
                 "tags": []
             },
             {
                 "id": "cbeebies",
                 "name": "BBC Cbeebies",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/cbeebies.png",
                 "tags": []
             },
             {
                 "id": "bbclifestyle",
                 "name": "BBC Lifestyle",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch502_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/bbclifestyle.png",
                 "tags": []
             },
             {
                 "id": "bbcworldnews",
                 "name": "BBC World News",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch320_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/bbcworldnews.png",
                 "tags": []
             },
             {
                 "id": "bloomberg",
                 "name": "Bloomberg",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch321_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/bloomberg.png",
                 "tags": []
             },
             {
                 "id": "boomerang",
                 "name": "Cartoonito",
-                "logo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/451e1b93-9c46-4e4d-9e4e-570ffa420eee/dj7v0c7-de7be794-7ce9-4aa9-85fb-564a99dfb133.png/v1/fill/w_1280,h_291/cartoonito_logo__white___twbc_au__by_potolo2009_dj7v0c7-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjkxIiwicGF0aCI6IlwvZlwvNDUxZTFiOTMtOWM0Ni00ZTRkLTllNGUtNTcwZmZhNDIwZWVlXC9kajd2MGM3LWRlN2JlNzk0LTdjZTktNGFhOS04NWZiLTU2NGE5OWRmYjEzMy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4_94Phrz0PgTCUaXEQF1liS55RZeu0Ncaj6d8P2YiyM",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/boomerang.png",
                 "tags": []
             },
             {
                 "id": "cartoonhd",
                 "name": "Cartoon Network HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/cartoonhd.png",
                 "tags": []
             },
             {
                 "id": "cinemaxhd",
                 "name": "Cinemax HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/cinemaxhd.png",
                 "tags": []
             },
             {
                 "id": "cinemaworldhd",
                 "name": "Cinema World",
-                "logo": "https://www.voilah.sg/wp-content/uploads/2020/04/cinema-world-2.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/cinemaworldhd.png",
                 "tags": []
             },
             {
                 "id": "cna",
                 "name": "CNA",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/1200px-CNA_new_logo.svg.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/cna.png",
                 "tags": []
             },
             {
                 "id": "cnbc",
                 "name": "CNBC",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch319_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/cnbc.png",
                 "tags": []
             },
             {
                 "id": "cnn",
                 "name": "CNN",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch316_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/cnn.png",
                 "tags": []
             },
             {
                 "id": "davincihd",
                 "name": "Da Vinci HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch460_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/davincihd.png",
                 "tags": []
             },
             {
                 "id": "discoveryhd",
                 "name": "Discovery",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch209_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/discoveryhd.png",
                 "tags": []
             },
             {
                 "id": "discoveryasiahd",
                 "name": "Discovery Asia",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/discoveryasiahd.png",
                 "tags": []
             },
             {
                 "id": "dreamworks",
                 "name": "Dreamworks",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch440_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/dreamworks.png",
                 "tags": []
             },
             {
                 "id": "dmax",
                 "name": "DMAX",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch212_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/dmax.png",
                 "tags": []
             },
             {
                 "id": "dw",
                 "name": "DW",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch324_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/dw.png",
                 "tags": []
             },
             {
                 "id": "fashionhd",
                 "name": "Fashion TV",
-                "logo": "https://vits.tv/images/tvstation/russia/fashiontv.webp",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/fashionhd.png",
                 "tags": []
             },
             {
                 "id": "france24eng",
                 "name": "France 24",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch327_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/france24eng.png",
                 "tags": []
             },
             {
                 "id": "hbohd",
                 "name": "HBO",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/hbohd.png",
                 "tags": []
             },
             {
                 "id": "hbofamily",
                 "name": "HBO Family",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch112_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/hbofamily.png",
                 "tags": []
             },
             {
                 "id": "hbohits",
                 "name": "HBO Hits",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/hbohits.png",
                 "tags": []
             },
             {
                 "id": "hbosignaturehd",
                 "name": "HBO Signature HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/hbosignaturehd.png",
+                "tags": []
+            },
+            {
+                "id": "hgtv",
+                "name": "HGTV",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/hgtv.png",
                 "tags": []
             },
             {
                 "id": "historyhd",
                 "name": "History HD",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/historyhd.png",
                 "tags": []
             },
             {
                 "id": "kbsworld",
                 "name": "KBS World",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/kbsworld.png",
                 "tags": []
             },
             {
                 "id": "kix",
                 "name": "KIX HD",
-                "logo": "https://static.wikia.nocookie.net/logos/images/2/26/KIX.png/revision/latest/scale-to-width-down/1200?cb=20211017094335&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/kix.png",
                 "tags": []
             },
             {
                 "id": "lovenature",
                 "name": "Love Nature 4K",
-                "logo": "https://static.wikia.nocookie.net/logos/images/c/c2/Love_Nature_4K.png/revision/latest?cb=20211105035409&path-prefix=vi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/lovenature.png",
                 "tags": []
             },
             {
                 "id": "blueantext",
                 "name": "Rock Action",
-                "logo": "https://i.ibb.co/1Qd6pxW/Rock-Extreme.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/blueantext.png",
                 "tags": []
             },
             {
                 "id": "blueantent",
                 "name": "Rock Entertainment",
-                "logo": "https://i.ibb.co/L5yHTzj/Rock-Entertainment.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/blueantent.png",
                 "tags": []
             },
             {
                 "id": "tlchd",
                 "name": "TLC",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/1280px-TLC_Logo.svg.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/tlchd.png",
                 "tags": []
             },
             {
                 "id": "outdoor",
                 "name": "Outdoor Channel",
-                "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch221_160_115",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/outdoor.png",
                 "tags": []
             },
             {
                 "id": "warnertvhd",
                 "name": "Warner TV",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Warner_Bros_logo.svg/355px-Warner_Bros_logo.svg.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/quocte/warnertvhd.png",
                 "tags": []
+            }
+        ]
+    },
+    {
+        "name": "Thể Thao",
+        "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport.png",
+        "sortOrder": 9,
+        "channels": [
+            {
+                "id": "DIEMA.SPORT.bg",
+                "name": "Diema Sport",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DIEMA.SPORT.bg.png",
+                "tags": [
+                    "diemasport.bg"
+                ]
+            },
+            {
+                "id": "DIEMA.SPORT.2.bg",
+                "name": "Diema Sport 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DIEMA.SPORT.2.bg.png",
+                "tags": [
+                    "diemasport.2.bg"
+                ]
+            },
+            {
+                "id": "DIEMA.SPORT.3.bg",
+                "name": "Diema Sport 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DIEMA.SPORT.3.bg.png",
+                "tags": [
+                    "diemasport3.bg"
+                ]
+            },
+            {
+                "id": "Max.Sport.1.bg",
+                "name": "Max Sport 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Max.Sport.1.bg.png",
+                "tags": [
+                    "max sport 1 hd",
+                    "MAX SPORT 1 HD",
+                    "maxsport1.bg"
+                ]
+            },
+            {
+                "id": "Max.Sport.2.bg",
+                "name": "Max Sport 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Max.Sport.2.bg.png",
+                "tags": [
+                    "max sport 2 hd",
+                    "MAX SPORT 2 HD",
+                    "maxsport2.bg"
+                ]
+            },
+            {
+                "id": "Max.Sport.3.bg",
+                "name": "Max Sport 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Max.Sport.3.bg.png",
+                "tags": [
+                    "max sport 3 hd",
+                    "MAX SPORT 3 HD",
+                    "maxsport3.bg"
+                ]
+            },
+            {
+                "id": "Max.Sport.4.bg",
+                "name": "Max Sport 4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Max.Sport.4.bg.png",
+                "tags": [
+                    "max sport 4 hd",
+                    "MAX SPORT 4 HD",
+                    "maxsport4.bg"
+                ]
+            },
+            {
+                "id": "Polsat.Sport.Premium.1.pl",
+                "name": "Polsat Sport Premium 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Polsat.Sport.Premium.1.pl.png",
+                "tags": []
+            },
+            {
+                "id": "Polsat.Sport.Premium.2.pl",
+                "name": "Polsat Sport Premium 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Polsat.Sport.Premium.2.pl.png",
+                "tags": []
+            },
+            {
+                "id": "Polsat.Sport.Premium.3.pl",
+                "name": "Polsat Sport Premium 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Polsat.Sport.Premium.3.pl.png",
+                "tags": [
+                    "polsat sport premium 3 ppv"
+                ]
+            },
+            {
+                "id": "Polsat.Sport.Premium.4.pl",
+                "name": "Polsat Sport Premium 4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Polsat.Sport.Premium.4.pl.png",
+                "tags": [
+                    "polsat sport premium 4 ppv"
+                ]
+            },
+            {
+                "id": "Polsat.Sport.Premium.5.pl",
+                "name": "Polsat Sport Premium 5",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Polsat.Sport.Premium.5.pl.png",
+                "tags": [
+                    "polsat sport premium 5 ppv"
+                ]
+            },
+            {
+                "id": "Polsat.Sport.Premium.6.pl",
+                "name": "Polsat Sport Premium 6",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Polsat.Sport.Premium.6.pl.png",
+                "tags": [
+                    "polsat sport premium 6 ppv"
+                ]
+            },
+            {
+                "id": "spotv",
+                "name": "SPOTV",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/spotv.png",
+                "tags": []
+            },
+            {
+                "id": "spotv2",
+                "name": "SPOTV2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/spotv2.png",
+                "tags": []
+            },
+            {
+                "id": "SkySp.News.HD.uk",
+                "name": "Sky Sports News",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SkySp.News.HD.uk.png",
+                "tags": [
+                    "skyspnews"
+                ]
+            },
+            {
+                "id": "SkySp.F1.HD.uk",
+                "name": "Sky Sports F1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SkySp.F1.HD.uk.png",
+                "tags": []
+            },
+            {
+                "id": "SkySp.PL.HD.uk",
+                "name": "Sky Sports Premier League",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SkySp.PL.HD.uk.png",
+                "tags": []
+            },
+            {
+                "id": "SkySp.Mix.HD.uk",
+                "name": "Sky Sports Mix",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SkySp.Mix.HD.uk.png",
+                "tags": []
+            },
+            {
+                "id": "SkySp.Tennis.HD.uk",
+                "name": "Sky Sports Tennis",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SkySp.Tennis.HD.uk.png",
+                "tags": []
+            },
+            {
+                "id": "TNT.Sports.1.HD.uk",
+                "name": "TNT1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/TNT.Sports.1.HD.uk.png",
+                "tags": [
+                    "tnt1"
+                ]
+            },
+            {
+                "id": "TNT.Sports.2.HD.uk",
+                "name": "TNT2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/TNT.Sports.2.HD.uk.png",
+                "tags": [
+                    "tnt2"
+                ]
+            },
+            {
+                "id": "TNT.Sports.3.HD.uk",
+                "name": "TNT3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/TNT.Sports.3.HD.uk.png",
+                "tags": [
+                    "tnt3"
+                ]
+            },
+            {
+                "id": "TNT.Sports.4.HD.uk",
+                "name": "TNT4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/TNT.Sports.4.HD.uk.png",
+                "tags": [
+                    "tnt4"
+                ]
+            },
+            {
+                "id": "TNT.Sports.Ultimate.uk",
+                "name": "TNT Ultimate",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/TNT.Sports.Ultimate.uk.png",
+                "tags": [
+                    "tntultimate"
+                ]
             }
         ]
     },
