@@ -1433,11 +1433,153 @@
         "sortOrder": 9,
         "channels": [
             {
+                "id": "Arena.Premium.1.HD.(RS).rs",
+                "name": "Arena Premium 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Premium.1.HD.(RS).rs.png",
+                "tags": [
+                    "bh:arenapremium1hd"
+                ]
+            },
+            {
+                "id": "Arena.Premium.2.HD.(RS).rs",
+                "name": "Arena Premium 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Premium.2.HD.(RS).rs.png",
+                "tags": [
+                    "bh:arenapremium2hd"
+                ]
+            },
+            {
+                "id": "Arena.Premium.3.HD.(RS).rs",
+                "name": "Arena Premium 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Premium.3.HD.(RS).rs.png",
+                "tags": [
+                    "bh:arenapremium3hd"
+                ]
+            },
+            {
+                "id": "Arena.Sport.1.HD.hr",
+                "name": "Arena Sport 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.1.HD.hr.png",
+                "tags": [
+                    "arenasport1.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.2.HD.hr",
+                "name": "Arena Sport 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.2.HD.hr.png",
+                "tags": [
+                    "arenasport2.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.3.HD.hr",
+                "name": "Arena Sport 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.3.HD.hr.png",
+                "tags": [
+                    "arenasport3.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.4.HD.hr",
+                "name": "Arena Sport 4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.4.HD.hr.png",
+                "tags": [
+                    "arenasport3.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.5.HD.hr",
+                "name": "Arena Sport 5",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.5.HD.hr.png",
+                "tags": [
+                    "arenasport5.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.6.HD.hr",
+                "name": "Arena Sport 6",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.6.HD.hr.png",
+                "tags": [
+                    "arenasport6.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.7.HD.hr",
+                "name": "Arena Sport 7",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.7.HD.hr.png",
+                "tags": [
+                    "arenasport7.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.8.HD.hr",
+                "name": "Arena Sport 8",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.8.HD.hr.png",
+                "tags": [
+                    "arenasport8.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.9.HD.hr",
+                "name": "Arena Sport 9",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.9.HD.hr.png",
+                "tags": [
+                    "arenasport9.hr"
+                ]
+            },
+            {
+                "id": "Arena.Sport.10.HD.hr",
+                "name": "Arena Sport 10",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Sport.10.HD.hr.png",
+                "tags": [
+                    "arenasport10.hr"
+                ]
+            },
+            {
+                "id": "DAZN.1.es",
+                "name": "DAZN 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.1.es.png",
+                "tags": [
+                    "es:dazn1fhd",
+                    "es:dazn1hd"
+                ]
+            },
+            {
+                "id": "DAZN.2.es",
+                "name": "DAZN 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.2.es.png",
+                "tags": [
+                    "es:dazn2fhd",
+                    "es:dazn2hd"
+                ]
+            },
+            {
+                "id": "DAZN.3.es",
+                "name": "DAZN 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.3.es.png",
+                "tags": [
+                    "es:dazn3fhd",
+                    "es:dazn3hd"
+                ]
+            },
+            {
+                "id": "DAZN.4.es",
+                "name": "DAZN 4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.4.es.png",
+                "tags": [
+                    "es:dazn4fhd",
+                    "es:dazn4hd"
+                ]
+            },
+            {
                 "id": "DIEMA.SPORT.bg",
                 "name": "Diema Sport",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DIEMA.SPORT.bg.png",
                 "tags": [
-                    "diemasport.bg"
+                    "diemasport.bg",
+                    "bg:diemasport1fhd",
+                    "bg:diemasportfhd"
                 ]
             },
             {
@@ -1445,7 +1587,9 @@
                 "name": "Diema Sport 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DIEMA.SPORT.2.bg.png",
                 "tags": [
-                    "diemasport.2.bg"
+                    "diemasport.2.bg",
+                    "diemasport2.bg",
+                    "bg:diemasport2fhd"
                 ]
             },
             {
@@ -1453,7 +1597,9 @@
                 "name": "Diema Sport 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DIEMA.SPORT.3.bg.png",
                 "tags": [
-                    "diemasport3.bg"
+                    "diemasport3.bg",
+                    "bg:diemasport3hd",
+                    "bg:diemasport3fhd"
                 ]
             },
             {
@@ -1494,6 +1640,151 @@
                     "max sport 4 hd",
                     "MAX SPORT 4 HD",
                     "maxsport4.bg"
+                ]
+            },
+            {
+                "id": "Nova.Sport.bg",
+                "name": "Nova Sport",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Nova.Sport.bg.png",
+                "tags": [
+                    "bg:novasporthd",
+                    "bg:novasport1hd"
+                ]
+            },
+            {
+                "id": "Now.Sports.4K.1.hk",
+                "name": "Now Sports 4K 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.4K.1.hk.png",
+                "tags": [
+                    "uk:nowsportuhd|4k"
+                ]
+            },
+            {
+                "id": "Now.Sports.4K.2.hk",
+                "name": "Now Sports 4K 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.4K.2.hk.png",
+                "tags": [
+                    "nowsports4k2.hk"
+                ]
+            },
+            {
+                "id": "Now.Sports.4K.3.hk",
+                "name": "Now Sports 4K 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.4K.3.hk.png",
+                "tags": [
+                    "nowsports4k3.hk"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.1.hk",
+                "name": "Now Sports Premier League 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.Premier.League.1.hk.png",
+                "tags": [
+                    "uk:nowsportpl1fhd"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.2.hk",
+                "name": "Now Sports Premier League 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.Premier.League.2.hk.png",
+                "tags": [
+                    "uk:nowsportpl2fhd"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.3.hk",
+                "name": "Now Sports Premier League 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.Premier.League.3.hk.png",
+                "tags": [
+                    "uk:nowsportpl3fhd"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.4.hk",
+                "name": "Now Sports Premier League 4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.Premier.League.4.hk.png",
+                "tags": [
+                    "uk:nowsportpl4fhd"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.5.hk",
+                "name": "Now Sports Premier League 5",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.Premier.League.5.hk.png",
+                "tags": [
+                    "uk:nowsportpl5fhd"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.6.hk",
+                "name": "Now Sports Premier League 6",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.Premier.League.6.hk.png",
+                "tags": [
+                    "uk:nowsportpl6fhd"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.7.hk",
+                "name": "Now Sports Premier League 7",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.Premier.League.7.hk.png",
+                "tags": [
+                    "uk:nowsportpl7fhd"
+                ]
+            },
+            {
+                "id": "Now.Sports.1.hk",
+                "name": "Now Sports 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.1.hk.png",
+                "tags": [
+                    "uk:nowsport1"
+                ]
+            },
+            {
+                "id": "Now.Sports.2.hk",
+                "name": "Now Sports 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.2.hk.png",
+                "tags": [
+                    "uk:nowsport2"
+                ]
+            },
+            {
+                "id": "Now.Sports.3.hk",
+                "name": "Now Sports 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.3.hk.png",
+                "tags": [
+                    "uk:nowsport3"
+                ]
+            },
+            {
+                "id": "Now.Sports.4.hk",
+                "name": "Now Sports 4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.4.hk.png",
+                "tags": [
+                    "uk:nowsport4"
+                ]
+            },
+            {
+                "id": "Now.Sports.5.hk",
+                "name": "Now Sports 5",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.5.hk.png",
+                "tags": [
+                    "uk:nowsport5"
+                ]
+            },
+            {
+                "id": "Now.Sports.6.hk",
+                "name": "Now Sports 6",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.6.hk.png",
+                "tags": [
+                    "uk:nowsport6"
+                ]
+            },
+            {
+                "id": "Now.Sports.7.hk",
+                "name": "Now Sports 7",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Now.Sports.7.hk.png",
+                "tags": [
+                    "uk:nowsport6"
                 ]
             },
             {
@@ -1622,6 +1913,57 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/TNT.Sports.Ultimate.uk.png",
                 "tags": [
                     "tntultimate"
+                ]
+            },
+            {
+                "id": "Ziggo.Sport.nl",
+                "name": "Ziggo Sport",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Ziggo.Sport.nl.png",
+                "tags": [
+                    "ziggosportselect.nl"
+                ]
+            },
+            {
+                "id": "Ziggo.Sport.2.nl",
+                "name": "Ziggo Sport 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Ziggo.Sport.2.nl.png",
+                "tags": [
+                    "ziggosportvoetbal.nl",
+                    "nl:ziggosport2hd"
+                ]
+            },
+            {
+                "id": "Ziggo.Sport.3.nl",
+                "name": "Ziggo Sport 3",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Ziggo.Sport.3.nl.png",
+                "tags": [
+                    "ziggosportgolf.nl"
+                ]
+            },
+            {
+                "id": "Ziggo.Sport.4.nl",
+                "name": "Ziggo Sport 4",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Ziggo.Sport.4.nl.png",
+                "tags": [
+                    "ziggosportracing.nl"
+                ]
+            },
+            {
+                "id": "Ziggo.Sport.5.nl",
+                "name": "Ziggo Sport 5",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Ziggo.Sport.5.nl.png",
+                "tags": [
+                    "ziggosportextra1.nl",
+                    "nl:ziggosport5fhdhevc"
+                ]
+            },
+            {
+                "id": "Ziggo.Sport.6.nl",
+                "name": "Ziggo Sport 6",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Ziggo.Sport.6.nl.png",
+                "tags": [
+                    "ziggosportextra2.nl",
+                    "nl:ziggosport6hd"
                 ]
             }
         ]
