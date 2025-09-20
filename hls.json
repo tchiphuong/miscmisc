@@ -1426,6 +1426,254 @@
         "sortOrder": 9,
         "channels": [
             {
+                "id": "DAZN.1.de",
+                "name": "DAZN 1 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.1.de.png",
+                "tags": [
+                    "dazn1.de"
+                ]
+            },
+            {
+                "id": "DAZN.2.de",
+                "name": "DAZN 2 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.2.de.png",
+                "tags": [
+                    "dazn2.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.1.de",
+                "name": "Sky Sport 1 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.1.de.png",
+                "tags": [
+                    "skysport1.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.2.de",
+                "name": "Sky Sport 2 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.2.de.png",
+                "tags": [
+                    "skysport2.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.3.de",
+                "name": "Sky Sport 3 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.3.de.png",
+                "tags": [
+                    "skysport3.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.4.de",
+                "name": "Sky Sport 4 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.4.de.png",
+                "tags": [
+                    "skysport4.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.5.de",
+                "name": "Sky Sport 5 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.5.de.png",
+                "tags": [
+                    "skysport5.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.6.de",
+                "name": "Sky Sport 6 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.6.de.png",
+                "tags": [
+                    "skysport6.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.7.de",
+                "name": "Sky Sport 7 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.7.de.png",
+                "tags": [
+                    "skysport7.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.8.de",
+                "name": "Sky Sport 8 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.8.de.png",
+                "tags": [
+                    "skysport8.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.9.de",
+                "name": "Sky Sport 9 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.9.de.png",
+                "tags": [
+                    "skysport9.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.10.de",
+                "name": "Sky Sport 10 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.10.de.png",
+                "tags": [
+                    "skysport10.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.de",
+                "name": "Sky Sport Austria (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.de.png",
+                "tags": [
+                    "skysportaustria.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.1.HD.de",
+                "name": "Sky Sport Austria 1 (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.1.HD.de.png",
+                "tags": [
+                    "skysportaustria1.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.2.HD.de",
+                "name": "Sky Sport Austria 2 (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.2.HD.de.png",
+                "tags": [
+                    "skysportaustria2.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.3.HD.de",
+                "name": "Sky Sport Austria 3 (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.3.HD.de.png",
+                "tags": [
+                    "skysportaustria3.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.4.HD.de",
+                "name": "Sky Sport Austria 4 (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.4.HD.de.png",
+                "tags": [
+                    "skysportaustria4.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.5.HD.de",
+                "name": "Sky Sport Austria 5 (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.5.HD.de.png",
+                "tags": [
+                    "skysportaustria5.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.6.HD.de",
+                "name": "Sky Sport Austria 6 (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.6.HD.de.png",
+                "tags": [
+                    "skysportaustria6.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Austria.7.HD.de",
+                "name": "Sky Sport Austria 7 (Áo)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Austria.7.HD.de.png",
+                "tags": [
+                    "skysportaustria7.at"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.de",
+                "name": "Sky Sport Bundesliga (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.de.png",
+                "tags": [
+                    "skybundesliga.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.1.de",
+                "name": "Sky Sport Bundesliga 1 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.1.de.png",
+                "tags": [
+                    "skybundesliga1.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.2.de",
+                "name": "Sky Sport Bundesliga 2 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.2.de.png",
+                "tags": [
+                    "skybundesliga2.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.3.de",
+                "name": "Sky Sport Bundesliga 3 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.3.de.png",
+                "tags": [
+                    "skybundesliga3.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.4.de",
+                "name": "Sky Sport Bundesliga 4 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.4.de.png",
+                "tags": [
+                    "skybundesliga4.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.5.de",
+                "name": "Sky Sport Bundesliga 5 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.5.de.png",
+                "tags": [
+                    "skybundesliga5.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.6.de",
+                "name": "Sky Sport Bundesliga 6 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.6.de.png",
+                "tags": [
+                    "skybundesliga6.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.7.de",
+                "name": "Sky Sport Bundesliga 7 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.7.de.png",
+                "tags": [
+                    "skybundesliga7.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.8.de",
+                "name": "Sky Sport Bundesliga 8 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.8.de.png",
+                "tags": [
+                    "skybundesliga8.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.9.de",
+                "name": "Sky Sport Bundesliga 9 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.9.de.png",
+                "tags": [
+                    "skybundesliga9.de"
+                ]
+            },
+            {
+                "id": "Sky.Sport.Bundesliga.10.de",
+                "name": "Sky Sport Bundesliga 10 (Đức)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sky.Sport.Bundesliga.10.de.png",
+                "tags": [
+                    "skybundesliga10.de"
+                ]
+            },
+            {
                 "id": "Arena.Premium.1.HD.(RS).rs",
                 "name": "Arena Premium 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Arena.Premium.1.HD.(RS).rs.png",
@@ -2118,8 +2366,9 @@
                 "name": "DAZN 3 (Bồ Đào Nha)",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.3.pt.png",
                 "tags": [
-                    "elevensports2.pt",
-                    "PT: DAZN 3 SD"
+                    "elevensports3.pt",
+                    "PT: DAZN 3 SD",
+                    "PT: DAZN 3 HD"
                 ]
             },
             {
@@ -2173,7 +2422,8 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV1.HD.pt.png",
                 "tags": [
                     "sporttv1.pt",
-                    "PT: SPORT TV 1"
+                    "PT: SPORT TV 1",
+                    "PT: SPORT TV 1 H.265/HEVC"
                 ]
             },
             {
@@ -2182,7 +2432,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV2.HD.pt.png",
                 "tags": [
                     "sporttv2.pt",
-                    "PT: SPORT TV 2"
+                    "SPΘRT TV 2-265 FHD"
                 ]
             },
             {
@@ -2191,7 +2441,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV3.HD.pt.png",
                 "tags": [
                     "sporttv3.pt",
-                    "PT: SPORT TV 3"
+                    "SPΘRT TV 3-265 HD"
                 ]
             },
             {
@@ -2200,7 +2450,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV4.HD.pt.png",
                 "tags": [
                     "sporttv4.pt",
-                    "PT: SPORT TV 4"
+                    "SPΘRT TV 4-265 HD"
                 ]
             },
             {
@@ -2209,7 +2459,9 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV5.HD.pt.png",
                 "tags": [
                     "sporttv5.pt",
-                    "PT: SPORT TV 5"
+                    "SPΘRT TV 5-265 HD",
+                    "SPΘRT TV 5 ᴴ²⁶⁵ FHD",
+                    "SPΘRT TV 5 FHD"
                 ]
             },
             {
@@ -2227,7 +2479,9 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sport.TV.7.HD.pt.png",
                 "tags": [
                     "sporttv7.pt",
-                    "PT: SPORT TV 7"
+                    "PT: SPORT TV 7",
+                    "PT: SPORT TV 7 HD",
+                    "PT: SPORT TV 7 1080"
                 ]
             },
             {

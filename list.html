@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <main class="max-w-6xl mx-auto px-4 py-4">
+    <main class="container mx-auto px-4 py-4">
         <div class="flex flex-wrap gap-3 text-sm text-muted mb-3">
             <span>Nhóm: <b class="text-white">{{stats.groups}}</b></span>
             <span>Kênh: <b class="text-white">{{stats.channels}}</b></span>
@@ -74,10 +74,10 @@
                             <img class="h-full w-full object-contain" ng-src="{{ch.logo.replace('https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/', '') || fallbackLogo(ch.name)}}" alt="{{ch.name}}" on-error-fallback />
                         </div>
                         <div class="min-w-0 flex-1">
-                            <div class="font-semibold truncate" title="{{ch.name}}">{{ch.name}}</div>
-                            <div class="text-xs text-muted truncate">{{ch.id}}</div>
+                            <div class="font-semibold line-clamp-2" title="{{ch.name}}">{{ch.name}}</div>
+                            <div class="text-xs text-muted truncate">#{{ch.id}}</div>
                             <div class="mt-1 flex flex-wrap gap-1">
-                                <span ng-repeat="t in (ch.tags||[])" class="text-[11px] px-2 py-0.5 rounded-full border border-border bg-chip text-muted">{{t}}</span>
+                                <span ng-repeat="t in (ch.tags||[])" class="text-[11px] px-2 py-0.5 rounded-full border border-border bg-chip text-muted hover:opacity-80">{{t}}</span>
                             </div>
                         </div>
                         <button type="button" class="self-start text-xs px-2 py-1 rounded-lg border border-border bg-chip hover:brightness-110" ng-click="copy(ch)">Copy ID</button>
