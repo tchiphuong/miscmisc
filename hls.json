@@ -1545,8 +1545,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.1.es.png",
                 "tags": [
                     "es:dazn1fhd.",
-                    "es:dazn1hd",
-                    "DAZN 1"
+                    "es:dazn1hd"
                 ]
             },
             {
@@ -1555,8 +1554,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.2.es.png",
                 "tags": [
                     "es:dazn2fhd",
-                    "es:dazn2hd",
-                    "DAZN 2"
+                    "es:dazn2hd"
                 ]
             },
             {
@@ -1565,8 +1563,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.3.es.png",
                 "tags": [
                     "es:dazn3fhd",
-                    "es:dazn3",
-                    "DAZN 3"
+                    "es:dazn3"
                 ]
             },
             {
@@ -1575,8 +1572,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.4.es.png",
                 "tags": [
                     "es:dazn4fhd",
-                    "es:dazn4hd",
-                    "DAZN 4"
+                    "es:dazn4hd"
                 ]
             },
             {
@@ -2097,6 +2093,149 @@
                 "tags": [
                     "canalplusnow.pl",
                     "Canal+ Now"
+                ]
+            },
+            {
+                "id": "DAZN.1.pt",
+                "name": "DAZN 1 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.1.pt.png",
+                "tags": [
+                    "elevensports1.pt",
+                    "PT: DAZN 1 SD"
+                ]
+            },
+            {
+                "id": "DAZN.2.pt",
+                "name": "DAZN 2 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.2.pt.png",
+                "tags": [
+                    "elevensports2.pt",
+                    "PT: DAZN 2 SD"
+                ]
+            },
+            {
+                "id": "DAZN.3.pt",
+                "name": "DAZN 3 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.3.pt.png",
+                "tags": [
+                    "elevensports2.pt",
+                    "PT: DAZN 3 SD"
+                ]
+            },
+            {
+                "id": "DAZN.4.pt",
+                "name": "DAZN 4 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.4.pt.png",
+                "tags": [
+                    "elevensports4.pt",
+                    "PT: DAZN 4 SD"
+                ]
+            },
+            {
+                "id": "DAZN.5.pt",
+                "name": "DAZN 5 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.5.pt.png",
+                "tags": [
+                    "elevensports5.pt",
+                    "PT: DAZN 5 SD"
+                ]
+            },
+            {
+                "id": "DAZN.6.pt",
+                "name": "DAZN 6 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/DAZN.6.pt.png",
+                "tags": [
+                    "elevensports6.pt",
+                    "PT: DAZN 6 SD"
+                ]
+            },
+            {
+                "id": "Eurosport.1.HD.pt",
+                "name": "Eurosport 1 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Eurosport.1.HD.pt.png",
+                "tags": [
+                    "eurosport1.pt",
+                    "PT: EUROSPORT 1"
+                ]
+            },
+            {
+                "id": "Eurosport.2.HD.pt",
+                "name": "Eurosport 2 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Eurosport.2.HD.pt.png",
+                "tags": [
+                    "eurosport2.pt",
+                    "PT: EUROSPORT 2 HD"
+                ]
+            },
+            {
+                "id": "SPORT.TV1.HD.pt",
+                "name": "SPORT TV 1 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV1.HD.pt.png",
+                "tags": [
+                    "sporttv1.pt",
+                    "PT: SPORT TV 1"
+                ]
+            },
+            {
+                "id": "SPORT.TV2.HD.pt",
+                "name": "SPORT TV 2 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV2.HD.pt.png",
+                "tags": [
+                    "sporttv2.pt",
+                    "PT: SPORT TV 2"
+                ]
+            },
+            {
+                "id": "SPORT.TV3.HD.pt",
+                "name": "SPORT TV 3 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV3.HD.pt.png",
+                "tags": [
+                    "sporttv3.pt",
+                    "PT: SPORT TV 3"
+                ]
+            },
+            {
+                "id": "SPORT.TV4.HD.pt",
+                "name": "SPORT TV 4 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV4.HD.pt.png",
+                "tags": [
+                    "sporttv4.pt",
+                    "PT: SPORT TV 4"
+                ]
+            },
+            {
+                "id": "SPORT.TV5.HD.pt",
+                "name": "SPORT TV 5 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV5.HD.pt.png",
+                "tags": [
+                    "sporttv5.pt",
+                    "PT: SPORT TV 5"
+                ]
+            },
+            {
+                "id": "Sport.TV.6.HD.pt",
+                "name": "SPORT TV 6 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sport.TV.6.HD.pt.png",
+                "tags": [
+                    "sporttv6.pt",
+                    "PT: SPORT TV 6"
+                ]
+            },
+            {
+                "id": "Sport.TV.7.HD.pt",
+                "name": "SPORT TV 7 (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Sport.TV.7.HD.pt.png",
+                "tags": [
+                    "sporttv7.pt",
+                    "PT: SPORT TV 7"
+                ]
+            },
+            {
+                "id": "SPORT.TV+.HD.pt",
+                "name": "SPORT TV + (Bồ Đào Nha)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/SPORT.TV+.HD.pt.png",
+                "tags": [
+                    "sporttvplus.pt"
                 ]
             },
             {
