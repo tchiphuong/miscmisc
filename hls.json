@@ -2498,6 +2498,184 @@
                 ]
             },
             {
+                "id": "Digi.Sport.1.HD.ro",
+                "name": "Digi Sport 1 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Digi.Sport.1.HD.ro.png",
+                "tags": [
+                    "digisport1.ro",
+                    "RO: DIGI SPORT 1 HD"
+                ]
+            },
+            {
+                "id": "Digi.Sport.2.HD.ro",
+                "name": "Digi Sport 2 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Digi.Sport.2.HD.ro.png",
+                "tags": [
+                    "digisport2.ro",
+                    "RO: DIGI SPORT 2 HD"
+                ]
+            },
+            {
+                "id": "Digi.Sport.3.HD.ro",
+                "name": "Digi Sport 3 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Digi.Sport.3.HD.ro.png",
+                "tags": [
+                    "digisport3.ro",
+                    "RO: DIGI SPORT 3 HD"
+                ]
+            },
+            {
+                "id": "Digi.Sport.4.HD.ro",
+                "name": "Digi Sport 4 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Digi.Sport.4.HD.ro.png",
+                "tags": [
+                    "digisport4.ro",
+                    "RO: DIGI SPORT 4 HD"
+                ]
+            },
+            {
+                "id": "Eurosport.1.HD.ro",
+                "name": "Eurosport 1 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Eurosport.1.HD.ro.png",
+                "tags": [
+                    "eurosport1.ro",
+                    "RO: EUROSPORT 1 HD"
+                ]
+            },
+            {
+                "id": "fineliving.ro",
+                "name": "Look Sport HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/fineliving.ro.png",
+                "tags": [
+                    "fineliving.ro",
+                    "RO: LOOK SPORT HD"
+                ]
+            },
+            {
+                "id": "looksport2.ro",
+                "name": "Look Sport 2 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/looksport2.ro.png",
+                "tags": [
+                    "RO: LOOK SPORT 2 HD"
+                ]
+            },
+            {
+                "id": "looksport3.ro",
+                "name": "Look Sport 3 FHD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/looksport3.ro.png",
+                "tags": [
+                    "RO: LOOK SPORT 3 FHD"
+                ]
+            },
+            {
+                "id": "orangesport1.ro",
+                "name": "Orange Sport 1 (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/orangesport1.ro.png",
+                "tags": [
+                    "orangesport1.ro",
+                    "RO: ORANGE SPORT 1"
+                ]
+            },
+            {
+                "id": "orangesport2.ro",
+                "name": "Orange Sport 2 (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/orangesport2.ro.png",
+                "tags": [
+                    "orangesport2.ro",
+                    "RO: ORANGE SPORT 2"
+                ]
+            },
+            {
+                "id": "orangesport3.ro",
+                "name": "Orange Sport 3 (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/orangesport3.ro.png",
+                "tags": [
+                    "orangesport3.ro",
+                    "RO: ORANGE SPORT 3"
+                ]
+            },
+            {
+                "id": "orangesport4.ro",
+                "name": "Orange Sport 4 (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/orangesport4.ro.png",
+                "tags": [
+                    "orangesport4.ro",
+                    "RO: ORANGE SPORT 4"
+                ]
+            },
+            {
+                "id": "Prima.Sport.1.HD.ro",
+                "name": "Prima Sport 1 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Prima.Sport.1.HD.ro.png",
+                "tags": [
+                    "primasport1.ro",
+                    "RO: PRIMA SPORT 1 HD"
+                ]
+            },
+            {
+                "id": "Prima.Sport.2.HD.ro",
+                "name": "Prima Sport 2 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Prima.Sport.2.HD.ro.png",
+                "tags": [
+                    "primasport2.ro",
+                    "RO: PRIMA SPORT 2 HD"
+                ]
+            },
+            {
+                "id": "Prima.Sport.3.HD.ro",
+                "name": "Prima Sport 3 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Prima.Sport.3.HD.ro.png",
+                "tags": [
+                    "primasport3.ro",
+                    "RO: PRIMA SPORT 3 HD"
+                ]
+            },
+            {
+                "id": "Prima.Sport.4.HD.ro",
+                "name": "Prima Sport 4 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/Prima.Sport.4.HD.ro.png",
+                "tags": [
+                    "primasport4.ro",
+                    "RO: PRIMA SPORT 4 HD"
+                ]
+            },
+            {
+                "id": "telekomsport1.ro",
+                "name": "Telekom Sport 1 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/telekomsport1.ro.png",
+                "tags": [
+                    "telekomsport1.ro",
+                    "RO: TELEKOM SPORT 1 HD"
+                ]
+            },
+            {
+                "id": "telekomsport2.ro",
+                "name": "Telekom Sport 2 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/telekomsport2.ro.png",
+                "tags": [
+                    "telekomsport2.ro",
+                    "RO: TELEKOM SPORT 2 HD"
+                ]
+            },
+            {
+                "id": "telekomsport3.ro",
+                "name": "Telekom Sport 3 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/telekomsport3.ro.png",
+                "tags": [
+                    "telekomsport3.ro",
+                    "RO: TELEKOM SPORT 3 HD"
+                ]
+            },
+            {
+                "id": "telekomsport4.ro",
+                "name": "Telekom Sport 4 HD (Rumani)",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/telekomsport4.ro.png",
+                "tags": [
+                    "telekomsport4.ro",
+                    "RO: TELEKOM SPORT 4 HD"
+                ]
+            },
+            {
                 "id": "spotv",
                 "name": "SPOTV",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport/spotv.png",
