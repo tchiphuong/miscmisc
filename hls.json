@@ -762,6 +762,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/dongnai1.png",
                 "tags": [
                     "binhphuoc1",
+                    "BPTV2 HD | TH Bình Phước",
                     "ĐNNRTV1 - Báo và PTTH Đồng Nai"
                 ]
             },
@@ -912,6 +913,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/laocai.png",
                 "tags": [
                     "yenbai",
+                    "YTV HD | TH Yên Bái",
                     "THLC HD - Báo và PTTH Lào Cai"
                 ]
             },
@@ -975,6 +977,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/quangngai.png",
                 "tags": [
                     "komtum",
+                    "KRT HD | TH Kon Tum",
                     "QNgTV - Báo và PTTH Quảng Ngãi"
                 ]
             },
@@ -1034,6 +1037,7 @@
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/thainguyen.png",
                 "tags": [
                     "backan",
+                    "TBK HD | TH Bắc Kạn",
                     "TN - Báo và PTTH Thái Nguyên"
                 ]
             },
@@ -1094,6 +1098,7 @@
                 "tags": [
                     "travinh",
                     "travinh1",
+                    "THTV2 HD | TH Trà Vinh",
                     "THVL5 HD - Báo và PTTH Vĩnh Long"
                 ]
             },
