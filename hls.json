@@ -1426,6 +1426,205 @@
         ]
     },
     {
+        "name": "Trực tiếp bóng đá",
+        "logo": "https://png.pngtree.com/png-clipart/20220602/original/pngtree-icon-live-streaming-vector-png-image_7885118.png",
+        "sortOrder": 9,
+        "channels": [
+            {
+                "id": "ca",
+                "name": "Cá Sát Thủ",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/ca.png",
+                "tags": [
+                    "ca"
+                ]
+            },
+            {
+                "id": "cap",
+                "name": "Cáp Tần",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/cap.png",
+                "tags": [
+                    "cap"
+                ]
+            },
+            {
+                "id": "co",
+                "name": "Cá Cờ",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/co.png",
+                "tags": [
+                    "co"
+                ]
+            },
+            {
+                "id": "con",
+                "name": "Người Cồn",
+                "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/nguoi-con.jpg",
+                "tags": [
+                    "con"
+                ]
+            },
+            {
+                "id": "cun",
+                "name": "Người Cún",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/cun.png",
+                "tags": [
+                    "cun"
+                ]
+            },
+            {
+                "id": "cuon",
+                "name": "Bánh Cuốn",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/cuon.png",
+                "tags": [
+                    "cuon"
+                ]
+            },
+            {
+                "id": "dao",
+                "name": "Lơ Đao",
+                "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/lodao.jpg",
+                "tags": [
+                    "dao"
+                ]
+            },
+            {
+                "id": "dung",
+                "name": "Người Dưng",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/dung.png",
+                "tags": [
+                    "dung"
+                ]
+            },
+            {
+                "id": "kien",
+                "name": "Người Kiến",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/kien.png",
+                "tags": [
+                    "kien"
+                ]
+            },
+            {
+                "id": "lung",
+                "name": "Tai Lung",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/lung.png",
+                "tags": [
+                    "lung"
+                ]
+            },
+            {
+                "id": "may6",
+                "name": "Máy 6",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/may6.png",
+                "tags": [
+                    "may6"
+                ]
+            },
+            {
+                "id": "may10",
+                "name": "Máy 10",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/may10.png",
+                "tags": [
+                    "may10"
+                ]
+            },
+            {
+                "id": "may20",
+                "name": "Máy 20",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/may20.png",
+                "tags": [
+                    "may20"
+                ]
+            },
+            {
+                "id": "meo",
+                "name": "Mèo Ú",
+                "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/meou.jpg",
+                "tags": [
+                    "meo"
+                ]
+            },
+            {
+                "id": "my",
+                "name": "Mỳ Tôm",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/my.png",
+                "tags": [
+                    "my"
+                ]
+            },
+            {
+                "id": "nen",
+                "name": "Nến",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/nen.png",
+                "tags": [
+                    "nen"
+                ]
+            },
+            {
+                "id": "nui",
+                "name": "A Núi",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/nui.png",
+                "tags": [
+                    "nui"
+                ]
+            },
+            {
+                "id": "old",
+                "name": "Người Già",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/old.png",
+                "tags": [
+                    "old"
+                ]
+            },
+            {
+                "id": "sat",
+                "name": "Người Sắt",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/sat.png",
+                "tags": [
+                    "sat"
+                ]
+            },
+            {
+                "id": "soi",
+                "name": "Người Sói",
+                "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/nguoisoi.jpg",
+                "tags": [
+                    "soi"
+                ]
+            },
+            {
+                "id": "trau",
+                "name": "Trâu Gác Bếp",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/trau.png",
+                "tags": [
+                    "trau"
+                ]
+            },
+            {
+                "id": "Z1",
+                "name": "Moon Knight 1",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/Z1.png",
+                "tags": [
+                    "Z1"
+                ]
+            },
+            {
+                "id": "Z2",
+                "name": "Moon Knight 2",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/Z2.png",
+                "tags": [
+                    "Z2"
+                ]
+            },
+            {
+                "id": "Z3",
+                "name": "Người Cast",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/Z3.png",
+                "tags": [
+                    "Z3"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Thể Thao",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport.png",
         "sortOrder": 9,
