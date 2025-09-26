@@ -1435,7 +1435,8 @@
                 "name": "Cá Sát Thủ",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/ca.png",
                 "tags": [
-                    "ca"
+                    "ca",
+                    "%Cá Sát Thủ%"
                 ]
             },
             {
@@ -1443,7 +1444,8 @@
                 "name": "Cáp Tần",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/cap.png",
                 "tags": [
-                    "cap"
+                    "cap",
+                    "%Cáp Tần%"
                 ]
             },
             {
@@ -1451,7 +1453,8 @@
                 "name": "Cá Cờ",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/co.png",
                 "tags": [
-                    "co"
+                    "co",
+                    "%Cá Cờ%"
                 ]
             },
             {
@@ -1459,7 +1462,8 @@
                 "name": "Người Cồn",
                 "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/nguoi-con.jpg",
                 "tags": [
-                    "con"
+                    "con",
+                    "%Người Cồn%"
                 ]
             },
             {
@@ -1467,7 +1471,8 @@
                 "name": "Người Cún",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/cun.png",
                 "tags": [
-                    "cun"
+                    "cun",
+                    "%Người Cún%"
                 ]
             },
             {
@@ -1475,7 +1480,8 @@
                 "name": "Bánh Cuốn",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/cuon.png",
                 "tags": [
-                    "cuon"
+                    "cuon",
+                    "%Bánh Cuốn%"
                 ]
             },
             {
@@ -1483,7 +1489,8 @@
                 "name": "Lơ Đao",
                 "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/lodao.jpg",
                 "tags": [
-                    "dao"
+                    "dao",
+                    "%Lơ Đao%"
                 ]
             },
             {
@@ -1491,7 +1498,8 @@
                 "name": "Người Dưng",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/dung.png",
                 "tags": [
-                    "dung"
+                    "dung",
+                    "%Người Dưng%"
                 ]
             },
             {
@@ -1499,7 +1507,8 @@
                 "name": "Người Kiến",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/kien.png",
                 "tags": [
-                    "kien"
+                    "kien",
+                    "%Người Kiến%"
                 ]
             },
             {
@@ -1507,7 +1516,8 @@
                 "name": "Tai Lung",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/lung.png",
                 "tags": [
-                    "lung"
+                    "lung",
+                    "%Tai Lung%"
                 ]
             },
             {
@@ -1515,7 +1525,8 @@
                 "name": "Máy 6",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/may6.png",
                 "tags": [
-                    "may6"
+                    "may6",
+                    "%Máy 6%"
                 ]
             },
             {
@@ -1523,7 +1534,8 @@
                 "name": "Máy 10",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/may10.png",
                 "tags": [
-                    "may10"
+                    "may10",
+                    "%Máy 10%"
                 ]
             },
             {
@@ -1531,7 +1543,8 @@
                 "name": "Máy 20",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/may20.png",
                 "tags": [
-                    "may20"
+                    "may20",
+                    "%Máy 20%"
                 ]
             },
             {
@@ -1539,7 +1552,8 @@
                 "name": "Mèo Ú",
                 "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/meou.jpg",
                 "tags": [
-                    "meo"
+                    "meo",
+                    "%Mèo Ú%"
                 ]
             },
             {
@@ -1547,15 +1561,17 @@
                 "name": "Mỳ Tôm",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/my.png",
                 "tags": [
-                    "my"
+                    "my",
+                    "%Mỳ Tôm%"
                 ]
             },
             {
                 "id": "nen",
-                "name": "Nến",
+                "name": "Người Nện",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/nen.png",
                 "tags": [
-                    "nen"
+                    "nen",
+                    "%Người Nến%"
                 ]
             },
             {
@@ -1563,7 +1579,8 @@
                 "name": "A Núi",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/nui.png",
                 "tags": [
-                    "nui"
+                    "nui",
+                    "%A Núi%"
                 ]
             },
             {
@@ -1571,7 +1588,8 @@
                 "name": "Người Già",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/old.png",
                 "tags": [
-                    "old"
+                    "old",
+                    "%Người Già%"
                 ]
             },
             {
@@ -1579,7 +1597,8 @@
                 "name": "Người Sắt",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/sat.png",
                 "tags": [
-                    "sat"
+                    "sat",
+                    "%Người Sắt%"
                 ]
             },
             {
@@ -1587,7 +1606,8 @@
                 "name": "Người Sói",
                 "logo": "https://image-eu-na-ctnytbefjq.4shares.live/90link/blv/nguoisoi.jpg",
                 "tags": [
-                    "soi"
+                    "soi",
+                    "%Người Sói%"
                 ]
             },
             {
@@ -1595,7 +1615,8 @@
                 "name": "Trâu Gác Bếp",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/trau.png",
                 "tags": [
-                    "trau"
+                    "trau",
+                    "%Trâu Gác Bếp%"
                 ]
             },
             {
@@ -1603,7 +1624,8 @@
                 "name": "Moon Knight 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/Z1.png",
                 "tags": [
-                    "Z1"
+                    "Z1",
+                    "%Moon Knight%"
                 ]
             },
             {
@@ -1611,7 +1633,8 @@
                 "name": "Moon Knight 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/Z2.png",
                 "tags": [
-                    "Z2"
+                    "Z2",
+                    "%Moon Knight%"
                 ]
             },
             {
@@ -1619,7 +1642,8 @@
                 "name": "Người Cast",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sportlive/Z3.png",
                 "tags": [
-                    "Z3"
+                    "Z3",
+                    "%Người Cast%"
                 ]
             }
         ]
