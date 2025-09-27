@@ -1440,7 +1440,7 @@
         "sortOrder": 9,
         "channels": [
             {
-                "id": "ca",
+                "id": "tctv-ca",
                 "name": "Cá Sát Thủ",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Cá Sát Thủ",
                 "tags": [
@@ -1449,7 +1449,7 @@
                 ]
             },
             {
-                "id": "cap",
+                "id": "tctv-cap",
                 "name": "Cáp Tần",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Cáp Tần",
                 "tags": [
@@ -1458,7 +1458,7 @@
                 ]
             },
             {
-                "id": "cast",
+                "id": "tctv-cast",
                 "name": "Người Cast",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cast",
                 "tags": [
@@ -1467,7 +1467,7 @@
                 ]
             },
             {
-                "id": "co",
+                "id": "tctv-co",
                 "name": "Cá Cờ",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Cá Cờ",
                 "tags": [
@@ -1476,7 +1476,7 @@
                 ]
             },
             {
-                "id": "con",
+                "id": "tctv-con",
                 "name": "Người Cồn",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cồn",
                 "tags": [
@@ -1485,7 +1485,7 @@
                 ]
             },
             {
-                "id": "cun",
+                "id": "tctv-cun",
                 "name": "Người Cún",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cún",
                 "tags": [
@@ -1494,7 +1494,7 @@
                 ]
             },
             {
-                "id": "cuon",
+                "id": "tctv-cuon",
                 "name": "Bánh Cuốn",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Bánh Cuốn",
                 "tags": [
@@ -1503,7 +1503,7 @@
                 ]
             },
             {
-                "id": "dao",
+                "id": "tctv-dao",
                 "name": "Lơ Đao",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Lơ Đao",
                 "tags": [
@@ -1512,7 +1512,7 @@
                 ]
             },
             {
-                "id": "dung",
+                "id": "tctv-dung",
                 "name": "Người Dưng",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Dưng",
                 "tags": [
@@ -1521,7 +1521,7 @@
                 ]
             },
             {
-                "id": "hoi",
+                "id": "tctv-hoi",
                 "name": "Người Hói",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Hói",
                 "tags": [
@@ -1530,7 +1530,7 @@
                 ]
             },
             {
-                "id": "gay",
+                "id": "tctv-gay",
                 "name": "Người Gầy",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Gầy",
                 "tags": [
@@ -1539,7 +1539,7 @@
                 ]
             },
             {
-                "id": "kien",
+                "id": "tctv-kien",
                 "name": "Người Kiến",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Kiến",
                 "tags": [
@@ -1548,7 +1548,7 @@
                 ]
             },
             {
-                "id": "lua",
+                "id": "tctv-lua",
                 "name": "Người Lửa",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Lửa",
                 "tags": [
@@ -1557,7 +1557,7 @@
                 ]
             },
             {
-                "id": "lung",
+                "id": "tctv-lung",
                 "name": "Tai Lung",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Tai Lung",
                 "tags": [
@@ -1566,7 +1566,7 @@
                 ]
             },
             {
-                "id": "may6",
+                "id": "tctv-may6",
                 "name": "Máy 6",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Máy 6",
                 "tags": [
@@ -1575,7 +1575,7 @@
                 ]
             },
             {
-                "id": "may10",
+                "id": "tctv-may10",
                 "name": "Máy 10",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Máy 10",
                 "tags": [
@@ -1584,7 +1584,7 @@
                 ]
             },
             {
-                "id": "may20",
+                "id": "tctv-may20",
                 "name": "Máy 20",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Máy 20",
                 "tags": [
@@ -1593,7 +1593,7 @@
                 ]
             },
             {
-                "id": "meo",
+                "id": "tctv-meo",
                 "name": "Mèo Ú",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Mèo Ú",
                 "tags": [
@@ -1602,7 +1602,7 @@
                 ]
             },
             {
-                "id": "moon",
+                "id": "tctv-moon",
                 "name": "Moon Knight",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Moon Knight",
                 "tags": [
@@ -1611,7 +1611,7 @@
                 ]
             },
             {
-                "id": "my",
+                "id": "tctv-my",
                 "name": "Mỳ Tôm",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Mỳ Tôm",
                 "tags": [
@@ -1620,7 +1620,7 @@
                 ]
             },
             {
-                "id": "nen",
+                "id": "tctv-nen",
                 "name": "Người Nện",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Nện",
                 "tags": [
@@ -1629,7 +1629,7 @@
                 ]
             },
             {
-                "id": "nui",
+                "id": "tctv-nui",
                 "name": "A Núi",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=A Núi",
                 "tags": [
@@ -1638,7 +1638,7 @@
                 ]
             },
             {
-                "id": "old",
+                "id": "tctv-old",
                 "name": "Người Già",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Già",
                 "tags": [
@@ -1647,7 +1647,7 @@
                 ]
             },
             {
-                "id": "phep",
+                "id": "tctv-phep",
                 "name": "Người Phép",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Phép",
                 "tags": [
@@ -1656,7 +1656,7 @@
                 ]
             },
             {
-                "id": "pho",
+                "id": "tctv-pho",
                 "name": "Phở Bò",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Phở Bò",
                 "tags": [
@@ -1665,7 +1665,7 @@
                 ]
             },
             {
-                "id": "sat",
+                "id": "tctv-sat",
                 "name": "Người Sắt",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Sắt",
                 "tags": [
@@ -1674,7 +1674,7 @@
                 ]
             },
             {
-                "id": "soi",
+                "id": "tctv-soi",
                 "name": "Người Sói",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Sói",
                 "tags": [
@@ -1683,7 +1683,7 @@
                 ]
             },
             {
-                "id": "tho",
+                "id": "tctv-tho",
                 "name": "Người Thỏ",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Thỏ",
                 "tags": [
@@ -1692,7 +1692,7 @@
                 ]
             },
             {
-                "id": "thuong",
+                "id": "tctv-thuong",
                 "name": "Người Thương",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Thương",
                 "tags": [
@@ -1701,7 +1701,7 @@
                 ]
             },
             {
-                "id": "trau",
+                "id": "tctv-trau",
                 "name": "Trâu Gác Bếp",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Trâu Gác Bếp",
                 "tags": [
@@ -1710,7 +1710,7 @@
                 ]
             },
             {
-                "id": "xien",
+                "id": "tctv-xien",
                 "name": "Thịt Xiêng",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Thịt Xiên",
                 "tags": [
