@@ -1503,12 +1503,39 @@
                 ]
             },
             {
+                "id": "hoi",
+                "name": "Người Hói",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Hói",
+                "tags": [
+                    "hoi",
+                    "%Người Hói%"
+                ]
+            },
+            {
+                "id": "gay",
+                "name": "Người Gầy",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Gầy",
+                "tags": [
+                    "gay",
+                    "%Người Gầy%"
+                ]
+            },
+            {
                 "id": "kien",
                 "name": "Người Kiến",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Kiến",
                 "tags": [
                     "kien",
                     "%Người Kiến%"
+                ]
+            },
+            {
+                "id": "lua",
+                "name": "Người Lửa",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Lửa",
+                "tags": [
+                    "lua",
+                    "%Người Lửa%"
                 ]
             },
             {
@@ -1590,6 +1617,15 @@
                 "tags": [
                     "old",
                     "%Người Già%"
+                ]
+            },
+            {
+                "id": "phep",
+                "name": "Người Phép",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Phép",
+                "tags": [
+                    "phep",
+                    "%Người Phép%"
                 ]
             },
             {
