@@ -1458,6 +1458,15 @@
                 ]
             },
             {
+                "id": "cast",
+                "name": "Người Cast",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cast",
+                "tags": [
+                    "cast",
+                    "%Người Cast%"
+                ]
+            },
+            {
                 "id": "co",
                 "name": "Cá Cờ",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Cá Cờ",
@@ -1593,6 +1602,15 @@
                 ]
             },
             {
+                "id": "moon",
+                "name": "Moon Knight",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Moon Knight",
+                "tags": [
+                    "moon",
+                    "%Moon Knight%"
+                ]
+            },
+            {
                 "id": "my",
                 "name": "Mỳ Tôm",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Mỳ Tôm",
@@ -1638,6 +1656,15 @@
                 ]
             },
             {
+                "id": "pho",
+                "name": "Phở Bò",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Phở Bò",
+                "tags": [
+                    "pho",
+                    "%Phở Bò%"
+                ]
+            },
+            {
                 "id": "sat",
                 "name": "Người Sắt",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Sắt",
@@ -1656,6 +1683,24 @@
                 ]
             },
             {
+                "id": "tho",
+                "name": "Người Thỏ",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Thỏ",
+                "tags": [
+                    "tho",
+                    "%Người Thỏ%"
+                ]
+            },
+            {
+                "id": "thuong",
+                "name": "Người Thương",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Thương",
+                "tags": [
+                    "thuong",
+                    "%Người Thương%"
+                ]
+            },
+            {
                 "id": "trau",
                 "name": "Trâu Gác Bếp",
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Trâu Gác Bếp",
@@ -1665,30 +1710,12 @@
                 ]
             },
             {
-                "id": "Z1",
-                "name": "Moon Knight 1",
-                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Moon Knight 1",
+                "id": "xien",
+                "name": "Thịt Xiêng",
+                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Thịt Xiên",
                 "tags": [
-                    "Z1",
-                    "%Moon Knight%"
-                ]
-            },
-            {
-                "id": "Z2",
-                "name": "Moon Knight 2",
-                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Moon Knight 2",
-                "tags": [
-                    "Z2",
-                    "%Moon Knight%"
-                ]
-            },
-            {
-                "id": "Z3",
-                "name": "Người Cast",
-                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cast",
-                "tags": [
-                    "Z3",
-                    "%Người Cast%"
+                    "xien",
+                    "%Thịt Xiên%"
                 ]
             }
         ]
