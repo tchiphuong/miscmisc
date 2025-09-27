@@ -1,5 +1,6 @@
 [
     {
+        "id": "vtv",
         "name": "VTV",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtv.png",
         "sortOrder": 1,
@@ -79,6 +80,7 @@
         ]
     },
     {
+        "id": "kplus",
         "name": "K+",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/kplus.png",
         "sortOrder": 2,
@@ -136,6 +138,7 @@
         ]
     },
     {
+        "id": "vtvcab",
         "name": "VTVcab",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/vtvcab.png",
         "sortOrder": 3,
@@ -263,6 +266,7 @@
         ]
     },
     {
+        "id": "htv",
         "name": "HTV - HTVC",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv.png",
         "sortOrder": 4,
@@ -356,6 +360,7 @@
         ]
     },
     {
+        "id": "sctv",
         "name": "SCTV",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sctv.png",
         "sortOrder": 5,
@@ -507,6 +512,7 @@
         ]
     },
     {
+        "id": "tv360",
         "name": "TV 360",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/tv360.png",
         "sortOrder": 6,
@@ -600,6 +606,7 @@
         ]
     },
     {
+        "id": "trongnuoc",
         "name": "Trong nước",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
         "sortOrder": 8,
@@ -1113,6 +1120,7 @@
         ]
     },
     {
+        "id": "quocte",
         "name": "Quốc Tế",
         "logo": "https://cdn-icons-png.freepik.com/512/7296/7296866.png",
         "sortOrder": 9,
@@ -1426,6 +1434,7 @@
         ]
     },
     {
+        "id": "football-live",
         "name": "Trực tiếp bóng đá",
         "logo": "https://www.pngmart.com/files/23/Live-PNG-File.png",
         "sortOrder": 9,
@@ -1685,6 +1694,7 @@
         ]
     },
     {
+        "id": "sport",
         "name": "Thể Thao",
         "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/sport.png",
         "sortOrder": 9,
@@ -3237,6 +3247,7 @@
         ]
     },
     {
+        "id": "china",
         "name": "Trung Quốc",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
         "sortOrder": 9,
@@ -3657,6 +3668,7 @@
         ]
     },
     {
+        "id": "thailand",
         "name": "Thái Lan",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/thailand-flag-icon.png",
         "sortOrder": 9,
@@ -3961,6 +3973,7 @@
         ]
     },
     {
+        "id": "japan",
         "name": "Nhật Bản",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/japan-flag-icon.png",
         "sortOrder": 9,
