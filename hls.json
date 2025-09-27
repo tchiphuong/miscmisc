@@ -1445,7 +1445,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Cá Sát Thủ",
                 "tags": [
                     "ca",
-                    "%Cá Sát Thủ%"
+                    "%[Cá Sát Thủ]%"
                 ]
             },
             {
@@ -1454,7 +1454,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Cáp Tần",
                 "tags": [
                     "cap",
-                    "%Cáp Tần%"
+                    "%[Cáp Tần]%"
                 ]
             },
             {
@@ -1463,7 +1463,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cast",
                 "tags": [
                     "cast",
-                    "%Người Cast%"
+                    "%[Người Cast]%"
                 ]
             },
             {
@@ -1472,7 +1472,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Cá Cờ",
                 "tags": [
                     "co",
-                    "%Cá Cờ%"
+                    "%[Cá Cờ]%"
                 ]
             },
             {
@@ -1481,7 +1481,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cồn",
                 "tags": [
                     "con",
-                    "%Người Cồn%"
+                    "%[Người Cồn]%"
                 ]
             },
             {
@@ -1490,7 +1490,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Cún",
                 "tags": [
                     "cun",
-                    "%Người Cún%"
+                    "%[Người Cún]%"
                 ]
             },
             {
@@ -1499,7 +1499,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Bánh Cuốn",
                 "tags": [
                     "cuon",
-                    "%Bánh Cuốn%"
+                    "%[Bánh Cuốn]%"
                 ]
             },
             {
@@ -1508,7 +1508,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Lơ Đao",
                 "tags": [
                     "dao",
-                    "%Lơ Đao%"
+                    "%[Lơ Đao]%"
                 ]
             },
             {
@@ -1517,7 +1517,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Dưng",
                 "tags": [
                     "dung",
-                    "%Người Dưng%"
+                    "%[Người Dưng]%"
                 ]
             },
             {
@@ -1526,7 +1526,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Hói",
                 "tags": [
                     "hoi",
-                    "%Người Hói%"
+                    "%[Người Hói]%"
                 ]
             },
             {
@@ -1535,7 +1535,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Gầy",
                 "tags": [
                     "gay",
-                    "%Người Gầy%"
+                    "%[Người Gầy]%"
                 ]
             },
             {
@@ -1544,7 +1544,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Kiến",
                 "tags": [
                     "kien",
-                    "%Người Kiến%"
+                    "%[Người Kiến]%"
                 ]
             },
             {
@@ -1553,7 +1553,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Lửa",
                 "tags": [
                     "lua",
-                    "%Người Lửa%"
+                    "%[Người Lửa]%"
                 ]
             },
             {
@@ -1562,34 +1562,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Tai Lung",
                 "tags": [
                     "lung",
-                    "%Tai Lung%"
-                ]
-            },
-            {
-                "id": "tctv-may6",
-                "name": "Máy 6",
-                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Máy 6",
-                "tags": [
-                    "may6",
-                    "%Máy 6%"
-                ]
-            },
-            {
-                "id": "tctv-may10",
-                "name": "Máy 10",
-                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Máy 10",
-                "tags": [
-                    "may10",
-                    "%Máy 10%"
-                ]
-            },
-            {
-                "id": "tctv-may20",
-                "name": "Máy 20",
-                "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Máy 20",
-                "tags": [
-                    "may20",
-                    "%Máy 20%"
+                    "%[Tai Lung]%"
                 ]
             },
             {
@@ -1598,7 +1571,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Mèo Ú",
                 "tags": [
                     "meo",
-                    "%Mèo Ú%"
+                    "%[Mèo Ú]%"
                 ]
             },
             {
@@ -1607,7 +1580,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Moon Knight",
                 "tags": [
                     "moon",
-                    "%Moon Knight%"
+                    "%[Moon Knight]%"
                 ]
             },
             {
@@ -1616,7 +1589,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Mỳ Tôm",
                 "tags": [
                     "my",
-                    "%Mỳ Tôm%"
+                    "%[Mỳ Tôm]%"
                 ]
             },
             {
@@ -1625,7 +1598,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Nện",
                 "tags": [
                     "nen",
-                    "%Người Nện%"
+                    "%[Người Nện]%"
                 ]
             },
             {
@@ -1634,7 +1607,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=A Núi",
                 "tags": [
                     "nui",
-                    "%A Núi%"
+                    "%[A Núi]%"
                 ]
             },
             {
@@ -1643,7 +1616,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Già",
                 "tags": [
                     "old",
-                    "%Người Già%"
+                    "%[Người Già]%"
                 ]
             },
             {
@@ -1652,7 +1625,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Phép",
                 "tags": [
                     "phep",
-                    "%Người Phép%"
+                    "%[Người Phép]%"
                 ]
             },
             {
@@ -1661,7 +1634,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Phở Bò",
                 "tags": [
                     "pho",
-                    "%Phở Bò%"
+                    "%[Phở Bò]%"
                 ]
             },
             {
@@ -1670,7 +1643,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Sắt",
                 "tags": [
                     "sat",
-                    "%Người Sắt%"
+                    "%[Người Sắt]%"
                 ]
             },
             {
@@ -1679,7 +1652,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Sói",
                 "tags": [
                     "soi",
-                    "%Người Sói%"
+                    "%[Người Sói]%"
                 ]
             },
             {
@@ -1688,7 +1661,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Thỏ",
                 "tags": [
                     "tho",
-                    "%Người Thỏ%"
+                    "%[Người Thỏ]%"
                 ]
             },
             {
@@ -1697,7 +1670,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Người Thương",
                 "tags": [
                     "thuong",
-                    "%Người Thương%"
+                    "%[Người Thương]%"
                 ]
             },
             {
@@ -1706,7 +1679,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Trâu Gác Bếp",
                 "tags": [
                     "trau",
-                    "%Trâu Gác Bếp%"
+                    "%[Trâu Gác Bếp]%"
                 ]
             },
             {
@@ -1715,7 +1688,7 @@
                 "logo": "https://ui-avatars.com/api/?size=256&format=png&rounded=true&background=random&length=2&name=Thịt Xiên",
                 "tags": [
                     "xien",
-                    "%Thịt Xiên%"
+                    "%[Thịt Xiên]%"
                 ]
             }
         ]

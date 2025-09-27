@@ -5,14 +5,7 @@
  * ========================= */
 const SRC = {
     HLS_ORG: "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/hls.json",
-    HLS_MERGE: "https://api.npoint.io/39fe20f4c3372eb4a5b6",
-    MPD: "https://api.npoint.io/585245f37ac451ea70f4",
-    KLINH: "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/khanhlinh",
-    KPLUS: "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/kplusvip",
-    VMTTV: "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv",
-    DAKLAK: "https://raw.githubusercontent.com/tranchiquan2017/DAKLAK_RADIO/refs/heads/main/DAKLAKIPTV",
-    SPORT: "https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/playlist25",
-    ACESTREAM: "https://raw.githubusercontent.com/dovietsy/acestreamfb/main/acestreamfb.txt",
+    BONGDA: "https://raw.githubusercontent.com/t23-02/bongda/refs/heads/main/bongda.m3u",
 };
 
 // Timeout & Retry cho fetch nguồn
@@ -33,47 +26,21 @@ const FETCH_RETRY = 1; // retry 1 lần nếu lỗi/timeout
  * ========================= */
 async function handleRequest(request, env, ctx) {
     try {
-        // 1) LẤY DỮ LIỆU NGUỒN (đã tách riêng)
-        const {
-            hlsOrg,
-            hlsMerge,
-            mpdData,
-            kplusText,
-            klplusText,
-            vmtText,
-            daklakText,
-            aceStreamText,
-            sportText,
-        } = await fetchAllSources();
+        // 1) lấy dữ liệu
+        const { hlsOrg, bongdaText } = await fetchAllSources();
 
-        // 2) PARSE M3U (đã tách parse riêng) + GOM NGUỒN
-        const [kchannel, klchannel, vchannel, dchannel, aceStreamChannel, sportChannel] =
-            await Promise.all([
-                parseM3U(kplusText),
-                parseM3U(klplusText),
-                parseM3U(vmtText),
-                parseM3U(daklakText),
-                parseM3U(aceStreamText),
-                parseM3U(sportText),
-            ]);
+        // 2) parse theo tên (an toàn, không lệch)
+        const bongdaChannel = await parseM3U(bongdaText || "");
 
+        // 3) gom
         let merged = [
             ...toArr(hlsOrg),
-            ...toArr(klchannel),
-            ...toArr(kchannel),
-            ...toArr(vchannel),
-            ...toArr(dchannel),
-            ...toArr(aceStreamChannel),
-            ...toArr(hlsMerge),
-            ...toArr(sportChannel),
+            ...toArr(bongdaChannel), // ✅ chắc chắn có nếu file đúng định dạng M3U
         ];
 
         // 3) CHUẨN HÓA + DEDUPE (O(n))
         merged = normalizeGroups(merged);
         merged = moveDuplicateChannels(merged);
-
-        console.log(merged);
-        return merged;
 
         // 4) STREAM M3U8
         const body = streamM3U(merged);
@@ -110,41 +77,15 @@ async function handleRequest(request, env, ctx) {
 
 // Gọi tất cả nguồn (song song, có timeout + retry)
 async function fetchAllSources() {
-    const [
-        hlsOrg,
-        hlsMerge,
-        mpdData,
-        klplusText,
-        kplusText,
-        vmtText,
-        daklakText,
-        aceStreamText,
-        sportText,
-    ] = await Promise.all([
+    const [hlsOrg, bongdaText] = await Promise.all([
         // @ts-ignore
         fetchWithPolicy(SRC.HLS_ORG, { as: "json" }),
-        // @ts-ignore
-        fetchWithPolicy(SRC.HLS_MERGE, { as: "json" }),
-        // @ts-ignore
-        fetchWithPolicy(SRC.MPD, { as: "json" }),
-        fetchWithPolicy(SRC.KLINH),
-        fetchWithPolicy(SRC.KPLUS),
-        fetchWithPolicy(SRC.VMTTV),
-        fetchWithPolicy(SRC.DAKLAK),
-        fetchWithPolicy(SRC.ACESTREAM),
-        fetchWithPolicy(SRC.SPORT),
+        fetchWithPolicy(SRC.BONGDA),
     ]);
 
     return {
         hlsOrg,
-        hlsMerge,
-        mpdData,
-        klplusText,
-        kplusText,
-        vmtText,
-        daklakText,
-        aceStreamText,
-        sportText,
+        bongdaText,
     };
 }
 
@@ -250,7 +191,7 @@ function parseOttNavigationFast(m3uText, opts = {}) {
         const u = lc(url);
         if (u.endsWith(".m3u8") || u.includes(".m3u8?")) return "hls";
         if (u.endsWith(".mpd") || u.includes(".mpd?")) return "dash";
-        return "hls"; // mặc định là HLS
+        return "unknown";
     };
 
     // Dòng URL dạng comment/noise: toàn ký tự dấu, hoặc // không phải URL hợp lệ
@@ -623,7 +564,9 @@ function parseOttNavigationFast(m3uText, opts = {}) {
             if (Object.keys(h).length) src.headers = h;
         }
 
-        ch.sources.push(src);
+        if (!src.url.includes("http://127.0.0.1:6878")) {
+            ch.sources.push(src);
+        }
 
         pending_extinf = null;
         pending_kodi = Object.create(null);
@@ -668,16 +611,19 @@ function parseOttNavigationFast(m3uText, opts = {}) {
     }
 
     // Kết quả: loại bỏ kênh rỗng hoặc chỉ toàn comment
-    const groups = Array.from(groupsMap.values()).map((g) => ({
-        ...g,
-        channels: g.channels.filter(
-            (ch) =>
-                Array.isArray(ch.sources) &&
-                ch.sources.length > 0 &&
-                !isNoiseText(ch.id) &&
-                !isNoiseText(ch.name)
-        ),
-    }));
+    const groups = Array.from(groupsMap.values())
+        .filter((g) => g.name === "10Cam")
+        .map((g) => ({
+            ...g,
+            channels: g.channels.filter(
+                (ch) =>
+                    Array.isArray(ch.sources) &&
+                    ch.sources.length > 0 &&
+                    !isNoiseText(ch.id) &&
+                    !isNoiseText(ch.name)
+            ),
+        }));
+
     for (const g of groups) {
         for (const ch of g.channels) {
             ch.sources.sort((a, b) => {
@@ -753,39 +699,32 @@ function findExistedChannel(seen, c0) {
 
     const id = norm(c0.id);
     const name = norm(c0.name);
-    const tags = new Set((c0.tags || []).map(norm));
+    const tags = (c0.tags || []).map(norm);
 
-    // --- Fast path: tra trực tiếp bằng key trong Map (O(1))
+    // --- Fast path: tra trực tiếp trong Map (O(1))
     if (id && seen.has(id)) return seen.get(id);
-    for (const a of tags) {
-        if (seen.has(a)) return seen.get(a);
+    for (const t of tags) {
+        if (seen.has(t)) return seen.get(t);
     }
 
-    // --- Fallback: duyệt 1 vòng qua values (O(n))
+    // --- Fallback: duyệt values (O(n))
     for (const ch of seen.values()) {
         const chId = norm(ch.id);
-        if (id && chId === id) return ch; // id ↔ ch.id
-        if (tags.has(chId)) return ch; // tags (c0) ↔ ch.id
-
-        // ch.tags có chứa id/name/tags của c0?
-        const chTagIds = ch.tags ? ch.tags : [];
-        for (let i = 0; i < chTagIds.length; i++) {
-            const v = norm(chTagIds[i]);
-            if (id && v === id) return ch; // ch.tags ↔ id
-            if (tags.has(v)) return ch; // ch.tags ↔ tags (c0)
-        }
-
-        // So tên
         const chName = norm(ch.name);
-        if (name && chName === name) return ch; // name ↔ ch.name
-        if (tags.has(chName)) return ch; // tags (c0) ↔ ch.name
+        const chTags = (ch.tags || []).map(norm);
 
-        const chTagNames = ch.tags ? ch.tags : [];
-        for (let i = 0; i < chTagNames.length; i++) {
-            const v = norm(chTagNames[i]);
-            if (name && v === name) return ch; // ch.altNames ↔ name
-            if (tags.has(v)) return ch; // ch.altNames ↔ tags (c0)
-        }
+        // So sánh id
+        if (id && id === chId) return ch;
+        if (tagsMatch(tags, chId)) return ch;
+
+        // So sánh tags ↔ id/tags
+        if (tagsMatch(tags, chId)) return ch;
+        if (tagsMatch(chTags, id)) return ch;
+
+        // So sánh name
+        if (name && name === chName) return ch;
+        if (tagsMatch(tags, chName)) return ch;
+        if (tagsMatch(chTags, name)) return ch;
     }
 
     return null;
@@ -830,7 +769,6 @@ function moveDuplicateChannels(groups, { maxUrlsPerChannel = 120 } = {}) {
 
     for (const g of toArray(groups)) {
         const merged = [];
-        debugger;
         for (const c0 of toArray(g.channels)) {
             if (!c0) continue;
             const idNew = normStr(c0.id).toLowerCase();
@@ -845,7 +783,6 @@ function moveDuplicateChannels(groups, { maxUrlsPerChannel = 120 } = {}) {
                     ? uniq(c0.url.split(","))
                     : []),
             ];
-            debugger;
             // Tìm kênh đã có (theo logic của mày)
             const existed = findExistedChannel(seen, c0);
 
@@ -864,8 +801,8 @@ function moveDuplicateChannels(groups, { maxUrlsPerChannel = 120 } = {}) {
             const tags = uniq(existed.tags);
 
             const condSameId = idNew && idOld && idNew === idOld;
-            const condNameInAltNamesOld = !!nameNew && tags.includes(nameNew);
-            const condIdInAltIdsOld = !!idNew && tags.includes(idNew);
+            const condNameInAltNamesOld = !!nameNew && tagsMatch(tags, nameNew);
+            const condIdInAltIdsOld = !!idNew && tagsMatch(tags, idNew);
 
             const canMerge = condSameId || condNameInAltNamesOld || condIdInAltIdsOld;
 
@@ -880,7 +817,7 @@ function moveDuplicateChannels(groups, { maxUrlsPerChannel = 120 } = {}) {
                 } else {
                     // Đã có seed với idNew (trường hợp hiếm) -> merge vào seed idNew
                     const seed = seen.get(idNew);
-                    mergeInto(seed, c0, urls);
+                    mergeInto(seed, c0, sources);
                 }
             }
         }
@@ -903,9 +840,21 @@ function streamM3U(data, epgs = []) {
             name
         )}`;
 
+    if (!epgs || epgs.length === 0) {
+        epgs = [
+            "https://vnepg.site/epg.xml",
+            "https://lichphatsong.site/schedule/epg.xml",
+            "https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml",
+            "https://www.open-epg.com/files/thailand1.xml",
+            "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz",
+            "https://7pal.short.gy/alex-epg",
+            "https://epg-tctv.tcphuongivs.workers.dev/epg.xml",
+        ];
+    }
+
     // ==== Bắt đầu build ====
     let out = "";
-    out += `#EXTM3U${epgs.length ? ` url-tvg="${epgs.join(",")}"` : ""}\n`;
+    out += `#EXTM3U url-tvg="${epgs.join(",")}"\n`;
     out += `# Generated: ${new Date().toISOString()}\n`;
 
     for (const group of toArr(data)) {
@@ -929,9 +878,9 @@ function streamM3U(data, epgs = []) {
 
             // Nếu group chứa "radio" → thêm (Radio)
             const isRadio = groupTitle.toLowerCase().includes("radio");
-            let displayName = (
-                isRadio ? `${ch?.name || ch?.id || ""} (Radio)` : ch?.name || ch?.id || ""
-            ).toUpperCase();
+            let displayName = isRadio
+                ? `${ch?.name || ch?.id || ""} (Radio)`
+                : ch?.name || ch?.id || "";
 
             for (const src of sources) {
                 // group-logo chỉ cho kênh đầu (i === 0)
@@ -1017,7 +966,7 @@ function extractClearKey(channel) {
 }
 
 function logoProxy(url, cache = false) {
-    // cache=false;
+    cache = false;
     const clean = (url || "").trim();
     if (!clean) return "";
 
@@ -1135,4 +1084,23 @@ function cleanGroupName(name) {
     return (name || "")
         .replace(/^\|+|\|+$/g, "") // bỏ dấu | ở đầu/cuối
         .trim(); // bỏ khoảng trắng dư
+}
+
+function tagsMatch(tags, keyword) {
+    if (!tags || !Array.isArray(tags) || !keyword) return false;
+    const kw = keyword.toLowerCase();
+
+    for (const t of tags) {
+        const tt = t.toLowerCase();
+
+        // Nếu tag dạng %...%
+        if (tt.startsWith("%") && tt.endsWith("%")) {
+            const inner = tt.slice(1, -1); // bỏ %
+            if (kw.includes(inner)) return true;
+        } else {
+            // fallback: so sánh trực tiếp
+            if (tt === kw) return true;
+        }
+    }
+    return false;
 }
