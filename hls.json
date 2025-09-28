@@ -1448,7 +1448,10 @@
                     "%[Cá Sát Thủ]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1460,7 +1463,10 @@
                     "%[Cáp Tần]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1472,7 +1478,10 @@
                     "%[Người Cast]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1484,7 +1493,10 @@
                     "%[Cá Cờ]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1496,7 +1508,10 @@
                     "%[Người Cồn]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1508,7 +1523,10 @@
                     "%[Người Cún]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1520,7 +1538,10 @@
                     "%[Bánh Cuốn]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1532,7 +1553,25 @@
                     "%[Lơ Đao]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
+                ]
+            },
+            {
+                "id": "tctv-cay",
+                "name": "Người Cây",
+                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "tags": [
+                    "cay",
+                    "%[Người Cây]%"
+                ],
+                "soures": [
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1544,7 +1583,10 @@
                     "%[Người Dưng]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1556,7 +1598,10 @@
                     "%[Người Hói]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1568,7 +1613,10 @@
                     "%[Người Gầy]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1580,7 +1628,10 @@
                     "%[Người Kiến]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1592,7 +1643,10 @@
                     "%[Người Lửa]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1616,7 +1670,10 @@
                     "%[Mèo Ú]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1628,7 +1685,10 @@
                     "%[Moon Knight]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1640,7 +1700,10 @@
                     "%[Mỳ Tôm]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1652,7 +1715,10 @@
                     "%[Người Nện]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1664,7 +1730,10 @@
                     "%[A Núi]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1676,7 +1745,10 @@
                     "%[Người Già]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1688,7 +1760,10 @@
                     "%[Người Phép]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1700,7 +1775,10 @@
                     "%[Phở Bò]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1712,7 +1790,10 @@
                     "%[Người Sắt]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1724,7 +1805,10 @@
                     "%[Người Sói]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1736,7 +1820,10 @@
                     "%[Người Thỏ]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1748,7 +1835,10 @@
                     "%[Người Thương]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1760,7 +1850,10 @@
                     "%[Trâu Gác Bếp]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1772,7 +1865,10 @@
                     "%[Thịt Xiên]%"
                 ],
                 "soures": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             }
         ]
