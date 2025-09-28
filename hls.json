@@ -1659,7 +1659,10 @@
                     "%[Tai Lung]%"
                 ],
                 "sources": [
-                    {}
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
                 ]
             },
             {
@@ -1860,7 +1863,7 @@
             },
             {
                 "id": "tctv-xien",
-                "name": "Thịt Xiêng",
+                "name": "Thịt Xiên",
                 "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
                 "tags": [
                     "%@xien%",
