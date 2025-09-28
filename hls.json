@@ -1447,7 +1447,7 @@
                     "ca",
                     "%[Cá Sát Thủ]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1462,7 +1462,7 @@
                     "cap",
                     "%[Cáp Tần]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1477,7 +1477,7 @@
                     "cast",
                     "%[Người Cast]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1492,7 +1492,7 @@
                     "co",
                     "%[Cá Cờ]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1507,7 +1507,7 @@
                     "con",
                     "%[Người Cồn]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1522,7 +1522,7 @@
                     "cun",
                     "%[Người Cún]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1537,7 +1537,7 @@
                     "cuon",
                     "%[Bánh Cuốn]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1552,7 +1552,7 @@
                     "dao",
                     "%[Lơ Đao]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1567,7 +1567,7 @@
                     "cay",
                     "%[Người Cây]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1582,7 +1582,7 @@
                     "dung",
                     "%[Người Dưng]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1597,7 +1597,7 @@
                     "hoi",
                     "%[Người Hói]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1612,7 +1612,7 @@
                     "gay",
                     "%[Người Gầy]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1627,7 +1627,7 @@
                     "kien",
                     "%[Người Kiến]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1642,7 +1642,7 @@
                     "lua",
                     "%[Người Lửa]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1657,7 +1657,7 @@
                     "lung",
                     "%[Tai Lung]%"
                 ],
-                "soures": [
+                "sources": [
                     {}
                 ]
             },
@@ -1669,7 +1669,7 @@
                     "meo",
                     "%[Mèo Ú]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1684,7 +1684,7 @@
                     "moon",
                     "%[Moon Knight]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1699,7 +1699,7 @@
                     "my",
                     "%[Mỳ Tôm]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1714,7 +1714,7 @@
                     "nen",
                     "%[Người Nện]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1729,7 +1729,7 @@
                     "nui",
                     "%[A Núi]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1744,7 +1744,7 @@
                     "old",
                     "%[Người Già]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1759,7 +1759,7 @@
                     "phep",
                     "%[Người Phép]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1774,7 +1774,7 @@
                     "pho",
                     "%[Phở Bò]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1789,7 +1789,7 @@
                     "sat",
                     "%[Người Sắt]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1804,7 +1804,7 @@
                     "soi",
                     "%[Người Sói]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1819,7 +1819,7 @@
                     "tho",
                     "%[Người Thỏ]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1834,7 +1834,7 @@
                     "thuong",
                     "%[Người Thương]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1849,7 +1849,7 @@
                     "trau",
                     "%[Trâu Gác Bếp]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
@@ -1864,7 +1864,7 @@
                     "xien",
                     "%[Thịt Xiên]%"
                 ],
-                "soures": [
+                "sources": [
                     {
                         "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
