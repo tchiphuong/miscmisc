@@ -1435,14 +1435,14 @@
     },
     {
         "id": "football-live",
-        "name": "Trực tiếp bóng đá",
+        "name": "Trực tiếp Thập Cẩm",
         "logo": "https://www.pngmart.com/files/23/Live-PNG-File.png",
         "sortOrder": 9,
         "channels": [
             {
                 "id": "tctv-ca",
                 "name": "Cá Sát Thủ",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@ca%",
                     "%[Cá Sát Thủ]%"
@@ -1457,7 +1457,7 @@
             {
                 "id": "tctv-cap",
                 "name": "Cáp Tần",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@cap%",
                     "%[Cáp Tần]%"
@@ -1472,7 +1472,7 @@
             {
                 "id": "tctv-cast",
                 "name": "Người Cast",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@cast%",
                     "%[Người Cast]%"
@@ -1487,7 +1487,7 @@
             {
                 "id": "tctv-co",
                 "name": "Cá Cờ",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@co%",
                     "%[Cá Cờ]%"
@@ -1502,7 +1502,7 @@
             {
                 "id": "tctv-con",
                 "name": "Người Cồn",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@con%",
                     "%[Người Cồn]%"
@@ -1517,7 +1517,7 @@
             {
                 "id": "tctv-cun",
                 "name": "Người Cún",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@cun%",
                     "%[Người Cún]%"
@@ -1532,7 +1532,7 @@
             {
                 "id": "tctv-cuon",
                 "name": "Bánh Cuốn",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@cuon%",
                     "%[Bánh Cuốn]%"
@@ -1547,7 +1547,7 @@
             {
                 "id": "tctv-dao",
                 "name": "Lơ Đao",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@dao%",
                     "%[Lơ Đao]%"
@@ -1562,7 +1562,7 @@
             {
                 "id": "tctv-cay",
                 "name": "Người Cây",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@cay%",
                     "%[Người Cây]%"
@@ -1577,7 +1577,7 @@
             {
                 "id": "tctv-dung",
                 "name": "Người Dưng",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@dung%",
                     "%[Người Dưng]%"
@@ -1592,7 +1592,7 @@
             {
                 "id": "tctv-hoi",
                 "name": "Người Hói",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@hoi%",
                     "%@Z3%",
@@ -1608,7 +1608,7 @@
             {
                 "id": "tctv-gay",
                 "name": "Người Gầy",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@gay%",
                     "%[Người Gầy]%"
@@ -1623,7 +1623,7 @@
             {
                 "id": "tctv-kien",
                 "name": "Người Kiến",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@kien%",
                     "%[Người Kiến]%"
@@ -1638,7 +1638,7 @@
             {
                 "id": "tctv-lua",
                 "name": "Người Lửa",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@lua%",
                     "%[Người Lửa]%"
@@ -1653,7 +1653,7 @@
             {
                 "id": "tctv-lung",
                 "name": "Tai Lung",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@lung%",
                     "%[Tai Lung]%"
@@ -1668,7 +1668,7 @@
             {
                 "id": "tctv-meo",
                 "name": "Mèo Ú",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@meo%",
                     "%[Mèo Ú]%"
@@ -1683,7 +1683,7 @@
             {
                 "id": "tctv-moon",
                 "name": "Moon Knight",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@moon%",
                     "%@Z1%",
@@ -1699,7 +1699,7 @@
             {
                 "id": "tctv-my",
                 "name": "Mỳ Tôm",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@my%",
                     "%[Mỳ Tôm]%"
@@ -1714,7 +1714,7 @@
             {
                 "id": "tctv-nen",
                 "name": "Người Nện",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@nen%",
                     "%[Người Nện]%"
@@ -1729,7 +1729,7 @@
             {
                 "id": "tctv-nui",
                 "name": "A Núi",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@nui%",
                     "%[A Núi]%"
@@ -1744,7 +1744,7 @@
             {
                 "id": "tctv-old",
                 "name": "Người Già",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@old%",
                     "%[Người Già]%"
@@ -1759,7 +1759,7 @@
             {
                 "id": "tctv-phep",
                 "name": "Người Phép",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@phep%",
                     "%[Người Phép]%"
@@ -1774,7 +1774,7 @@
             {
                 "id": "tctv-pho",
                 "name": "Phở Bò",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@pho%",
                     "%[Phở Bò]%"
@@ -1789,7 +1789,7 @@
             {
                 "id": "tctv-sat",
                 "name": "Người Sắt",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@sat%",
                     "%[Người Sắt]%"
@@ -1804,7 +1804,7 @@
             {
                 "id": "tctv-soi",
                 "name": "Người Sói",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@soi%",
                     "%[Người Sói]%"
@@ -1819,7 +1819,7 @@
             {
                 "id": "tctv-tho",
                 "name": "Người Thỏ",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@tho%",
                     "%[Người Thỏ]%"
@@ -1834,7 +1834,7 @@
             {
                 "id": "tctv-thuong",
                 "name": "Người Thương",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@thuong%",
                     "%[Người Thương]%"
@@ -1849,7 +1849,7 @@
             {
                 "id": "tctv-trau",
                 "name": "Trâu Gác Bếp",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@trau%",
                     "%[Trâu Gác Bếp]%"
@@ -1864,7 +1864,7 @@
             {
                 "id": "tctv-xien",
                 "name": "Thịt Xiên",
-                "logo": "https://hertzpharma.in/wp-content/uploads/2025/03/logo-thapcamtv.png",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
                     "%@xien%",
                     "%[Thịt Xiên]%"
