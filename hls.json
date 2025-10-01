@@ -1444,12 +1444,13 @@
                 "name": "Cá Sát Thủ",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@ca%",
+                    "%@caHD%",
+                    "%@caFHD%",
                     "%[Cá Sát Thủ]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1459,12 +1460,13 @@
                 "name": "Cáp Tần",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@cap%",
+                    "%@capHD%",
+                    "%@capFHD%",
                     "%[Cáp Tần]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@capFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1474,12 +1476,13 @@
                 "name": "Người Cast",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@cast%",
+                    "%@castHD%",
+                    "%@castFHD%",
                     "%[Người Cast]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@castFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1489,12 +1492,13 @@
                 "name": "Cá Cờ",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@co%",
+                    "%@coHD%",
+                    "%@coFHD%",
                     "%[Cá Cờ]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1504,12 +1508,13 @@
                 "name": "Người Cồn",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@con%",
+                    "%@conHD%",
+                    "%@conFHD%",
                     "%[Người Cồn]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@conFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1519,12 +1524,13 @@
                 "name": "Người Cún",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@cun%",
+                    "%@cunHD%",
+                    "%@cunFHD%",
                     "%[Người Cún]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@cunFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1534,12 +1540,13 @@
                 "name": "Bánh Cuốn",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@cuon%",
+                    "%@cuonHD%",
+                    "%@cuonFHD%",
                     "%[Bánh Cuốn]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@cuonFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1549,12 +1556,13 @@
                 "name": "Lơ Đao",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@dao%",
+                    "%@daoHD%",
+                    "%@daoFHD%",
                     "%[Lơ Đao]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@daoFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1564,12 +1572,13 @@
                 "name": "Người Cây",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@cay%",
+                    "%@cayHD%",
+                    "%@cayFHD%",
                     "%[Người Cây]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@cayFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1579,12 +1588,13 @@
                 "name": "Người Dưng",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@dung%",
+                    "%@dungHD%",
+                    "%@dungFHD%",
                     "%[Người Dưng]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@dungFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1594,13 +1604,15 @@
                 "name": "Người Hói",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@hoi%",
-                    "%@Z3%",
+                    "%@hoiHD%",
+                    "%@hoiFHD%",
+                    "%@Z3HD%",
+                    "%@Z3FHD%",
                     "%[Người Hói]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z3FHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1610,12 +1622,13 @@
                 "name": "Người Gầy",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@gay%",
+                    "%@gayHD%",
+                    "%@gayFHD%",
                     "%[Người Gầy]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@gayFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1625,12 +1638,13 @@
                 "name": "Người Kiến",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@kien%",
+                    "%@kienHD%",
+                    "%@kienFHD%",
                     "%[Người Kiến]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@kienFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1640,12 +1654,13 @@
                 "name": "Người Lửa",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@lua%",
+                    "%@luaHD%",
+                    "%@luaFHD%",
                     "%[Người Lửa]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@luaFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1655,12 +1670,13 @@
                 "name": "Tai Lung",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@lung%",
+                    "%@lungHD%",
+                    "%@lungFHD%",
                     "%[Tai Lung]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@lungFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1670,12 +1686,13 @@
                 "name": "Mèo Ú",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@meo%",
+                    "%@meoHD%",
+                    "%@meoFHD%",
                     "%[Mèo Ú]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@meoFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1685,13 +1702,15 @@
                 "name": "Moon Knight",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@moon%",
-                    "%@Z1%",
+                    "%@moonHD%",
+                    "%@moonFHD%",
+                    "%@Z2HD%",
+                    "%@Z1FHD%",
                     "%[Moon Knight]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z1FHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1701,12 +1720,13 @@
                 "name": "Mỳ Tôm",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@my%",
+                    "%@myHD%",
+                    "%@myFHD%",
                     "%[Mỳ Tôm]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@myFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1716,12 +1736,13 @@
                 "name": "Người Nện",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@nen%",
+                    "%@nenHD%",
+                    "%@nenFHD%",
                     "%[Người Nện]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@nenFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1731,12 +1752,13 @@
                 "name": "A Núi",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@nui%",
+                    "%@nuiHD%",
+                    "%@nuiFHD%",
                     "%[A Núi]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@nuiFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1746,12 +1768,13 @@
                 "name": "Người Già",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@old%",
+                    "%@oldHD%",
+                    "%@oldFHD%",
                     "%[Người Già]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@oldFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1761,12 +1784,13 @@
                 "name": "Người Phép",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@phep%",
+                    "%@phepHD%",
+                    "%@phepFHD%",
                     "%[Người Phép]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@phepFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1776,12 +1800,13 @@
                 "name": "Phở Bò",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@pho%",
+                    "%@phoHD%",
+                    "%@phoFHD%",
                     "%[Phở Bò]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@phoFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1791,12 +1816,13 @@
                 "name": "Người Sắt",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@sat%",
+                    "%@satHD%",
+                    "%@satFHD%",
                     "%[Người Sắt]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@satFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1806,12 +1832,13 @@
                 "name": "Người Sói",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@soi%",
+                    "%@soiHD%",
+                    "%@soiFHD%",
                     "%[Người Sói]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@soiFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1821,12 +1848,13 @@
                 "name": "Người Thỏ",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@tho%",
+                    "%@thoHD%",
+                    "%@thoFHD%",
                     "%[Người Thỏ]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@thoFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1836,12 +1864,13 @@
                 "name": "Người Thương",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@thuong%",
+                    "%@thuongHD%",
+                    "%@thuongFHD%",
                     "%[Người Thương]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@thuongHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1851,12 +1880,13 @@
                 "name": "Trâu Gác Bếp",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@trau%",
+                    "%@trauHD%",
+                    "%@trauFHD%",
                     "%[Trâu Gác Bếp]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@trauFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1866,12 +1896,13 @@
                 "name": "Thịt Xiên",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
-                    "%@xien%",
+                    "%@xienHD%",
+                    "%@xienFHD%",
                     "%[Thịt Xiên]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/hs1lEKTXZzsf4NtN0WDjfg/f7d74fcca7b86aaec98d69192d99ee8f/1759057569/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@xienFHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
