@@ -1450,12 +1450,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-ca.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1470,12 +1466,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-cap.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@capFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1490,12 +1482,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-cast.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@castFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1510,12 +1498,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-co.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@coFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1530,12 +1514,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-con.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@conFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1550,12 +1530,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-cun.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@cunFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1570,12 +1546,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-cuon.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@cuonFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1590,12 +1562,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-dao.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@daoFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1610,12 +1578,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-cay.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@cayFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1630,12 +1594,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-dung.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@dungFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1652,12 +1612,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-hoi.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z3FHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1672,12 +1628,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-gay.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@gayFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1692,12 +1644,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-kien.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@kienFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1712,12 +1660,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-lua.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@luaFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1732,12 +1676,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-lung.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@lungFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1752,12 +1692,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-meo.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@meoFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1774,12 +1710,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-moon.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z1FHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1794,12 +1726,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-my.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@myFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1814,12 +1742,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-nen.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@nenFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1834,12 +1758,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-nui.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@nuiFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1854,12 +1774,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-old.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@oldFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1874,12 +1790,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-phep.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@phepFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1894,12 +1806,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-pho.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@phoFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1914,12 +1822,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-sat.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@satFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1934,12 +1838,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-soi.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@soiFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1954,12 +1854,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-tho.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@thoFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1974,12 +1870,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-thuong.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@thuongHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -1994,12 +1886,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-trau.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@trauFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             },
@@ -2014,12 +1902,8 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://iptv-tctv.tcphuongivs.workers.dev/tctv-xien.m3u8",
-                        "type": "hls",
-                        "headers": {
-                            "userAgent": "Mozilla AppleWebKit Chrome Safari",
-                            "referer": "https://m10.ldplayer.xyz/"
-                        }
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@xienFHD/playlist.m3u8",
+                        "type": "hls"
                     }
                 ]
             }
