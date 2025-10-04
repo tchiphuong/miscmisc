@@ -1606,13 +1606,13 @@
                 "tags": [
                     "%@hoiHD%",
                     "%@hoiFHD%",
-                    "%@Z3HD%",
-                    "%@Z3FHD%",
+                    "%@Z1HD%",
+                    "%@Z1FHD%",
                     "%[Người Hói]%"
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z3FHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z1FHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
@@ -1710,7 +1710,7 @@
                 ],
                 "sources": [
                     {
-                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z1FHD/playlist.m3u8",
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@Z3FHD/playlist.m3u8",
                         "type": "hls"
                     }
                 ]
