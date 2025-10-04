@@ -1850,7 +1850,9 @@
                 "tags": [
                     "%@thoHD%",
                     "%@thoFHD%",
-                    "%[Người Thỏ]%"
+                    "%[Người Thỏ]%",
+                    "%@may3%",
+                    "%@may3FHD%"
                 ],
                 "sources": [
                     {
