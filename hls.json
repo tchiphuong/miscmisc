@@ -1666,6 +1666,22 @@
                 ]
             },
             {
+                "id": "tctv-long",
+                "name": "Người Lông",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
+                "tags": [
+                    "%@longHD%",
+                    "%@longFHD%",
+                    "%[Người Lông]%"
+                ],
+                "sources": [
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@longFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
+                ]
+            },
+            {
                 "id": "tctv-lung",
                 "name": "Tai Lung",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
