@@ -147,7 +147,10 @@
 
                 $scope.copy = function (ch) {
                     if (!ch || !ch.id) return;
-                    navigator.clipboard.writeText(ch.id);
+                    navigator.clipboard.writeText(ch.id)
+                        .catch(function(err) {
+                            alert('Lỗi khi copy: ' + err.message);
+                        });
                 };
 
                 $scope.fallbackLogo = function (name) {

@@ -219,14 +219,16 @@
         document.getElementById('btnCopy').addEventListener('click', () => {
             const data = window.__LAST_JSON__ || { note: 'Chưa parse gì cả' };
             navigator.clipboard.writeText(JSON.stringify(data, null, 2))
-                .then(() => alert("Đã copy JSON vào clipboard"));
+                .then(() => alert("Đã copy JSON vào clipboard"))
+                .catch(err => alert("Lỗi khi copy: " + err.message));
         });
 
         document.getElementById('btnCopyResult').addEventListener('click', () => {
             const codeElement = out.querySelector('code');
             const resultText = codeElement ? codeElement.textContent : out.textContent;
             navigator.clipboard.writeText(resultText)
-                .then(() => alert("Đã copy kết quả vào clipboard"));
+                .then(() => alert("Đã copy kết quả vào clipboard"))
+                .catch(err => alert("Lỗi khi copy: " + err.message));
         });
 
         document.getElementById('btnToM3U8').addEventListener('click', async () => {
