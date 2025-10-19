@@ -637,6 +637,7 @@
                 "name": "An Giang 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/angiang2.png",
                 "tags": [
+                    "angiang",
                     "ATV2 | Báo và PTTH An Giang"
                 ]
             },
@@ -861,6 +862,7 @@
                 "name": "Hải Phòng 3",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/haiphong3.png",
                 "tags": [
+                    "haiduong",
                     "THP3 HD - Báo và PTTH Hải Phòng"
                 ]
             },
@@ -929,6 +931,7 @@
                 "name": "Lâm Đồng 1",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/lamdong1.png",
                 "tags": [
+                    "lamdong",
                     "LTV1 HD - Báo và PTTH Lâm Đồng"
                 ]
             },
@@ -1035,6 +1038,7 @@
                 "name": "Tây Ninh 2",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/tayninh2.png",
                 "tags": [
+                    "tayninh",
                     "TTV2 - Báo và PTTH Tây Ninh"
                 ]
             },
@@ -1114,6 +1118,7 @@
                 "name": "Vũng Tàu",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/trongnuoc/vungtau.png",
                 "tags": [
+                    "baria",
                     "BRT - Đài PTTH Bà Rịa Vũng Tàu"
                 ]
             }
