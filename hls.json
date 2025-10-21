@@ -1465,6 +1465,8 @@
                 "name": "Cáp Tần",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
                 "tags": [
+                    "%@@may1HD%",
+                    "%@@may1FHD%",
                     "%@capHD%",
                     "%@capFHD%",
                     "%[Cáp Tần]%"
