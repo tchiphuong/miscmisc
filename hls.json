@@ -349,7 +349,9 @@
                 "id": "htvcplushd",
                 "name": "HTVC Plus HD",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/htv/htvcplushd.png",
-                "tags": []
+                "tags": [
+                    "htvcplus"
+                ]
             },
             {
                 "id": "htvcthuanviet",
@@ -621,7 +623,9 @@
                 "id": "qpvnhd",
                 "name": "QPVN HD",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thietyeu/qpvnhd.png",
-                "tags": []
+                "tags": [
+                    "quocphong"
+                ]
             },
             {
                 "id": "angiang1",
