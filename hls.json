@@ -1465,6 +1465,22 @@
                 ]
             },
             {
+                "id": "tctv-he",
+                "name": "Cá Hề",
+                "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
+                "tags": [
+                    "%@heHD%",
+                    "%@heFHD%",
+                    "%[Cá Hề]%"
+                ],
+                "sources": [
+                    {
+                        "url": "https://live-vipxlvb.nsnd.live/live/_definst_/stream_1_1bda7@heFHD/playlist.m3u8",
+                        "type": "hls"
+                    }
+                ]
+            },
+            {
                 "id": "tctv-cap",
                 "name": "Cáp Tần",
                 "logo": "https://raw.githubusercontent.com/tchiphuong/miscmisc/refs/heads/master/iptv/img/thap-cam.png",
