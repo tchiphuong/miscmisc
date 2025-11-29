@@ -210,6 +210,12 @@
                 "tags": []
             },
             {
+                "id": "onhomeshopping",
+                "name": "ON Home Shopping",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onhomeshopping.png",
+                "tags": []
+            },
+            {
                 "id": "onmusic",
                 "name": "ON Music",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onmusic.png",
