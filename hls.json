@@ -786,6 +786,7 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/dongnai1.png",
                 "tags": [
                     "binhphuoc1",
+                    "binhphuoc2",
                     "BPTV2 HD | TH Bình Phước",
                     "ĐNNRTV1 - Báo và PTTH Đồng Nai"
                 ]
@@ -1258,7 +1259,9 @@
                 "id": "cbeebies",
                 "name": "BBC Cbeebies",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cbeebies.png",
-                "tags": []
+                "tags": [
+                    "BBC CBeeBies%"
+                ]
             },
             {
                 "id": "bbclifestyle",
@@ -1276,6 +1279,18 @@
                 "id": "bloomberg",
                 "name": "Bloomberg",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bloomberg.png",
+                "tags": []
+            },
+            {
+                "id": "blueantext",
+                "name": "Rock Action",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantext.png",
+                "tags": []
+            },
+            {
+                "id": "blueantent",
+                "name": "Rock Entertainment",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantent.png",
                 "tags": []
             },
             {
@@ -1321,10 +1336,12 @@
                 "tags": []
             },
             {
-                "id": "davincihd",
+                "id": "davinci",
                 "name": "Da Vinci HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/davincihd.png",
-                "tags": []
+                "tags": [
+                    "davincihd"
+                ]
             },
             {
                 "id": "discoveryhd",
@@ -1423,15 +1440,9 @@
                 "tags": []
             },
             {
-                "id": "blueantext",
-                "name": "Rock Action",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantext.png",
-                "tags": []
-            },
-            {
-                "id": "blueantent",
-                "name": "Rock Entertainment",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantent.png",
+                "id": "nhkworld",
+                "name": "NHK World-Japan",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/nhkworld.png",
                 "tags": []
             },
             {
@@ -1441,9 +1452,17 @@
                 "tags": []
             },
             {
-                "id": "outdoor",
+                "id": "outdoorhd",
                 "name": "Outdoor Channel",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/outdoor.png",
+                "tags": [
+                    "outdoor"
+                ]
+            },
+            {
+                "id": "tv5monde",
+                "name": "TV5Monde",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/tv5monde.png",
                 "tags": []
             },
             {
@@ -3335,7 +3354,9 @@
                 "id": "spotv",
                 "name": "SPOTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/spotv.png",
-                "tags": []
+                "tags": [
+                    "spotv1"
+                ]
             },
             {
                 "id": "spotv2",
