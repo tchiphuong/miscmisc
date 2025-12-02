@@ -1146,6 +1146,7 @@
         "name": "Quốc Tế",
         "logo": "https://cdn-icons-png.freepik.com/512/7296/7296866.png",
         "sortOrder": 9,
+        "isAutoSort": true,
         "channels": [
             {
                 "id": "boxhits",
@@ -1478,6 +1479,7 @@
         "name": "Trực tiếp Thập Cẩm",
         "logo": "https://www.pngmart.com/files/23/Live-PNG-File.png",
         "sortOrder": 9,
+        "isAutoSort": true,
         "channels": [
             {
                 "id": "tctv-ca",
@@ -1990,6 +1992,7 @@
         "name": "Thể Thao",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport.png",
         "sortOrder": 9,
+        "isAutoSort": true,
         "channels": [
             {
                 "id": "DAZN.1.de",
