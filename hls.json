@@ -4,6 +4,7 @@
         "name": "VTV",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv.png",
         "sortOrder": 1,
+        "isAutoSort": false,
         "channels": [
             {
                 "id": "vtv1hd",
@@ -84,6 +85,7 @@
         "name": "K+",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus.png",
         "sortOrder": 2,
+        "isAutoSort": false,
         "channels": [
             {
                 "id": "kcinehd",
@@ -142,6 +144,7 @@
         "name": "VTVcab",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab.png",
         "sortOrder": 3,
+        "isAutoSort": false,
         "channels": [
             {
                 "id": "onviegiaitri",
@@ -282,6 +285,7 @@
         "name": "HTV - HTVC",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv.png",
         "sortOrder": 4,
+        "isAutoSort": false,
         "channels": [
             {
                 "id": "htv1",
@@ -378,6 +382,7 @@
         "name": "SCTV",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv.png",
         "sortOrder": 5,
+        "isAutoSort": false,
         "channels": [
             {
                 "id": "sctv1hd",
@@ -530,6 +535,7 @@
         "name": "TV 360",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
         "sortOrder": 6,
+        "isAutoSort": false,
         "channels": [
             {
                 "id": "tv360plus1",
@@ -624,6 +630,7 @@
         "name": "Trong nước",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
         "sortOrder": 8,
+        "isAutoSort": false,
         "channels": [
             {
                 "id": "antvhd",
@@ -3915,6 +3922,7 @@
         "name": "Trung Quốc",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
         "sortOrder": 9,
+        "isAutoSort": true,
         "channels": [
             {
                 "id": "cctv1",
@@ -4336,6 +4344,7 @@
         "name": "Thái Lan",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/thailand-flag-icon.png",
         "sortOrder": 9,
+        "isAutoSort": true,
         "channels": [
             {
                 "id": "3 HD.th",
@@ -4641,6 +4650,7 @@
         "name": "Nhật Bản",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/japan-flag-icon.png",
         "sortOrder": 9,
+        "isAutoSort": true,
         "channels": [
             {
                 "id": "abc",
