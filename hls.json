@@ -2178,7 +2178,8 @@
                 "name": "Sky Sport Bundesliga 1 (Đức)",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.1.de.png",
                 "tags": [
-                    "skybundesliga1.de"
+                    "skybundesliga1.de",
+                    "Sky Sport Bundesliga 1"
                 ]
             },
             {
@@ -2186,7 +2187,8 @@
                 "name": "Sky Sport Bundesliga 2 (Đức)",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.2.de.png",
                 "tags": [
-                    "skybundesliga2.de"
+                    "skybundesliga2.de",
+                    "Sky Sport Bundesliga 2"
                 ]
             },
             {
@@ -2194,7 +2196,8 @@
                 "name": "Sky Sport Bundesliga 3 (Đức)",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.3.de.png",
                 "tags": [
-                    "skybundesliga3.de"
+                    "skybundesliga3.de",
+                    "Sky Sport Bundesliga 3"
                 ]
             },
             {
@@ -2202,7 +2205,8 @@
                 "name": "Sky Sport Bundesliga 4 (Đức)",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.4.de.png",
                 "tags": [
-                    "skybundesliga4.de"
+                    "skybundesliga4.de",
+                    "Sky Sport Bundesliga 4"
                 ]
             },
             {
@@ -2210,7 +2214,8 @@
                 "name": "Sky Sport Bundesliga 5 (Đức)",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.5.de.png",
                 "tags": [
-                    "skybundesliga5.de"
+                    "skybundesliga5.de",
+                    "Sky Sport Bundesliga 5"
                 ]
             },
             {
@@ -3717,6 +3722,190 @@
                 "tags": [
                     "ziggosportextra2.nl",
                     "nl:ziggosport6hd"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.1.fr",
+                "name": "CANAL+ LIVE 1 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.1.fr.png",
+                "tags": [
+                    "Canal+ (FR) Live 1"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.2.fr",
+                "name": "CANAL+ LIVE 2 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.2.fr.png",
+                "tags": [
+                    "Canal+ (FR) Live 2"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.3.fr",
+                "name": "CANAL+ LIVE 3 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.3.fr.png",
+                "tags": [
+                    "Canal+ (FR) Live 3"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.4.fr",
+                "name": "CANAL+ LIVE 4 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.4.fr.png",
+                "tags": [
+                    "Canal+ (FR) Live 4"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.5.fr",
+                "name": "CANAL+ LIVE 5 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.5.fr.png",
+                "tags": [
+                    "Canal+ (FR) Live 5"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.6.fr",
+                "name": "CANAL+ LIVE 6 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.6.fr.png",
+                "tags": [
+                    "Canal+ (FR) Live 6"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.7.fr",
+                "name": "CANAL+ LIVE 7 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.7.fr.png",
+                "tags": [
+                    "Canal+ Live 7"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.8.fr",
+                "name": "CANAL+ LIVE 8 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.8.fr.png",
+                "tags": [
+                    "Canal+ Live 8"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.9.fr",
+                "name": "CANAL+ LIVE 9 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.9.fr.png",
+                "tags": [
+                    "Canal+ Live 9"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.10.fr",
+                "name": "CANAL+ LIVE 10 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.10.fr.png",
+                "tags": [
+                    "Canal+ Live 10"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.11.fr",
+                "name": "CANAL+ LIVE 11 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.11.fr.png",
+                "tags": [
+                    "Canal+ Live 11"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.12.fr",
+                "name": "CANAL+ LIVE 12 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.12.fr.png",
+                "tags": [
+                    "Canal+ Live 12"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.13.fr",
+                "name": "CANAL+ LIVE 13 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.13.fr.png",
+                "tags": [
+                    "Canal+ Live 13"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.14.fr",
+                "name": "CANAL+ LIVE 14 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.14.fr.png",
+                "tags": [
+                    "Canal+ Live 14"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.15.fr",
+                "name": "CANAL+ LIVE 15 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.15.fr.png",
+                "tags": [
+                    "Canal+ Live 15"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.16.fr",
+                "name": "CANAL+ LIVE 16 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.16.fr.png",
+                "tags": [
+                    "Canal+ Live 16"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.17.fr",
+                "name": "CANAL+ LIVE 17 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.17.fr.png",
+                "tags": [
+                    "Canal+ Live 17"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.18.fr",
+                "name": "CANAL+ LIVE 18 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.18.fr.png",
+                "tags": [
+                    "Canal+ Live 18"
+                ]
+            },
+            {
+                "id": "CANAL+LIVE.19.fr",
+                "name": "CANAL+ LIVE 19 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.19.fr.png",
+                "tags": [
+                    "Canal+ Live 19"
+                ]
+            },
+            {
+                "id": "CANAL+FOOT.fr",
+                "name": "CANAL+ FOOT (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+FOOT.fr.png",
+                "tags": [
+                    "Canal+ (FR) Foot"
+                ]
+            },
+            {
+                "id": "CANAL+.fr",
+                "name": "CANAL+ (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+.fr.png",
+                "tags": [
+                    "Canal+"
+                ]
+            },
+            {
+                "id": "CANAL+SPORT.fr",
+                "name": "CANAL+ SPORT (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+SPORT.fr.png",
+                "tags": [
+                    "Canal+ (FR) Sport"
+                ]
+            },
+            {
+                "id": "CANAL+SPORT360.fr",
+                "name": "CANAL+ SPORT 360 (Pháp)",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+SPORT360.fr.png",
+                "tags": [
+                    "Canal+ (FR) Sport 360"
                 ]
             }
         ]
