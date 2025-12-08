@@ -2003,7 +2003,7 @@
         "channels": [
             {
                 "id": "DAZN.1.de",
-                "name": "DAZN 1 (Đức)",
+                "name": "DE: DAZN 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.1.de.png",
                 "tags": [
                     "dazn1.de",
@@ -2012,7 +2012,7 @@
             },
             {
                 "id": "DAZN.2.de",
-                "name": "DAZN 2 (Đức)",
+                "name": "DE: DAZN 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.2.de.png",
                 "tags": [
                     "dazn2.de",
@@ -2021,7 +2021,7 @@
             },
             {
                 "id": "Sky.Sport.News.de",
-                "name": "Sky Sport News (Đức)",
+                "name": "DE: Sky Sport News",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.News.de.png",
                 "tags": [
                     "DE:SKY.Sport.News"
@@ -2029,7 +2029,7 @@
             },
             {
                 "id": "Sky.Sport.1.de",
-                "name": "Sky Sport 1 (Đức)",
+                "name": "DE: Sky Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.1.de.png",
                 "tags": [
                     "skysport1.de"
@@ -2037,7 +2037,7 @@
             },
             {
                 "id": "Sky.Sport.2.de",
-                "name": "Sky Sport 2 (Đức)",
+                "name": "DE: Sky Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.2.de.png",
                 "tags": [
                     "skysport2.de"
@@ -2045,7 +2045,7 @@
             },
             {
                 "id": "Sky.Sport.3.de",
-                "name": "Sky Sport 3 (Đức)",
+                "name": "DE: Sky Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.3.de.png",
                 "tags": [
                     "skysport3.de"
@@ -2053,7 +2053,7 @@
             },
             {
                 "id": "Sky.Sport.4.de",
-                "name": "Sky Sport 4 (Đức)",
+                "name": "DE: Sky Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.4.de.png",
                 "tags": [
                     "skysport4.de"
@@ -2061,7 +2061,7 @@
             },
             {
                 "id": "Sky.Sport.5.de",
-                "name": "Sky Sport 5 (Đức)",
+                "name": "DE: Sky Sport 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.5.de.png",
                 "tags": [
                     "skysport5.de"
@@ -2069,7 +2069,7 @@
             },
             {
                 "id": "Sky.Sport.6.de",
-                "name": "Sky Sport 6 (Đức)",
+                "name": "DE: Sky Sport 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.6.de.png",
                 "tags": [
                     "skysport6.de"
@@ -2077,7 +2077,7 @@
             },
             {
                 "id": "Sky.Sport.7.de",
-                "name": "Sky Sport 7 (Đức)",
+                "name": "DE: Sky Sport 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.7.de.png",
                 "tags": [
                     "skysport7.de"
@@ -2085,7 +2085,7 @@
             },
             {
                 "id": "Sky.Sport.8.de",
-                "name": "Sky Sport 8 (Đức)",
+                "name": "DE: Sky Sport 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.8.de.png",
                 "tags": [
                     "skysport8.de"
@@ -2093,7 +2093,7 @@
             },
             {
                 "id": "Sky.Sport.9.de",
-                "name": "Sky Sport 9 (Đức)",
+                "name": "DE: Sky Sport 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.9.de.png",
                 "tags": [
                     "skysport9.de"
@@ -2101,7 +2101,7 @@
             },
             {
                 "id": "Sky.Sport.10.de",
-                "name": "Sky Sport 10 (Đức)",
+                "name": "DE: Sky Sport 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.10.de.png",
                 "tags": [
                     "skysport10.de"
@@ -2109,7 +2109,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.de",
-                "name": "Sky Sport Austria (Áo)",
+                "name": "DE: Sky Sport Austria",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.de.png",
                 "tags": [
                     "skysportaustria.at",
@@ -2118,7 +2118,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.1.HD.de",
-                "name": "Sky Sport Austria 1 (Áo)",
+                "name": "DE: Sky Sport Austria 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.1.HD.de.png",
                 "tags": [
                     "skysportaustria1.at"
@@ -2126,7 +2126,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.2.HD.de",
-                "name": "Sky Sport Austria 2 (Áo)",
+                "name": "DE: Sky Sport Austria 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.2.HD.de.png",
                 "tags": [
                     "skysportaustria2.at"
@@ -2134,7 +2134,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.3.HD.de",
-                "name": "Sky Sport Austria 3 (Áo)",
+                "name": "DE: Sky Sport Austria 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.3.HD.de.png",
                 "tags": [
                     "skysportaustria3.at"
@@ -2142,7 +2142,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.4.HD.de",
-                "name": "Sky Sport Austria 4 (Áo)",
+                "name": "DE: Sky Sport Austria 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.4.HD.de.png",
                 "tags": [
                     "skysportaustria4.at"
@@ -2150,7 +2150,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.5.HD.de",
-                "name": "Sky Sport Austria 5 (Áo)",
+                "name": "DE: Sky Sport Austria 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.5.HD.de.png",
                 "tags": [
                     "skysportaustria5.at"
@@ -2158,7 +2158,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.6.HD.de",
-                "name": "Sky Sport Austria 6 (Áo)",
+                "name": "DE: Sky Sport Austria 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.6.HD.de.png",
                 "tags": [
                     "skysportaustria6.at"
@@ -2166,7 +2166,7 @@
             },
             {
                 "id": "Sky.Sport.Austria.7.HD.de",
-                "name": "Sky Sport Austria 7 (Áo)",
+                "name": "DE: Sky Sport Austria 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Austria.7.HD.de.png",
                 "tags": [
                     "skysportaustria7.at"
@@ -2174,7 +2174,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.de",
-                "name": "Sky Sport Bundesliga (Đức)",
+                "name": "DE: Sky Sport Bundesliga",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.de.png",
                 "tags": [
                     "skybundesliga.de"
@@ -2182,7 +2182,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.1.de",
-                "name": "Sky Sport Bundesliga 1 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.1.de.png",
                 "tags": [
                     "skybundesliga1.de",
@@ -2191,7 +2191,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.2.de",
-                "name": "Sky Sport Bundesliga 2 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.2.de.png",
                 "tags": [
                     "skybundesliga2.de",
@@ -2200,7 +2200,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.3.de",
-                "name": "Sky Sport Bundesliga 3 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.3.de.png",
                 "tags": [
                     "skybundesliga3.de",
@@ -2209,7 +2209,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.4.de",
-                "name": "Sky Sport Bundesliga 4 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.4.de.png",
                 "tags": [
                     "skybundesliga4.de",
@@ -2218,7 +2218,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.5.de",
-                "name": "Sky Sport Bundesliga 5 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.5.de.png",
                 "tags": [
                     "skybundesliga5.de",
@@ -2227,7 +2227,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.6.de",
-                "name": "Sky Sport Bundesliga 6 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.6.de.png",
                 "tags": [
                     "skybundesliga6.de"
@@ -2235,7 +2235,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.7.de",
-                "name": "Sky Sport Bundesliga 7 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.7.de.png",
                 "tags": [
                     "skybundesliga7.de"
@@ -2243,7 +2243,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.8.de",
-                "name": "Sky Sport Bundesliga 8 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.8.de.png",
                 "tags": [
                     "skybundesliga8.de"
@@ -2251,7 +2251,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.9.de",
-                "name": "Sky Sport Bundesliga 9 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.9.de.png",
                 "tags": [
                     "skybundesliga9.de"
@@ -2259,7 +2259,7 @@
             },
             {
                 "id": "Sky.Sport.Bundesliga.10.de",
-                "name": "Sky Sport Bundesliga 10 (Đức)",
+                "name": "DE: Sky Sport Bundesliga 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Bundesliga.10.de.png",
                 "tags": [
                     "skybundesliga10.de"
@@ -2267,7 +2267,7 @@
             },
             {
                 "id": "Sky.Sport.Mix.de",
-                "name": "Sky Sport Mix (Đức)",
+                "name": "DE: Sky Sport Mix",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Mix.de.png",
                 "tags": [
                     "DE:SkySport.Mix"
@@ -2275,7 +2275,7 @@
             },
             {
                 "id": "Sky.Sport.Premier.League.de",
-                "name": "Sky Sport Premier League (Đức)",
+                "name": "DE: Sky Sport Premier League",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sport.Premier.League.de.png",
                 "tags": [
                     "DE:SkySport.Premier.League"
@@ -2283,7 +2283,7 @@
             },
             {
                 "id": "sportdigital.Fussball.de",
-                "name": "Sportdigital Fussball (Đức)",
+                "name": "DE: Sportdigital Fussball",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/sportdigital.Fussball.de.png",
                 "tags": [
                     "DE:Sport.Digital"
@@ -2315,7 +2315,7 @@
             },
             {
                 "id": "Arena.Sport.1.HD.hr",
-                "name": "Arena Sport 1 (Croatia)",
+                "name": "HR: Arena Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.1.HD.hr.png",
                 "tags": [
                     "arenasport1.hr"
@@ -2323,7 +2323,7 @@
             },
             {
                 "id": "Arena.Sport.2.HD.hr",
-                "name": "Arena Sport 2 (Croatia)",
+                "name": "HR: Arena Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.2.HD.hr.png",
                 "tags": [
                     "arenasport2.hr"
@@ -2331,7 +2331,7 @@
             },
             {
                 "id": "Arena.Sport.3.HD.hr",
-                "name": "Arena Sport 3 (Croatia)",
+                "name": "HR: Arena Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.3.HD.hr.png",
                 "tags": [
                     "arenasport3.hr"
@@ -2339,7 +2339,7 @@
             },
             {
                 "id": "Arena.Sport.4.HD.hr",
-                "name": "Arena Sport 4 (Croatia)",
+                "name": "HR: Arena Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.4.HD.hr.png",
                 "tags": [
                     "arenasport4.hr"
@@ -2347,7 +2347,7 @@
             },
             {
                 "id": "Arena.Sport.5.HD.hr",
-                "name": "Arena Sport 5 (Croatia)",
+                "name": "HR: Arena Sport 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.5.HD.hr.png",
                 "tags": [
                     "arenasport5.hr"
@@ -2355,7 +2355,7 @@
             },
             {
                 "id": "Arena.Sport.6.HD.hr",
-                "name": "Arena Sport 6 (Croatia)",
+                "name": "HR: Arena Sport 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.6.HD.hr.png",
                 "tags": [
                     "arenasport6.hr"
@@ -2363,7 +2363,7 @@
             },
             {
                 "id": "Arena.Sport.7.HD.hr",
-                "name": "Arena Sport 7 (Croatia)",
+                "name": "HR: Arena Sport 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.7.HD.hr.png",
                 "tags": [
                     "arenasport7.hr"
@@ -2371,7 +2371,7 @@
             },
             {
                 "id": "Arena.Sport.8.HD.hr",
-                "name": "Arena Sport 8 (Croatia)",
+                "name": "HR: Arena Sport 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.8.HD.hr.png",
                 "tags": [
                     "arenasport8.hr"
@@ -2379,7 +2379,7 @@
             },
             {
                 "id": "Arena.Sport.9.HD.hr",
-                "name": "Arena Sport 9 (Croatia)",
+                "name": "HR: Arena Sport 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.9.HD.hr.png",
                 "tags": [
                     "arenasport9.hr"
@@ -2387,7 +2387,7 @@
             },
             {
                 "id": "Arena.Sport.10.HD.hr",
-                "name": "Arena Sport 10 (Croatia)",
+                "name": "HR: Arena Sport 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.10.HD.hr.png",
                 "tags": [
                     "arenasport10.hr"
@@ -2405,7 +2405,7 @@
             },
             {
                 "id": "DAZN.1.es",
-                "name": "DAZN 1 (Tây Ban Nha)",
+                "name": "ES: DAZN 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.1.es.png",
                 "tags": [
                     "es:dazn1fhd.",
@@ -2414,7 +2414,7 @@
             },
             {
                 "id": "DAZN.2.es",
-                "name": "DAZN 2 (Tây Ban Nha)",
+                "name": "ES: DAZN 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.2.es.png",
                 "tags": [
                     "es:dazn2fhd",
@@ -2423,7 +2423,7 @@
             },
             {
                 "id": "DAZN.3.es",
-                "name": "DAZN 3 (Tây Ban Nha)",
+                "name": "ES: DAZN 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.3.es.png",
                 "tags": [
                     "es:dazn3fhd",
@@ -2432,7 +2432,7 @@
             },
             {
                 "id": "DAZN.4.es",
-                "name": "DAZN 4 (Tây Ban Nha)",
+                "name": "ES: DAZN 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.4.es.png",
                 "tags": [
                     "es:dazn4fhd",
@@ -2968,7 +2968,7 @@
             },
             {
                 "id": "DAZN.1.pt",
-                "name": "DAZN 1 (Bồ Đào Nha)",
+                "name": "PT: DAZN 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.1.pt.png",
                 "tags": [
                     "elevensports1.pt",
@@ -2978,7 +2978,7 @@
             },
             {
                 "id": "DAZN.2.pt",
-                "name": "DAZN 2 (Bồ Đào Nha)",
+                "name": "PT: DAZN 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.2.pt.png",
                 "tags": [
                     "elevensports2.pt",
@@ -2988,7 +2988,7 @@
             },
             {
                 "id": "DAZN.3.pt",
-                "name": "DAZN 3 (Bồ Đào Nha)",
+                "name": "PT: DAZN 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.3.pt.png",
                 "tags": [
                     "elevensports3.pt",
@@ -2999,7 +2999,7 @@
             },
             {
                 "id": "DAZN.4.pt",
-                "name": "DAZN 4 (Bồ Đào Nha)",
+                "name": "PT: DAZN 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.4.pt.png",
                 "tags": [
                     "elevensports4.pt",
@@ -3009,7 +3009,7 @@
             },
             {
                 "id": "DAZN.5.pt",
-                "name": "DAZN 5 (Bồ Đào Nha)",
+                "name": "PT: DAZN 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.5.pt.png",
                 "tags": [
                     "elevensports5.pt",
@@ -3019,7 +3019,7 @@
             },
             {
                 "id": "DAZN.6.pt",
-                "name": "DAZN 6 (Bồ Đào Nha)",
+                "name": "PT: DAZN 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.6.pt.png",
                 "tags": [
                     "elevensports6.pt",
@@ -3029,7 +3029,7 @@
             },
             {
                 "id": "Eurosport.1.HD.pt",
-                "name": "Eurosport 1 (Bồ Đào Nha)",
+                "name": "PT: Eurosport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.HD.pt.png",
                 "tags": [
                     "eurosport1.pt",
@@ -3038,7 +3038,7 @@
             },
             {
                 "id": "Eurosport.2.HD.pt",
-                "name": "Eurosport 2 (Bồ Đào Nha)",
+                "name": "PT: Eurosport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.HD.pt.png",
                 "tags": [
                     "eurosport2.pt",
@@ -3047,7 +3047,7 @@
             },
             {
                 "id": "SPORT.TV1.HD.pt",
-                "name": "SPORT TV 1 (Bồ Đào Nha)",
+                "name": "PT: SPORT TV 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPORT.TV1.HD.pt.png",
                 "tags": [
                     "sporttv1.pt",
@@ -3058,7 +3058,7 @@
             },
             {
                 "id": "SPORT.TV2.HD.pt",
-                "name": "SPORT TV 2 (Bồ Đào Nha)",
+                "name": "PT: SPORT TV 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPORT.TV2.HD.pt.png",
                 "tags": [
                     "sporttv2.pt",
@@ -3068,7 +3068,7 @@
             },
             {
                 "id": "SPORT.TV3.HD.pt",
-                "name": "SPORT TV 3 (Bồ Đào Nha)",
+                "name": "PT: SPORT TV 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPORT.TV3.HD.pt.png",
                 "tags": [
                     "sporttv3.pt",
@@ -3078,7 +3078,7 @@
             },
             {
                 "id": "SPORT.TV4.HD.pt",
-                "name": "SPORT TV 4 (Bồ Đào Nha)",
+                "name": "PT: SPORT TV 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPORT.TV4.HD.pt.png",
                 "tags": [
                     "sporttv4.pt",
@@ -3088,7 +3088,7 @@
             },
             {
                 "id": "SPORT.TV5.HD.pt",
-                "name": "SPORT TV 5 (Bồ Đào Nha)",
+                "name": "PT: SPORT TV 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPORT.TV5.HD.pt.png",
                 "tags": [
                     "sporttv5.pt",
@@ -3100,7 +3100,7 @@
             },
             {
                 "id": "Sport.TV.6.HD.pt",
-                "name": "SPORT TV 6 (Bồ Đào Nha)",
+                "name": "PT: SPORT TV 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sport.TV.6.HD.pt.png",
                 "tags": [
                     "sporttv6.pt",
@@ -3109,7 +3109,7 @@
             },
             {
                 "id": "Sport.TV.7.HD.pt",
-                "name": "SPORT TV 7 (Bồ Đào Nha)",
+                "name": "PT: SPORT TV 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sport.TV.7.HD.pt.png",
                 "tags": [
                     "sporttv7.pt",
@@ -3120,7 +3120,7 @@
             },
             {
                 "id": "SPORT.TV+.HD.pt",
-                "name": "SPORT TV + (Bồ Đào Nha)",
+                "name": "PT: SPORT TV +",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPORT.TV+.HD.pt.png",
                 "tags": [
                     "sporttvplus.pt",
@@ -3129,7 +3129,7 @@
             },
             {
                 "id": "Digi.Sport.1.HD.ro",
-                "name": "Digi Sport 1 HD (Rumani)",
+                "name": "RO: Digi Sport 1 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Digi.Sport.1.HD.ro.png",
                 "tags": [
                     "digisport1.ro",
@@ -3139,7 +3139,7 @@
             },
             {
                 "id": "Digi.Sport.2.HD.ro",
-                "name": "Digi Sport 2 HD (Rumani)",
+                "name": "RO: Digi Sport 2 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Digi.Sport.2.HD.ro.png",
                 "tags": [
                     "digisport2.ro",
@@ -3149,7 +3149,7 @@
             },
             {
                 "id": "Digi.Sport.3.HD.ro",
-                "name": "Digi Sport 3 HD (Rumani)",
+                "name": "RO: Digi Sport 3 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Digi.Sport.3.HD.ro.png",
                 "tags": [
                     "digisport3.ro",
@@ -3159,7 +3159,7 @@
             },
             {
                 "id": "Digi.Sport.4.HD.ro",
-                "name": "Digi Sport 4 HD (Rumani)",
+                "name": "RO: Digi Sport 4 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Digi.Sport.4.HD.ro.png",
                 "tags": [
                     "digisport4.ro",
@@ -3169,7 +3169,7 @@
             },
             {
                 "id": "Eurosport.1.HD.ro",
-                "name": "Eurosport 1 HD (Rumani)",
+                "name": "RO: Eurosport 1 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.HD.ro.png",
                 "tags": [
                     "eurosport1.ro",
@@ -3178,7 +3178,7 @@
             },
             {
                 "id": "fineliving.ro",
-                "name": "Look Sport HD (Rumani)",
+                "name": "RO: Look Sport HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/fineliving.ro.png",
                 "tags": [
                     "fineliving.ro",
@@ -3187,7 +3187,7 @@
             },
             {
                 "id": "looksport2.ro",
-                "name": "Look Sport 2 HD (Rumani)",
+                "name": "RO: Look Sport 2 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/looksport2.ro.png",
                 "tags": [
                     "RO: LOOK SPORT 2 HD"
@@ -3195,7 +3195,7 @@
             },
             {
                 "id": "looksport3.ro",
-                "name": "Look Sport 3 FHD (Rumani)",
+                "name": "RO: Look Sport 3 FHD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/looksport3.ro.png",
                 "tags": [
                     "RO: LOOK SPORT 3 FHD"
@@ -3203,7 +3203,7 @@
             },
             {
                 "id": "orangesport1.ro",
-                "name": "Orange Sport 1 (Rumani)",
+                "name": "RO: Orange Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport1.ro.png",
                 "tags": [
                     "orangesport1.ro",
@@ -3212,7 +3212,7 @@
             },
             {
                 "id": "orangesport2.ro",
-                "name": "Orange Sport 2 (Rumani)",
+                "name": "RO: Orange Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport2.ro.png",
                 "tags": [
                     "orangesport2.ro",
@@ -3221,7 +3221,7 @@
             },
             {
                 "id": "orangesport3.ro",
-                "name": "Orange Sport 3 (Rumani)",
+                "name": "RO: Orange Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport3.ro.png",
                 "tags": [
                     "orangesport3.ro",
@@ -3230,7 +3230,7 @@
             },
             {
                 "id": "orangesport4.ro",
-                "name": "Orange Sport 4 (Rumani)",
+                "name": "RO: Orange Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport4.ro.png",
                 "tags": [
                     "orangesport4.ro",
@@ -3239,7 +3239,7 @@
             },
             {
                 "id": "Prima.Sport.1.HD.ro",
-                "name": "Prima Sport 1 HD (Rumani)",
+                "name": "RO: Prima Sport 1 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.1.HD.ro.png",
                 "tags": [
                     "primasport1.ro",
@@ -3248,7 +3248,7 @@
             },
             {
                 "id": "Prima.Sport.2.HD.ro",
-                "name": "Prima Sport 2 HD (Rumani)",
+                "name": "RO: Prima Sport 2 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.2.HD.ro.png",
                 "tags": [
                     "primasport2.ro",
@@ -3257,7 +3257,7 @@
             },
             {
                 "id": "Prima.Sport.3.HD.ro",
-                "name": "Prima Sport 3 HD (Rumani)",
+                "name": "RO: Prima Sport 3 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.3.HD.ro.png",
                 "tags": [
                     "primasport3.ro",
@@ -3266,7 +3266,7 @@
             },
             {
                 "id": "Prima.Sport.4.HD.ro",
-                "name": "Prima Sport 4 HD (Rumani)",
+                "name": "RO: Prima Sport 4 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.4.HD.ro.png",
                 "tags": [
                     "primasport4.ro",
@@ -3275,7 +3275,7 @@
             },
             {
                 "id": "telekomsport1.ro",
-                "name": "Telekom Sport 1 HD (Rumani)",
+                "name": "RO: Telekom Sport 1 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/telekomsport1.ro.png",
                 "tags": [
                     "telekomsport1.ro",
@@ -3284,7 +3284,7 @@
             },
             {
                 "id": "telekomsport2.ro",
-                "name": "Telekom Sport 2 HD (Rumani)",
+                "name": "RO: Telekom Sport 2 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/telekomsport2.ro.png",
                 "tags": [
                     "telekomsport2.ro",
@@ -3293,7 +3293,7 @@
             },
             {
                 "id": "telekomsport3.ro",
-                "name": "Telekom Sport 3 HD (Rumani)",
+                "name": "RO: Telekom Sport 3 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/telekomsport3.ro.png",
                 "tags": [
                     "telekomsport3.ro",
@@ -3302,7 +3302,7 @@
             },
             {
                 "id": "telekomsport4.ro",
-                "name": "Telekom Sport 4 HD (Rumani)",
+                "name": "RO: Telekom Sport 4 HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/telekomsport4.ro.png",
                 "tags": [
                     "telekomsport4.ro",
@@ -3311,7 +3311,7 @@
             },
             {
                 "id": "match.ru",
-                "name": "Match (Nga)",
+                "name": "RU: Match",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match.ru.png",
                 "tags": [
                     "RU:Match"
@@ -3319,7 +3319,7 @@
             },
             {
                 "id": "match-arena.ru",
-                "name": "Match Arena (Nga)",
+                "name": "RU: Match Arena",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-arena.ru.png",
                 "tags": [
                     "RU:Match.Arena"
@@ -3327,7 +3327,7 @@
             },
             {
                 "id": "match-strana.ru",
-                "name": "Match Strana (Nga)",
+                "name": "RU: Match Strana",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-strana.ru.png",
                 "tags": [
                     "RU:Match.Strana"
@@ -3335,7 +3335,7 @@
             },
             {
                 "id": "match-premier.ru",
-                "name": "Match Premier (Nga)",
+                "name": "RU: Match Premier",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-premier.ru.png",
                 "tags": [
                     "RU:Match.Premier"
@@ -3343,7 +3343,7 @@
             },
             {
                 "id": "match-footbal1.ru",
-                "name": "Match Football 1 (Nga)",
+                "name": "RU: Match Football 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal1.ru.png",
                 "tags": [
                     "RU:Match.Footbal1"
@@ -3351,7 +3351,7 @@
             },
             {
                 "id": "match-footbal2.ru",
-                "name": "Match Football 2 (Nga)",
+                "name": "RU: Match Football 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal2.ru.png",
                 "tags": [
                     "RU:Match.Footbal2"
@@ -3359,7 +3359,7 @@
             },
             {
                 "id": "match-footbal3.ru",
-                "name": "Match Football 3 (Nga)",
+                "name": "RU: Match Football 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal3.ru.png",
                 "tags": [
                     "RU:Match.Footbal3"
@@ -3386,38 +3386,6 @@
                 "tags": [
                     "boxnation.uk",
                     "UK: BOXNATION HD"
-                ]
-            },
-            {
-                "id": "BBC.One.CI.HD.uk",
-                "name": "BBC One",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.One.CI.HD.uk.png",
-                "tags": [
-                    "UK:BBC1"
-                ]
-            },
-            {
-                "id": "BBC.Two.HD.uk",
-                "name": "BBC Two",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.Two.HD.uk.png",
-                "tags": [
-                    "UK:BBC2"
-                ]
-            },
-            {
-                "id": "BBC.Three.HD.uk",
-                "name": "BBC Three",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.Three.HD.uk.png",
-                "tags": [
-                    "UK:BBC3"
-                ]
-            },
-            {
-                "id": "BBC.Four.HD.uk",
-                "name": "BBC Four",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.Four.HD.uk.png",
-                "tags": [
-                    "UK:BBC4"
                 ]
             },
             {
@@ -3637,6 +3605,7 @@
                 "name": "TNT Sports 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.5.HD.uk.png",
                 "tags": [
+                    "tnt5",
                     "btsportx1.uk",
                     "UK: TNT SPORTS 5 HD"
                 ]
@@ -3733,7 +3702,7 @@
             },
             {
                 "id": "CANAL+LIVE.1.fr",
-                "name": "CANAL+ LIVE 1 (Pháp)",
+                "name": "FR: CANAL+ LIVE 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.1.fr.png",
                 "tags": [
                     "Canal+ (FR) Live 1",
@@ -3742,7 +3711,7 @@
             },
             {
                 "id": "CANAL+LIVE.2.fr",
-                "name": "CANAL+ LIVE 2 (Pháp)",
+                "name": "FR: CANAL+ LIVE 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.2.fr.png",
                 "tags": [
                     "Canal+ (FR) Live 2",
@@ -3751,7 +3720,7 @@
             },
             {
                 "id": "CANAL+LIVE.3.fr",
-                "name": "CANAL+ LIVE 3 (Pháp)",
+                "name": "FR: CANAL+ LIVE 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.3.fr.png",
                 "tags": [
                     "Canal+ (FR) Live 3",
@@ -3760,7 +3729,7 @@
             },
             {
                 "id": "CANAL+LIVE.4.fr",
-                "name": "CANAL+ LIVE 4 (Pháp)",
+                "name": "FR: CANAL+ LIVE 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.4.fr.png",
                 "tags": [
                     "Canal+ (FR) Live 4",
@@ -3769,7 +3738,7 @@
             },
             {
                 "id": "CANAL+LIVE.5.fr",
-                "name": "CANAL+ LIVE 5 (Pháp)",
+                "name": "FR: CANAL+ LIVE 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.5.fr.png",
                 "tags": [
                     "Canal+ (FR) Live 5",
@@ -3778,7 +3747,7 @@
             },
             {
                 "id": "CANAL+LIVE.6.fr",
-                "name": "CANAL+ LIVE 6 (Pháp)",
+                "name": "FR: CANAL+ LIVE 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.6.fr.png",
                 "tags": [
                     "Canal+ (FR) Live 6",
@@ -3787,7 +3756,7 @@
             },
             {
                 "id": "CANAL+LIVE.7.fr",
-                "name": "CANAL+ LIVE 7 (Pháp)",
+                "name": "FR: CANAL+ LIVE 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.7.fr.png",
                 "tags": [
                     "Canal+ Live 7",
@@ -3796,7 +3765,7 @@
             },
             {
                 "id": "CANAL+LIVE.8.fr",
-                "name": "CANAL+ LIVE 8 (Pháp)",
+                "name": "FR: CANAL+ LIVE 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.8.fr.png",
                 "tags": [
                     "Canal+ Live 8",
@@ -3805,7 +3774,7 @@
             },
             {
                 "id": "CANAL+LIVE.9.fr",
-                "name": "CANAL+ LIVE 9 (Pháp)",
+                "name": "FR: CANAL+ LIVE 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.9.fr.png",
                 "tags": [
                     "Canal+ Live 9",
@@ -3814,7 +3783,7 @@
             },
             {
                 "id": "CANAL+LIVE.10.fr",
-                "name": "CANAL+ LIVE 10 (Pháp)",
+                "name": "FR: CANAL+ LIVE 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.10.fr.png",
                 "tags": [
                     "Canal+ Live 10",
@@ -3823,7 +3792,7 @@
             },
             {
                 "id": "CANAL+LIVE.11.fr",
-                "name": "CANAL+ LIVE 11 (Pháp)",
+                "name": "FR: CANAL+ LIVE 11",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.11.fr.png",
                 "tags": [
                     "Canal+ Live 11",
@@ -3832,7 +3801,7 @@
             },
             {
                 "id": "CANAL+LIVE.12.fr",
-                "name": "CANAL+ LIVE 12 (Pháp)",
+                "name": "FR: CANAL+ LIVE 12",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.12.fr.png",
                 "tags": [
                     "Canal+ Live 12",
@@ -3841,7 +3810,7 @@
             },
             {
                 "id": "CANAL+LIVE.13.fr",
-                "name": "CANAL+ LIVE 13 (Pháp)",
+                "name": "FR: CANAL+ LIVE 13",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.13.fr.png",
                 "tags": [
                     "Canal+ Live 13",
@@ -3850,7 +3819,7 @@
             },
             {
                 "id": "CANAL+LIVE.14.fr",
-                "name": "CANAL+ LIVE 14 (Pháp)",
+                "name": "FR: CANAL+ LIVE 14",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.14.fr.png",
                 "tags": [
                     "Canal+ Live 14",
@@ -3859,7 +3828,7 @@
             },
             {
                 "id": "CANAL+LIVE.15.fr",
-                "name": "CANAL+ LIVE 15 (Pháp)",
+                "name": "FR: CANAL+ LIVE 15",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.15.fr.png",
                 "tags": [
                     "Canal+ Live 15",
@@ -3868,7 +3837,7 @@
             },
             {
                 "id": "CANAL+LIVE.16.fr",
-                "name": "CANAL+ LIVE 16 (Pháp)",
+                "name": "FR: CANAL+ LIVE 16",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.16.fr.png",
                 "tags": [
                     "Canal+ Live 16",
@@ -3877,7 +3846,7 @@
             },
             {
                 "id": "CANAL+LIVE.17.fr",
-                "name": "CANAL+ LIVE 17 (Pháp)",
+                "name": "FR: CANAL+ LIVE 17",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.17.fr.png",
                 "tags": [
                     "Canal+ Live 17",
@@ -3886,7 +3855,7 @@
             },
             {
                 "id": "CANAL+LIVE.18.fr",
-                "name": "CANAL+ LIVE 18 (Pháp)",
+                "name": "FR: CANAL+ LIVE 18",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.18.fr.png",
                 "tags": [
                     "Canal+ Live 18",
@@ -3895,7 +3864,7 @@
             },
             {
                 "id": "CANAL+LIVE.19.fr",
-                "name": "CANAL+ LIVE 19 (Pháp)",
+                "name": "FR: CANAL+ LIVE 19",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.19.fr.png",
                 "tags": [
                     "Canal+ Live 19",
@@ -3904,7 +3873,7 @@
             },
             {
                 "id": "CANAL+FOOT.fr",
-                "name": "CANAL+ FOOT (Pháp)",
+                "name": "FR: CANAL+ FOOT",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+FOOT.fr.png",
                 "tags": [
                     "Canal+ (FR) Foot",
@@ -3913,7 +3882,7 @@
             },
             {
                 "id": "CANAL+.fr",
-                "name": "CANAL+ (Pháp)",
+                "name": "FR: CANAL+",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+.fr.png",
                 "tags": [
                     "Canal+"
@@ -3921,7 +3890,7 @@
             },
             {
                 "id": "CANAL+SPORT.fr",
-                "name": "CANAL+ SPORT (Pháp)",
+                "name": "FR: CANAL+ SPORT",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+SPORT.fr.png",
                 "tags": [
                     "Canal+ (FR) Sport"
@@ -3929,10 +3898,83 @@
             },
             {
                 "id": "CANAL+SPORT360.fr",
-                "name": "CANAL+ SPORT 360 (Pháp)",
+                "name": "FR: CANAL+ SPORT 360",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+SPORT360.fr.png",
                 "tags": [
                     "Canal+ (FR) Sport 360"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "uk",
+        "name": "Vương quốc Anh",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/united-kingdom-flag-icon.png",
+        "sortOrder": 8,
+        "isAutoSort": false,
+        "channels": [
+            {
+                "id": "BBC.One.CI.HD.uk",
+                "name": "BBC One",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.One.CI.HD.uk.png",
+                "tags": [
+                    "UK:BBC1"
+                ]
+            },
+            {
+                "id": "BBC.Two.HD.uk",
+                "name": "BBC Two",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.Two.HD.uk.png",
+                "tags": [
+                    "UK:BBC2"
+                ]
+            },
+            {
+                "id": "BBC.Three.HD.uk",
+                "name": "BBC Three",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.Three.HD.uk.png",
+                "tags": [
+                    "UK:BBC3"
+                ]
+            },
+            {
+                "id": "BBC.Four.HD.uk",
+                "name": "BBC Four",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.Four.HD.uk.png",
+                "tags": [
+                    "UK:BBC4"
+                ]
+            },
+            {
+                "id": "ITV1.HD.uk",
+                "name": "ITV1",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/250px-ITV1_logo_%282022%29.svg.png",
+                "tags": [
+                    "UK: ITV1"
+                ]
+            },
+            {
+                "id": "ITV2.HD.uk",
+                "name": "ITV2",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ITV2_logo_2022.svg/1200px-ITV2_logo_2022.svg.png",
+                "tags": [
+                    "UK: ITV2"
+                ]
+            },
+            {
+                "id": "ITV3.HD.uk",
+                "name": "ITV3",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/ITV3_logo_2022.svg/1200px-ITV3_logo_2022.svg.png",
+                "tags": [
+                    "UK: ITV3"
+                ]
+            },
+            {
+                "id": "ITV4.HD.uk",
+                "name": "ITV4",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/ITV4_logo_%282022%29.svg/1200px-ITV4_logo_%282022%29.svg.png",
+                "tags": [
+                    "UK: ITV4"
                 ]
             }
         ]
