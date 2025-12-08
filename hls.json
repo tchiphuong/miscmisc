@@ -3903,6 +3903,72 @@
                 "tags": [
                     "Canal+ (FR) Sport 360"
                 ]
+            },
+            {
+                "id": "Astro.Premier.League.my",
+                "name": "Astro Premier League",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.my.png",
+                "sources": [
+                    {
+                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp1"
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "id": "Astro.Premier.League.2.my",
+                "name": "Astro Premier League 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.2.my.png",
+                "sources": [
+                    {
+                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp2"
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "id": "Astro.Grandstand.my",
+                "name": "Astro Grandstand",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Grandstand.my.png",
+                "sources": [
+                    {
+                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp3"
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "id": "Astro.Football.my",
+                "name": "Astro Football",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Football.my.png",
+                "sources": [
+                    {
+                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp4"
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "id": "Astro.Sports.Plus.my",
+                "name": "Astro Sports Plus",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Sports.Plus.my.png",
+                "sources": [
+                    {
+                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_sportsplus"
+                    }
+                ],
+                "tags": []
+            },
+            {
+                "id": "W-Sport.my",
+                "name": "Astro W-Sports",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/W-Sport.my.png",
+                "sources": [
+                    {
+                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp5"
+                    }
+                ],
+                "tags": []
             }
         ]
     },
