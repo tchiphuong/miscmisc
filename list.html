@@ -135,6 +135,16 @@
                             var id = (ch.id || '').toLowerCase();
                             return name.includes(q) || id.includes(q) || (gr.name || '').toLowerCase().includes(q);
                         });
+                        if (gr.isAutoSort !== false) {
+                            channels.sort((a, b) => {
+                                // 1. Safe guard: Đảm bảo luôn là chuỗi, nếu null/undefined thì coi là chuỗi rỗng
+                                const nameA = (a.name || "").toString();
+                                const nameB = (b.name || "").toString();
+
+                                // 2. Sort magic: 'vi' để ưu tiên tiếng Việt, numeric để sort số tự nhiên
+                                return nameA.localeCompare(nameB, 'vi', { numeric: true, sensitivity: 'base' });
+                            });
+                        }
                         if (channels.length) out.push({
                             name: gr.name, logo: gr.logo, sortOrder: gr.sortOrder || 0, channels: channels, __key: gr.__key
                         });

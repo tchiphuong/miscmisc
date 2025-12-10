@@ -88,6 +88,18 @@
         "isAutoSort": false,
         "channels": [
             {
+                "id": "ksport1hd",
+                "name": "K+ Sport 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport1hd.png",
+                "tags": []
+            },
+            {
+                "id": "ksport2hd",
+                "name": "K+ Sport 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport2hd.png",
+                "tags": []
+            },
+            {
                 "id": "kcinehd",
                 "name": "K+ Cine",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/kcinehd.png",
@@ -100,18 +112,6 @@
                 "tags": [
                     "kaction"
                 ]
-            },
-            {
-                "id": "ksport1hd",
-                "name": "K+ Sport 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport1hd.png",
-                "tags": []
-            },
-            {
-                "id": "ksport2hd",
-                "name": "K+ Sport 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport2hd.png",
-                "tags": []
             },
             {
                 "id": "kkidshd",
@@ -2291,7 +2291,7 @@
             },
             {
                 "id": "Arena.Premium.1.HD.(RS).rs",
-                "name": "Arena Premium 1",
+                "name": "RS: Arena Premium 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.1.HD.(RS).rs.png",
                 "tags": [
                     "bh:arenapremium1hd"
@@ -2299,7 +2299,7 @@
             },
             {
                 "id": "Arena.Premium.2.HD.(RS).rs",
-                "name": "Arena Premium 2",
+                "name": "RS: Arena Premium 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.2.HD.(RS).rs.png",
                 "tags": [
                     "bh:arenapremium2hd"
@@ -2307,7 +2307,7 @@
             },
             {
                 "id": "Arena.Premium.3.HD.(RS).rs",
-                "name": "Arena Premium 3",
+                "name": "RS: Arena Premium 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.3.HD.(RS).rs.png",
                 "tags": [
                     "bh:arenapremium3hd"
@@ -2395,7 +2395,7 @@
             },
             {
                 "id": "DAZN.F1.es",
-                "name": "DAZN F1",
+                "name": "ES: DAZN F1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.F1.es.png",
                 "tags": [
                     "es:daznf1hd",
@@ -2441,7 +2441,7 @@
             },
             {
                 "id": "M+.Vamos.es",
-                "name": "Movistar Vamos",
+                "name": "ES: Movistar Vamos",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Vamos.es.png",
                 "tags": [
                     "vamos.es",
@@ -2451,7 +2451,7 @@
             },
             {
                 "id": "LALIGA.TV.BAR.es",
-                "name": "La Liga TV Bar",
+                "name": "ES: La Liga TV Bar",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/LALIGA.TV.BAR.es.png",
                 "tags": [
                     "es:laligabarhd",
@@ -2464,7 +2464,7 @@
             },
             {
                 "id": "M+.LALIGA.TV.es",
-                "name": "Movistar La Liga",
+                "name": "ES: Movistar La Liga",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.LALIGA.TV.es.png",
                 "tags": [
                     "es:movistarlaligahd",
@@ -2474,7 +2474,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones.es",
-                "name": "Movistar Liga de Campeones 1",
+                "name": "ES: Movistar Liga de Campeones 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.es.png",
                 "tags": [
                     "es:movistarligacampeones1hd",
@@ -2483,7 +2483,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones.2.es",
-                "name": "Movistar Liga de Campeones 2",
+                "name": "ES: Movistar Liga de Campeones 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.2.es.png",
                 "tags": [
                     "es:movistarligacampeones2hd",
@@ -2493,7 +2493,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones..3.es",
-                "name": "Movistar Liga de Campeones 3",
+                "name": "ES: Movistar Liga de Campeones 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones..3.es.png",
                 "tags": [
                     "es:movistarligacampeones3hd(soloeventos)",
@@ -2503,7 +2503,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones..4.es",
-                "name": "Movistar Liga de Campeones 4",
+                "name": "ES: Movistar Liga de Campeones 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones..4.es.png",
                 "tags": [
                     "es:movistarligacampeones4hd(soloeventos)",
@@ -2512,7 +2512,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones.5.es",
-                "name": "Movistar Liga de Campeones 5",
+                "name": "ES: Movistar Liga de Campeones 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.5.es.png",
                 "tags": [
                     "es:movistarligacampeones5hd(soloeventos)",
@@ -2521,7 +2521,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones.6.es",
-                "name": "Movistar Liga de Campeones 6",
+                "name": "ES: Movistar Liga de Campeones 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.6.es.png",
                 "tags": [
                     "es:movistarligacampeones6hd(soloeventos)",
@@ -2530,7 +2530,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones.7.es",
-                "name": "Movistar Liga de Campeones 7",
+                "name": "ES: Movistar Liga de Campeones 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.7.es.png",
                 "tags": [
                     "es:movistarligacampeones7hd(soloeventos)",
@@ -2539,7 +2539,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones.8.es",
-                "name": "Movistar Liga de Campeones 8",
+                "name": "ES: Movistar Liga de Campeones 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.8.es.png",
                 "tags": [
                     "es:movistarligacampeones8hd(soloeventos)",
@@ -2548,7 +2548,7 @@
             },
             {
                 "id": "M+.Liga.de.Campeones.9.es",
-                "name": "Movistar Liga de Campeones 9",
+                "name": "ES: Movistar Liga de Campeones 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.9.es.png",
                 "tags": [
                     "es:movistarligacampeones9hd(soloeventos)",
@@ -2557,7 +2557,7 @@
             },
             {
                 "id": "DIEMA.SPORT.bg",
-                "name": "Diema Sport",
+                "name": "BG: Diema Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DIEMA.SPORT.bg.png",
                 "tags": [
                     "diemasport.bg",
@@ -2567,7 +2567,7 @@
             },
             {
                 "id": "DIEMA.SPORT.2.bg",
-                "name": "Diema Sport 2",
+                "name": "BG: Diema Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DIEMA.SPORT.2.bg.png",
                 "tags": [
                     "diemasport.2.bg",
@@ -2577,7 +2577,7 @@
             },
             {
                 "id": "DIEMA.SPORT.3.bg",
-                "name": "Diema Sport 3",
+                "name": "BG: Diema Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DIEMA.SPORT.3.bg.png",
                 "tags": [
                     "diemasport3.bg",
@@ -2587,7 +2587,7 @@
             },
             {
                 "id": "Max.Sport.1.bg",
-                "name": "Max Sport 1",
+                "name": "BG: Max Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Max.Sport.1.bg.png",
                 "tags": [
                     "max sport 1 hd",
@@ -2597,7 +2597,7 @@
             },
             {
                 "id": "Max.Sport.2.bg",
-                "name": "Max Sport 2",
+                "name": "BG: Max Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Max.Sport.2.bg.png",
                 "tags": [
                     "max sport 2 hd",
@@ -2607,7 +2607,7 @@
             },
             {
                 "id": "Max.Sport.3.bg",
-                "name": "Max Sport 3",
+                "name": "BG: Max Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Max.Sport.3.bg.png",
                 "tags": [
                     "max sport 3 hd",
@@ -2617,7 +2617,7 @@
             },
             {
                 "id": "Max.Sport.4.bg",
-                "name": "Max Sport 4",
+                "name": "BG: Max Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Max.Sport.4.bg.png",
                 "tags": [
                     "max sport 4 hd",
@@ -2627,7 +2627,7 @@
             },
             {
                 "id": "Nova.Sport.bg",
-                "name": "Nova Sport",
+                "name": "BG: Nova Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Nova.Sport.bg.png",
                 "tags": [
                     "bg:novasporthd",
@@ -2636,7 +2636,7 @@
             },
             {
                 "id": "Now.Sports.4K.1.hk",
-                "name": "Now Sports 4K 1",
+                "name": "HK: Now Sports 4K 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.4K.1.hk.png",
                 "tags": [
                     "uk:nowsportuhd|4k"
@@ -2644,7 +2644,7 @@
             },
             {
                 "id": "Now.Sports.4K.2.hk",
-                "name": "Now Sports 4K 2",
+                "name": "HK: Now Sports 4K 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.4K.2.hk.png",
                 "tags": [
                     "nowsports4k2.hk"
@@ -2652,7 +2652,7 @@
             },
             {
                 "id": "Now.Sports.4K.3.hk",
-                "name": "Now Sports 4K 3",
+                "name": "HK: Now Sports 4K 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.4K.3.hk.png",
                 "tags": [
                     "nowsports4k3.hk"
@@ -2660,7 +2660,7 @@
             },
             {
                 "id": "Now.Sports.Premier.League.1.hk",
-                "name": "Now Sports Premier League 1",
+                "name": "HK: Now Sports Premier League 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.1.hk.png",
                 "tags": [
                     "uk:nowsportpl1fhd"
@@ -2668,7 +2668,7 @@
             },
             {
                 "id": "Now.Sports.Premier.League.2.hk",
-                "name": "Now Sports Premier League 2",
+                "name": "HK: Now Sports Premier League 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.2.hk.png",
                 "tags": [
                     "uk:nowsportpl2fhd"
@@ -2676,7 +2676,7 @@
             },
             {
                 "id": "Now.Sports.Premier.League.3.hk",
-                "name": "Now Sports Premier League 3",
+                "name": "HK: Now Sports Premier League 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.3.hk.png",
                 "tags": [
                     "uk:nowsportpl3fhd"
@@ -2684,7 +2684,7 @@
             },
             {
                 "id": "Now.Sports.Premier.League.4.hk",
-                "name": "Now Sports Premier League 4",
+                "name": "HK: Now Sports Premier League 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.4.hk.png",
                 "tags": [
                     "uk:nowsportpl4fhd"
@@ -2692,7 +2692,7 @@
             },
             {
                 "id": "Now.Sports.Premier.League.5.hk",
-                "name": "Now Sports Premier League 5",
+                "name": "HK: Now Sports Premier League 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.5.hk.png",
                 "tags": [
                     "uk:nowsportpl5fhd"
@@ -2700,7 +2700,7 @@
             },
             {
                 "id": "Now.Sports.Premier.League.6.hk",
-                "name": "Now Sports Premier League 6",
+                "name": "HK: Now Sports Premier League 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.6.hk.png",
                 "tags": [
                     "uk:nowsportpl6fhd"
@@ -2708,7 +2708,7 @@
             },
             {
                 "id": "Now.Sports.Premier.League.7.hk",
-                "name": "Now Sports Premier League 7",
+                "name": "HK: Now Sports Premier League 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.7.hk.png",
                 "tags": [
                     "uk:nowsportpl7fhd"
@@ -2716,7 +2716,7 @@
             },
             {
                 "id": "Now.Sports.1.hk",
-                "name": "Now Sports 1",
+                "name": "HK: Now Sports 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.1.hk.png",
                 "tags": [
                     "uk:nowsport1"
@@ -2724,7 +2724,7 @@
             },
             {
                 "id": "Now.Sports.2.hk",
-                "name": "Now Sports 2",
+                "name": "HK: Now Sports 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.2.hk.png",
                 "tags": [
                     "uk:nowsport2"
@@ -2732,7 +2732,7 @@
             },
             {
                 "id": "Now.Sports.3.hk",
-                "name": "Now Sports 3",
+                "name": "HK: Now Sports 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.3.hk.png",
                 "tags": [
                     "uk:nowsport3"
@@ -2740,7 +2740,7 @@
             },
             {
                 "id": "Now.Sports.4.hk",
-                "name": "Now Sports 4",
+                "name": "HK: Now Sports 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.4.hk.png",
                 "tags": [
                     "uk:nowsport4"
@@ -2748,7 +2748,7 @@
             },
             {
                 "id": "Now.Sports.5.hk",
-                "name": "Now Sports 5",
+                "name": "HK: Now Sports 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.5.hk.png",
                 "tags": [
                     "uk:nowsport5"
@@ -2756,7 +2756,7 @@
             },
             {
                 "id": "Now.Sports.6.hk",
-                "name": "Now Sports 6",
+                "name": "HK: Now Sports 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.6.hk.png",
                 "tags": [
                     "uk:nowsport6"
@@ -2764,15 +2764,15 @@
             },
             {
                 "id": "Now.Sports.7.hk",
-                "name": "Now Sports 7",
+                "name": "HK: Now Sports 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.7.hk.png",
                 "tags": [
-                    "uk:nowsport6"
+                    "uk:nowsport7"
                 ]
             },
             {
                 "id": "Polsat.Sport.News.pl",
-                "name": "Polsat Sport News",
+                "name": "PL: Polsat Sport News",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.News.pl.png",
                 "tags": [
                     "polsatsportnews.pl",
@@ -2781,7 +2781,7 @@
             },
             {
                 "id": "Polsat.Sport.Extra.pl",
-                "name": "Polsat Sport Extra",
+                "name": "PL: Polsat Sport Extra",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Extra.pl.png",
                 "tags": [
                     "polsatsportextra.pl",
@@ -2791,7 +2791,7 @@
             },
             {
                 "id": "Polsat.Sport.Fight.pl",
-                "name": "Polsat Sport Fight",
+                "name": "PL: Polsat Sport Fight",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Fight.pl.png",
                 "tags": [
                     "pl:polsatsportfighthd",
@@ -2800,7 +2800,7 @@
             },
             {
                 "id": "Polsat.Sport.pl",
-                "name": "Polsat Sport",
+                "name": "PL: Polsat Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.pl.png",
                 "tags": [
                     "polsatsport.pl",
@@ -2810,7 +2810,7 @@
             },
             {
                 "id": "Polsat.Sport.Premium.1.pl",
-                "name": "Polsat Sport Premium 1",
+                "name": "PL: Polsat Sport Premium 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Premium.1.pl.png",
                 "tags": [
                     "polsatsportpremium1.pl",
@@ -2819,7 +2819,7 @@
             },
             {
                 "id": "Polsat.Sport.Premium.2.pl",
-                "name": "Polsat Sport Premium 2",
+                "name": "PL: Polsat Sport Premium 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Premium.2.pl.png",
                 "tags": [
                     "pl:polsatsportpremium2fhd",
@@ -2828,7 +2828,7 @@
             },
             {
                 "id": "Polsat.Sport.Premium.3.pl",
-                "name": "Polsat Sport Premium 3",
+                "name": "PL: Polsat Sport Premium 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Premium.3.pl.png",
                 "tags": [
                     "polsatsportpremium3ppv.pl",
@@ -2837,7 +2837,7 @@
             },
             {
                 "id": "Polsat.Sport.Premium.4.pl",
-                "name": "Polsat Sport Premium 4",
+                "name": "PL: Polsat Sport Premium 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Premium.4.pl.png",
                 "tags": [
                     "pl:polsatsportpremium4hd",
@@ -2846,7 +2846,7 @@
             },
             {
                 "id": "Polsat.Sport.Premium.5.pl",
-                "name": "Polsat Sport Premium 5",
+                "name": "PL: Polsat Sport Premium 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Premium.5.pl.png",
                 "tags": [
                     "polsatsportpremium5ppv.pl",
@@ -2855,7 +2855,7 @@
             },
             {
                 "id": "Polsat.Sport.Premium.6.pl",
-                "name": "Polsat Sport Premium 6",
+                "name": "PL: Polsat Sport Premium 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Polsat.Sport.Premium.6.pl.png",
                 "tags": [
                     "polsatsportpremium6ppv.pl",
@@ -2864,7 +2864,7 @@
             },
             {
                 "id": "Canal.Plus.Sport.pl",
-                "name": "Canal+ Sport",
+                "name": "PL: Canal+ Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Canal.Plus.Sport.pl.png",
                 "tags": [
                     "canalplussport.pl",
@@ -2873,7 +2873,7 @@
             },
             {
                 "id": "Canal.Plus.Sport.2.pl",
-                "name": "Canal+ Sport 2",
+                "name": "PL: Canal+ Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Canal.Plus.Sport.2.pl.png",
                 "tags": [
                     "pl:canal+sport2fhd",
@@ -2882,7 +2882,7 @@
             },
             {
                 "id": "Canal.Plus.Sport.3.pl",
-                "name": "Canal+ Sport 3",
+                "name": "PL: Canal+ Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Canal.Plus.Sport.3.pl.png",
                 "tags": [
                     "canalplussport3.pl",
@@ -2891,7 +2891,7 @@
             },
             {
                 "id": "Canal.Plus.Sport.4.pl",
-                "name": "Canal+ Sport 4",
+                "name": "PL: Canal+ Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Canal.Plus.Sport.4.pl.png",
                 "tags": [
                     "canalplussport4.pl",
@@ -2900,7 +2900,7 @@
             },
             {
                 "id": "Eleven.Sports.1.pl",
-                "name": "Eleven Sports 1",
+                "name": "PL: Eleven Sports 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eleven.Sports.1.pl.png",
                 "tags": [
                     "elevensports1.pl",
@@ -2910,7 +2910,7 @@
             },
             {
                 "id": "Eleven.Sports.2.pl",
-                "name": "Eleven Sports 2",
+                "name": "PL: Eleven Sports 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eleven.Sports.2.pl.png",
                 "tags": [
                     "elevensports2.pl",
@@ -2920,7 +2920,7 @@
             },
             {
                 "id": "Eleven.Sports.3.pl",
-                "name": "Eleven Sports 3",
+                "name": "PL: Eleven Sports 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eleven.Sports.3.pl.png",
                 "tags": [
                     "elevensports3.pl",
@@ -2930,7 +2930,7 @@
             },
             {
                 "id": "Eleven.Sports.4.pl",
-                "name": "Eleven Sports 4",
+                "name": "PL: Eleven Sports 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eleven.Sports.4.pl.png",
                 "tags": [
                     "elevensportsports4.pl",
@@ -2940,7 +2940,7 @@
             },
             {
                 "id": "TVP.Sport.pl",
-                "name": "TVP Sport",
+                "name": "PL: TVP Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TVP.Sport.pl.png",
                 "tags": [
                     "tvpsport.pl",
@@ -2950,7 +2950,7 @@
             },
             {
                 "id": "Canal.Plus.Premium.pl",
-                "name": "Canal+ Premium",
+                "name": "PL: Canal+ Premium",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Canal.Plus.Premium.pl.png",
                 "tags": [
                     "pl:canal+premiumfhd",
@@ -2959,7 +2959,7 @@
             },
             {
                 "id": "Canal.Plus.Now.pl",
-                "name": "Canal+ Now",
+                "name": "PL: Canal+ Now",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Canal.Plus.Now.pl.png",
                 "tags": [
                     "canalplusnow.pl",
@@ -3381,7 +3381,7 @@
             },
             {
                 "id": "BoxNation.HD.uk",
-                "name": "BoxNation",
+                "name": "UK: BoxNation",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BoxNation.HD.uk.png",
                 "tags": [
                     "boxnation.uk",
@@ -3390,7 +3390,7 @@
             },
             {
                 "id": "UK:BT.Sports.Espn",
-                "name": "BT Sport ESPN",
+                "name": "UK: BT Sport ESPN",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/UK_BT.Sports.Espn.png",
                 "tags": [
                     "UK:BT.Sports.Espn"
@@ -3398,7 +3398,7 @@
             },
             {
                 "id": "LFCTV.HD.uk",
-                "name": "LFC TV",
+                "name": "UK: LFC TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/LFCTV.HD.uk.png",
                 "tags": [
                     "liverpoolfctv.uk",
@@ -3408,7 +3408,7 @@
             },
             {
                 "id": "MUTV.HD.uk",
-                "name": "MUTV",
+                "name": "UK: MUTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/MUTV.HD.uk.png",
                 "tags": [
                     "mutv.uk",
@@ -3418,7 +3418,7 @@
             },
             {
                 "id": "Premier.Sports.1.HD.uk",
-                "name": "Premier Sports 1",
+                "name": "UK: Premier Sports 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Premier.Sports.1.HD.uk.png",
                 "tags": [
                     "premiersports.uk",
@@ -3427,7 +3427,7 @@
             },
             {
                 "id": "Premier.Sports.2.HD.uk",
-                "name": "Premier Sports 2",
+                "name": "UK: Premier Sports 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Premier.Sports.2.HD.uk.png",
                 "tags": [
                     "premiersports2.uk",
@@ -3436,7 +3436,7 @@
             },
             {
                 "id": "Racing.TV.HD.uk",
-                "name": "Racing TV",
+                "name": "UK: Racing TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Racing.TV.HD.uk.png",
                 "tags": [
                     "racinguk.uk",
@@ -3445,7 +3445,7 @@
             },
             {
                 "id": "Sky.Sports.Action.HD.uk",
-                "name": "Sky Sports Action",
+                "name": "UK: Sky Sports Action",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Action.HD.uk.png",
                 "tags": [
                     "skysportsaction.uk",
@@ -3455,7 +3455,7 @@
             },
             {
                 "id": "Sky.Sports.Arena.HD.uk",
-                "name": "Sky Sports Arena",
+                "name": "UK: Sky Sports Arena",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Arena.HD.uk.png",
                 "tags": [
                     "UK:SkySport.Arena"
@@ -3463,7 +3463,7 @@
             },
             {
                 "id": "Sky.Sports.Cricket.HD.uk",
-                "name": "Sky Sports Cricket",
+                "name": "UK: Sky Sports Cricket",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Cricket.HD.uk.png",
                 "tags": [
                     "skysportscricket.uk",
@@ -3473,7 +3473,7 @@
             },
             {
                 "id": "Sky.Sports.F1.HD.uk",
-                "name": "Sky Sports F1",
+                "name": "UK: Sky Sports F1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.F1.HD.uk.png",
                 "tags": [
                     "skysportsf1.uk",
@@ -3483,7 +3483,7 @@
             },
             {
                 "id": "Sky.Sports.Football.HD.uk",
-                "name": "Sky Sports Football",
+                "name": "UK: Sky Sports Football",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Football.HD.uk.png",
                 "tags": [
                     "skysportsfootball.uk",
@@ -3493,7 +3493,7 @@
             },
             {
                 "id": "Sky.Sports.Golf.HD.uk",
-                "name": "Sky Sports Golf",
+                "name": "UK: Sky Sports Golf",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Golf.HD.uk.png",
                 "tags": [
                     "skysportsgolf.uk",
@@ -3502,7 +3502,7 @@
             },
             {
                 "id": "SkySpMainEvHD.uk",
-                "name": "Sky Sports Main Event",
+                "name": "UK: Sky Sports Main Event",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySpMainEvHD.uk.png",
                 "tags": [
                     "skysportsmainevent.uk",
@@ -3511,7 +3511,7 @@
             },
             {
                 "id": "SkySp.Mix.HD.uk",
-                "name": "Sky Sports Mix",
+                "name": "UK: Sky Sports Mix",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp.Mix.HD.uk.png",
                 "tags": [
                     "skysportsmix.uk",
@@ -3521,7 +3521,7 @@
             },
             {
                 "id": "SkySp.News.HD.uk",
-                "name": "Sky Sports News",
+                "name": "UK: Sky Sports News",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp.News.HD.uk.png",
                 "tags": [
                     "skysportsnews.uk",
@@ -3531,7 +3531,7 @@
             },
             {
                 "id": "SkySp+HD.uk",
-                "name": "Sky Sports Plus",
+                "name": "UK: Sky Sports Plus",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp+HD.uk.png",
                 "tags": [
                     "skysportsplus.uk",
@@ -3540,7 +3540,7 @@
             },
             {
                 "id": "SkySp.PL.HD.uk",
-                "name": "Sky Sports Premier League",
+                "name": "UK: Sky Sports Premier League",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp.PL.HD.uk.png",
                 "tags": [
                     "skysportspremiereleague.uk",
@@ -3550,7 +3550,7 @@
             },
             {
                 "id": "SkySpBoxOff.uk",
-                "name": "Sky Sports Box Office",
+                "name": "UK: Sky Sports Box Office",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySpBoxOff.uk.png",
                 "tags": [
                     "skysportsboxoffice.uk",
@@ -3559,7 +3559,7 @@
             },
             {
                 "id": "TNT.Sports.1.HD.uk",
-                "name": "TNT Sports 1",
+                "name": "UK: TNT Sports 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.1.HD.uk.png",
                 "tags": [
                     "tnt1",
@@ -3570,7 +3570,7 @@
             },
             {
                 "id": "TNT.Sports.2.HD.uk",
-                "name": "TNT Sports 2",
+                "name": "UK: TNT Sports 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.2.HD.uk.png",
                 "tags": [
                     "tnt2",
@@ -3581,7 +3581,7 @@
             },
             {
                 "id": "TNT.Sports.3.HD.uk",
-                "name": "TNT Sports 3",
+                "name": "UK: TNT Sports 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.3.HD.uk.png",
                 "tags": [
                     "tnt3",
@@ -3592,7 +3592,7 @@
             },
             {
                 "id": "TNT.Sports.4.HD.uk",
-                "name": "TNT Sports 4",
+                "name": "UK: TNT Sports 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.4.HD.uk.png",
                 "tags": [
                     "tnt4",
@@ -3602,7 +3602,7 @@
             },
             {
                 "id": "TNT.Sports.5.HD.uk",
-                "name": "TNT Sports 5",
+                "name": "UK: TNT Sports 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.5.HD.uk.png",
                 "tags": [
                     "tnt5",
@@ -3612,7 +3612,7 @@
             },
             {
                 "id": "TNT.Sports.6.HD.uk",
-                "name": "TNT Sports 6",
+                "name": "UK: TNT Sports 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.6.HD.uk.png",
                 "tags": [
                     "btsportx2.uk",
@@ -3621,7 +3621,7 @@
             },
             {
                 "id": "TNT.Sports.7.HD.uk",
-                "name": "TNT Sports 7",
+                "name": "UK: TNT Sports 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.7.HD.uk.png",
                 "tags": [
                     "uk:tntsports7hd",
@@ -3630,7 +3630,7 @@
             },
             {
                 "id": "TNT.Sports.8.HD.uk",
-                "name": "TNT Sports 8",
+                "name": "UK: TNT Sports 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.8.HD.uk.png",
                 "tags": [
                     "btsportx4.uk",
@@ -3639,7 +3639,7 @@
             },
             {
                 "id": "TNT.Sports.Ultimate.uk",
-                "name": "TNT Ultimate",
+                "name": "UK: TNT Ultimate",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TNT.Sports.Ultimate.uk.png",
                 "tags": [
                     "tntultimate"
@@ -3647,7 +3647,7 @@
             },
             {
                 "id": "Ziggo.Sport.nl",
-                "name": "Ziggo Sport",
+                "name": "NL: Ziggo Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.nl.png",
                 "tags": [
                     "ziggosportselect.nl",
@@ -3656,7 +3656,7 @@
             },
             {
                 "id": "Ziggo.Sport.2.nl",
-                "name": "Ziggo Sport 2",
+                "name": "NL: Ziggo Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.2.nl.png",
                 "tags": [
                     "ziggosportvoetbal.nl",
@@ -3666,7 +3666,7 @@
             },
             {
                 "id": "Ziggo.Sport.3.nl",
-                "name": "Ziggo Sport 3",
+                "name": "NL: Ziggo Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.3.nl.png",
                 "tags": [
                     "ziggosportgolf.nl",
@@ -3675,7 +3675,7 @@
             },
             {
                 "id": "Ziggo.Sport.4.nl",
-                "name": "Ziggo Sport 4",
+                "name": "NL: Ziggo Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.4.nl.png",
                 "tags": [
                     "ziggosportracing.nl",
@@ -3684,7 +3684,7 @@
             },
             {
                 "id": "Ziggo.Sport.5.nl",
-                "name": "Ziggo Sport 5",
+                "name": "NL: Ziggo Sport 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.5.nl.png",
                 "tags": [
                     "ziggosportextra1.nl",
@@ -3693,7 +3693,7 @@
             },
             {
                 "id": "Ziggo.Sport.6.nl",
-                "name": "Ziggo Sport 6",
+                "name": "NL: Ziggo Sport 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.6.nl.png",
                 "tags": [
                     "ziggosportextra2.nl",
