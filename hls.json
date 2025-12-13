@@ -333,6 +333,7 @@
                 "name": "HTV Thể Thao",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvthethaohd.png",
                 "tags": [
+                    "baria",
                     "vungtau"
                 ]
             },
@@ -689,7 +690,7 @@
             },
             {
                 "id": "anvienhd",
-                "name": "Bình Dương 9",
+                "name": "BTV9 - Bchannel",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/anvienhd.png",
                 "tags": [
                     "btv9",
@@ -1248,7 +1249,8 @@
                 "name": "BBC Cbeebies",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cbeebies.png",
                 "tags": [
-                    "BBC CBeeBies%"
+                    "BBC CBeeBies%",
+                    "BBC CBeeBies (HD 9Mbps)"
                 ]
             },
             {
@@ -1431,7 +1433,9 @@
                 "id": "nhkworld",
                 "name": "NHK World-Japan",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/nhkworld.png",
-                "tags": []
+                "tags": [
+                    "nhk"
+                ]
             },
             {
                 "id": "tlchd",
