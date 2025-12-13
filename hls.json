@@ -291,7 +291,10 @@
                 "id": "htv1",
                 "name": "HTV1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv1.png",
-                "tags": []
+                "tags": [
+                    "binhduong1",
+                    "binhduong2"
+                ]
             },
             {
                 "id": "htv2hd",
@@ -329,7 +332,9 @@
                 "id": "htvthethaohd",
                 "name": "HTV Thể Thao",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvthethaohd.png",
-                "tags": []
+                "tags": [
+                    "vungtau"
+                ]
             },
             {
                 "id": "htvccanhachd",
@@ -680,22 +685,6 @@
                 "tags": [
                     "bacgiang",
                     "BTV - Báo và PTTH Bắc Ninh"
-                ]
-            },
-            {
-                "id": "binhduong1",
-                "name": "Bình Dương 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/binhduong1.png",
-                "tags": [
-                    "BTV1 HD - Đài PTTH Bình Dương"
-                ]
-            },
-            {
-                "id": "binhduong2",
-                "name": "Bình Dương 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/binhduong2.png",
-                "tags": [
-                    "BTV2 HD - Đài PTTH Bình Dương"
                 ]
             },
             {
@@ -1135,15 +1124,6 @@
                     "travinh1",
                     "THTV2 HD | TH Trà Vinh",
                     "THVL5 HD - Báo và PTTH Vĩnh Long"
-                ]
-            },
-            {
-                "id": "vungtau",
-                "name": "Vũng Tàu",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vungtau.png",
-                "tags": [
-                    "baria",
-                    "BRT - Đài PTTH Bà Rịa Vũng Tàu"
                 ]
             }
         ]
