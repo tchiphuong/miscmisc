@@ -636,17 +636,17 @@
         "name": "Trong nước",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
         "sortOrder": 8,
-        "isAutoSort": false,
+        "isAutoSort": true,
         "channels": [
             {
                 "id": "antvhd",
-                "name": "ANTV HD",
+                "name": " ANTV HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/antvhd.png",
                 "tags": []
             },
             {
                 "id": "qpvnhd",
-                "name": "QPVN HD",
+                "name": " QPVN HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/qpvnhd.png",
                 "tags": [
                     "quocphong"
