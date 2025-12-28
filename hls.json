@@ -3893,9 +3893,7 @@
                 "name": "MY: Astro Premier League",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.my.png",
                 "sources": [
-                    {
-                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp1"
-                    }
+                    {}
                 ],
                 "tags": []
             },
@@ -3904,9 +3902,7 @@
                 "name": "MY: Astro Premier League 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.2.my.png",
                 "sources": [
-                    {
-                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp2"
-                    }
+                    {}
                 ],
                 "tags": []
             },
@@ -3915,9 +3911,7 @@
                 "name": "MY: Astro Grandstand",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Grandstand.my.png",
                 "sources": [
-                    {
-                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp3"
-                    }
+                    {}
                 ],
                 "tags": []
             },
@@ -3926,9 +3920,7 @@
                 "name": "MY: Astro Football",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Football.my.png",
                 "sources": [
-                    {
-                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp4"
-                    }
+                    {}
                 ],
                 "tags": []
             },
@@ -3937,9 +3929,7 @@
                 "name": "MY: Astro Sports Plus",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Sports.Plus.my.png",
                 "sources": [
-                    {
-                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_sportsplus"
-                    }
+                    {}
                 ],
                 "tags": []
             },
@@ -3948,11 +3938,328 @@
                 "name": "MY: Astro W-Sports",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/W-Sport.my.png",
                 "sources": [
-                    {
-                        "url": "https://tzh911.qzz.io/play-smt.php?id=go_assp5"
-                    }
+                    {}
                 ],
                 "tags": []
+            },
+            {
+                "id": "Benfica.TV.fr",
+                "name": "PT: Benfica TV",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Logo_Benfica_TV.png/1200px-Logo_Benfica_TV.png",
+                "tags": [
+                    "PT:Benfica.TV"
+                ]
+            },
+            {
+                "id": "Canal.11.HD.pt",
+                "name": "PT: Canal 11",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Logo_Canal_11_FPF_1.svg/1200px-Logo_Canal_11_FPF_1.svg.png",
+                "tags": [
+                    "PT:Canal.11"
+                ]
+            },
+            {
+                "id": "Sporting.TV.HD.pt",
+                "name": "PT: Sporting TV",
+                "logo": "https://upload.wikimedia.org/wikipedia/pt/b/b4/Sporting_TV.png",
+                "tags": [
+                    "PT:Sporting.TV"
+                ]
+            },
+            {
+                "id": "Eurosport.1.de",
+                "name": "DE: Eurosport 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.HD.pt.png",
+                "tags": [
+                    "DE:Eurosport1"
+                ]
+            },
+            {
+                "id": "Eurosport.2.de",
+                "name": "DE: Eurosport 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.HD.pt.png",
+                "tags": [
+                    "DE:Eurosport.2"
+                ]
+            },
+            {
+                "id": "SS.Blitz.Africa.HD.ng",
+                "name": "DSTV: SuperSport Blitz",
+                "logo": "https://images.supersport.com/media/s5zfga3b/blitz_100x100.png",
+                "tags": [
+                    "dstv-supersport-blitz",
+                    "DSTV: SuperSport Blitz"
+                ]
+            },
+            {
+                "id": "SS.Cricket.Africa.HD.ng",
+                "name": "DSTV: SuperSport Cricket",
+                "logo": "https://images.supersport.com/media/dsxho3nn/cricket_100x100.png",
+                "tags": [
+                    "dstv-supersport-cricket",
+                    "DSTV: SuperSport Cricket"
+                ]
+            },
+            {
+                "id": "SS.Football.za",
+                "name": "DSTV: SuperSport Football",
+                "logo": "https://images.supersport.com/media/ojff2zjp/football_100x100.png",
+                "tags": [
+                    "dstv-supersport-football",
+                    "DSTV: SuperSport Football"
+                ]
+            },
+            {
+                "id": "dstv-supersport-golf",
+                "name": "DSTV: SuperSport Golf",
+                "logo": "https://images.supersport.com/media/1fzlomzq/golf_100x100.png",
+                "tags": [
+                    "dstv-supersport-golf",
+                    "DSTV: SuperSport Golf"
+                ]
+            },
+            {
+                "id": "dstv-supersport-grandstand",
+                "name": "DSTV: SuperSport Grandstand",
+                "logo": "https://images.supersport.com/media/aq5docjr/grandstand_100x100.png",
+                "tags": [
+                    "dstv-supersport-grandstand",
+                    "DSTV: SuperSport Grandstand"
+                ]
+            },
+            {
+                "id": "SS.La.Liga.za",
+                "name": "DSTV: SuperSport Laliga",
+                "logo": "https://images.supersport.com/media/3ibh4gw2/laliga_100x100.png",
+                "tags": [
+                    "dstv-supersport-laliga",
+                    "DSTV: SuperSport Laliga"
+                ]
+            },
+            {
+                "id": "SS.Maximo.1.(P).ke",
+                "name": "DSTV: SuperSport Maximo 1",
+                "logo": "https://images.supersport.com/media/va1f2tm3/maximo1_100x100.png",
+                "tags": [
+                    "dstv-supersport-maximo-1",
+                    "DSTV: SuperSport Maximo 1"
+                ]
+            },
+            {
+                "id": "dstv-supersport-motorsport",
+                "name": "DSTV: SuperSport Motorsport",
+                "logo": "https://images.supersport.com/media/l5vekroz/motorsport_100x100.png",
+                "tags": [
+                    "dstv-supersport-motorsport",
+                    "DSTV: SuperSport Motorsport"
+                ]
+            },
+            {
+                "id": "dstv-supersport-play",
+                "name": "DSTV: SuperSport Play",
+                "logo": "https://images.supersport.com/media/vjcnyyfx/image.png",
+                "tags": [
+                    "dstv-supersport-play",
+                    "DSTV: SuperSport Play"
+                ]
+            },
+            {
+                "id": "SS.Premier.League.za",
+                "name": "DSTV: SuperSport Premier League",
+                "logo": "https://images.supersport.com/media/c5fhptso/premier_league_100x100.png",
+                "tags": [
+                    "dstv-supersport-premier-league",
+                    "DSTV: SuperSport Premier League"
+                ]
+            },
+            {
+                "id": "PSL.za",
+                "name": "DSTV: SuperSport PSL",
+                "logo": "https://images.supersport.com/media/xm4pazop/psl_100x100.png",
+                "tags": [
+                    "dstv-supersport-psl",
+                    "DSTV: SuperSport PSL"
+                ]
+            },
+            {
+                "id": "dstv-supersport-rugby",
+                "name": "DSTV: SuperSport Rugby",
+                "logo": "https://images.supersport.com/media/wlaj051b/rugby_100x100.png",
+                "tags": [
+                    "dstv-supersport-rugby",
+                    "DSTV: SuperSport Rugby"
+                ]
+            },
+            {
+                "id": "dstv-supersport-s-action",
+                "name": "DSTV: SuperSport S Action",
+                "logo": "https://images.supersport.com/media/vmvnci34/action_100x100.png",
+                "tags": [
+                    "dstv-supersport-s-action",
+                    "DSTV: SuperSport S Action"
+                ]
+            },
+            {
+                "id": "dstv-supersport-tennis",
+                "name": "DSTV: SuperSport Tennis",
+                "logo": "https://images.supersport.com/media/yiiefgd2/tennis_100x100.png",
+                "tags": [
+                    "dstv-supersport-tennis",
+                    "DSTV: SuperSport Tennis"
+                ]
+            },
+            {
+                "id": "SS.Variety.1.za",
+                "name": "DSTV: SuperSport Variety 1",
+                "logo": "https://images.supersport.com/media/rzfgq33s/variety1_100x100.png",
+                "tags": [
+                    "dstv-supersport-variety-1",
+                    "DSTV: SuperSport Variety 1"
+                ]
+            },
+            {
+                "id": "SS.Variety.2.za",
+                "name": "DSTV: SuperSport Variety 2",
+                "logo": "https://images.supersport.com/media/bizfe1jw/variety2_100x100.png",
+                "tags": [
+                    "dstv-supersport-variety-2",
+                    "DSTV: SuperSport Variety 2"
+                ]
+            },
+            {
+                "id": "SS.Variety.3.za",
+                "name": "DSTV: SuperSport Variety 3",
+                "logo": "https://images.supersport.com/media/zeeddnlh/variety3_100x100.png",
+                "tags": [
+                    "dstv-supersport-variety-3",
+                    "DSTV: SuperSport Variety 3"
+                ]
+            },
+            {
+                "id": "SS.Variety.4.za",
+                "name": "DSTV: SuperSport Variety 4",
+                "logo": "https://images.supersport.com/media/rzfgq33s/variety4_100x100.png",
+                "tags": [
+                    "dstv-supersport-variety-4",
+                    "DSTV: SuperSport Variety 4"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "mytv",
+        "name": "MyTV Service",
+        "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+        "sortOrder": 7,
+        "isAutoSort": true,
+        "channels": [
+            {
+                "id": "mytv801",
+                "name": "Sự kiện MyTV 801",
+                "logo": "https://s129144.cdn.mytvnet.vn/vimages/91/1e/e6/66/6f/ff/91e66-p801-channel-unkn.png",
+                "tags": [
+                    "Event 801"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv802",
+                "name": "Sự kiện MyTV 802",
+                "logo": "https://s129144.cdn.mytvnet.vn/vimages/e6/68/82/2a/a6/62/e682a-p802-channel-unkn.png",
+                "tags": [
+                    "Event 802"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv803",
+                "name": "Sự kiện MyTV 803",
+                "logo": "https://s129144.cdn.mytvnet.vn/vimages/f0/02/2e/e3/3d/dc/f02e3-p803-channel-unkn.png",
+                "tags": [
+                    "Event 803"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv804",
+                "name": "Sự kiện MyTV 804",
+                "logo": "https://s129144.cdn.mytvnet.vn/vimages/6c/c8/8b/ba/a7/72/6c8ba-p804-channel-unkn.png",
+                "tags": [
+                    "Event 804"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv806",
+                "name": "Sự kiện MyTV 806",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "Event 806"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv807",
+                "name": "Sự kiện MyTV 807",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "Event 807"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv903",
+                "name": "Sự kiện MyTV 903",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "Event 903"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv904",
+                "name": "Sự kiện MyTV 904",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "Event 904"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv905",
+                "name": "Sự kiện MyTV 905",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "Event 905"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv906",
+                "name": "Sự kiện MyTV 906",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "Event 906"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "mytv-infocard",
+                "name": "MyTV Info Card",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "(MyTV Infocard)"
+                ],
+                "enabled": true
+            },
+            {
+                "id": "testcard",
+                "name": "Kênh test card",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "(Test Card)"
+                ],
+                "enabled": true
             }
         ]
     },
