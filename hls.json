@@ -91,19 +91,22 @@
                 "id": "ksport1hd",
                 "name": "K+ Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport1hd.png",
-                "tags": []
+                "tags": [],
+                "enabled": false
             },
             {
                 "id": "ksport2hd",
                 "name": "K+ Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport2hd.png",
-                "tags": []
+                "tags": [],
+                "enabled": false
             },
             {
                 "id": "kcinehd",
                 "name": "K+ Cine",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/kcinehd.png",
-                "tags": []
+                "tags": [],
+                "enabled": false
             },
             {
                 "id": "kactionhd",
@@ -111,31 +114,36 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/kaction.png",
                 "tags": [
                     "kaction"
-                ]
+                ],
+                "enabled": false
             },
             {
                 "id": "kkidshd",
                 "name": "K+ Kids",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/kkidshd.png",
-                "tags": []
+                "tags": [],
+                "enabled": false
             },
             {
                 "id": "klive1",
                 "name": "K+ Live 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/klive1.png",
-                "tags": []
+                "tags": [],
+                "enabled": false
             },
             {
                 "id": "klive2",
                 "name": "K+ Live 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/klive2.png",
-                "tags": []
+                "tags": [],
+                "enabled": false
             },
             {
                 "id": "klive3",
                 "name": "K+ Live 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/klive3.png",
-                "tags": []
+                "tags": [],
+                "enabled": false
             }
         ]
     },
