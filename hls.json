@@ -3745,54 +3745,42 @@
                 "id": "Astro.Premier.League.my",
                 "name": "MY: Astro Premier League",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.my.png",
-                "sources": [
-                    {}
-                ],
+                "sources": [],
                 "tags": []
             },
             {
                 "id": "Astro.Premier.League.2.my",
                 "name": "MY: Astro Premier League 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.2.my.png",
-                "sources": [
-                    {}
-                ],
+                "sources": [],
                 "tags": []
             },
             {
                 "id": "Astro.Grandstand.my",
                 "name": "MY: Astro Grandstand",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Grandstand.my.png",
-                "sources": [
-                    {}
-                ],
+                "sources": [],
                 "tags": []
             },
             {
                 "id": "Astro.Football.my",
                 "name": "MY: Astro Football",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Football.my.png",
-                "sources": [
-                    {}
-                ],
+                "sources": [],
                 "tags": []
             },
             {
                 "id": "Astro.Sports.Plus.my",
                 "name": "MY: Astro Sports Plus",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Sports.Plus.my.png",
-                "sources": [
-                    {}
-                ],
+                "sources": [],
                 "tags": []
             },
             {
                 "id": "W-Sport.my",
                 "name": "MY: Astro W-Sports",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/W-Sport.my.png",
-                "sources": [
-                    {}
-                ],
+                "sources": [],
                 "tags": []
             },
             {
