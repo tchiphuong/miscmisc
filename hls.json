@@ -1861,6 +1861,17 @@
                     "%[Người Băng]%"
                 ],
                 "sources": []
+            },
+            {
+                "id": "tctv-khia",
+                "name": "Ba Khía",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thap-cam.png",
+                "tags": [
+                    "%@khiaHD%",
+                    "%@khiaFHD%",
+                    "%[Ba Khía]%"
+                ],
+                "sources": []
             }
         ]
     },
