@@ -1828,6 +1828,39 @@
                     "%[Thịt Xiên]%"
                 ],
                 "sources": []
+            },
+            {
+                "id": "tctv-dat",
+                "name": "Người Đất",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thap-cam.png",
+                "tags": [
+                    "%@datHD%",
+                    "%@datFHD%",
+                    "%[Người Đất]%"
+                ],
+                "sources": []
+            },
+            {
+                "id": "tctv-soc",
+                "name": "Người Sóc",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thap-cam.png",
+                "tags": [
+                    "%@socHD%",
+                    "%@socFHD%",
+                    "%[Người Sóc]%"
+                ],
+                "sources": []
+            },
+            {
+                "id": "tctv-bang",
+                "name": "Người Băng",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thap-cam.png",
+                "tags": [
+                    "%@bangHD%",
+                    "%@bangFHD%",
+                    "%[Người Băng]%"
+                ],
+                "sources": []
             }
         ]
     },
