@@ -1872,6 +1872,17 @@
                     "%[Ba Khía]%"
                 ],
                 "sources": []
+            },
+            {
+                "id": "tctv-he",
+                "name": "Cá Hề",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thap-cam.png",
+                "tags": [
+                    "%@heHD%",
+                    "%@heFHD%",
+                    "%[Cá Hề]%"
+                ],
+                "sources": []
             }
         ]
     },
