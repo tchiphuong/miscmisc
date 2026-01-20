@@ -1788,6 +1788,8 @@
                 "name": "Người Thỏ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thap-cam.png",
                 "tags": [
+                    "%@may1HD%",
+                    "%@may1FHD%",
                     "%@thoHD%",
                     "%@thoFHD%",
                     "%[Người Thỏ]%",
