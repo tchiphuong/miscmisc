@@ -688,7 +688,8 @@
                 "name": "Promo",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360promo.png",
                 "tags": [
-                    "Promo"
+                    "Promo",
+                    "TV360 Promo"
                 ]
             }
         ]
@@ -1064,7 +1065,9 @@
                 "tags": [
                     "komtum",
                     "KRT HD | TH Kon Tum",
-                    "QNgTV - Báo và PTTH Quảng Ngãi"
+                    "QNgTV - Báo và PTTH Quảng Ngãi",
+                    "quangngai1",
+                    "QNgTV2 - Báo và PTTH Quảng Ngãi"
                 ]
             },
             {
@@ -4739,7 +4742,24 @@
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/south-korea-flag-icon.png",
         "sortOrder": 10,
         "isAutoSort": true,
-        "channels": []
+        "channels": [
+            {
+                "id": "ebs1",
+                "name": "EBS1",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e2/EBS_1TV_Logo.svg",
+                "tags": [
+                    "EBS1"
+                ]
+            },
+            {
+                "id": "ebs2",
+                "name": "EBS2",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/960px-EBS_2TV_Logo.svg.png",
+                "tags": [
+                    "EBS2"
+                ]
+            }
+        ]
     },
     {
         "id": "japan",
