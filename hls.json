@@ -184,7 +184,9 @@
                 "id": "onechannel",
                 "name": "ON EChannel",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onechannel.png",
-                "tags": []
+                "tags": [
+                    "ON E Channel"
+                ]
             },
             {
                 "id": "onsportsplus",
@@ -884,7 +886,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/dongthap2.png",
                 "tags": [
                     "tiengiang",
-                    "THĐT2 - Báo và PTTH Đồng Tháp"
+                    "THĐT2 - Báo và PTTH Đồng Tháp",
+                    "THĐT2 Miền Tây"
                 ]
             },
             {
