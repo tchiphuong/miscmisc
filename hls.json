@@ -709,7 +709,8 @@
                 "id": "antvhd",
                 "name": " ANTV HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/antvhd.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 1
             },
             {
                 "id": "qpvnhd",
@@ -717,7 +718,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/qpvnhd.png",
                 "tags": [
                     "quocphong"
-                ]
+                ],
+                "sortOrder": 2
             },
             {
                 "id": "angiang1",
