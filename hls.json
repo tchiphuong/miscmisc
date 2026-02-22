@@ -46,7 +46,9 @@
                 "id": "vtv5hdtn",
                 "name": "VTV5 Tây Nguyên",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hdtn.png",
-                "tags": []
+                "tags": [
+                    "vtv5hdtnn"
+                ]
             },
             {
                 "id": "vtvcantho",
