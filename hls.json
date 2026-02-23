@@ -328,13 +328,13 @@
             },
             {
                 "id": "htv7hd",
-                "name": "HTV7 HD",
+                "name": "HTV7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv7hd.png",
                 "tags": []
             },
             {
                 "id": "htv9hd",
-                "name": "HTV9 HD",
+                "name": "HTV9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv9hd.png",
                 "tags": [
                     "htv bình dương 1"
@@ -351,37 +351,37 @@
             },
             {
                 "id": "htvccanhachd",
-                "name": "HTVC Ca nhạc HD",
+                "name": "HTVC Ca nhạc",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvccanhachd.png",
                 "tags": []
             },
             {
                 "id": "htvcdulichhd",
-                "name": "HTVC Du lịch Cuộc sống HD",
+                "name": "HTVC Du lịch Cuộc sống",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcdulichhd.png",
                 "tags": []
             },
             {
                 "id": "htvcgiadinhhd",
-                "name": "HTVC Gia đình HD",
+                "name": "HTVC Gia đình",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcgiadinhhd.png",
                 "tags": []
             },
             {
                 "id": "htvcphimhd",
-                "name": "HTVC Phim HD",
+                "name": "HTVC Phim",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcphimhd.png",
                 "tags": []
             },
             {
                 "id": "htvcphunuhd",
-                "name": "HTVC Phụ nữ HD",
+                "name": "HTVC Phụ nữ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcphunuhd.png",
                 "tags": []
             },
             {
                 "id": "htvcplushd",
-                "name": "HTVC Plus HD",
+                "name": "HTVC Plus",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcplushd.png",
                 "tags": [
                     "htvcplus"
@@ -391,7 +391,9 @@
                 "id": "htvcthuanviet",
                 "name": "HTVC Thuần Việt",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcthuanviet.png",
-                "tags": []
+                "tags": [
+                    "HTVC Thuần Việt HD"
+                ]
             }
         ]
     },
@@ -404,7 +406,7 @@
         "channels": [
             {
                 "id": "sctv1hd",
-                "name": "SCTV1 HD",
+                "name": "SCTV1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv1hd.png",
                 "tags": []
             },
@@ -422,115 +424,115 @@
             },
             {
                 "id": "sctv4hd",
-                "name": "SCTV4 HD",
+                "name": "SCTV4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv4hd.png",
                 "tags": []
             },
             {
                 "id": "sctv5hd",
-                "name": "SCTV5 HD",
+                "name": "SCTV5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv5hd.png",
                 "tags": []
             },
             {
                 "id": "sctv6hd",
-                "name": "SCTV6 HD",
+                "name": "SCTV6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv6hd.png",
                 "tags": []
             },
             {
                 "id": "sctv7hd",
-                "name": "SCTV7 HD",
+                "name": "SCTV7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv7hd.png",
                 "tags": []
             },
             {
                 "id": "sctv8hd",
-                "name": "SCTV8 HD",
+                "name": "SCTV8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv8hd.png",
                 "tags": []
             },
             {
                 "id": "sctv9hd",
-                "name": "SCTV9 HD",
+                "name": "SCTV9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv9hd.png",
                 "tags": []
             },
             {
                 "id": "sctv10hd",
-                "name": "SCTV10 HD",
+                "name": "SCTV10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv10hd.png",
                 "tags": []
             },
             {
                 "id": "sctv11hd",
-                "name": "SCTV11 HD",
+                "name": "SCTV11",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv11hd.png",
                 "tags": []
             },
             {
                 "id": "sctv12hd",
-                "name": "SCTV12 HD",
+                "name": "SCTV12",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv12hd.png",
                 "tags": []
             },
             {
                 "id": "sctv13hd",
-                "name": "SCTV13 HD",
+                "name": "SCTV13",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv13hd.png",
                 "tags": []
             },
             {
                 "id": "sctv14hd",
-                "name": "SCTV14 HD",
+                "name": "SCTV14",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv14hd.png",
                 "tags": []
             },
             {
                 "id": "sctv15hd",
-                "name": "SCTV15 HD",
+                "name": "SCTV15",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv15hd.png",
                 "tags": []
             },
             {
                 "id": "sctv16hd",
-                "name": "SCTV16 HD",
+                "name": "SCTV16",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv16hd.png",
                 "tags": []
             },
             {
                 "id": "sctv17hd",
-                "name": "SCTV17 HD",
+                "name": "SCTV17",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv17hd.png",
                 "tags": []
             },
             {
                 "id": "sctv18hd",
-                "name": "SCTV18 HD",
+                "name": "SCTV18",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv18hd.png",
                 "tags": []
             },
             {
                 "id": "sctv19hd",
-                "name": "SCTV19 HD",
+                "name": "SCTV19",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv19hd.png",
                 "tags": []
             },
             {
                 "id": "sctv20hd",
-                "name": "SCTV20 HD",
+                "name": "SCTV20",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv20hd.png",
                 "tags": []
             },
             {
                 "id": "sctv21hd",
-                "name": "SCTV21 HD",
+                "name": "SCTV21",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv21hd.png",
                 "tags": []
             },
             {
                 "id": "sctv22hd",
-                "name": "SCTV22 HD",
+                "name": "SCTV22",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv22hd.png",
                 "tags": []
             },
@@ -707,14 +709,16 @@
         "channels": [
             {
                 "id": "antvhd",
-                "name": " ANTV HD",
+                "name": "ANTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/antvhd.png",
-                "tags": [],
+                "tags": [
+                    "ANTV"
+                ],
                 "sortOrder": 1
             },
             {
                 "id": "qpvnhd",
-                "name": " QPVN HD",
+                "name": "QPVN",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/qpvnhd.png",
                 "tags": [
                     "quocphong"
@@ -1288,7 +1292,7 @@
             },
             {
                 "id": "animaxhd",
-                "name": "Animax HD",
+                "name": "Animax",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/animaxhd.png",
                 "tags": []
             },
@@ -1300,7 +1304,7 @@
             },
             {
                 "id": "axnhd",
-                "name": "AXN HD",
+                "name": "AXN",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/axnhd.png",
                 "tags": []
             },
@@ -1363,13 +1367,13 @@
             },
             {
                 "id": "cartoonhd",
-                "name": "Cartoon Network HD",
+                "name": "Cartoon Network",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cartoonhd.png",
                 "tags": []
             },
             {
                 "id": "cinemaxhd",
-                "name": "Cinemax HD",
+                "name": "Cinemax",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cinemaxhd.png",
                 "tags": []
             },
@@ -1399,7 +1403,7 @@
             },
             {
                 "id": "davinci",
-                "name": "Da Vinci HD",
+                "name": "Da Vinci",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/davincihd.png",
                 "tags": [
                     "davincihd"
@@ -1467,7 +1471,7 @@
             },
             {
                 "id": "hbosignaturehd",
-                "name": "HBO Signature HD",
+                "name": "HBO Signature",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hbosignaturehd.png",
                 "tags": []
             },
@@ -1479,7 +1483,7 @@
             },
             {
                 "id": "historyhd",
-                "name": "History HD",
+                "name": "History",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/historyhd.png",
                 "tags": []
             },
@@ -1491,7 +1495,7 @@
             },
             {
                 "id": "kix",
-                "name": "KIX HD",
+                "name": "KIX",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/kix.png",
                 "tags": []
             },
@@ -2270,7 +2274,8 @@
                 "tags": [
                     "arenasport1.hr",
                     "Arena Sport 1 HD 🇷🇸",
-                    "Arena_Sport_1 HD 🇷🇸"
+                    "Arena_Sport_1 HD 🇷🇸",
+                    "ARENA SPORT 1 HD"
                 ]
             },
             {
@@ -2280,7 +2285,8 @@
                 "tags": [
                     "arenasport2.hr",
                     "Arena Sport 2 HD 🇷🇸",
-                    "Arena_Sport_2 HD 🇷🇸"
+                    "Arena_Sport_2 HD 🇷🇸",
+                    "ARENA SPORT 2 FHD"
                 ]
             },
             {
@@ -2290,7 +2296,8 @@
                 "tags": [
                     "arenasport3.hr",
                     "Arena Sport 3 HD 🇷🇸",
-                    "Arena_Sport_3 HD 🇷🇸"
+                    "Arena_Sport_3 HD 🇷🇸",
+                    "ARENA SPORT 3 FHD"
                 ]
             },
             {
@@ -2300,7 +2307,8 @@
                 "tags": [
                     "arenasport4.hr",
                     "Arena Sport 4 HD 🇷🇸",
-                    "Arena_Sport_4 HD 🇷🇸"
+                    "Arena_Sport_4 HD 🇷🇸",
+                    "ARENA SPORT 4 FHD"
                 ]
             },
             {
@@ -2310,7 +2318,8 @@
                 "tags": [
                     "arenasport5.hr",
                     "Arena Sport 5 HD 🇷🇸",
-                    "Arena_Sport_5 HD 🇷🇸"
+                    "Arena_Sport_5 HD 🇷🇸",
+                    "ARENA SPORT 5 FHD"
                 ]
             },
             {
@@ -2320,7 +2329,8 @@
                 "tags": [
                     "arenasport6.hr",
                     "Arena Sport 6 HD 🇷🇸",
-                    "Arena_Sport_6 HD 🇷🇸"
+                    "Arena_Sport_6 HD 🇷🇸",
+                    "ARENA SPORT 6 FHD"
                 ]
             },
             {
@@ -2329,7 +2339,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.7.HD.hr.png",
                 "tags": [
                     "arenasport7.hr",
-                    "Arena Sport 7 HD 🇷🇸"
+                    "Arena Sport 7 HD 🇷🇸",
+                    "ARENA SPORT 7 FHD"
                 ]
             },
             {
@@ -2338,7 +2349,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.8.HD.hr.png",
                 "tags": [
                     "arenasport8.hr",
-                    "Arena Sport 8 HD 🇷🇸"
+                    "Arena Sport 8 HD 🇷🇸",
+                    "ARENA SPORT 8 FHD"
                 ]
             },
             {
@@ -2347,7 +2359,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.9.HD.hr.png",
                 "tags": [
                     "arenasport9.hr",
-                    "Arena Sport 9 HD 🇷🇸"
+                    "Arena Sport 9 HD 🇷🇸",
+                    "ARENA SPORT 9 FHD"
                 ]
             },
             {
@@ -2356,7 +2369,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.10.HD.hr.png",
                 "tags": [
                     "arenasport10.hr",
-                    "Arena Sport 10 HD 🇷🇸"
+                    "Arena Sport 10 HD 🇷🇸",
+                    "ARENA SPORT 10 FHD"
                 ]
             },
             {
@@ -2473,7 +2487,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones..4.es.png",
                 "tags": [
                     "es:movistarligacampeones4hd(soloeventos)",
-                    "Movistar Liga de Campeones 4"
+                    "Movistar Liga de Campeones 4",
+                    "ES: M+ LIGA DE CAMPEONES 4"
                 ]
             },
             {
@@ -2482,7 +2497,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.5.es.png",
                 "tags": [
                     "es:movistarligacampeones5hd(soloeventos)",
-                    "Movistar Liga de Campeones 5"
+                    "Movistar Liga de Campeones 5",
+                    "ES: M+ LIGA DE CAMPEONES 5"
                 ]
             },
             {
@@ -2491,7 +2507,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.6.es.png",
                 "tags": [
                     "es:movistarligacampeones6hd(soloeventos)",
-                    "Movistar Liga de Campeones 6"
+                    "Movistar Liga de Campeones 6",
+                    "ES: M+ LIGA DE CAMPEONES 6"
                 ]
             },
             {
@@ -2500,7 +2517,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.7.es.png",
                 "tags": [
                     "es:movistarligacampeones7hd(soloeventos)",
-                    "Movistar Liga de Campeones 7"
+                    "Movistar Liga de Campeones 7",
+                    "ES: M+ LIGA DE CAMPEONES 7"
                 ]
             },
             {
@@ -2509,7 +2527,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.8.es.png",
                 "tags": [
                     "es:movistarligacampeones8hd(soloeventos)",
-                    "Movistar Liga de Campeones 8"
+                    "Movistar Liga de Campeones 8",
+                    "ES: M+ LIGA DE CAMPEONES 8"
                 ]
             },
             {
@@ -2518,7 +2537,63 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.9.es.png",
                 "tags": [
                     "es:movistarligacampeones9hd(soloeventos)",
-                    "Movistar Liga de Campeones 9"
+                    "Movistar Liga de Campeones 9",
+                    "ES: M+ LIGA DE CAMPEONES 9"
+                ]
+            },
+            {
+                "id": "M+.Liga.de.Campeones.10.es",
+                "name": "ES: Movistar Liga de Campeones 10",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/M+.Liga.de.Campeones.10.es.png",
+                "tags": [
+                    "es:movistarligacampeones10hd(soloeventos)",
+                    "Movistar Liga de Campeones 10",
+                    "ES: M+ LIGA DE CAMPEONES 10"
+                ]
+            },
+            {
+                "id": "M+.Liga.de.Campeones.11.es",
+                "name": "ES: Movistar Liga de Campeones 11",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/z7f4c71765992937.png",
+                "tags": [
+                    "es:movistarligacampeones11hd(soloeventos)",
+                    "Movistar Liga de Campeones 11",
+                    "ES: M+ LIGA DE CAMPEONES 11"
+                ]
+            },
+            {
+                "id": "M+.Liga.de.Campeones.12.es",
+                "name": "ES: Movistar Liga de Campeones 12",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/rcqcvq1765993339.png",
+                "tags": [
+                    "es:movistarligacampeones12hd(soloeventos)",
+                    "Movistar Liga de Campeones 12",
+                    "ES: M+ LIGA DE CAMPEONES 12"
+                ]
+            },
+            {
+                "id": "LALIGA.TV.HYPERMOTION.es",
+                "name": "ES: La Liga TV HyperMotion",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ppwgwy1692438970.png",
+                "tags": [
+                    "Dazn laliga hypermotion 1",
+                    "Laliga Hypermotion"
+                ]
+            },
+            {
+                "id": "LALIGA.TV.HYPERMOTION.2.es",
+                "name": "ES: La Liga TV HyperMotion 2",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/h30vyt1726483861.png",
+                "tags": [
+                    "Dazn laliga hypermotion 2"
+                ]
+            },
+            {
+                "id": "LALIGA.TV.HYPERMOTION.3.es",
+                "name": "ES: La Liga TV HyperMotion 3",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ppwgwy1692438970.png",
+                "tags": [
+                    "Dazn laliga hypermotion 3"
                 ]
             },
             {
@@ -3302,7 +3377,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match.ru.png",
                 "tags": [
                     "RU:Match",
-                    "Матч! 🇷🇺"
+                    "Матч! 🇷🇺",
+                    "MATCH! 🇷🇺"
                 ]
             },
             {
@@ -3310,7 +3386,8 @@
                 "name": "RU: Match Arena",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-arena.ru.png",
                 "tags": [
-                    "RU:Match.Arena"
+                    "RU:Match.Arena",
+                    "MATCH! ARENA 🇷🇺"
                 ]
             },
             {
@@ -3318,7 +3395,8 @@
                 "name": "RU: Match Strana",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-strana.ru.png",
                 "tags": [
-                    "RU:Match.Strana"
+                    "RU:Match.Strana",
+                    "MATCH! STRANA 🇷🇺"
                 ]
             },
             {
@@ -3326,7 +3404,8 @@
                 "name": "RU: Match Premier",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-premier.ru.png",
                 "tags": [
-                    "RU:Match.Premier"
+                    "RU:Match.Premier",
+                    "MATCH! PREMIERE 🇷🇺"
                 ]
             },
             {
@@ -3335,7 +3414,9 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal1.ru.png",
                 "tags": [
                     "RU:Match.Footbal1",
-                    "МАТЧ! ФУТБOЛ 1HD 🇷🇺"
+                    "МАТЧ! ФУТБOЛ 1HD 🇷🇺",
+                    "MATCH! FOOTBALL 1 🇷🇺",
+                    "Матч! Футбол 1 HD"
                 ]
             },
             {
@@ -3344,7 +3425,9 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal2.ru.png",
                 "tags": [
                     "RU:Match.Footbal2",
-                    "МАТЧ! ФУТБOЛ 2HD 🇷🇺"
+                    "МАТЧ! ФУТБOЛ 2HD 🇷🇺",
+                    "MATCH! FOOTBALL 2 🇷🇺",
+                    "Матч! ФУТБОЛ. .2 HD"
                 ]
             },
             {
@@ -3353,7 +3436,19 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal3.ru.png",
                 "tags": [
                     "RU:Match.Footbal3",
-                    "МАТЧ! ФУТБOЛ 3HD 🇷🇺"
+                    "МАТЧ! ФУТБOЛ 3HD 🇷🇺",
+                    "MATCH! FOOTBALL 3 🇷🇺",
+                    "Матч! ФУТБОЛ. .3 HD"
+                ]
+            },
+            {
+                "id": "match-igra.ru",
+                "name": "RU: Match Igra",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-igra.ru.png",
+                "tags": [
+                    "RU:Match.Igra",
+                    "МАТЧ! ИГРА 🇷🇺",
+                    "MATCH! IGRA 🇷🇺"
                 ]
             },
             {
@@ -3361,14 +3456,40 @@
                 "name": "SPOTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/spotv.png",
                 "tags": [
-                    "spotv1"
+                    "spotv1",
+                    "SpoTV 🇵🇭",
+                    "SPOTV (ott.navigator)",
+                    "SPOTV HD_mpd(ott)",
+                    "SPOTV PH_mpd(ott)",
+                    "SpoTV (backup)",
+                    "SPOTV (mmd)",
+                    "SpoTV (ott)",
+                    "SPOTV (VS+)_ott.navigator"
                 ]
             },
             {
                 "id": "spotv2",
                 "name": "SPOTV2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/spotv2.png",
-                "tags": []
+                "tags": [
+                    "spotv2",
+                    "SpoTV 2 🇵🇭",
+                    "SPOTV 2 (ott.navigator)",
+                    "SPOTV 2 HD_mpd(ott)",
+                    "SPOTV2 PH_mpd(ott)",
+                    "SpoTV 2 (backup)",
+                    "SPOTV 2 (mmd)",
+                    "SpoTV 2 (ott)",
+                    "SPOTV2 (mmd)"
+                ]
+            },
+            {
+                "id": "spotvnow",
+                "name": "SPOTV NOW",
+                "logo": "https://activate.unifi.com.my/authsv/images/logo/spotv.png",
+                "tags": [
+                    "SPOTV NOW (Korea)"
+                ]
             },
             {
                 "id": "BoxNation.HD.uk",
@@ -3413,7 +3534,9 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Premier.Sports.1.HD.uk.png",
                 "tags": [
                     "premiersports.uk",
-                    "UK: PREMIER SPORTS 1"
+                    "UK: PREMIER SPORTS 1",
+                    "PremierSports HD_mpd(ott)",
+                    "Premiere Sports 1 UK"
                 ]
             },
             {
@@ -3422,7 +3545,9 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Premier.Sports.2.HD.uk.png",
                 "tags": [
                     "premiersports2.uk",
-                    "UK: PREMIER SPORTS 2"
+                    "UK: PREMIER SPORTS 2",
+                    "PremierSports 2_mpd(ott)",
+                    "Premiere Sports 2 UK"
                 ]
             },
             {
@@ -3566,7 +3691,8 @@
                     "UK: BT SPORTS 1 FHD 50FPS",
                     "UK:BT.Sport1",
                     "UK: TNT SPORTS 1 HD",
-                    "TNT Sports 1 (GBR)"
+                    "TNT Sports 1 (GBR)",
+                    "TNT SPORTS 1"
                 ]
             },
             {
@@ -3579,7 +3705,8 @@
                     "UK: BT SPORTS 2 FHD 50FPS",
                     "UK:BT.Sport2",
                     "UK: TNT SPORTS 2 HD",
-                    "TNT Sports 2 (GBR)"
+                    "TNT Sports 2 (GBR)",
+                    "TNT SPORTS 2"
                 ]
             },
             {
@@ -3592,7 +3719,8 @@
                     "UK: BT SPORTS 3 HD",
                     "UK:BTSport3",
                     "UK: TNT SPORTS 3 HD",
-                    "TNT Sports 3 (GBR)"
+                    "TNT Sports 3 (GBR)",
+                    "TNT SPORTS 3"
                 ]
             },
             {
@@ -3604,7 +3732,8 @@
                     "btsportespn.uk",
                     "UK: BT SPORT ESPN FHD 50FPS",
                     "UK: TNT SPORTS 4 HD",
-                    "TNT Sports 4 (GBR)"
+                    "TNT Sports 4 (GBR)",
+                    "TNT SPORTS 4"
                 ]
             },
             {
@@ -3662,7 +3791,8 @@
                 "tags": [
                     "ziggosportselect.nl",
                     "NL:Ziggo.Sport.Select",
-                    "ZIGGO SPORT 🇳🇱"
+                    "ZIGGO SPORT 🇳🇱",
+                    "ZIGGO SPORT"
                 ]
             },
             {
@@ -3673,7 +3803,8 @@
                     "ziggosportvoetbal.nl",
                     "nl:ziggosport2hd",
                     "NL:Ziggo Sport.Voetba",
-                    "ZIGGO SPORT 2 HD 🇳🇱"
+                    "ZIGGO SPORT 2 HD 🇳🇱",
+                    "ZIGGO SPORT 2 (NEDERLAND)"
                 ]
             },
             {
@@ -3683,7 +3814,8 @@
                 "tags": [
                     "ziggosportgolf.nl",
                     "NL:Ziggo.Sport.Golf",
-                    "ZIGGO SPORT 3 HD 🇳🇱"
+                    "ZIGGO SPORT 3 HD 🇳🇱",
+                    "ZIGGO SPORT 3 (NEDERLAND)"
                 ]
             },
             {
@@ -3701,7 +3833,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.5.nl.png",
                 "tags": [
                     "ziggosportextra1.nl",
-                    "nl:ziggosport5fhdhevc"
+                    "nl:ziggosport5fhdhevc",
+                    "ZIGGO SPORT 5 (NEDERLAND)"
                 ]
             },
             {
@@ -3710,7 +3843,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.6.nl.png",
                 "tags": [
                     "ziggosportextra2.nl",
-                    "nl:ziggosport6hd"
+                    "nl:ziggosport6hd",
+                    "ZIGGO SPORT 6 (NEDERLAND)"
                 ]
             },
             {
@@ -3921,53 +4055,52 @@
                 "id": "Astro.Premier.League.my",
                 "name": "MY: Astro Premier League",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.my.png",
-                "sources": [],
                 "tags": [
                     "ASTRO PREMIER LEAGUE",
                     "Astro PremierLeague 1 (MLY)",
                     "MY: ASTRO PREMIER LEAGUE 1",
-                    "ASTRO PREMIER LEAGUE 1 HD"
+                    "ASTRO PREMIER LEAGUE 1 HD",
+                    "ASTRO PREMIER LEAGUE (php)"
                 ]
             },
             {
                 "id": "Astro.Premier.League.2.my",
                 "name": "MY: Astro Premier League 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.2.my.png",
-                "sources": [],
                 "tags": [
                     "ASTRO PREMIER LEAGUE 2",
                     "Astro PremierLeague 2 (MLY)",
                     "MY: ASTRO PREMIER LEAGUE 2",
-                    "ASTRO PREMIER LEAGUE 2 HD"
+                    "ASTRO PREMIER LEAGUE 2 HD",
+                    "ASTRO PREMIER LEAGUE 2 (php)"
                 ]
             },
             {
                 "id": "Astro.Grandstand.my",
                 "name": "MY: Astro Grandstand",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Grandstand.my.png",
-                "sources": [],
                 "tags": [
                     "ASTRO GRANDSTAND",
                     "Astro Grandstand",
-                    "MY: ASTRO GRANDSTAND"
+                    "MY: ASTRO GRANDSTAND",
+                    "ASTRO GRANDSTAND (php)"
                 ]
             },
             {
                 "id": "Astro.Football.my",
                 "name": "MY: Astro Football",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Football.my.png",
-                "sources": [],
                 "tags": [
                     "ASTRO FOOTBALL",
                     "MY: ASTRO FOOTBALL",
-                    "ASTRO FOOTBALL HD"
+                    "ASTRO FOOTBALL HD",
+                    "ASTRO FOOTBALL (php)"
                 ]
             },
             {
                 "id": "Astro.Sports.Plus.my",
                 "name": "MY: Astro Sports Plus",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Sports.Plus.my.png",
-                "sources": [],
                 "tags": [
                     "ASTRO SPORTS PLUS",
                     "ASTRO SPORTS PLUS HD"
@@ -3977,7 +4110,6 @@
                 "id": "W-Sport.my",
                 "name": "MY: Astro W-Sports",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/W-Sport.my.png",
-                "sources": [],
                 "tags": [
                     "MY: W SPORTS",
                     "W-Sport HD"
@@ -4327,7 +4459,6 @@
                 "id": "Now.Sports.Prime.hk",
                 "name": "HK: Now Sports Prime",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Prime.hk",
-                "sources": [],
                 "tags": [
                     "NOW SPORTS PRIME",
                     "Now体育_sports_Prime 630"
@@ -4337,7 +4468,6 @@
                 "id": "Astro.Arena.my",
                 "name": "MY: Astro Arena",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Arena.my",
-                "sources": [],
                 "tags": [
                     "ASTRO ARENA",
                     "ASTRO ARENA HD",
@@ -4349,7 +4479,6 @@
                 "id": "Astro.Arena.2.my",
                 "name": "MY: Astro Arena 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Arena.2.my",
-                "sources": [],
                 "tags": [
                     "ASTRO ARENA 2",
                     "ASTRO ARENA 2 HD",
@@ -4360,7 +4489,6 @@
                 "id": "Astro.Cricket.my",
                 "name": "MY: Astro Cricket",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Cricket.my",
-                "sources": [],
                 "tags": [
                     "ASTRO CRICKET",
                     "ASTRO CRICKET HD",
@@ -4372,73 +4500,15 @@
                 "id": "Astro.Badminton.my",
                 "name": "MY: Astro Badminton",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Badminton.my",
-                "sources": [],
                 "tags": [
                     "Astro Badminton 1 (php)",
                     "ASTRO BADMINTON 2 HD"
                 ]
             },
             {
-                "id": "beIN.Sports.1.sg",
-                "name": "SG: beIN Sports 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.1.sg",
-                "sources": [],
-                "tags": [
-                    "SG| BEINSPORTS HD",
-                    "BEIN SPORTS HD",
-                    "Astro Beinsports 1 (php)"
-                ]
-            },
-            {
-                "id": "beIN.Sports.2.sg",
-                "name": "SG: beIN Sports 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.2.sg",
-                "sources": [],
-                "tags": [
-                    "SG| BEINSPORTS 2 HD",
-                    "BEIN SPORTS 2 HD",
-                    "Astro Beinsports 2 (php)"
-                ]
-            },
-            {
-                "id": "beIN.Sports.3.sg",
-                "name": "SG: beIN Sports 3",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.3.sg",
-                "sources": [],
-                "tags": [
-                    "SG| BEINSPORTS 3 HD",
-                    "BEIN SPORTS 3 HD",
-                    "Astro Beinsports 3 (php)"
-                ]
-            },
-            {
-                "id": "SPOTV.1.sg",
-                "name": "SG: SPOTV",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPOTV.1.sg",
-                "sources": [],
-                "tags": [
-                    "SG| SPOTV HD",
-                    "SPOTV 1 HD",
-                    "MLY: SPOTV-1"
-                ]
-            },
-            {
-                "id": "SPOTV.2.sg",
-                "name": "SG: SPOTV 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPOTV.2.sg",
-                "sources": [],
-                "tags": [
-                    "SG| SPOTV2 HD",
-                    "SPOTV 2 HD",
-                    "MLY: SPOTV-2",
-                    "SPOTV2 (asia)"
-                ]
-            },
-            {
                 "id": "NBA.TV.sg",
                 "name": "SG: NBA TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/NBA.TV.sg",
-                "sources": [],
                 "tags": [
                     "SG| NBA TV HD",
                     "NBA TV HD"
@@ -4448,7 +4518,6 @@
                 "id": "SS.Action.za",
                 "name": "AF: SuperSport Action",
                 "logo": "https://images.supersport.com/media/vmvnci34/action_100x100.png",
-                "sources": [],
                 "tags": [
                     "dstv-supersport-action",
                     "AF: SUPERSPORT ACTION"
@@ -4458,7 +4527,6 @@
                 "id": "SS.PSL.za",
                 "name": "AF: SuperSport PSL",
                 "logo": "https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/SH2.png",
-                "sources": [],
                 "tags": [
                     "dstv-supersport-psl",
                     "AF: SUPERSPORT PSL"
@@ -4468,7 +4536,6 @@
                 "id": "SS.Maximo.1.za",
                 "name": "AF: SuperSport Maximo 1",
                 "logo": "https://images.supersport.com/media/va1f2tm3/maximo1_100x100.png",
-                "sources": [],
                 "tags": [
                     "dstv-supersport-maximo-1",
                     "AF: SUPERSPORT MAXIMO 1"
@@ -4478,7 +4545,6 @@
                 "id": "FoxCricket.au",
                 "name": "AU: Fox Sports 501",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxCricket.au",
-                "sources": [],
                 "tags": [
                     "Fox Sports 501 FHD",
                     "AT | Fox Sports 501 Cricket"
@@ -4488,7 +4554,6 @@
                 "id": "FoxLeague.au",
                 "name": "AU: Fox Sports 502",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxLeague.au",
-                "sources": [],
                 "tags": [
                     "Fox Sports 502 FHD",
                     "AT | Fox Sports 502 Leauge"
@@ -4498,7 +4563,6 @@
                 "id": "FoxSports503.au",
                 "name": "AU: Fox Sports 503",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports503.au",
-                "sources": [],
                 "tags": [
                     "Fox Sports 503 FHD",
                     "AT | Fox Sports 503"
@@ -4508,7 +4572,6 @@
                 "id": "FoxFooty.au",
                 "name": "AU: Fox Sports 504",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxFooty.au",
-                "sources": [],
                 "tags": [
                     "Fox Sports 504 FHD",
                     "AT | Fox Sports 504 Fotty"
@@ -4518,7 +4581,6 @@
                 "id": "FoxSports505.au",
                 "name": "AU: Fox Sports 505",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports505.au",
-                "sources": [],
                 "tags": [
                     "Fox Sports 505 FHD",
                     "AT | Fox Sports 505"
@@ -4528,7 +4590,6 @@
                 "id": "FoxSports506.au",
                 "name": "AU: Fox Sports 506",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports506.au",
-                "sources": [],
                 "tags": [
                     "Fox Sports 506 FHD",
                     "AT | Fox Sports 506"
@@ -4538,7 +4599,6 @@
                 "id": "FoxSportsMore.au",
                 "name": "AU: Fox Sports 507",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSportsMore.au",
-                "sources": [],
                 "tags": [
                     "Fox Sports 507 FHD",
                     "AT | Fox Sports 507"
@@ -4547,8 +4607,7 @@
             {
                 "id": "Star.Sports.1.HD.in",
                 "name": "IN: Star Sports 1 HD",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Star.Sports.1.HD.in",
-                "sources": [],
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Star.Sports.1.HD.in.png",
                 "tags": [
                     "Star Sports 1 HD",
                     "STAR Sports 1"
@@ -4557,8 +4616,7 @@
             {
                 "id": "Star.Sports.2.HD.in",
                 "name": "IN: Star Sports 2 HD",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Star.Sports.2.HD.in",
-                "sources": [],
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Star.Sports.2.HD.in.png",
                 "tags": [
                     "Star Sports 2 HD",
                     "STAR Sports 2"
@@ -4567,8 +4625,7 @@
             {
                 "id": "DAZN.Eleven.1.tw",
                 "name": "TW: DAZN Eleven 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.Eleven.1.tw",
-                "sources": [],
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.Eleven.1.tw.png",
                 "tags": [
                     "DAZN ELEVEN 1 (twn)"
                 ]
@@ -4576,8 +4633,7 @@
             {
                 "id": "DAZN.Eleven.2.tw",
                 "name": "TW: DAZN Eleven 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.Eleven.2.tw",
-                "sources": [],
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.Eleven.2.tw.png",
                 "tags": [
                     "DAZN ELEVEN 2 (twn)"
                 ]
@@ -4585,8 +4641,7 @@
             {
                 "id": "Benfica.TV.pt",
                 "name": "PT: Benfica TV",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Benfica.TV.pt",
-                "sources": [],
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Benfica.TV.pt.png",
                 "tags": [
                     "PT: Benfica TV HD"
                 ]
@@ -4595,7 +4650,6 @@
                 "id": "1.sport.il",
                 "name": "IL: 1 SPORT",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ssjl1j1627494247.png",
-                "sources": [],
                 "tags": [
                     "1 SPORT 🇮🇱"
                 ]
@@ -4604,7 +4658,6 @@
                 "id": "2.sport.il",
                 "name": "IL: 2 SPORT",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/27uvm51627494269.png",
-                "sources": [],
                 "tags": [
                     "2 SPORT 🇮🇱"
                 ]
@@ -4613,7 +4666,6 @@
                 "id": "3.sport.il",
                 "name": "IL: 3 SPORT",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/irxvmy1627494303.png",
-                "sources": [],
                 "tags": [
                     "3 SPORT 🇮🇱"
                 ]
@@ -4622,7 +4674,6 @@
                 "id": "4.sport.il",
                 "name": "IL: 4 SPORT",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/km8o4f1627494329.png",
-                "sources": [],
                 "tags": [
                     "4 SPORT 🇮🇱"
                 ]
@@ -4631,9 +4682,211 @@
                 "id": "5.sport.il",
                 "name": "IL: 5 SPORT",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sport5_Logo.png",
-                "sources": [],
                 "tags": [
                     "5 SPORT 🇮🇱"
+                ]
+            },
+            {
+                "id": "Go3.Sport.1.HD.lv",
+                "name": "LV: GO3 Sport 1",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/qo7ct61723836245.png",
+                "tags": [
+                    "GO3 Sport 1"
+                ]
+            },
+            {
+                "id": "Eurosport.1.cz",
+                "name": "CZ: Eurosport 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.cz.png",
+                "tags": [
+                    "eurosport1.cz",
+                    "CZ: EUROSPORT 1",
+                    "EuroSport 1 CZ",
+                    "EUROSPORT 1 🇸🇰",
+                    "EUROSPORT 1"
+                ]
+            },
+            {
+                "id": "Eurosport.2.cz",
+                "name": "CZ: Eurosport 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.cz.png",
+                "tags": [
+                    "eurosport2.cz",
+                    "CZ: EUROSPORT 2 HD",
+                    "EuroSport 2 CZ",
+                    "EUROSPORT 2 🇸🇰",
+                    "EUROSPORT 2"
+                ]
+            },
+            {
+                "id": "Nova.Sport.1.cz",
+                "name": "CZ: Nova Sport 1",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/6tz1pp1649341425.png",
+                "tags": [
+                    "Nova Sport 1 CZ",
+                    "NOVA SPORT 1 🇸🇰"
+                ]
+            },
+            {
+                "id": "Nova.Sport.2.cz",
+                "name": "CZ: Nova Sport 2",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/gymhfv1649341436.png",
+                "tags": [
+                    "Nova Sport 2 CZ",
+                    "NOVA SPORT 2 🇸🇰"
+                ]
+            },
+            {
+                "id": "Nova.Sport.3.cz",
+                "name": "CZ: Nova Sport 3",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/tcj7gr1649341445.png",
+                "tags": [
+                    "Nova Sport 3 CZ",
+                    "NOVA SPORT 3 🇸🇰"
+                ]
+            },
+            {
+                "id": "Nova.Sport.4.cz",
+                "name": "CZ: Nova Sport 4",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/59o8o81649341463.png",
+                "tags": [
+                    "NOVA SPORT 4 🇸🇰"
+                ]
+            },
+            {
+                "id": "Nova.Sport.5.cz",
+                "name": "CZ: Nova Sport 5",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/8q3uib1740774739.png",
+                "tags": [
+                    "NOVA SPORT 5 🇸🇰"
+                ]
+            },
+            {
+                "id": "Nova.Sport.6.cz",
+                "name": "CZ: Nova Sport 6",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/qnsmro1740774835.png",
+                "tags": [
+                    "NOVA SPORT 6 🇸🇰"
+                ]
+            },
+            {
+                "id": "Sport1.cz",
+                "name": "CZ: Sport 1",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/rsuyrx1455541493.png",
+                "tags": [
+                    "Sport 1 CZ",
+                    "SPORT 1 🇸🇰"
+                ]
+            },
+            {
+                "id": "Sport2.cz",
+                "name": "CZ: Sport 2",
+                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTq8AgWu0sWbXFfyayYAW2SFxgt3XJIaHhJw&s",
+                "tags": [
+                    "Sport 2 CZ",
+                    "SPORT 2 🇸🇰"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..Premiere.Clubes.br",
+                "name": "BR: Premiere 1",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/z46gel1645272176.png",
+                "tags": [
+                    "Premiere Sports 1"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..Premiere.2.br",
+                "name": "BR: Premiere 2",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/z46gel1645272176.png",
+                "tags": [
+                    "Premiere Sports 2"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..Premiere.3.br",
+                "name": "BR: Premiere 3",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/z46gel1645272176.png",
+                "tags": [
+                    "Premiere Sports 3"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..Premiere.4.br",
+                "name": "BR: Premiere 4",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/z46gel1645272176.png",
+                "tags": [
+                    "Premiere Sports 4"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..Premiere.5.br",
+                "name": "BR: Premiere 5",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/z46gel1645272176.png",
+                "tags": [
+                    "Premiere Sports 5"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..SporTV.br",
+                "name": "BR: SporTV",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png",
+                "tags": [
+                    "SporTV",
+                    "SporTV BR",
+                    "SPORTTV.1_FIFA CLUB WORLDCUP"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..SporTV.2.br",
+                "name": "BR: SporTV 2",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SporTV2_2021.png/953px-SporTV2_2021.png",
+                "tags": [
+                    "SPORTV 2",
+                    "SporTV 2 BR",
+                    "SPORTTV.2_FIFA CLUB WORLDCUP 2"
+                ]
+            },
+            {
+                "id": "SÃ£o.Paulo/SP..SporTV.3..br",
+                "name": "BR: SporTV 3",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/SporTV3_2021.png",
+                "tags": [
+                    "SportTV 3"
+                ]
+            },
+            {
+                "id": "RaiSport.it",
+                "name": "IT: Rai Sport",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/RaiSport.it",
+                "tags": [
+                    "RAI SPORT 1"
+                ]
+            },
+            {
+                "id": "beINSports1.au",
+                "name": "AU: beIN Sports 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports1.au.png",
+                "tags": [
+                    "BEIN SPORTS 1 🇦🇺"
+                ]
+            },
+            {
+                "id": "beINSports2.au",
+                "name": "AU: beIN Sports 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports2.au.png",
+                "tags": [
+                    "BEIN SPORTS 2 🇦🇺",
+                    "beIN Sports 2 HD",
+                    "Bein Sport 2"
+                ]
+            },
+            {
+                "id": "beINSports3.au",
+                "name": "AU: beIN Sports 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports3.au.png",
+                "tags": [
+                    "BEIN SPORTS 3 🇦🇺"
                 ]
             }
         ]
