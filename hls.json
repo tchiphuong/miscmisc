@@ -293,6 +293,75 @@
         ]
     },
     {
+        "id": "vtvprime",
+        "name": "VTV Prime",
+        "logo": "https://vtvprime.vn/logo/logo.png",
+        "sortOrder": 4,
+        "isAutoSort": false,
+        "channels": [
+            {
+                "id": "vtvprime1",
+                "name": "VTV Prime 1",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime2",
+                "name": "VTV Prime 2",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime3",
+                "name": "VTV Prime 3",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime4",
+                "name": "VTV Prime 4",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime5",
+                "name": "VTV Prime 5",
+                "logo": "https://img.vtvprime.vn/qcr4QvHp9tT2_hcufcp11NdzeOW_GFg6eAFKIMD-9F8/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvYmE5YjUyYzktMjZlZS00NzEyLWE0NTQtOGUxMTI5ZmYwN2I3LnBuZw==.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime6",
+                "name": "VTV Prime 6",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime7",
+                "name": "VTV Prime 7",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime8",
+                "name": "VTV Prime 8",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime9",
+                "name": "VTV Prime 9",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            },
+            {
+                "id": "vtvprime10",
+                "name": "VTV Prime 10",
+                "logo": "https://vtvprime.vn/logo/logo.png",
+                "tags": []
+            }
+        ]
+    },
+    {
         "id": "htv",
         "name": "HTV - HTVC",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv.png",
