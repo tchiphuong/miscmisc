@@ -153,7 +153,7 @@
         "id": "vtvcab",
         "name": "VTVcab",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab.png",
-        "sortOrder": 3,
+        "sortOrder": 2,
         "isAutoSort": false,
         "channels": [
             {
@@ -295,69 +295,111 @@
     {
         "id": "vtvprime",
         "name": "VTV Prime",
-        "logo": "https://vtvprime.vn/logo/logo.png",
-        "sortOrder": 4,
+        "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime.png",
+        "sortOrder": 3,
         "isAutoSort": false,
         "channels": [
             {
                 "id": "vtvprime1",
                 "name": "VTV Prime 1",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime1.png",
                 "tags": []
             },
             {
                 "id": "vtvprime2",
                 "name": "VTV Prime 2",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime2.png",
                 "tags": []
             },
             {
                 "id": "vtvprime3",
                 "name": "VTV Prime 3",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime3.png",
                 "tags": []
             },
             {
                 "id": "vtvprime4",
                 "name": "VTV Prime 4",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime4.png",
                 "tags": []
             },
             {
                 "id": "vtvprime5",
                 "name": "VTV Prime 5",
-                "logo": "https://img.vtvprime.vn/qcr4QvHp9tT2_hcufcp11NdzeOW_GFg6eAFKIMD-9F8/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvYmE5YjUyYzktMjZlZS00NzEyLWE0NTQtOGUxMTI5ZmYwN2I3LnBuZw==.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime5.png",
                 "tags": []
             },
             {
                 "id": "vtvprime6",
                 "name": "VTV Prime 6",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime6.png",
                 "tags": []
             },
             {
                 "id": "vtvprime7",
                 "name": "VTV Prime 7",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime7.png",
                 "tags": []
             },
             {
                 "id": "vtvprime8",
                 "name": "VTV Prime 8",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime8.png",
                 "tags": []
             },
             {
                 "id": "vtvprime9",
                 "name": "VTV Prime 9",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime9.png",
                 "tags": []
             },
             {
                 "id": "vtvprime10",
                 "name": "VTV Prime 10",
-                "logo": "https://vtvprime.vn/logo/logo.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime10.png",
                 "tags": []
+            },
+            {
+                "id": "vtvprime11",
+                "name": "VTV Prime 11",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime11.png",
+                "tags": [],
+                "enabled": false
+            },
+            {
+                "id": "vtvprime12",
+                "name": "VTV Prime 12",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime12.png",
+                "tags": [],
+                "enabled": false
+            },
+            {
+                "id": "vtvprime13",
+                "name": "VTV Prime 13",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime13.png",
+                "tags": [],
+                "enabled": false
+            },
+            {
+                "id": "vtvprime14",
+                "name": "VTV Prime 14",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime14.png",
+                "tags": [],
+                "enabled": false
+            },
+            {
+                "id": "vtvprime15",
+                "name": "VTV Prime 15",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime15.png",
+                "tags": [],
+                "enabled": false
+            },
+            {
+                "id": "vtvprime16",
+                "name": "VTV Prime 16",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime16.png",
+                "tags": [],
+                "enabled": false
             }
         ]
     },
