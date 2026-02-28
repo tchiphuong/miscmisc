@@ -844,6 +844,24 @@
                 "tags": [
                     "quocphong"
                 ],
+                "sortOrder": 1
+            },
+            {
+                "id": "hitv",
+                "name": "HI TV",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/hitv.png",
+                "tags": [
+                    "hitv"
+                ],
+                "sortOrder": 2
+            },
+            {
+                "id": "youtv",
+                "name": "YouTV",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/youtv.png",
+                "tags": [
+                    "youtv"
+                ],
                 "sortOrder": 2
             },
             {
@@ -1182,14 +1200,22 @@
             },
             {
                 "id": "quangngai",
-                "name": "Quảng Ngãi",
+                "name": "Quảng Ngãi 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/quangngai.png",
                 "tags": [
                     "komtum",
                     "KRT HD | TH Kon Tum",
                     "QNgTV - Báo và PTTH Quảng Ngãi",
-                    "quangngai1",
-                    "QNgTV2 - Báo và PTTH Quảng Ngãi"
+                    "quangngai1"
+                ]
+            },
+            {
+                "id": "quangngai2",
+                "name": "Quảng Ngãi 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/quangngai2.png",
+                "tags": [
+                    "QNgTV2 - Báo và PTTH Quảng Ngãi",
+                    "quangngai2"
                 ]
             },
             {
@@ -1312,6 +1338,14 @@
                     "travinh1",
                     "THTV2 HD | TH Trà Vinh",
                     "THVL5 HD - Báo và PTTH Vĩnh Long"
+                ]
+            },
+            {
+                "id": "btv6",
+                "name": "BTV6 - Shopping 24h",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/btv6.png",
+                "tags": [
+                    "btv6"
                 ]
             }
         ]
@@ -2685,7 +2719,7 @@
             {
                 "id": "LALIGA.TV.HYPERMOTION.es",
                 "name": "ES: La Liga TV HyperMotion",
-                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ppwgwy1692438970.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/LALIGA.TV.HYPERMOTION.es.png",
                 "tags": [
                     "Dazn laliga hypermotion 1",
                     "Laliga Hypermotion"
@@ -2694,7 +2728,7 @@
             {
                 "id": "LALIGA.TV.HYPERMOTION.2.es",
                 "name": "ES: La Liga TV HyperMotion 2",
-                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/h30vyt1726483861.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/LALIGA.TV.HYPERMOTION.2.es.png",
                 "tags": [
                     "Dazn laliga hypermotion 2"
                 ]
@@ -2702,7 +2736,7 @@
             {
                 "id": "LALIGA.TV.HYPERMOTION.3.es",
                 "name": "ES: La Liga TV HyperMotion 3",
-                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ppwgwy1692438970.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/LALIGA.TV.HYPERMOTION.3.es.png",
                 "tags": [
                     "Dazn laliga hypermotion 3"
                 ]
@@ -4445,7 +4479,7 @@
             {
                 "id": "Hub.Premier.1.sg",
                 "name": "Hub Premier 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.1.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.1.sg.png",
                 "tags": [
                     "Hub Premier  EPL 01",
                     "Hub Premier1 FHD"
@@ -4454,7 +4488,7 @@
             {
                 "id": "Hub.Premier.2.sg",
                 "name": "Hub Premier 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.2.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.2.sg.png",
                 "tags": [
                     "Hub Premier  EPL 02",
                     "Hub Premier2 FHD"
@@ -4463,7 +4497,7 @@
             {
                 "id": "Hub.Premier.3.sg",
                 "name": "Hub Premier 3",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.3.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.3.sg.png",
                 "tags": [
                     "Hub Premier  EPL 03",
                     "Hub Premier3 FHD"
@@ -4472,7 +4506,7 @@
             {
                 "id": "Hub.Premier.4.sg",
                 "name": "Hub Premier 4",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.4.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.4.sg.png",
                 "tags": [
                     "Hub Premier  EPL 04"
                 ]
@@ -4480,7 +4514,7 @@
             {
                 "id": "Hub.Premier.5.sg",
                 "name": "Hub Premier 5",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.5.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.5.sg.png",
                 "tags": [
                     "Hub Premier  EPL 05"
                 ]
@@ -4488,7 +4522,7 @@
             {
                 "id": "Hub.Premier.6.sg",
                 "name": "Hub Premier 6",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.6.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.6.sg.png",
                 "tags": [
                     "Hub Premier  EPL 06"
                 ]
@@ -4496,7 +4530,7 @@
             {
                 "id": "Hub.Premier.7.sg",
                 "name": "Hub Premier 7",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.7.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.7.sg.png",
                 "tags": [
                     "Hub Premier  EPL 07"
                 ]
@@ -4504,7 +4538,7 @@
             {
                 "id": "Hub.Premier.8.sg",
                 "name": "Hub Premier 8",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.8.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.8.sg.png",
                 "tags": [
                     "Hub Premier EPL 08",
                     "Hub Premier  EPL 08"
@@ -4513,7 +4547,7 @@
             {
                 "id": "Hub.Premier.9.sg",
                 "name": "Hub Premier 9",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.9.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.9.sg.png",
                 "tags": [
                     "Hub Premier  EPL 09"
                 ]
@@ -4521,7 +4555,7 @@
             {
                 "id": "Hub.Premier.10.sg",
                 "name": "Hub Premier 10",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.10.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.10.sg.png",
                 "tags": [
                     "Hub Premier EPL 10",
                     "Hub Premier  EPL 10"
@@ -4530,7 +4564,7 @@
             {
                 "id": "Hub.Premier.11.sg",
                 "name": "Hub Premier 11",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.11.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.11.sg.png",
                 "tags": [
                     "Hub Premier EPL 11",
                     "Hub Premier  EPL 11"
@@ -4539,7 +4573,7 @@
             {
                 "id": "Hub.Sports.1.HD.sg",
                 "name": "Hub Sports 1 HD",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.1.HD.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.1.HD.sg.png",
                 "tags": [
                     "SG| HUB SPORTS 1 HD",
                     "Hub Sports 1 (SGP)",
@@ -4549,7 +4583,7 @@
             {
                 "id": "Hub.Sports.2.HD.sg",
                 "name": "Hub Sports 2 HD",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.2.HD.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.2.HD.sg.png",
                 "tags": [
                     "SG| HUB SPORTS 2 HD",
                     "Hub Sports 2 (SGP)",
@@ -4559,7 +4593,7 @@
             {
                 "id": "Hub.Sports.3.HD.sg",
                 "name": "Hub Sports 3 HD",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.3.HD.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.3.HD.sg.png",
                 "tags": [
                     "SG| HUB SPORTS 3 HD",
                     "Hub Sports 3 (SGP)",
@@ -4569,7 +4603,7 @@
             {
                 "id": "Now.Sports.Prime.hk",
                 "name": "HK: Now Sports Prime",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Prime.hk",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Prime.hk.png",
                 "tags": [
                     "NOW SPORTS PRIME",
                     "Now体育_sports_Prime 630"
@@ -4578,7 +4612,7 @@
             {
                 "id": "Astro.Arena.my",
                 "name": "MY: Astro Arena",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Arena.my",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Arena.my.png",
                 "tags": [
                     "ASTRO ARENA",
                     "ASTRO ARENA HD",
@@ -4589,7 +4623,7 @@
             {
                 "id": "Astro.Arena.2.my",
                 "name": "MY: Astro Arena 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Arena.2.my",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Arena.2.my.png",
                 "tags": [
                     "ASTRO ARENA 2",
                     "ASTRO ARENA 2 HD",
@@ -4599,7 +4633,7 @@
             {
                 "id": "Astro.Cricket.my",
                 "name": "MY: Astro Cricket",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Cricket.my",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Cricket.my.png",
                 "tags": [
                     "ASTRO CRICKET",
                     "ASTRO CRICKET HD",
@@ -4610,7 +4644,7 @@
             {
                 "id": "Astro.Badminton.my",
                 "name": "MY: Astro Badminton",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Badminton.my",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Badminton.my.png",
                 "tags": [
                     "Astro Badminton 1 (php)",
                     "ASTRO BADMINTON 2 HD"
@@ -4619,7 +4653,7 @@
             {
                 "id": "NBA.TV.sg",
                 "name": "SG: NBA TV",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/NBA.TV.sg",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/NBA.TV.sg.png",
                 "tags": [
                     "SG| NBA TV HD",
                     "NBA TV HD"
@@ -4800,9 +4834,33 @@
             {
                 "id": "Go3.Sport.1.HD.lv",
                 "name": "LV: GO3 Sport 1",
-                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/qo7ct61723836245.png",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Go3.Sport.1.HD.lv.png",
                 "tags": [
                     "GO3 Sport 1"
+                ]
+            },
+            {
+                "id": "Go3.Sport.2.HD.lv",
+                "name": "LV: GO3 Sport 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Go3.Sport.2.HD.lv.png",
+                "tags": [
+                    "GO3 Sport 2"
+                ]
+            },
+            {
+                "id": "Go3.Sport.3.HD.lv",
+                "name": "LV: GO3 Sport 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Go3.Sport.3.HD.lv.png",
+                "tags": [
+                    "GO3 Sport 3"
+                ]
+            },
+            {
+                "id": "Go3.Sport.Open.HD.lv",
+                "name": "LV: GO3 Sport Open",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Go3.Sport.Open.HD.lv.png",
+                "tags": [
+                    "GO3 Sport Open"
                 ]
             },
             {
@@ -4998,6 +5056,31 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports3.au.png",
                 "tags": [
                     "BEIN SPORTS 3 🇦🇺"
+                ]
+            },
+            {
+                "id": "JOJ.Å PORT.HD.sk",
+                "name": "SK: JOJ Šport TV",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/s3k56e1649341670.png",
+                "tags": [
+                    "JOJ SPORT 🇸🇰",
+                    "JOJ Sport SLV"
+                ]
+            },
+            {
+                "id": "Setanta.Sports.1.HD.lv",
+                "name": "LV: Setanta Sports 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Setanta.Sports.1.HD.lv.png",
+                "tags": [
+                    "Setanta Sports"
+                ]
+            },
+            {
+                "id": "Setanta.Sports.2.HD.lv",
+                "name": "LV: Setanta Sports 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Setanta.Sports.2.HD.lv.png",
+                "tags": [
+                    "Setanta Sports 2"
                 ]
             }
         ]
@@ -5578,6 +5661,7 @@
                 "id": "cctv1",
                 "name": "CCTV-1 综合 (Tổng hợp)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png",
+                "sortOrder": 1,
                 "tags": [
                     "cctv-1",
                     "cctv-1 综合",
@@ -5590,6 +5674,7 @@
                 "id": "cctv2",
                 "name": "CCTV-2 财经 (Tài chính)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png",
+                "sortOrder": 2,
                 "tags": [
                     "cctv-2",
                     "CCTV2",
@@ -5601,6 +5686,7 @@
                 "id": "cctv3",
                 "name": "CCTV-3 综艺 (Giải trí tổng hợp)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV3.png",
+                "sortOrder": 3,
                 "tags": [
                     "cctv-3",
                     "CCTV3",
@@ -5612,6 +5698,7 @@
                 "id": "cctv4",
                 "name": "CCTV-4 中文国际 (Châu Á)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4.png",
+                "sortOrder": 4,
                 "tags": [
                     "cctv-4",
                     "CCTV4",
@@ -5623,6 +5710,7 @@
                 "id": "cctv5",
                 "name": "CCTV-5 体育 (Thể thao)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5.png",
+                "sortOrder": 5,
                 "tags": [
                     "cctv-5",
                     "CCTV5",
@@ -5634,6 +5722,7 @@
                 "id": "cctv5plus",
                 "name": "CCTV-5+ 体育赛事 (Sự kiện thể thao)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV5plus.png",
+                "sortOrder": 6,
                 "tags": [
                     "cctv5+",
                     "cctv-5+",
@@ -5648,6 +5737,7 @@
                 "id": "cctv6",
                 "name": "CCTV-6 电影 (Điện ảnh)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV6.png",
+                "sortOrder": 7,
                 "tags": [
                     "cctv-6",
                     "CCTV6",
@@ -5659,6 +5749,7 @@
                 "id": "cctv7",
                 "name": "CCTV-7 国防军事 (Quốc phòng - Quân sự)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV7.png",
+                "sortOrder": 8,
                 "tags": [
                     "cctv-7",
                     "CCTV7",
@@ -5670,6 +5761,7 @@
                 "id": "cctv8",
                 "name": "CCTV-8 电视剧 (Phim truyền hình)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8.png",
+                "sortOrder": 9,
                 "tags": [
                     "cctv-8",
                     "CCTV8",
@@ -5681,6 +5773,7 @@
                 "id": "cctvjilu",
                 "name": "CCTV-9 记录 (Tài liệu)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV9.png",
+                "sortOrder": 10,
                 "tags": [
                     "cctv9",
                     "cctv-9",
@@ -5693,6 +5786,7 @@
                 "id": "cctv10",
                 "name": "CCTV-10 科教 (Khoa học - Giáo dục)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV10.png",
+                "sortOrder": 11,
                 "tags": [
                     "cctv-10",
                     "CCTV10",
@@ -5704,6 +5798,7 @@
                 "id": "cctv11",
                 "name": "CCTV-11 戏曲 (Kinh kịch - Nghệ thuật sân khấu)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV11.png",
+                "sortOrder": 12,
                 "tags": [
                     "cctv-11",
                     "CCTV11",
@@ -5715,6 +5810,7 @@
                 "id": "cctv12",
                 "name": "CCTV-12 社会与法 (Xã hội & Pháp luật)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV12.png",
+                "sortOrder": 13,
                 "tags": [
                     "cctv-12",
                     "CCTV12",
@@ -5726,6 +5822,7 @@
                 "id": "cctv13",
                 "name": "CCTV-13 新闻 (Tin tức)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV13.png",
+                "sortOrder": 14,
                 "tags": [
                     "cctv-13",
                     "CCTV13",
@@ -5737,6 +5834,7 @@
                 "id": "cctvchild",
                 "name": "CCTV-14 少儿 (Thiếu nhi)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV14.png",
+                "sortOrder": 15,
                 "tags": [
                     "cctv14",
                     "cctv-14",
@@ -5749,6 +5847,7 @@
                 "id": "cctv15",
                 "name": "CCTV-15 音乐 (Âm nhạc)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV15.png",
+                "sortOrder": 16,
                 "tags": [
                     "cctv-15",
                     "CCTV15",
@@ -5760,6 +5859,7 @@
                 "id": "cctv16",
                 "name": "CCTV-16 奥林匹克 (Olympic)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV16.png",
+                "sortOrder": 17,
                 "tags": [
                     "cctv-16",
                     "CCTV16",
@@ -5771,6 +5871,7 @@
                 "id": "cctv17",
                 "name": "CCTV-17 农业农村 (Nông nghiệp - Nông thôn)",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV17.png",
+                "sortOrder": 18,
                 "tags": [
                     "cctv-17",
                     "CCTV17",
@@ -5782,6 +5883,7 @@
                 "id": "cctv4k",
                 "name": "CCTV-4K 超高清",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV4K.png",
+                "sortOrder": 19,
                 "tags": [
                     "cctv-4k",
                     "cctv4-k",
@@ -5793,6 +5895,7 @@
                 "id": "cctv8k",
                 "name": "CCTV-8K 超高清",
                 "logo": "https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV8K.png",
+                "sortOrder": 20,
                 "tags": [
                     "cctv-8k",
                     "cctv8-k",
