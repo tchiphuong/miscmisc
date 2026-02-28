@@ -421,7 +421,7 @@
             },
             {
                 "id": "htv2hd",
-                "name": "HTV2 - Vie Channel",
+                "name": "HTV2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv2hd.png",
                 "tags": []
             },
@@ -433,9 +433,19 @@
             },
             {
                 "id": "htvkey",
-                "name": "HTV Key",
+                "name": "HTV4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvkey.png",
                 "tags": []
+            },
+            {
+                "id": "anvienhd",
+                "name": "HTV5",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/anvienhd.png",
+                "tags": [
+                    "btv9",
+                    "binhduong9",
+                    "BTV9"
+                ]
             },
             {
                 "id": "htv7hd",
@@ -870,16 +880,6 @@
                 "tags": [
                     "bacgiang",
                     "BTV - Báo và PTTH Bắc Ninh"
-                ]
-            },
-            {
-                "id": "anvienhd",
-                "name": "BTV9 - Bchannel",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/anvienhd.png",
-                "tags": [
-                    "btv9",
-                    "binhduong9",
-                    "BTV9"
                 ]
             },
             {
