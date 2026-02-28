@@ -4201,11 +4201,14 @@
                 "name": "MY: Astro Premier League",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.my.png",
                 "tags": [
+                    "ASTRO PL 1",
                     "ASTRO PREMIER LEAGUE",
+                    "ASTRO PREMIER LEAGUES",
                     "Astro PremierLeague 1 (MLY)",
                     "MY: ASTRO PREMIER LEAGUE 1",
                     "ASTRO PREMIER LEAGUE 1 HD",
-                    "ASTRO PREMIER LEAGUE (php)"
+                    "ASTRO PREMIER LEAGUE (php)",
+                    "AsrtoPremierLeague1"
                 ]
             },
             {
@@ -4213,11 +4216,14 @@
                 "name": "MY: Astro Premier League 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.2.my.png",
                 "tags": [
+                    "ASTRO PL 2",
                     "ASTRO PREMIER LEAGUE 2",
+                    "ASTRO PREMIER LEAGUE2",
                     "Astro PremierLeague 2 (MLY)",
                     "MY: ASTRO PREMIER LEAGUE 2",
                     "ASTRO PREMIER LEAGUE 2 HD",
-                    "ASTRO PREMIER LEAGUE 2 (php)"
+                    "ASTRO PREMIER LEAGUE 2 (php)",
+                    "AsrtoPremierLeague2"
                 ]
             },
             {
@@ -4228,7 +4234,10 @@
                     "ASTRO GRANDSTAND",
                     "Astro Grandstand",
                     "MY: ASTRO GRANDSTAND",
-                    "ASTRO GRANDSTAND (php)"
+                    "ASTRO GRANDSTAND (php)",
+                    "AstroGrandstand",
+                    "Astro Grandstand HD",
+                    "Astro Grandstand SD"
                 ]
             },
             {
@@ -4239,7 +4248,9 @@
                     "ASTRO FOOTBALL",
                     "MY: ASTRO FOOTBALL",
                     "ASTRO FOOTBALL HD",
-                    "ASTRO FOOTBALL (php)"
+                    "ASTRO FOOTBALL (php)",
+                    "Astro Football HD",
+                    "Astro Football SD"
                 ]
             },
             {
@@ -4248,7 +4259,9 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Sports.Plus.my.png",
                 "tags": [
                     "ASTRO SPORTS PLUS",
-                    "ASTRO SPORTS PLUS HD"
+                    "ASTRO SPORTS PLUS HD",
+                    "Astro Sports Plus HD",
+                    "Astro Sports Plus SD"
                 ]
             },
             {
@@ -4257,7 +4270,9 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/W-Sport.my.png",
                 "tags": [
                     "MY: W SPORTS",
-                    "W-Sport HD"
+                    "W-Sport HD",
+                    "Astro W-Sports HD",
+                    "Astro W-Sports SD"
                 ]
             },
             {
@@ -4478,96 +4493,119 @@
             },
             {
                 "id": "Hub.Premier.1.sg",
-                "name": "Hub Premier 1",
+                "name": "SG: Hub Premier 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.1.sg.png",
                 "tags": [
+                    "Hub Premier EPL 01",
                     "Hub Premier  EPL 01",
-                    "Hub Premier1 FHD"
+                    "Hub Premier1 FHD",
+                    "Hub Premier 1 FHD",
+                    "Hub Premier 1 HD"
                 ]
             },
             {
                 "id": "Hub.Premier.2.sg",
-                "name": "Hub Premier 2",
+                "name": "SG: Hub Premier 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.2.sg.png",
                 "tags": [
+                    "Hub Premier EPL 02",
                     "Hub Premier  EPL 02",
-                    "Hub Premier2 FHD"
+                    "Hub Premier2 FHD",
+                    "Hub Premier 2 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.3.sg",
-                "name": "Hub Premier 3",
+                "name": "SG: Hub Premier 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.3.sg.png",
                 "tags": [
+                    "Hub Premier EPL 03",
                     "Hub Premier  EPL 03",
-                    "Hub Premier3 FHD"
+                    "Hub Premier3 FHD",
+                    "Hub Premier 3 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.4.sg",
-                "name": "Hub Premier 4",
+                "name": "SG: Hub Premier 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.4.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 04"
+                    "Hub Premier  EPL 04",
+                    "Hub Premier4 FHD",
+                    "Hub Premier 4 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.5.sg",
-                "name": "Hub Premier 5",
+                "name": "SG: Hub Premier 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.5.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 05"
+                    "Hub Premier EPL 05",
+                    "Hub Premier  EPL 05",
+                    "Hub Premier 5 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.6.sg",
-                "name": "Hub Premier 6",
+                "name": "SG: Hub Premier 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.6.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 06"
+                    "Hub Premier  EPL 06",
+                    "Hub Premier6 FHD",
+                    "Hub Premier 6 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.7.sg",
-                "name": "Hub Premier 7",
+                "name": "SG: Hub Premier 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.7.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 07"
+                    "Hub Premier  EPL 07",
+                    "Hub Premier7 FHD",
+                    "Hub Premier 7 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.8.sg",
-                "name": "Hub Premier 8",
+                "name": "SG: Hub Premier 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.8.sg.png",
                 "tags": [
                     "Hub Premier EPL 08",
-                    "Hub Premier  EPL 08"
+                    "Hub Premier  EPL 08",
+                    "Hub Premier8 FHD",
+                    "Hub Premier 8 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.9.sg",
-                "name": "Hub Premier 9",
+                "name": "SG: Hub Premier 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.9.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 09"
+                    "Hub Premier  EPL 09",
+                    "Hub Premier9 FHD",
+                    "Hub Premier 9 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.10.sg",
-                "name": "Hub Premier 10",
+                "name": "SG: Hub Premier 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.10.sg.png",
                 "tags": [
                     "Hub Premier EPL 10",
-                    "Hub Premier  EPL 10"
+                    "Hub Premier  EPL 10",
+                    "Hub Premier10 FHD",
+                    "Hub Premier 10 FHD"
                 ]
             },
             {
                 "id": "Hub.Premier.11.sg",
-                "name": "Hub Premier 11",
+                "name": "SG: Hub Premier 11",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.11.sg.png",
                 "tags": [
                     "Hub Premier EPL 11",
-                    "Hub Premier  EPL 11"
+                    "Hub Premier  EPL 11",
+                    "Hub Premier11 FHD",
+                    "Hub Premier 11 FHD"
                 ]
             },
             {
@@ -4577,7 +4615,9 @@
                 "tags": [
                     "SG| HUB SPORTS 1 HD",
                     "Hub Sports 1 (SGP)",
-                    "Hub Sports 1 HD"
+                    "Hub Sports 1 HD",
+                    "Hub Sports 1",
+                    "Hub Sports 1 FHD"
                 ]
             },
             {
@@ -4587,7 +4627,9 @@
                 "tags": [
                     "SG| HUB SPORTS 2 HD",
                     "Hub Sports 2 (SGP)",
-                    "Hub Sports 2 HD"
+                    "Hub Sports 2 HD",
+                    "Hub Sports 2",
+                    "Hub Sports 2 FHD"
                 ]
             },
             {
@@ -4597,7 +4639,9 @@
                 "tags": [
                     "SG| HUB SPORTS 3 HD",
                     "Hub Sports 3 (SGP)",
-                    "Hub Sports 3 HD"
+                    "Hub Sports 3 HD",
+                    "Hub Sports 3",
+                    "Hub Sports 3 FHD"
                 ]
             },
             {
@@ -4617,7 +4661,9 @@
                     "ASTRO ARENA",
                     "ASTRO ARENA HD",
                     "Astro Arena (MLY)",
-                    "ASTRO ARENA (php)"
+                    "ASTRO ARENA (php)",
+                    "Astro Arena HD",
+                    "Astro Arena SD"
                 ]
             },
             {
@@ -4627,7 +4673,9 @@
                 "tags": [
                     "ASTRO ARENA 2",
                     "ASTRO ARENA 2 HD",
-                    "ASTRO ARENA 2 (php)"
+                    "ASTRO ARENA 2 (php)",
+                    "Astro Arena 2 HD",
+                    "Astro Arena 2 SD"
                 ]
             },
             {
@@ -4638,7 +4686,9 @@
                     "ASTRO CRICKET",
                     "ASTRO CRICKET HD",
                     "Astro CRICKET (MLY)",
-                    "ASTRO CRICKET (php)"
+                    "ASTRO CRICKET (php)",
+                    "Astro Cricket HD",
+                    "Astro Cricket SD"
                 ]
             },
             {
@@ -4647,7 +4697,11 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Badminton.my.png",
                 "tags": [
                     "Astro Badminton 1 (php)",
-                    "ASTRO BADMINTON 2 HD"
+                    "ASTRO BADMINTON 2 HD",
+                    "ASTRO BADMINTON 1 HD",
+                    "ASTRO BADMINTON HD",
+                    "Astro Badminton HD",
+                    "Astro Badminton SD"
                 ]
             },
             {
