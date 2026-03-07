@@ -2419,11 +2419,60 @@
                 ]
             },
             {
+                "id": "beIN.SPORTS.1.hk",
+                "name": "HK: BeIn Sports 1 Hong Kong",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.1.hk.png",
+                "tags": [
+                    "HK | NowHK Bein 1 FHD"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.2.hk",
+                "name": "HK: BeIn Sports 2 Hong Kong",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.2.hk.png",
+                "tags": [
+                    "HK | NowHK Bein 2 FHD"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.3.hk",
+                "name": "HK: BeIn Sports 3 Hong Kong",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.3.hk.png",
+                "tags": [
+                    "HK | NowHK Bein 3 FHD"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.4.hk",
+                "name": "HK: BeIn Sports 4 Hong Kong",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.4.hk.png",
+                "tags": [
+                    "HK | NowHK Bein 4 FHD"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.5.hk",
+                "name": "HK: BeIn Sports 5 Hong Kong",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.5.hk.png",
+                "tags": [
+                    "HK | NowHK Bein 5 FHD"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.6.hk",
+                "name": "HK: BeIn Sports 6 Hong Kong",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.6.hk.png",
+                "tags": [
+                    "HK | NowHK Bein 6 FHD"
+                ]
+            },
+            {
                 "id": "Now.Sports.4K.1.hk",
                 "name": "HK: Now Sports 4K 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.4K.1.hk.png",
                 "tags": [
-                    "uk:nowsportuhd|4k"
+                    "uk:nowsportuhd|4k",
+                    "NOW SPORTS 4K"
                 ]
             },
             {
@@ -2449,7 +2498,11 @@
                 "tags": [
                     "uk:nowsportpl1fhd",
                     "Now Sports Premier League1 FHD",
-                    "NOW HK PREMIER SPORTS 01"
+                    "NOW HK PREMIER SPORTS 01",
+                    "Now HK Premier Sports 1",
+                    "HK | Now HK Premier Sports 1",
+                    "Now Premier Sports 1",
+                    "HK: Now Premier Sports 1 FHD"
                 ]
             },
             {
@@ -2459,7 +2512,11 @@
                 "tags": [
                     "uk:nowsportpl2fhd",
                     "Now Sports PremierLeague 2 FHD",
-                    "NOW HK PREMIER SPORTS 02"
+                    "NOW HK PREMIER SPORTS 02",
+                    "Now HK Premier Sports 2",
+                    "HK | Now HK Premier Sports 2",
+                    "Now Premier Sports 2",
+                    "HK: Now Premier Sports 2 FHD"
                 ]
             },
             {
@@ -2469,7 +2526,11 @@
                 "tags": [
                     "uk:nowsportpl3fhd",
                     "Now Sports Premier League 3 FHD",
-                    "NOW HK PREMIER SPORTS 03"
+                    "NOW HK PREMIER SPORTS 03",
+                    "Now HK Premier Sports 3",
+                    "HK | Now HK Premier Sports 3",
+                    "Now Premier Sports 3",
+                    "HK: Now Premier Sports 3 FHD"
                 ]
             },
             {
@@ -2477,7 +2538,11 @@
                 "name": "HK: Now Sports Premier League 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.4.hk.png",
                 "tags": [
-                    "uk:nowsportpl4fhd"
+                    "uk:nowsportpl4fhd",
+                    "Now HK Premier Sports 4",
+                    "HK | Now HK Premier Sports 4",
+                    "Now Premier Sports 4",
+                    "HK: Now Premier Sports 4 FHD"
                 ]
             },
             {
@@ -2485,7 +2550,11 @@
                 "name": "HK: Now Sports Premier League 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.5.hk.png",
                 "tags": [
-                    "uk:nowsportpl5fhd"
+                    "uk:nowsportpl5fhd",
+                    "Now HK Premier Sports 5",
+                    "HK | Now HK Premier Sports 5",
+                    "Now Premier Sports 5",
+                    "HK: Now Premier Sports 5 FHD"
                 ]
             },
             {
@@ -2493,7 +2562,11 @@
                 "name": "HK: Now Sports Premier League 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.6.hk.png",
                 "tags": [
-                    "uk:nowsportpl6fhd"
+                    "uk:nowsportpl6fhd",
+                    "Now HK Premier Sports 6",
+                    "HK | Now HK Premier Sports 6",
+                    "Now Premier Sports 6",
+                    "HK: Now Premier Sports 6 FHD"
                 ]
             },
             {
@@ -2501,7 +2574,24 @@
                 "name": "HK: Now Sports Premier League 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.7.hk.png",
                 "tags": [
-                    "uk:nowsportpl7fhd"
+                    "uk:nowsportpl7fhd",
+                    "Now HK Premier Sports 7",
+                    "HK | Now HK Premier Sports 7",
+                    "Now Premier Sports 7",
+                    "HK: Now Premier Sports 7 FHD"
+                ]
+            },
+            {
+                "id": "Now.Sports.Premier.League.TV.hk",
+                "name": "HK: Now Sports Premier League TV",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Premier.League.TV.hk.png",
+                "tags": [
+                    "uk:nowsportpl8fhd",
+                    "Now HK Premier Sports 8",
+                    "HK | Now HK Premier Sports 8",
+                    "HK | Now HK Premier League TV",
+                    "Now Premier Sports 8",
+                    "HK: Now Premier Sports 8 FHD"
                 ]
             },
             {
@@ -2510,7 +2600,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.1.hk.png",
                 "tags": [
                     "uk:nowsport1",
-                    "NOW HK NOW SPORTS 1"
+                    "NOW HK NOW SPORTS 1",
+                    "HK | Now Sports 1",
+                    "HK: Now Sports 1 FHD",
+                    "Now Sports 1 FHD"
                 ]
             },
             {
@@ -2519,7 +2612,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.2.hk.png",
                 "tags": [
                     "uk:nowsport2",
-                    "NOW HK NOW SPORTS 2"
+                    "NOW HK NOW SPORTS 2",
+                    "HK | Now Sports 2",
+                    "HK: Now Sports 2 FHD",
+                    "Now Sports 2 FHD"
                 ]
             },
             {
@@ -2528,7 +2624,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.3.hk.png",
                 "tags": [
                     "uk:nowsport3",
-                    "NOW HK NOW SPORTS 3"
+                    "NOW HK NOW SPORTS 3",
+                    "HK | Now Sports 3",
+                    "HK: Now Sports 3 FHD",
+                    "Now Sports 3 FHD"
                 ]
             },
             {
@@ -2537,7 +2636,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.4.hk.png",
                 "tags": [
                     "uk:nowsport4",
-                    "NOW HK NOW SPORTS 4"
+                    "NOW HK NOW SPORTS 4",
+                    "HK | Now Sports 4",
+                    "HK: Now Sports 4 FHD",
+                    "Now Sports 4 FHD"
                 ]
             },
             {
@@ -2546,7 +2648,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.5.hk.png",
                 "tags": [
                     "uk:nowsport5",
-                    "NOW HK NOW SPORTS 5"
+                    "NOW HK NOW SPORTS 5",
+                    "HK | Now Sports 5",
+                    "HK: Now Sports 5 FHD",
+                    "Now Sports 5 FHD"
                 ]
             },
             {
@@ -2555,7 +2660,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.6.hk.png",
                 "tags": [
                     "uk:nowsport6",
-                    "NOW HK NOW SPORTS 6"
+                    "NOW HK NOW SPORTS 6",
+                    "HK | Now Sports 6",
+                    "HK: Now Sports 6 FHD",
+                    "Now Sports 6 FHD"
                 ]
             },
             {
@@ -2564,7 +2672,24 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.7.hk.png",
                 "tags": [
                     "uk:nowsport7",
-                    "NOW HK NOW SPORTS 7"
+                    "NOW HK NOW SPORTS 7",
+                    "HK | Now Sports 7",
+                    "HK: Now Sports 7 FHD",
+                    "Now Sports 7 FHD"
+                ]
+            },
+            {
+                "id": "Now.Sports.Plus.hk",
+                "name": "HK: Now Sports Plus",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Plus.hk.png",
+                "tags": [
+                    "uk:nowsportplus",
+                    "NOW HK NOW SPORTS PLUS",
+                    "HK | Now Sports Plus",
+                    "HK: Now Sports Plus FHD",
+                    "Now Sports Plus FHD",
+                    "HK | NowHK Sports Plus FHD",
+                    "NOW Sports Plus"
                 ]
             },
             {
@@ -3800,11 +3925,21 @@
                     "ASTRO PL 1",
                     "ASTRO PREMIER LEAGUE",
                     "ASTRO PREMIER LEAGUES",
+                    "ASTRO PREMIER LEAGUE (play)",
                     "Astro PremierLeague 1 (MLY)",
+                    "Astro PremierLeague 1",
+                    "Astro Premier League 1",
+                    "Astro Premier League 1 SD",
+                    "Astro PL Premier League 1",
                     "MY: ASTRO PREMIER LEAGUE 1",
                     "ASTRO PREMIER LEAGUE 1 HD",
+                    "ASTRO PREMIER LEAGUE 1 ᴴᴰ",
                     "ASTRO PREMIER LEAGUE (php)",
-                    "AsrtoPremierLeague1"
+                    "AsrtoPremierLeague1",
+                    "013. AsrtoPremierLeague1",
+                    "Astro SuperSport",
+                    "Astro SuperSport 1",
+                    "SPORTS : ASTRO SUPERSPORT 1"
                 ]
             },
             {
@@ -3816,10 +3951,76 @@
                     "ASTRO PREMIER LEAGUE 2",
                     "ASTRO PREMIER LEAGUE2",
                     "Astro PremierLeague 2 (MLY)",
+                    "Astro PremierLeague 2",
+                    "Astro Premier League 2",
+                    "Astro Premier League 2 SD",
+                    "Astro PL Premier League 2",
                     "MY: ASTRO PREMIER LEAGUE 2",
                     "ASTRO PREMIER LEAGUE 2 HD",
+                    "ASTRO PREMIER LEAGUE 2 ᴴᴰ",
                     "ASTRO PREMIER LEAGUE 2 (php)",
-                    "AsrtoPremierLeague2"
+                    "AsrtoPremierLeague2",
+                    "014. AsrtoPremierLeague2",
+                    "MY | Astro Premier League 2 FHD",
+                    "Astro SuperSport 2",
+                    "SPORTS : ASTRO SUPERSPORT 2"
+                ]
+            },
+            {
+                "id": "Astro.Premier.League.3.my",
+                "name": "MY: Astro Premier League 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.3.my.png",
+                "tags": [
+                    "ASTRO PL 3",
+                    "ASTRO PREMIER LEAGUE 3",
+                    "ASTRO PREMIER LEAGUE3",
+                    "Astro PremierLeague 3 (MLY)",
+                    "Astro Premier League 3",
+                    "Astro Premier League 3 HD",
+                    "Astro Premier League 3 SD",
+                    "MY: ASTRO PREMIER LEAGUE 3",
+                    "ASTRO PREMIER LEAGUE 3 HD",
+                    "ASTRO PREMIER LEAGUE 3 (php)",
+                    "AsrtoPremierLeague3",
+                    "MY | Astro Premier League 3 FHD"
+                ]
+            },
+            {
+                "id": "Astro.Premier.League.4.my",
+                "name": "MY: Astro Premier League 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.4.my.png",
+                "tags": [
+                    "ASTRO PL 4",
+                    "ASTRO PREMIER LEAGUE 4",
+                    "ASTRO PREMIER LEAGUE4",
+                    "Astro PremierLeague 4 (MLY)",
+                    "Astro Premier League 4",
+                    "Astro Premier League 4 HD",
+                    "Astro Premier League 4 SD",
+                    "MY: ASTRO PREMIER LEAGUE 4",
+                    "ASTRO PREMIER LEAGUE 4 HD",
+                    "ASTRO PREMIER LEAGUE 4 (php)",
+                    "AsrtoPremierLeague4",
+                    "MY | Astro Premier League 4 FHD"
+                ]
+            },
+            {
+                "id": "Astro.Premier.League.5.my",
+                "name": "MY: Astro Premier League 5",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.5.my.png",
+                "tags": [
+                    "ASTRO PL 5",
+                    "ASTRO PREMIER LEAGUE 5",
+                    "ASTRO PREMIER LEAGUE5",
+                    "Astro PremierLeague 5 (MLY)",
+                    "Astro Premier League 5",
+                    "Astro Premier League 5 HD",
+                    "Astro Premier League 5 SD",
+                    "MY: ASTRO PREMIER LEAGUE 5",
+                    "ASTRO PREMIER LEAGUE 5 HD",
+                    "ASTRO PREMIER LEAGUE 5 (php)",
+                    "AsrtoPremierLeague5",
+                    "MY | Astro Premier League 5 FHD"
                 ]
             },
             {
@@ -3831,9 +4032,16 @@
                     "Astro Grandstand",
                     "MY: ASTRO GRANDSTAND",
                     "ASTRO GRANDSTAND (php)",
+                    "ASTRO GRANDSTAND (play)",
                     "AstroGrandstand",
+                    "015. AstroGrandstand",
+                    "Astro Grandstand Alt",
                     "Astro Grandstand HD",
-                    "Astro Grandstand SD"
+                    "ASTRO GRANDSTAND ᴴᴰ",
+                    "Astro Grandstand SD",
+                    "MY | Astro Grandstand FHD",
+                    "Astro SuperSport 3",
+                    "SPORTS : ASTRO SUPERSPORT 3"
                 ]
             },
             {
@@ -3845,8 +4053,15 @@
                     "MY: ASTRO FOOTBALL",
                     "ASTRO FOOTBALL HD",
                     "ASTRO FOOTBALL (php)",
+                    "016. AstroFootball",
+                    "AstroFootball",
                     "Astro Football HD",
-                    "Astro Football SD"
+                    "ASTRO FOOTBALL ᴴᴰ",
+                    "Astro Football SD",
+                    "MY | Astro Football FHD",
+                    "ASTRO FOOTBALL (play)",
+                    "Astro SuperSport 4",
+                    "SPORTS : ASTRO SUPERSPORT 4"
                 ]
             },
             {
@@ -3856,8 +4071,26 @@
                 "tags": [
                     "ASTRO SPORTS PLUS",
                     "ASTRO SPORTS PLUS HD",
+                    "ASTRO SPORTS PLUS ᴴᴰ",
+                    "ASTRO SPORTS PLUS (play)",
                     "Astro Sports Plus HD",
-                    "Astro Sports Plus SD"
+                    "Astro Sports Plus SD",
+                    "MY | Astro Sport Plus",
+                    "AstroSportPlus1",
+                    "017. AstroSportPlus1",
+                    "018. AstroSportPlus2",
+                    "AstroSportPlus2"
+                ]
+            },
+            {
+                "id": "Astro.Sports.UHD.my",
+                "name": "MY: Astro Sports UHD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Sports.UHD.my.png",
+                "tags": [
+                    "ASTRO SPORTS UHD",
+                    "ASTRO SPORTS UHD HD",
+                    "Astro Sports UHD",
+                    "MY | Astro Sports UHD"
                 ]
             },
             {
@@ -4246,7 +4479,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.Prime.hk.png",
                 "tags": [
                     "NOW SPORTS PRIME",
-                    "Now体育_sports_Prime 630"
+                    "Now体育_sports_Prime 630",
+                    "HK | Now HK Sports Prime"
                 ]
             },
             {
@@ -4256,10 +4490,15 @@
                 "tags": [
                     "ASTRO ARENA",
                     "ASTRO ARENA HD",
+                    "ASTRO ARENA ᴴᴰ",
                     "Astro Arena (MLY)",
                     "ASTRO ARENA (php)",
+                    "009. AstroArena1",
+                    "AstroArena1",
                     "Astro Arena HD",
-                    "Astro Arena SD"
+                    "Astro Arena SD",
+                    "MY | Astro Arena FHD",
+                    "ASTRO ARENA (play)"
                 ]
             },
             {
@@ -4269,9 +4508,63 @@
                 "tags": [
                     "ASTRO ARENA 2",
                     "ASTRO ARENA 2 HD",
+                    "ASTRO ARENA 2 ᴴᴰ",
+                    "ASTRO ARENA 2 ᴴᴰ (DRM)",
                     "ASTRO ARENA 2 (php)",
+                    "010. AstroArena2",
+                    "AstroArena2",
                     "Astro Arena 2 HD",
-                    "Astro Arena 2 SD"
+                    "Astro Arena 2 SD",
+                    "MY | Astro Arena 2 FHD",
+                    "ASTRO ARENA 2 (play)"
+                ]
+            },
+            {
+                "id": "Arena.Bola.my",
+                "name": "MY: Arena Bola",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Bola.my.png",
+                "tags": [
+                    "AstroArenaBola1",
+                    "011. AstroArenaBola1",
+                    "Astro Arena Bola 1",
+                    "ASTRO ARENA BOLA 1",
+                    "Arena Bola",
+                    "Arena Bola (MLY)"
+                ]
+            },
+            {
+                "id": "Arena.Bola.2.my",
+                "name": "MY: Arena Bola 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Bola.2.my.png",
+                "tags": [
+                    "AstroArenaBola2",
+                    "012. AstroArenaBola2",
+                    "Astro Arena Bola 2",
+                    "ASTRO ARENA BOLA 2",
+                    "ASTRO ARENA BOLA 2 ᴴᴰ (DRM)",
+                    "Arena Bola 2 (DRM)"
+                ]
+            },
+            {
+                "id": "Arena.Bola.3.my",
+                "name": "MY: Arena Bola 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Bola.3.my.png",
+                "tags": [
+                    "AstroArenaBola3",
+                    "013. AstroArenaBola3",
+                    "Astro Arena Bola 3",
+                    "ASTRO ARENA BOLA 3"
+                ]
+            },
+            {
+                "id": "Arena.Bola.4.my",
+                "name": "MY: Arena Bola 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Bola.4.my.png",
+                "tags": [
+                    "AstroArenaBola4",
+                    "014. AstroArenaBola4",
+                    "Astro Arena Bola 4",
+                    "ASTRO ARENA BOLA 4"
                 ]
             },
             {
@@ -4283,8 +4576,11 @@
                     "ASTRO CRICKET HD",
                     "Astro CRICKET (MLY)",
                     "ASTRO CRICKET (php)",
+                    "NowHK Astro Cricket HD",
                     "Astro Cricket HD",
-                    "Astro Cricket SD"
+                    "Astro Cricket SD",
+                    "MY | Astro Cricket FHD",
+                    "SPORTS : ASTRO CRICKET"
                 ]
             },
             {
@@ -4293,11 +4589,19 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Badminton.my.png",
                 "tags": [
                     "Astro Badminton 1 (php)",
+                    "Astro Badminton 1",
+                    "Astro Badminton 2",
                     "ASTRO BADMINTON 2 HD",
                     "ASTRO BADMINTON 1 HD",
                     "ASTRO BADMINTON HD",
+                    "ASTRO BADMINTONᴴᴰ",
                     "Astro Badminton HD",
-                    "Astro Badminton SD"
+                    "Astro Badminton SD",
+                    "AstroBadminton",
+                    "AstroBadminton1",
+                    "AstroBadminton2",
+                    "ASTRO BADMINTON (play)",
+                    "Astro Badminton"
                 ]
             },
             {
@@ -4539,7 +4843,7 @@
             },
             {
                 "id": "Nova.Sport.1.cz",
-                "name": "CZ: Nova Sport 1",
+                "name": "CZ: Nova Sport 1 CZ",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/6tz1pp1649341425.png",
                 "tags": [
                     "Nova Sport 1 CZ",
@@ -4548,7 +4852,7 @@
             },
             {
                 "id": "Nova.Sport.2.cz",
-                "name": "CZ: Nova Sport 2",
+                "name": "CZ: Nova Sport 2 CZ",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/gymhfv1649341436.png",
                 "tags": [
                     "Nova Sport 2 CZ",
@@ -4557,7 +4861,7 @@
             },
             {
                 "id": "Nova.Sport.3.cz",
-                "name": "CZ: Nova Sport 3",
+                "name": "CZ: Nova Sport 3 CZ",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/tcj7gr1649341445.png",
                 "tags": [
                     "Nova Sport 3 CZ",
@@ -4566,7 +4870,7 @@
             },
             {
                 "id": "Nova.Sport.4.cz",
-                "name": "CZ: Nova Sport 4",
+                "name": "CZ: Nova Sport 4 CZ",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/59o8o81649341463.png",
                 "tags": [
                     "NOVA SPORT 4 🇸🇰"
@@ -4574,7 +4878,7 @@
             },
             {
                 "id": "Nova.Sport.5.cz",
-                "name": "CZ: Nova Sport 5",
+                "name": "CZ: Nova Sport 5 CZ",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/8q3uib1740774739.png",
                 "tags": [
                     "NOVA SPORT 5 🇸🇰"
@@ -4582,7 +4886,7 @@
             },
             {
                 "id": "Nova.Sport.6.cz",
-                "name": "CZ: Nova Sport 6",
+                "name": "CZ: Nova Sport 6 CZ",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/qnsmro1740774835.png",
                 "tags": [
                     "NOVA SPORT 6 🇸🇰"
@@ -4684,7 +4988,7 @@
             },
             {
                 "id": "beINSports1.au",
-                "name": "AU: beIN Sports 1",
+                "name": "AU: BeIn Sports 1 Australia",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports1.au.png",
                 "tags": [
                     "BEIN SPORTS 1 🇦🇺"
@@ -4692,7 +4996,7 @@
             },
             {
                 "id": "beINSports2.au",
-                "name": "AU: beIN Sports 2",
+                "name": "AU: BeIn Sports 2 Australia",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports2.au.png",
                 "tags": [
                     "BEIN SPORTS 2 🇦🇺",
@@ -4702,7 +5006,7 @@
             },
             {
                 "id": "beINSports3.au",
-                "name": "AU: beIN Sports 3",
+                "name": "AU: BeIn Sports 3 Australia",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports3.au.png",
                 "tags": [
                     "BEIN SPORTS 3 🇦🇺"
