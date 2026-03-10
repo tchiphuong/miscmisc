@@ -10,42 +10,49 @@
                 "id": "vtv1hd",
                 "name": "VTV1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv1hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/5de59236-89a2-4387-8664-f2fc27608093.jpg",
                 "tags": []
             },
             {
                 "id": "vtv2hd",
                 "name": "VTV2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv2hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/5ac4a9fb-6da7-4785-aab5-ae85e471d869.jpg",
                 "tags": []
             },
             {
                 "id": "vtv3hd",
                 "name": "VTV3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv3hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/292a3f4e-c6ee-4858-9c49-f61dde69a854.jpg",
                 "tags": []
             },
             {
                 "id": "vtv4hd",
                 "name": "VTV4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv4hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/f161041d-3a3f-4c0a-88f2-ae97f8052ee7.jpg",
                 "tags": []
             },
             {
                 "id": "vtv5hd",
                 "name": "VTV5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/d84c3036-3cc4-4c45-911f-8d1c5025cd93.jpg",
                 "tags": []
             },
             {
                 "id": "vtv5hdtnb",
                 "name": "VTV5 Tây Nam Bộ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hdtnb.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/d96ee31b-eeef-4f4a-8245-0a9c0006bc46.jpg",
                 "tags": []
             },
             {
                 "id": "vtv5hdtn",
                 "name": "VTV5 Tây Nguyên",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hdtn.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/c44dbdd4-e81f-4702-93fe-a092d28990f4.jpg",
                 "tags": [
                     "vtv5hdtnn"
                 ]
@@ -54,30 +61,35 @@
                 "id": "vtvcantho",
                 "name": "VTV Cần Thơ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtvcantho.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/b656ea10-a477-43f6-b260-fefb844ed0c5.jpg",
                 "tags": []
             },
             {
                 "id": "vtv7hd",
                 "name": "VTV7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv7hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/fe6f00dd-e418-44bf-9c0a-ae47cec1a67c.jpg",
                 "tags": []
             },
             {
                 "id": "vtv8hd",
                 "name": "VTV8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv8hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/447aba67-bee4-443a-ac5b-f6e457ff4abe.jpg",
                 "tags": []
             },
             {
                 "id": "vtv9hd",
                 "name": "VTV9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv9hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/7f951ab0-a128-44a9-84cd-ba8faf108ad3.jpg",
                 "tags": []
             },
             {
                 "id": "vietnamtoday",
                 "name": "Vietnam Today",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vietnamtoday.png",
+                "thumbnail": "https://vtvgo-assets.vtvdigital.vn/assets/images/v2/channel/20250905/2025090515/S1CWNGr2gI-VIETNAMTODAY-THUMBNAIL-KENHVTVgo-500x281.webp",
                 "tags": []
             }
         ]
@@ -160,6 +172,7 @@
                 "id": "onviegiaitri",
                 "name": "ON Vie Giải trí",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onviegiaitri.png",
+                "thumbnail": "https://cdn-img.onlivetv.vn/prod/720x405/06800aef-236e-4568-8177-74cef1a50c3b.jpg",
                 "tags": []
             },
             {
@@ -3714,6 +3727,86 @@
                 ]
             },
             {
+                "id": "beIN.SPORTS.1.fr",
+                "name": "FR: BeIn Sports 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.1.fr.png",
+                "tags": [
+                    "beIN Sports 1"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.2.fr",
+                "name": "FR: BeIn Sports 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.2.fr.png",
+                "tags": [
+                    "beIN Sports 2"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.3.fr",
+                "name": "FR: BeIn Sports 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.3.fr.png",
+                "tags": [
+                    "beIN Sports 3"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.4.fr",
+                "name": "FR: BeIn Sports Max 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.4.fr.png",
+                "tags": [
+                    "beIN Sports Max 4"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.5.fr",
+                "name": "FR: BeIn Sports Max 5",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.5.fr.png",
+                "tags": [
+                    "beIN Sports Max 5"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.6.fr",
+                "name": "FR: BeIn Sports Max 6",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.6.fr.png",
+                "tags": [
+                    "beIN Sports Max 6"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.7.fr",
+                "name": "FR: BeIn Sports Max 7",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.7.fr.png",
+                "tags": [
+                    "beIN Sports Max 7"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.8.fr",
+                "name": "FR: BeIn Sports Max 8",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.8.fr.png",
+                "tags": [
+                    "beIN Sports Max 8"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.9.fr",
+                "name": "FR: BeIn Sports Max 9",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.9.fr.png",
+                "tags": [
+                    "beIN Sports Max 9"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.10.fr",
+                "name": "FR: BeIn Sports Max 10",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.10.fr.png",
+                "tags": [
+                    "beIN Sports Max 10"
+                ]
+            },
+            {
                 "id": "CANAL+LIVE.1.fr",
                 "name": "FR: CANAL+ LIVE 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/CANAL+LIVE.1.fr.png",
@@ -4123,7 +4216,7 @@
             {
                 "id": "Sporting.TV.HD.pt",
                 "name": "PT: Sporting TV",
-                "logo": "https://upload.wikimedia.org/wikipedia/pt/b/b4/Sporting_TV.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/portugal/sporting-tv-pt.png",
                 "tags": [
                     "PT:Sporting.TV"
                 ]
@@ -4643,7 +4736,7 @@
             {
                 "id": "FoxCricket.au",
                 "name": "AU: Fox Sports 501",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxCricket.au",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxCricket.au.png",
                 "tags": [
                     "Fox Sports 501 FHD",
                     "AT | Fox Sports 501 Cricket"
@@ -4652,7 +4745,7 @@
             {
                 "id": "FoxLeague.au",
                 "name": "AU: Fox Sports 502",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxLeague.au",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxLeague.au.png",
                 "tags": [
                     "Fox Sports 502 FHD",
                     "AT | Fox Sports 502 Leauge"
@@ -4661,7 +4754,7 @@
             {
                 "id": "FoxSports503.au",
                 "name": "AU: Fox Sports 503",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports503.au",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports503.au.png",
                 "tags": [
                     "Fox Sports 503 FHD",
                     "AT | Fox Sports 503"
@@ -4670,7 +4763,7 @@
             {
                 "id": "FoxFooty.au",
                 "name": "AU: Fox Sports 504",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxFooty.au",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxFooty.au.png",
                 "tags": [
                     "Fox Sports 504 FHD",
                     "AT | Fox Sports 504 Fotty"
@@ -4679,7 +4772,7 @@
             {
                 "id": "FoxSports505.au",
                 "name": "AU: Fox Sports 505",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports505.au",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports505.au.png",
                 "tags": [
                     "Fox Sports 505 FHD",
                     "AT | Fox Sports 505"
@@ -4688,7 +4781,7 @@
             {
                 "id": "FoxSports506.au",
                 "name": "AU: Fox Sports 506",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports506.au",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSports506.au.png",
                 "tags": [
                     "Fox Sports 506 FHD",
                     "AT | Fox Sports 506"
@@ -4697,7 +4790,7 @@
             {
                 "id": "FoxSportsMore.au",
                 "name": "AU: Fox Sports 507",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSportsMore.au",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FoxSportsMore.au.png",
                 "tags": [
                     "Fox Sports 507 FHD",
                     "AT | Fox Sports 507"
@@ -4780,7 +4873,7 @@
             {
                 "id": "5.sport.il",
                 "name": "IL: 5 SPORT",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sport5_Logo.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/israel/5sport-il.png",
                 "tags": [
                     "5 SPORT 🇮🇱"
                 ]
@@ -4895,19 +4988,21 @@
             {
                 "id": "Sport1.cz",
                 "name": "CZ: Sport 1",
-                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/rsuyrx1455541493.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/sport1-sk.png",
                 "tags": [
                     "Sport 1 CZ",
-                    "SPORT 1 🇸🇰"
+                    "SPORT 1 🇸🇰",
+                    "SPORT 1 HD 🇨🇿"
                 ]
             },
             {
                 "id": "Sport2.cz",
                 "name": "CZ: Sport 2",
-                "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTq8AgWu0sWbXFfyayYAW2SFxgt3XJIaHhJw&s",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/sport2-sk.png",
                 "tags": [
                     "Sport 2 CZ",
-                    "SPORT 2 🇸🇰"
+                    "SPORT 2 🇸🇰",
+                    "SPORT 2 HD 🇨🇿"
                 ]
             },
             {
@@ -4953,7 +5048,7 @@
             {
                 "id": "SÃ£o.Paulo/SP..SporTV.br",
                 "name": "BR: SporTV",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/sportv-br.png",
                 "tags": [
                     "SporTV",
                     "SporTV BR",
@@ -4963,7 +5058,7 @@
             {
                 "id": "SÃ£o.Paulo/SP..SporTV.2.br",
                 "name": "BR: SporTV 2",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SporTV2_2021.png/953px-SporTV2_2021.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/sportv2-br.png",
                 "tags": [
                     "SPORTV 2",
                     "SporTV 2 BR",
@@ -4973,7 +5068,7 @@
             {
                 "id": "SÃ£o.Paulo/SP..SporTV.3..br",
                 "name": "BR: SporTV 3",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/SporTV3_2021.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/brazil/sportv3-br.png",
                 "tags": [
                     "SportTV 3"
                 ]
@@ -5035,6 +5130,62 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Setanta.Sports.2.HD.lv.png",
                 "tags": [
                     "Setanta Sports 2"
+                ]
+            },
+            {
+                "id": "SuperSport.1.al",
+                "name": "AL: SuperSport 1",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-1-al.png",
+                "tags": [
+                    "Super Sport 1 🇦🇱"
+                ]
+            },
+            {
+                "id": "SuperSport.2.al",
+                "name": "AL: SuperSport 2",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-2-al.png",
+                "tags": [
+                    "Super Sport 2 🇦🇱"
+                ]
+            },
+            {
+                "id": "SuperSport.3.al",
+                "name": "AL: SuperSport 3",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-3-al.png",
+                "tags": [
+                    "Super Sport 3 🇦🇱"
+                ]
+            },
+            {
+                "id": "SuperSport.4.al",
+                "name": "AL: SuperSport 4",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-4-al.png",
+                "tags": [
+                    "Super Sport 4 🇦🇱"
+                ]
+            },
+            {
+                "id": "SuperSport.5.al",
+                "name": "AL: SuperSport 5",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-5-al.png",
+                "tags": [
+                    "Super Sport 5 🇦🇱"
+                ]
+            },
+            {
+                "id": "SuperSport.6.al",
+                "name": "AL: SuperSport 6",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-6-al.png",
+                "tags": [
+                    "Super Sport 6 🇦🇱"
+                ]
+            },
+            {
+                "id": "SuperSport.7.al",
+                "name": "AL: SuperSport 7",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-7-al.png",
+                "tags": [
+                    "Super Sport 7 🇦🇱"
                 ]
             }
         ]
