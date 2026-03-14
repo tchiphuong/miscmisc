@@ -11,42 +11,54 @@
                 "name": "VTV1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv1hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/5de59236-89a2-4387-8664-f2fc27608093.jpg",
-                "tags": []
+                "tags": [
+                    "VTV1 HD"
+                ]
             },
             {
                 "id": "vtv2hd",
                 "name": "VTV2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv2hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/5ac4a9fb-6da7-4785-aab5-ae85e471d869.jpg",
-                "tags": []
+                "tags": [
+                    "VTV2 HD"
+                ]
             },
             {
                 "id": "vtv3hd",
                 "name": "VTV3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv3hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/292a3f4e-c6ee-4858-9c49-f61dde69a854.jpg",
-                "tags": []
+                "tags": [
+                    "VTV3 HD"
+                ]
             },
             {
                 "id": "vtv4hd",
                 "name": "VTV4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv4hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/f161041d-3a3f-4c0a-88f2-ae97f8052ee7.jpg",
-                "tags": []
+                "tags": [
+                    "VTV4 HD"
+                ]
             },
             {
                 "id": "vtv5hd",
                 "name": "VTV5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/d84c3036-3cc4-4c45-911f-8d1c5025cd93.jpg",
-                "tags": []
+                "tags": [
+                    "VTV5 HD"
+                ]
             },
             {
                 "id": "vtv5hdtnb",
                 "name": "VTV5 Tây Nam Bộ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hdtnb.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/d96ee31b-eeef-4f4a-8245-0a9c0006bc46.jpg",
-                "tags": []
+                "tags": [
+                    "VTV5 TNB"
+                ]
             },
             {
                 "id": "vtv5hdtn",
@@ -54,7 +66,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hdtn.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/c44dbdd4-e81f-4702-93fe-a092d28990f4.jpg",
                 "tags": [
-                    "vtv5hdtnn"
+                    "vtv5hdtnn",
+                    "VTV5 TN"
                 ]
             },
             {
@@ -62,35 +75,45 @@
                 "name": "VTV Cần Thơ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtvcantho.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/b656ea10-a477-43f6-b260-fefb844ed0c5.jpg",
-                "tags": []
+                "tags": [
+                    "VTV Cần Thơ"
+                ]
             },
             {
                 "id": "vtv7hd",
                 "name": "VTV7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv7hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/fe6f00dd-e418-44bf-9c0a-ae47cec1a67c.jpg",
-                "tags": []
+                "tags": [
+                    "VTV7 HD"
+                ]
             },
             {
                 "id": "vtv8hd",
                 "name": "VTV8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv8hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/447aba67-bee4-443a-ac5b-f6e457ff4abe.jpg",
-                "tags": []
+                "tags": [
+                    "VTV8 HD"
+                ]
             },
             {
                 "id": "vtv9hd",
                 "name": "VTV9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv9hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/7f951ab0-a128-44a9-84cd-ba8faf108ad3.jpg",
-                "tags": []
+                "tags": [
+                    "VTV9 HD"
+                ]
             },
             {
                 "id": "vietnamtoday",
                 "name": "Vietnam Today",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vietnamtoday.png",
                 "thumbnail": "https://vtvgo-assets.vtvdigital.vn/assets/images/v2/channel/20250905/2025090515/S1CWNGr2gI-VIETNAMTODAY-THUMBNAIL-KENHVTVgo-500x281.webp",
-                "tags": []
+                "tags": [
+                    "VIỆT NAM TODAY"
+                ]
             }
         ]
     },
@@ -105,21 +128,27 @@
                 "id": "ksport1hd",
                 "name": "K+ Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport1hd.png",
-                "tags": [],
+                "tags": [
+                    "K+ SPORT 1 HD"
+                ],
                 "enabled": false
             },
             {
                 "id": "ksport2hd",
                 "name": "K+ Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/ksport2hd.png",
-                "tags": [],
+                "tags": [
+                    "K+ SPORT 2 HD"
+                ],
                 "enabled": false
             },
             {
                 "id": "kcinehd",
                 "name": "K+ Cine",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/kcinehd.png",
-                "tags": [],
+                "tags": [
+                    "K+ CINE HD"
+                ],
                 "enabled": false
             },
             {
@@ -127,7 +156,8 @@
                 "name": "K+ Action",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/kaction.png",
                 "tags": [
-                    "kaction"
+                    "kaction",
+                    "K+ ACTION"
                 ],
                 "enabled": false
             },
@@ -135,7 +165,9 @@
                 "id": "kkidshd",
                 "name": "K+ Kids",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus/kkidshd.png",
-                "tags": [],
+                "tags": [
+                    "K+ KIDS HD"
+                ],
                 "enabled": false
             },
             {
@@ -173,69 +205,90 @@
                 "name": "ON Vie Giải trí",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onviegiaitri.png",
                 "thumbnail": "https://cdn-img.onlivetv.vn/prod/720x405/06800aef-236e-4568-8177-74cef1a50c3b.jpg",
-                "tags": []
+                "tags": [
+                    "ON Vie Giải Trí"
+                ]
             },
             {
                 "id": "onphimviet",
                 "name": "ON Phim Việt",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onphimviet.png",
-                "tags": []
+                "tags": [
+                    "ON Phim Việt"
+                ]
             },
             {
                 "id": "onsports",
                 "name": "ON Sports",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onsports.png",
-                "tags": []
+                "tags": [
+                    "ON Sports HD"
+                ]
             },
             {
                 "id": "onmovies",
                 "name": "ON Movies",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onmovies.png",
-                "tags": []
+                "tags": [
+                    "On Movies"
+                ]
             },
             {
                 "id": "onechannel",
                 "name": "ON EChannel",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onechannel.png",
                 "tags": [
-                    "ON E Channel"
+                    "ON EChannel",
+                    "ON E- Channel"
                 ]
             },
             {
                 "id": "onsportsplus",
                 "name": "ON Sports+",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onsportsplus.png",
-                "tags": []
+                "tags": [
+                    "ON Sports+"
+                ]
             },
             {
                 "id": "ono2tv",
                 "name": "ON O2TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/ono2tv.png",
-                "tags": []
+                "tags": [
+                    "On O2TV"
+                ]
             },
             {
                 "id": "onbibi",
                 "name": "ON BiBi",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onbibi.png",
-                "tags": []
+                "tags": [
+                    "On BiBi"
+                ]
             },
             {
                 "id": "oninfotv",
                 "name": "ON Info TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/oninfotv.png",
-                "tags": []
+                "tags": [
+                    "ON Info TV"
+                ]
             },
             {
                 "id": "oncine",
                 "name": "ON Cine",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/oncine.png",
-                "tags": []
+                "tags": [
+                    "ON Cine"
+                ]
             },
             {
                 "id": "onstyle",
                 "name": "ON Style TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onstyle.png",
-                "tags": []
+                "tags": [
+                    "ON Style TV"
+                ]
             },
             {
                 "id": "onhomeshopping",
@@ -247,55 +300,73 @@
                 "id": "onmusic",
                 "name": "ON Music",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onmusic.png",
-                "tags": []
+                "tags": [
+                    "On Music"
+                ]
             },
             {
                 "id": "onfootball",
                 "name": "ON Football",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onfootball.png",
-                "tags": []
+                "tags": [
+                    "ON Football HD"
+                ]
             },
             {
                 "id": "ontrending",
                 "name": "ON Trending TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/ontrending.png",
-                "tags": []
+                "tags": [
+                    "ON TRENDING TV"
+                ]
             },
             {
                 "id": "onsportsnews",
                 "name": "ON Sports News",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onsportsnews.png",
-                "tags": []
+                "tags": [
+                    "ON Sports News"
+                ]
             },
             {
                 "id": "onviedramas",
                 "name": "ON Vie Dramas",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onviedramas.png",
-                "tags": []
+                "tags": [
+                    "ON Vie Dramas"
+                ]
             },
             {
                 "id": "onvfamily",
                 "name": "ON VFamily",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onvfamily.png",
-                "tags": []
+                "tags": [
+                    "ON V Family"
+                ]
             },
             {
                 "id": "onkids",
                 "name": "ON Kids",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onkids.png",
-                "tags": []
+                "tags": [
+                    "On Kids"
+                ]
             },
             {
                 "id": "onlife",
                 "name": "ON Life",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onlife.png",
-                "tags": []
+                "tags": [
+                    "On Life"
+                ]
             },
             {
                 "id": "ongolf",
                 "name": "ON Golf",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/ongolf.png",
-                "tags": []
+                "tags": [
+                    "ON Golf HD"
+                ]
             },
             {
                 "id": "btv5hd",
@@ -316,102 +387,134 @@
                 "id": "vtvprime1",
                 "name": "VTV Prime 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime1.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 1"
+                ]
             },
             {
                 "id": "vtvprime2",
                 "name": "VTV Prime 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime2.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 2"
+                ]
             },
             {
                 "id": "vtvprime3",
                 "name": "VTV Prime 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime3.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 3"
+                ]
             },
             {
                 "id": "vtvprime4",
                 "name": "VTV Prime 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime4.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 4"
+                ]
             },
             {
                 "id": "vtvprime5",
                 "name": "VTV Prime 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime5.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 5"
+                ]
             },
             {
                 "id": "vtvprime6",
                 "name": "VTV Prime 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime6.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 6"
+                ]
             },
             {
                 "id": "vtvprime7",
                 "name": "VTV Prime 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime7.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 7"
+                ]
             },
             {
                 "id": "vtvprime8",
                 "name": "VTV Prime 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime8.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 8"
+                ]
             },
             {
                 "id": "vtvprime9",
                 "name": "VTV Prime 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime9.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 9"
+                ]
             },
             {
                 "id": "vtvprime10",
                 "name": "VTV Prime 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime10.png",
-                "tags": []
+                "tags": [
+                    "Sự Kiện VTVPrime 10"
+                ]
             },
             {
                 "id": "vtvprime11",
                 "name": "VTV Prime 11",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime11.png",
-                "tags": [],
+                "tags": [
+                    "Sự Kiện VTVPrime 11"
+                ],
                 "enabled": false
             },
             {
                 "id": "vtvprime12",
                 "name": "VTV Prime 12",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime12.png",
-                "tags": [],
+                "tags": [
+                    "Sự Kiện VTVPrime 12"
+                ],
                 "enabled": false
             },
             {
                 "id": "vtvprime13",
                 "name": "VTV Prime 13",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime13.png",
-                "tags": [],
+                "tags": [
+                    "Sự Kiện VTVPrime 13"
+                ],
                 "enabled": false
             },
             {
                 "id": "vtvprime14",
                 "name": "VTV Prime 14",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime14.png",
-                "tags": [],
+                "tags": [
+                    "Sự Kiện VTVPrime 14"
+                ],
                 "enabled": false
             },
             {
                 "id": "vtvprime15",
                 "name": "VTV Prime 15",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime15.png",
-                "tags": [],
+                "tags": [
+                    "Sự Kiện VTVPrime 15"
+                ],
                 "enabled": false
             },
             {
                 "id": "vtvprime16",
                 "name": "VTV Prime 16",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime/vtvprime16.png",
-                "tags": [],
+                "tags": [
+                    "Sự Kiện VTVPrime 16"
+                ],
                 "enabled": false
             }
         ]
@@ -429,26 +532,34 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv1.png",
                 "tags": [
                     "binhduong1",
-                    "binhduong2"
+                    "binhduong2",
+                    "HTV1 HD"
                 ]
             },
             {
                 "id": "htv2hd",
                 "name": "HTV2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv2hd.png",
-                "tags": []
+                "tags": [
+                    "HTV2 HD"
+                ]
             },
             {
                 "id": "htv3",
                 "name": "HTV3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv3.png",
-                "tags": []
+                "tags": [
+                    "HTV3 HD"
+                ]
             },
             {
                 "id": "htvkey",
                 "name": "HTV4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvkey.png",
-                "tags": []
+                "tags": [
+                    "HTV Key HD",
+                    "HTV4 HD | HTV Key"
+                ]
             },
             {
                 "id": "anvienhd",
@@ -464,14 +575,17 @@
                 "id": "htv7hd",
                 "name": "HTV7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv7hd.png",
-                "tags": []
+                "tags": [
+                    "HTV7 HD"
+                ]
             },
             {
                 "id": "htv9hd",
                 "name": "HTV9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv9hd.png",
                 "tags": [
-                    "htv bình dương 1"
+                    "htv bình dương 1",
+                    "HTV9 HD"
                 ]
             },
             {
@@ -480,45 +594,57 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvthethaohd.png",
                 "tags": [
                     "baria",
-                    "vungtau"
+                    "vungtau",
+                    "HTV Thể Thao"
                 ]
             },
             {
                 "id": "htvccanhachd",
                 "name": "HTVC Ca nhạc",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvccanhachd.png",
-                "tags": []
+                "tags": [
+                    "HTVC Ca Nhạc"
+                ]
             },
             {
                 "id": "htvcdulichhd",
                 "name": "HTVC Du lịch Cuộc sống",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcdulichhd.png",
-                "tags": []
+                "tags": [
+                    "HTVC Du Lịch"
+                ]
             },
             {
                 "id": "htvcgiadinhhd",
                 "name": "HTVC Gia đình",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcgiadinhhd.png",
-                "tags": []
+                "tags": [
+                    "HTVC Gia Đình"
+                ]
             },
             {
                 "id": "htvcphimhd",
                 "name": "HTVC Phim",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcphimhd.png",
-                "tags": []
+                "tags": [
+                    "HTVC Phim"
+                ]
             },
             {
                 "id": "htvcphunuhd",
                 "name": "HTVC Phụ nữ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcphunuhd.png",
-                "tags": []
+                "tags": [
+                    "HTVC Phụ Nữ"
+                ]
             },
             {
                 "id": "htvcplushd",
                 "name": "HTVC Plus",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcplushd.png",
                 "tags": [
-                    "htvcplus"
+                    "htvcplus",
+                    "HTVC Plus"
                 ]
             },
             {
@@ -526,7 +652,8 @@
                 "name": "HTVC Thuần Việt",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcthuanviet.png",
                 "tags": [
-                    "HTVC Thuần Việt HD"
+                    "HTVC Thuần Việt HD",
+                    "HTVC THUAN VIET"
                 ]
             }
         ]
@@ -542,25 +669,33 @@
                 "id": "sctv1hd",
                 "name": "SCTV1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv1hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV1 HD"
+                ]
             },
             {
                 "id": "sctv2hd",
                 "name": "SCTV2 HD - TODAY TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv2hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV2 HD - TODAY TV"
+                ]
             },
             {
                 "id": "sctv3hd",
                 "name": "SCTV3 - SEE TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv3hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV3 - SEE TV"
+                ]
             },
             {
                 "id": "sctv4hd",
                 "name": "SCTV4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv4hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV4 HD"
+                ]
             },
             {
                 "id": "sctv5hd",
@@ -572,25 +707,33 @@
                 "id": "sctv6hd",
                 "name": "SCTV6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv6hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV6 HD"
+                ]
             },
             {
                 "id": "sctv7hd",
                 "name": "SCTV7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv7hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV7 HD"
+                ]
             },
             {
                 "id": "sctv8hd",
                 "name": "SCTV8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv8hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV8 HD"
+                ]
             },
             {
                 "id": "sctv9hd",
                 "name": "SCTV9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv9hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV9"
+                ]
             },
             {
                 "id": "sctv10hd",
@@ -602,79 +745,105 @@
                 "id": "sctv11hd",
                 "name": "SCTV11",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv11hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV11 HD"
+                ]
             },
             {
                 "id": "sctv12hd",
                 "name": "SCTV12",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv12hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV12 HD"
+                ]
             },
             {
                 "id": "sctv13hd",
                 "name": "SCTV13",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv13hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV13 HD"
+                ]
             },
             {
                 "id": "sctv14hd",
                 "name": "SCTV14",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv14hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV14 HD"
+                ]
             },
             {
                 "id": "sctv15hd",
                 "name": "SCTV15",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv15hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV15 HD"
+                ]
             },
             {
                 "id": "sctv16hd",
                 "name": "SCTV16",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv16hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV16 HD"
+                ]
             },
             {
                 "id": "sctv17hd",
                 "name": "SCTV17",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv17hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV17 HD"
+                ]
             },
             {
                 "id": "sctv18hd",
                 "name": "SCTV18",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv18hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV18 HD"
+                ]
             },
             {
                 "id": "sctv19hd",
                 "name": "SCTV19",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv19hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV19 HD"
+                ]
             },
             {
                 "id": "sctv20hd",
                 "name": "SCTV20",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv20hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV20 HD"
+                ]
             },
             {
                 "id": "sctv21hd",
                 "name": "SCTV21",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv21hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV21 HD"
+                ]
             },
             {
                 "id": "sctv22hd",
                 "name": "SCTV22",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv22hd.png",
-                "tags": []
+                "tags": [
+                    "SCTV22 HD"
+                ]
             },
             {
                 "id": "sctvhdpth",
                 "name": "SCTV Phim Tổng Hợp",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctvhdpth.png",
-                "tags": []
+                "tags": [
+                    "SCTV Phim Tổng Hợp"
+                ]
             },
             {
                 "id": "sctv4k",
@@ -846,7 +1015,8 @@
                 "name": "ANTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/antvhd.png",
                 "tags": [
-                    "ANTV"
+                    "ANTV",
+                    "ANTV HD"
                 ],
                 "sortOrder": 1
             },
@@ -855,7 +1025,8 @@
                 "name": "QPVN",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/thietyeu/qpvnhd.png",
                 "tags": [
-                    "quocphong"
+                    "quocphong",
+                    "QPVN HD"
                 ],
                 "sortOrder": 1
             },
@@ -864,7 +1035,8 @@
                 "name": "HI TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/hitv.png",
                 "tags": [
-                    "hitv"
+                    "hitv",
+                    "HiTV"
                 ],
                 "sortOrder": 2
             },
@@ -873,7 +1045,8 @@
                 "name": "YouTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/youtv.png",
                 "tags": [
-                    "youtv"
+                    "youtv",
+                    "You TV"
                 ],
                 "sortOrder": 2
             },
@@ -883,7 +1056,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/angiang1.png",
                 "tags": [
                     "kiengiang",
-                    "ATV1 - Báo và PTTH An Giang"
+                    "ATV1 - Báo và PTTH An Giang",
+                    "ATV1 HD | TH An Giang"
                 ]
             },
             {
@@ -892,7 +1066,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/angiang2.png",
                 "tags": [
                     "angiang",
-                    "ATV2 | Báo và PTTH An Giang"
+                    "ATV2 | Báo và PTTH An Giang",
+                    "ATV2 HD | TH An Giang"
                 ]
             },
             {
@@ -901,7 +1076,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/angiang3.png",
                 "tags": [
                     "kiengiang1",
-                    "ATV3 - Báo và PTTH An Giang"
+                    "ATV3 - Báo và PTTH An Giang",
+                    "ATV3 HD | TH An Giang"
                 ]
             },
             {
@@ -910,7 +1086,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/bacninh.png",
                 "tags": [
                     "bacgiang",
-                    "BTV - Báo và PTTH Bắc Ninh"
+                    "BTV - Báo và PTTH Bắc Ninh",
+                    "TTV | TH Bắc Ninh"
                 ]
             },
             {
@@ -919,7 +1096,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/cantho1.png",
                 "tags": [
                     "cantho",
-                    "THTPCT1 HD - Báo và PTTH Cần Thơ"
+                    "THTPCT1 HD - Báo và PTTH Cần Thơ",
+                    "THTPCT HD | TH Cần Thơ"
                 ]
             },
             {
@@ -947,7 +1125,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/camau.png",
                 "tags": [
                     "baclieu",
-                    "CTV HD - Báo và PTTH Cà Mau"
+                    "CTV HD - Báo và PTTH Cà Mau",
+                    "CTV HD | TH Cà Mau"
                 ]
             },
             {
@@ -955,7 +1134,8 @@
                 "name": "Cao Bằng",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/caobang.png",
                 "tags": [
-                    "CRTV HD - Báo Cao Bằng"
+                    "CRTV HD - Báo Cao Bằng",
+                    "CRTV HD | TH Cao Bằng"
                 ]
             },
             {
@@ -964,7 +1144,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/daklak.png",
                 "tags": [
                     "phuyen",
-                    "DRT HD - Báo và PTTH Đắk Lắk"
+                    "DRT HD - Báo và PTTH Đắk Lắk",
+                    "DRT HD | TH Đắk Lắk"
                 ]
             },
             {
@@ -972,7 +1153,8 @@
                 "name": "Điện Biên",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/dienbien.png",
                 "tags": [
-                    "ĐTV HD - Báo Điện Biên Phủ"
+                    "ĐTV HD - Báo Điện Biên Phủ",
+                    "ĐTV HD | TH Điện Biên"
                 ]
             },
             {
@@ -980,7 +1162,8 @@
                 "name": "Đà Nẵng 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/danang1.png",
                 "tags": [
-                    "ĐNRT1 - Báo và PTTH Đà Nẵng"
+                    "ĐNRT1 - Báo và PTTH Đà Nẵng",
+                    "DaNang1 HD | TH Đà Nẵng"
                 ]
             },
             {
@@ -989,7 +1172,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/danang2.png",
                 "tags": [
                     "quangnam",
-                    "ĐNRT2 - Báo và PTTH Đà Nẵng"
+                    "ĐNRT2 - Báo và PTTH Đà Nẵng",
+                    "DaNang2 HD | TH Đà Nẵng"
                 ]
             },
             {
@@ -1000,7 +1184,8 @@
                     "binhphuoc1",
                     "binhphuoc2",
                     "BPTV2 HD | TH Bình Phước",
-                    "ĐNNRTV1 - Báo và PTTH Đồng Nai"
+                    "ĐNNRTV1 - Báo và PTTH Đồng Nai",
+                    "DN1 HD | TH Đồng Nai"
                 ]
             },
             {
@@ -1025,7 +1210,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/dongthap1.png",
                 "tags": [
                     "dongthap",
-                    "THĐT1 HD - Báo và PTTH Đồng Tháp"
+                    "THĐT1 HD - Báo và PTTH Đồng Tháp",
+                    "THĐT1 HD | TH Đồng Tháp"
                 ]
             },
             {
@@ -1044,7 +1230,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/gialai.png",
                 "tags": [
                     "binhdinh",
-                    "GTV - Báo và PTTH Gia Lai"
+                    "GTV - Báo và PTTH Gia Lai",
+                    "GTV HD | TH Gia Lai"
                 ]
             },
             {
@@ -1052,7 +1239,8 @@
                 "name": "Hà Nội 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/hanoi1.png",
                 "tags": [
-                    "Hà Nội 1 HD - Đài Hà Nội"
+                    "Hà Nội 1 HD - Đài Hà Nội",
+                    "HANOI1 HD | TH Hà Nội"
                 ]
             },
             {
@@ -1060,7 +1248,8 @@
                 "name": "Hà Nội 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/hanoi2.png",
                 "tags": [
-                    "Hà Nội 2 HD - Đài Hà Nội"
+                    "Hà Nội 2 HD - Đài Hà Nội",
+                    "HANOI2 HD | TH Hà Nội"
                 ]
             },
             {
@@ -1068,7 +1257,8 @@
                 "name": "Hà Tĩnh",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/hatinh.png",
                 "tags": [
-                    "BHTTV - Báo Hà Tĩnh"
+                    "BHTTV - Báo Hà Tĩnh",
+                    "HTTV HD | TH Hà Tĩnh"
                 ]
             },
             {
@@ -1076,7 +1266,8 @@
                 "name": "Hải Phòng",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/haiphong.png",
                 "tags": [
-                    "THP HD - Báo và PTTH Hải Phòng"
+                    "THP HD - Báo và PTTH Hải Phòng",
+                    "THP HD | TH Hải Phòng"
                 ]
             },
             {
@@ -1101,7 +1292,8 @@
                 "name": "Huế",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/hue.png",
                 "tags": [
-                    "Huế TV - Báo và PTTH Huế"
+                    "Huế TV - Báo và PTTH Huế",
+                    "TRT HD | TH Thừa Thiên Huế"
                 ]
             },
             {
@@ -1110,7 +1302,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/hungyen.png",
                 "tags": [
                     "thaibinh",
-                    "HYTV HD - Báo và PTTH Hưng Yên"
+                    "HYTV HD - Báo và PTTH Hưng Yên",
+                    "HY HD | TH Hưng Yên"
                 ]
             },
             {
@@ -1118,7 +1311,8 @@
                 "name": "Khánh Hòa",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/khanhhoa.png",
                 "tags": [
-                    "KTV HD - Báo và PTTH Khánh Hòa"
+                    "KTV HD - Báo và PTTH Khánh Hòa",
+                    "KTV HD | TH Khánh Hòa"
                 ]
             },
             {
@@ -1135,7 +1329,8 @@
                 "name": "Lai Châu",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/laichau.png",
                 "tags": [
-                    "LTV - Báo Lai Châu"
+                    "LTV - Báo Lai Châu",
+                    "LTV HD | TH Lai Châu"
                 ]
             },
             {
@@ -1143,7 +1338,8 @@
                 "name": "Lạng Sơn",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/langson.png",
                 "tags": [
-                    "LSTV HD - Báo và PTTH Lạng Sơn"
+                    "LSTV HD - Báo và PTTH Lạng Sơn",
+                    "LSTV HD | TH Lạng Sơn"
                 ]
             },
             {
@@ -1153,7 +1349,8 @@
                 "tags": [
                     "yenbai",
                     "YTV HD | TH Yên Bái",
-                    "THLC HD - Báo và PTTH Lào Cai"
+                    "THLC HD - Báo và PTTH Lào Cai",
+                    "THLC HD | TH Lào Cai"
                 ]
             },
             {
@@ -1162,7 +1359,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/lamdong1.png",
                 "tags": [
                     "lamdong",
-                    "LTV1 HD - Báo và PTTH Lâm Đồng"
+                    "LTV1 HD - Báo và PTTH Lâm Đồng",
+                    "LTV1 HD | TH Lâm Đồng"
                 ]
             },
             {
@@ -1188,7 +1386,8 @@
                 "name": "Nghệ An",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/nghean.png",
                 "tags": [
-                    "NTV - Báo và PTTH Nghệ An"
+                    "NTV - Báo và PTTH Nghệ An",
+                    "NTV HD | TH Nghệ An"
                 ]
             },
             {
@@ -1198,7 +1397,8 @@
                 "tags": [
                     "hanam",
                     "namdinh",
-                    "NBTV - Báo và PTTH Ninh Bình"
+                    "NBTV - Báo và PTTH Ninh Bình",
+                    "NBTV HD | TH Ninh Bình"
                 ]
             },
             {
@@ -1208,7 +1408,8 @@
                 "tags": [
                     "hoabinh",
                     "vinhphuc",
-                    "PTV HD - Báo và PTTH Phú Thọ"
+                    "PTV HD - Báo và PTTH Phú Thọ",
+                    "PTV HD | TH Phú Thọ"
                 ]
             },
             {
@@ -1219,7 +1420,8 @@
                     "komtum",
                     "KRT HD | TH Kon Tum",
                     "QNgTV - Báo và PTTH Quảng Ngãi",
-                    "quangngai1"
+                    "quangngai1",
+                    "PTQ HD | TH Quảng Ngãi"
                 ]
             },
             {
@@ -1236,7 +1438,8 @@
                 "name": "Quảng Ninh 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/quangninh1.png",
                 "tags": [
-                    "QTV1 HD - Trung tâm truyền thông Quảng Ninh"
+                    "QTV1 HD - Trung tâm truyền thông Quảng Ninh",
+                    "QTV1 HD | TH Quảng Ninh"
                 ]
             },
             {
@@ -1374,109 +1577,145 @@
                 "id": "boxhits",
                 "name": "Box Hits",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/boxhits.png",
-                "tags": []
+                "tags": [
+                    "Box Hits"
+                ]
             },
             {
                 "id": "boxmovie1",
                 "name": "Box Movie 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/boxmovie1.png",
-                "tags": []
+                "tags": [
+                    "Box Movie 1"
+                ]
             },
             {
                 "id": "drfithd",
                 "name": "Dr.Fit",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/drfithd.png",
-                "tags": []
+                "tags": [
+                    "Dr Fit"
+                ]
             },
             {
                 "id": "happykids",
                 "name": "Happy Kids",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/happykids.png",
-                "tags": []
+                "tags": [
+                    "Happy Kids"
+                ]
             },
             {
                 "id": "hollywoodclassics",
                 "name": "Hollywood Classics",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hollywoodclassics.png",
-                "tags": []
+                "tags": [
+                    "Hollywood Classics"
+                ]
             },
             {
                 "id": "inthebox",
                 "name": "In The Box",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/inthebox.png",
-                "tags": []
+                "tags": [
+                    "In The Box"
+                ]
             },
             {
                 "id": "manhd",
                 "name": "Man",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/manhd.png",
-                "tags": []
+                "tags": [
+                    "Man HD"
+                ]
             },
             {
                 "id": "musicbox",
                 "name": "Music Box",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/musicbox.png",
-                "tags": []
+                "tags": [
+                    "Music Box"
+                ]
             },
             {
                 "id": "planetearthhd",
                 "name": "Planet Earth",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/planetearthhd.png",
-                "tags": []
+                "tags": [
+                    "Planet Earth"
+                ]
             },
             {
                 "id": "woman",
                 "name": "Woman",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/woman.png",
-                "tags": []
+                "tags": [
+                    "Woman"
+                ]
             },
             {
                 "id": "abcaustralia",
                 "name": "ABC Australia",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/abcaustralia.png",
-                "tags": []
+                "tags": [
+                    "ABC Australia"
+                ]
             },
             {
                 "id": "afnhd",
                 "name": "Asian Food Network",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/afnhd.png",
-                "tags": []
+                "tags": [
+                    "Asian Food Network"
+                ]
             },
             {
                 "id": "animalhd",
                 "name": "Animal Planet",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/animalhd.png",
-                "tags": []
+                "tags": [
+                    "Animal Planet"
+                ]
             },
             {
                 "id": "animaxhd",
                 "name": "Animax",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/animaxhd.png",
-                "tags": []
+                "tags": [
+                    "Animax"
+                ]
             },
             {
                 "id": "arirang",
                 "name": "Arirang",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/arirang.png",
-                "tags": []
+                "tags": [
+                    "Arirang"
+                ]
             },
             {
                 "id": "axnhd",
                 "name": "AXN",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/axnhd.png",
-                "tags": []
+                "tags": [
+                    "AXN"
+                ]
             },
             {
                 "id": "babytvhd",
                 "name": "BabyTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/babytvhd.png",
-                "tags": []
+                "tags": [
+                    "Baby TV"
+                ]
             },
             {
                 "id": "bbcearth",
                 "name": "BBC Earth",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bbcearth.png",
-                "tags": []
+                "tags": [
+                    "BBC Earth"
+                ]
             },
             {
                 "id": "cbeebies",
@@ -1484,218 +1723,294 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cbeebies.png",
                 "tags": [
                     "BBC CBeeBies%",
-                    "BBC CBeeBies (HD 9Mbps)"
+                    "BBC CBeeBies (HD 9Mbps)",
+                    "BBC Cbeebies"
                 ]
             },
             {
                 "id": "bbclifestyle",
                 "name": "BBC Lifestyle",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bbclifestyle.png",
-                "tags": []
+                "tags": [
+                    "BBC Lifestyle"
+                ]
             },
             {
                 "id": "bbcworldnews",
                 "name": "BBC World News",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bbcworldnews.png",
-                "tags": []
+                "tags": [
+                    "BBC World News"
+                ]
             },
             {
                 "id": "bloomberg",
                 "name": "Bloomberg",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bloomberg.png",
-                "tags": []
+                "tags": [
+                    "Bloomberg TV",
+                    "Bloomberg"
+                ]
             },
             {
                 "id": "blueantext",
                 "name": "Rock Action",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantext.png",
-                "tags": []
+                "tags": [
+                    "Rock Action"
+                ]
             },
             {
                 "id": "blueantent",
                 "name": "Rock Entertainment",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantent.png",
-                "tags": []
+                "tags": [
+                    "Rock Entertainment"
+                ]
             },
             {
                 "id": "boomerang",
                 "name": "Cartoonito",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/boomerang.png",
-                "tags": []
+                "tags": [
+                    "Cartoonito"
+                ]
             },
             {
                 "id": "cartoonhd",
                 "name": "Cartoon Network",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cartoonhd.png",
-                "tags": []
+                "tags": [
+                    "Cartoon Network"
+                ]
             },
             {
                 "id": "cinemaxhd",
                 "name": "Cinemax",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cinemaxhd.png",
-                "tags": []
+                "tags": [
+                    "CINEMAX",
+                    "Cinemax"
+                ]
             },
             {
                 "id": "cinemaworldhd",
                 "name": "Cinema World",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cinemaworldhd.png",
-                "tags": []
+                "tags": [
+                    "CINEMAWORLD",
+                    "Cinema World"
+                ]
             },
             {
                 "id": "cna",
                 "name": "CNA",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cna.png",
-                "tags": []
+                "tags": [
+                    "CNA"
+                ]
             },
             {
                 "id": "cnbc",
                 "name": "CNBC",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cnbc.png",
-                "tags": []
+                "tags": [
+                    "CNBC SD"
+                ]
             },
             {
                 "id": "cnn",
                 "name": "CNN",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cnn.png",
-                "tags": []
+                "tags": [
+                    "CNN"
+                ]
             },
             {
                 "id": "davinci",
                 "name": "Da Vinci",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/davincihd.png",
                 "tags": [
-                    "davincihd"
+                    "davincihd",
+                    "Da Vinci"
                 ]
             },
             {
                 "id": "discoveryhd",
                 "name": "Discovery",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/discoveryhd.png",
-                "tags": []
+                "tags": [
+                    "Discovery"
+                ]
             },
             {
                 "id": "discoveryasiahd",
                 "name": "Discovery Asia",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/discoveryasiahd.png",
-                "tags": []
+                "tags": [
+                    "Discovery Asia"
+                ]
             },
             {
                 "id": "dreamworks",
                 "name": "Dreamworks",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/dreamworks.png",
-                "tags": []
+                "tags": [
+                    "DREAMWORKS (FMX)",
+                    "Dreamworks"
+                ]
             },
             {
                 "id": "dmax",
                 "name": "DMAX",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/dmax.png",
-                "tags": []
+                "tags": [
+                    "DMAX"
+                ]
             },
             {
                 "id": "dw",
                 "name": "DW",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/dw.png",
-                "tags": []
+                "tags": [
+                    "DW ENGLISH",
+                    "DW"
+                ]
             },
             {
                 "id": "fashionhd",
                 "name": "Fashion TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/fashionhd.png",
-                "tags": []
+                "tags": [
+                    "Fashion TV"
+                ]
             },
             {
                 "id": "france24eng",
                 "name": "France 24",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/france24eng.png",
-                "tags": []
+                "tags": [
+                    "FRANCE24",
+                    "France 24"
+                ]
             },
             {
                 "id": "hbohd",
                 "name": "HBO",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hbohd.png",
-                "tags": []
+                "tags": [
+                    "HBO"
+                ]
             },
             {
                 "id": "hbofamily",
                 "name": "HBO Family",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hbofamily.png",
-                "tags": []
+                "tags": [
+                    "HBO FAMILY",
+                    "HBO Family"
+                ]
             },
             {
                 "id": "hbohits",
                 "name": "HBO Hits",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hbohits.png",
-                "tags": []
+                "tags": [
+                    "HBO HITS",
+                    "HBO Hits"
+                ]
             },
             {
                 "id": "hbosignaturehd",
                 "name": "HBO Signature",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hbosignaturehd.png",
-                "tags": []
+                "tags": [
+                    "HBO SIGNATURE",
+                    "HBO Signature"
+                ]
             },
             {
                 "id": "hgtv",
                 "name": "HGTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hgtv.png",
-                "tags": []
+                "tags": [
+                    "HGTV (FMX)",
+                    "HGTV"
+                ]
             },
             {
                 "id": "historyhd",
                 "name": "History",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/historyhd.png",
-                "tags": []
+                "tags": [
+                    "History"
+                ]
             },
             {
                 "id": "kbsworld",
                 "name": "KBS World",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/kbsworld.png",
-                "tags": []
+                "tags": [
+                    "KBS World"
+                ]
             },
             {
                 "id": "kix",
                 "name": "KIX",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/kix.png",
-                "tags": []
+                "tags": [
+                    "KIX"
+                ]
             },
             {
                 "id": "lovenature",
                 "name": "Love Nature 4K",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/lovenature.png",
-                "tags": []
+                "tags": [
+                    "Love Nature 4K"
+                ]
             },
             {
                 "id": "nhkworld",
                 "name": "NHK World-Japan",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/nhkworld.png",
                 "tags": [
-                    "nhk"
+                    "nhk",
+                    "NHK World-Japan"
                 ]
             },
             {
                 "id": "tlchd",
                 "name": "TLC",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/tlchd.png",
-                "tags": []
+                "tags": [
+                    "TLC"
+                ]
             },
             {
                 "id": "outdoorhd",
                 "name": "Outdoor Channel",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/outdoor.png",
                 "tags": [
-                    "outdoor"
+                    "outdoor",
+                    "Outdoor Channel"
                 ]
             },
             {
                 "id": "tv5monde",
                 "name": "TV5Monde",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/tv5monde.png",
-                "tags": []
+                "tags": [
+                    "TV5Monde"
+                ]
             },
             {
                 "id": "warnertvhd",
                 "name": "Warner TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/warnertvhd.png",
-                "tags": []
+                "tags": [
+                    "Warner TV"
+                ]
             }
         ]
     },
@@ -2018,7 +2333,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.3.HD.(RS).rs.png",
                 "tags": [
                     "bh:arenapremium3hd",
-                    "Arena Premium 3 HD 🇷🇸"
+                    "Arena Premium 3 HD 🇷🇸",
+                    "ARENA 3 PREMIUM (FA CUP)",
+                    "ARENA 3 PREMIUM FHD BIH",
+                    "ARENA 3 PREMIUM FHD SR"
                 ]
             },
             {
@@ -2029,7 +2347,11 @@
                     "arenasport1.hr",
                     "Arena Sport 1 HD 🇷🇸",
                     "Arena_Sport_1 HD 🇷🇸",
-                    "ARENA SPORT 1 HD"
+                    "ARENA SPORT 1 HD",
+                    "ARENA 1 PREMIUM FHD SR",
+                    "ARENA 1 PREMIUM FHD BIH",
+                    "ARENA 1 PREMIUM FHD SLO",
+                    "Arena 1 HD 🇷🇸"
                 ]
             },
             {
@@ -2040,7 +2362,8 @@
                     "arenasport2.hr",
                     "Arena Sport 2 HD 🇷🇸",
                     "Arena_Sport_2 HD 🇷🇸",
-                    "ARENA SPORT 2 FHD"
+                    "ARENA SPORT 2 FHD",
+                    "ARENA 2 PREMIUM FHD SR"
                 ]
             },
             {
@@ -2062,7 +2385,8 @@
                     "arenasport4.hr",
                     "Arena Sport 4 HD 🇷🇸",
                     "Arena_Sport_4 HD 🇷🇸",
-                    "ARENA SPORT 4 FHD"
+                    "ARENA SPORT 4 FHD",
+                    "Arena 4 HD 🇷🇸"
                 ]
             },
             {
@@ -2073,7 +2397,8 @@
                     "arenasport5.hr",
                     "Arena Sport 5 HD 🇷🇸",
                     "Arena_Sport_5 HD 🇷🇸",
-                    "ARENA SPORT 5 FHD"
+                    "ARENA SPORT 5 FHD",
+                    "Arena 5 HD 🇷🇸"
                 ]
             },
             {
@@ -3184,7 +3509,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.1.HD.ro.png",
                 "tags": [
                     "primasport1.ro",
-                    "RO: PRIMA SPORT 1 HD"
+                    "RO: PRIMA SPORT 1 HD",
+                    "∆ PRIMA SPORT 1"
                 ]
             },
             {
@@ -3193,7 +3519,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.2.HD.ro.png",
                 "tags": [
                     "primasport2.ro",
-                    "RO: PRIMA SPORT 2 HD"
+                    "RO: PRIMA SPORT 2 HD",
+                    "∆ PRIMA SPORT 2"
                 ]
             },
             {
@@ -3202,7 +3529,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.3.HD.ro.png",
                 "tags": [
                     "primasport3.ro",
-                    "RO: PRIMA SPORT 3 HD"
+                    "RO: PRIMA SPORT 3 HD",
+                    "∆ PRIMA SPORT 3"
                 ]
             },
             {
@@ -3211,7 +3539,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Prima.Sport.4.HD.ro.png",
                 "tags": [
                     "primasport4.ro",
-                    "RO: PRIMA SPORT 4 HD"
+                    "RO: PRIMA SPORT 4 HD",
+                    "∆ PRIMA SPORT 4"
                 ]
             },
             {
@@ -3295,7 +3624,8 @@
                     "RU:Match.Footbal1",
                     "МАТЧ! ФУТБOЛ 1HD 🇷🇺",
                     "MATCH! FOOTBALL 1 🇷🇺",
-                    "Матч! Футбол 1 HD"
+                    "Матч! Футбол 1 HD",
+                    "Матч! ФУТБОЛ. .1 HD"
                 ]
             },
             {
@@ -3306,7 +3636,8 @@
                     "RU:Match.Footbal2",
                     "МАТЧ! ФУТБOЛ 2HD 🇷🇺",
                     "MATCH! FOOTBALL 2 🇷🇺",
-                    "Матч! ФУТБОЛ. .2 HD"
+                    "Матч! ФУТБОЛ. .2 HD",
+                    "МАТЧ! Футбол 2 HD"
                 ]
             },
             {
@@ -3317,7 +3648,8 @@
                     "RU:Match.Footbal3",
                     "МАТЧ! ФУТБOЛ 3HD 🇷🇺",
                     "MATCH! FOOTBALL 3 🇷🇺",
-                    "Матч! ФУТБОЛ. .3 HD"
+                    "Матч! ФУТБОЛ. .3 HD",
+                    "МАТЧ! Футбол 3 HD"
                 ]
             },
             {
@@ -3571,7 +3903,11 @@
                     "UK:BT.Sport1",
                     "UK: TNT SPORTS 1 HD",
                     "TNT Sports 1 (GBR)",
-                    "TNT SPORTS 1"
+                    "TNT SPORTS 1",
+                    "UK | BT SPORT 1 HD",
+                    "TNT 1 ∆∆",
+                    "TNT SPORTS 1 FHD",
+                    "TNT 1"
                 ]
             },
             {
@@ -3585,7 +3921,11 @@
                     "UK:BT.Sport2",
                     "UK: TNT SPORTS 2 HD",
                     "TNT Sports 2 (GBR)",
-                    "TNT SPORTS 2"
+                    "TNT SPORTS 2",
+                    "UK | BT SPORT 2 HD",
+                    "TNT 2 ∆∆",
+                    "TNT SPORTS 2 FHD",
+                    "TNT 2"
                 ]
             },
             {
@@ -3599,7 +3939,11 @@
                     "UK:BTSport3",
                     "UK: TNT SPORTS 3 HD",
                     "TNT Sports 3 (GBR)",
-                    "TNT SPORTS 3"
+                    "TNT SPORTS 3",
+                    "UK | BT SPORT 3 HD",
+                    "TNT 3 ∆∆",
+                    "TNT SPORTS 3 FHD",
+                    "TNT 3"
                 ]
             },
             {
@@ -3612,7 +3956,11 @@
                     "UK: BT SPORT ESPN FHD 50FPS",
                     "UK: TNT SPORTS 4 HD",
                     "TNT Sports 4 (GBR)",
-                    "TNT SPORTS 4"
+                    "TNT SPORTS 4",
+                    "UK | BT SPORT ESPN HD",
+                    "TNT 4 ∆∆",
+                    "TNT SPORTS 4 FHD",
+                    "TNT 4"
                 ]
             },
             {
@@ -3623,7 +3971,11 @@
                     "tnt5",
                     "btsportx1.uk",
                     "UK: TNT SPORTS 5 HD",
-                    "TNT Sports 5 (GBR)"
+                    "TNT Sports 5 (GBR)",
+                    "TNT 5 ∆∆",
+                    "TNT 5",
+                    "TNT 5x",
+                    "TNT 5x FHD"
                 ]
             },
             {
@@ -3671,7 +4023,10 @@
                     "ziggosportselect.nl",
                     "NL:Ziggo.Sport.Select",
                     "ZIGGO SPORT 🇳🇱",
-                    "ZIGGO SPORT"
+                    "ZIGGO SPORT",
+                    "ZiggoSportSelect",
+                    "ZG1",
+                    "ZIGGO SPORTS 1"
                 ]
             },
             {
@@ -3683,7 +4038,11 @@
                     "nl:ziggosport2hd",
                     "NL:Ziggo Sport.Voetba",
                     "ZIGGO SPORT 2 HD 🇳🇱",
-                    "ZIGGO SPORT 2 (NEDERLAND)"
+                    "ZIGGO SPORT 2 (NEDERLAND)",
+                    "ZiggoSportVoetbal",
+                    "ZIGGO SPORT 2",
+                    "ZG2",
+                    "ZIGGO SPORTS 2"
                 ]
             },
             {
@@ -3694,7 +4053,10 @@
                     "ziggosportgolf.nl",
                     "NL:Ziggo.Sport.Golf",
                     "ZIGGO SPORT 3 HD 🇳🇱",
-                    "ZIGGO SPORT 3 (NEDERLAND)"
+                    "ZIGGO SPORT 3 (NEDERLAND)",
+                    "ZiggoSportGolf",
+                    "ZG3",
+                    "ZIGGO SPORTS 3"
                 ]
             },
             {
@@ -3703,7 +4065,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.4.nl.png",
                 "tags": [
                     "ziggosportracing.nl",
-                    "NL:Ziggo.Sport.Racing"
+                    "NL:Ziggo.Sport.Racing",
+                    "ZiggoSportRacing",
+                    "ZG4",
+                    "ZIGGO SPORTS 4"
                 ]
             },
             {
@@ -3713,7 +4078,10 @@
                 "tags": [
                     "ziggosportextra1.nl",
                     "nl:ziggosport5fhdhevc",
-                    "ZIGGO SPORT 5 (NEDERLAND)"
+                    "ZIGGO SPORT 5 (NEDERLAND)",
+                    "ZiggoSportExtra1",
+                    "ZG5",
+                    "ZIGGO SPORTS 5"
                 ]
             },
             {
@@ -3723,7 +4091,9 @@
                 "tags": [
                     "ziggosportextra2.nl",
                     "nl:ziggosport6hd",
-                    "ZIGGO SPORT 6 (NEDERLAND)"
+                    "ZIGGO SPORT 6 (NEDERLAND)",
+                    "ZG6",
+                    "ZIGGO SPORTS 6"
                 ]
             },
             {
@@ -4032,7 +4402,8 @@
                     "013. AsrtoPremierLeague1",
                     "Astro SuperSport",
                     "Astro SuperSport 1",
-                    "SPORTS : ASTRO SUPERSPORT 1"
+                    "SPORTS : ASTRO SUPERSPORT 1",
+                    "ASTRO PREMIER LEAGUE 2 (play)"
                 ]
             },
             {
@@ -4194,7 +4565,8 @@
                     "MY: W SPORTS",
                     "W-Sport HD",
                     "Astro W-Sports HD",
-                    "Astro W-Sports SD"
+                    "Astro W-Sports SD",
+                    "W-SPORT"
                 ]
             },
             {
@@ -4422,7 +4794,8 @@
                     "Hub Premier  EPL 01",
                     "Hub Premier1 FHD",
                     "Hub Premier 1 FHD",
-                    "Hub Premier 1 HD"
+                    "Hub Premier 1 HD",
+                    "HUB Premier 1"
                 ]
             },
             {
@@ -4433,7 +4806,8 @@
                     "Hub Premier EPL 02",
                     "Hub Premier  EPL 02",
                     "Hub Premier2 FHD",
-                    "Hub Premier 2 FHD"
+                    "Hub Premier 2 FHD",
+                    "HUB Premier 2"
                 ]
             },
             {
@@ -4539,7 +4913,8 @@
                     "Hub Sports 1 (SGP)",
                     "Hub Sports 1 HD",
                     "Hub Sports 1",
-                    "Hub Sports 1 FHD"
+                    "Hub Sports 1 FHD",
+                    "|SP| Hub Sports 1"
                 ]
             },
             {
@@ -4551,7 +4926,8 @@
                     "Hub Sports 2 (SGP)",
                     "Hub Sports 2 HD",
                     "Hub Sports 2",
-                    "Hub Sports 2 FHD"
+                    "Hub Sports 2 FHD",
+                    "|SP| Hub Sports 2"
                 ]
             },
             {
@@ -4563,7 +4939,34 @@
                     "Hub Sports 3 (SGP)",
                     "Hub Sports 3 HD",
                     "Hub Sports 3",
-                    "Hub Sports 3 FHD"
+                    "Hub Sports 3 FHD",
+                    "|SP| Hub Sports 3"
+                ]
+            },
+            {
+                "id": "Hub.Sports.4.HD.sg",
+                "name": "Hub Sports 4 HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.4.HD.sg.png",
+                "tags": [
+                    "SG| HUB SPORTS 4 HD",
+                    "Hub Sports 4 (SGP)",
+                    "Hub Sports 4 HD",
+                    "Hub Sports 4",
+                    "Hub Sports 4 FHD",
+                    "|SP| Hub Sports 4"
+                ]
+            },
+            {
+                "id": "Hub.Sports.5.HD.sg",
+                "name": "Hub Sports 5 HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.5.HD.sg.png",
+                "tags": [
+                    "SG| HUB SPORTS 5 HD",
+                    "Hub Sports 5 (SGP)",
+                    "Hub Sports 5 HD",
+                    "Hub Sports 5",
+                    "Hub Sports 5 FHD",
+                    "|SP| Hub Sports 5"
                 ]
             },
             {
@@ -4635,7 +5038,8 @@
                     "Astro Arena Bola 2",
                     "ASTRO ARENA BOLA 2",
                     "ASTRO ARENA BOLA 2 ᴴᴰ (DRM)",
-                    "Arena Bola 2 (DRM)"
+                    "Arena Bola 2 (DRM)",
+                    "ASTRO ARENA BOLA 2 ᴴᴰ"
                 ]
             },
             {
@@ -5078,7 +5482,8 @@
                 "name": "IT: Rai Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/RaiSport.it",
                 "tags": [
-                    "RAI SPORT 1"
+                    "RAI SPORT 1",
+                    "[IT] Rai Sport   HD"
                 ]
             },
             {
@@ -5186,6 +5591,254 @@
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-7-al.png",
                 "tags": [
                     "Super Sport 7 🇦🇱"
+                ]
+            },
+            {
+                "id": "DAZN.1.it.it",
+                "name": "IT: DAZN 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.1.it.it.png",
+                "tags": [
+                    "[IT] Eleven Sport 1 HD"
+                ]
+            },
+            {
+                "id": "DAZN.2.it.it",
+                "name": "IT: DAZN 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.2.it.it.png",
+                "tags": [
+                    "[IT] Eleven Sport 2 HD"
+                ]
+            },
+            {
+                "id": "DAZN3.it",
+                "name": "IT: DAZN 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN3.it.png",
+                "tags": [
+                    "[IT] Eleven Sport 3 HD"
+                ]
+            },
+            {
+                "id": "DAZN4.it",
+                "name": "IT: DAZN 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN4.it.png",
+                "tags": [
+                    "[IT] Eleven Sport 4 HD"
+                ]
+            },
+            {
+                "id": "Eurosport.1.it",
+                "name": "IT: Eurosport 1 HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.it.png",
+                "tags": [
+                    "[IT] Eurosport 1 HD"
+                ]
+            },
+            {
+                "id": "Eurosport.2.it",
+                "name": "IT: Eurosport 2 HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.it.png",
+                "tags": [
+                    "[IT] Eurosport 2 HD"
+                ]
+            },
+            {
+                "id": "A.SPOR.HD.tr",
+                "name": "TR: A SPOR",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/turkey/a-spor-tr.png",
+                "tags": [
+                    "[TR] A SPOR HD"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.1.tr",
+                "name": "TR: Bein Sport 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.1.tr.png",
+                "tags": [
+                    "[TR] Bein Sport 1"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.2.tr",
+                "name": "TR: Bein Sport 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.2.tr.png",
+                "tags": [
+                    "[TR] Bein Sport 2"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.3.tr",
+                "name": "TR: Bein Sport 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.3.tr.png",
+                "tags": [
+                    "[TR] Bein Sport 3"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.4.tr",
+                "name": "TR: Bein Sport 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.4.tr.png",
+                "tags": [
+                    "[TR] Bein Sport 4"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.HABER.HD.tr",
+                "name": "TR: beIN Sports Haber",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.HABER.HD.tr.png",
+                "tags": [
+                    "[TR] beIN Sports Haber"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.1.tr",
+                "name": "TR: beIN SPORTS MAX 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.1.tr.png",
+                "tags": [
+                    "[TR] beIN SPORTS MAX 1"
+                ]
+            },
+            {
+                "id": "beIN.SPORTS.MAX.2.tr",
+                "name": "TR: beIN SPORTS MAX 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.SPORTS.MAX.2.tr.png",
+                "tags": [
+                    "[TR] beIN SPORTS MAX 2"
+                ]
+            },
+            {
+                "id": "EUROSPORT.1.HD.tr",
+                "name": "TR: Euro Sport 1 HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/EUROSPORT.1.HD.tr.png",
+                "tags": [
+                    "[TR] Euro Sport 1 HD"
+                ]
+            },
+            {
+                "id": "EUROSPORT.2.TR.HD.tr",
+                "name": "TR: Euro Sport 2 HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/EUROSPORT.2.TR.HD.tr.png",
+                "tags": [
+                    "[TR] Euro Sport 2 HD"
+                ]
+            },
+            {
+                "id": "FB.TV.tr",
+                "name": "TR: FB TV",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/FB.TV.tr.png",
+                "tags": [
+                    "[TR] FB TV"
+                ]
+            },
+            {
+                "id": "GS.TV.in",
+                "name": "TR: GS TV",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/GS.TV.in.png",
+                "tags": [
+                    "[TR] GS TV"
+                ]
+            },
+            {
+                "id": "NBA.TV.hk",
+                "name": "TR: NBA TV",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/NBA.TV.hk.png",
+                "tags": [
+                    "[TR] NBA TV"
+                ]
+            },
+            {
+                "id": "tr-spor-smart-1",
+                "name": "TR: Spor Smart 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/tr-spor-smart-1.png",
+                "tags": [
+                    "[TR] Spor Smart 1"
+                ]
+            },
+            {
+                "id": "SPORTS.TV.HD.tr",
+                "name": "TR: SPORTS TV HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPORTS.TV.HD.tr.png",
+                "tags": [
+                    "[TR] SPORTS TV HD"
+                ]
+            },
+            {
+                "id": "TIVIBU.SPOR.1.tr",
+                "name": "TR: Tivibu Spor 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TIVIBU.SPOR.1.tr.png",
+                "tags": [
+                    "[TR] Tivibu  Spor 1"
+                ]
+            },
+            {
+                "id": "TIVIBU.SPOR.2.tr",
+                "name": "TR: Tivibu Spor 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TIVIBU.SPOR.2.tr.png",
+                "tags": [
+                    "[TR] Tivibu  Spor 2"
+                ]
+            },
+            {
+                "id": "TIVIBU.SPOR.3.tr",
+                "name": "TR: Tivibu Spor 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TIVIBU.SPOR.3.tr.png",
+                "tags": [
+                    "[TR] Tivibu Spor 3"
+                ]
+            },
+            {
+                "id": "TRT.SPOR.HD.tr",
+                "name": "TR: TRT Spor HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TRT.SPOR.HD.tr.png",
+                "tags": [
+                    "[TR] TRT Spor HD"
+                ]
+            },
+            {
+                "id": "tr-trt-spor-2-hd",
+                "name": "TR: TRT Spor 2 HD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/tr-trt-spor-2-hd.png",
+                "tags": [
+                    "[TR] TRT Spor 2 HD"
+                ]
+            },
+            {
+                "id": "bein.connect.1.tr",
+                "name": "TR: beIN Connect 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/bein.connect.1.tr.png",
+                "tags": [
+                    "|TR| beIN Connect 1 |Mac Saati|"
+                ]
+            },
+            {
+                "id": "bein.connect.2.tr",
+                "name": "TR: beIN Connect 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/bein.connect.2.tr.png",
+                "tags": [
+                    "|TR| beIN Connect 2 |Mac Saati|"
+                ]
+            },
+            {
+                "id": "bein.connect.3.tr",
+                "name": "TR: beIN Connect 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/bein.connect.3.tr.png",
+                "tags": [
+                    "|TR| beIN Connect 3 |Mac Saati|"
+                ]
+            },
+            {
+                "id": "Eurosport.1.uk",
+                "name": "UK: Eurosport 1 FHD",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.uk.png",
+                "tags": [
+                    "[UK] Eurosport 1 FHD"
+                ]
+            },
+            {
+                "id": "Eurosport.2.uk",
+                "name": "UK: Eurosport 2 FHD VIP",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.uk.png",
+                "tags": [
+                    "[UK] Eurosport 2 FHD VIP"
                 ]
             }
         ]
