@@ -41,51 +41,106 @@
         .select2-container--default .select2-selection--single {
             background-color: #14161a;
             border: 1px solid #232833;
-            color: #fff;
-            min-height: 38px;
+            border-radius: 1rem;
+            height: 42px;
+            display: flex;
+            align-items: center;
         }
 
         .select2-container--default .select2-selection--single .select2-selection__rendered {
             color: #fff;
-            line-height: 36px;
+            padding-left: 12px;
+            line-height: 40px;
         }
 
         .select2-container--default .select2-selection--single .select2-selection__arrow {
-            height: 36px;
+            height: 40px;
+            right: 8px;
         }
 
         .select2-dropdown {
-            background-color: #232833;
+            background-color: #14161a;
             color: #fff;
             border: 1px solid #232833;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            margin-top: 4px;
         }
 
-        .select2-results__option {
-            background-color: #232833;
+        .select2-search--dropdown {
+            padding: 8px;
+        }
+
+        .select2-search--dropdown .select2-search__field {
+            background-color: #0b0c0f;
+            border: 1px solid #232833;
+            border-radius: 0.5rem;
             color: #fff;
+            padding: 6px 10px;
         }
 
-        .select2-results__option--highlighted {
-            background-color: #1f232a !important;
-            color: #60a5fa !important;
-        }
-
-        .select2-container--default .select2-selection--single:focus,
-        .select2-container--default .select2-selection--single.select2-selection--focus {
-            border-color: #60a5fa;
-            outline: none;
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding-left: 12px;
+            padding-right: 30px;
+            color: #fff;
+            line-height: 40px;
+            width: 100%;
         }
 
         .select2-container--default .select2-selection--single .select2-selection__placeholder {
             color: #9aa4b2;
         }
 
-        .select2-container--open .select2-dropdown--below {
-            border-radius: 0 0 0.75rem 0.75rem;
+        .select2-container--default .select2-selection--single .select2-selection__clear {
+            position: absolute;
+            right: 38px;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 0;
+            color: #9aa4b2;
+            font-size: 20px;
+            font-weight: 300;
+            z-index: 1;
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.2s;
         }
 
-        .select2-container--open .select2-dropdown--above {
-            border-radius: 0.75rem 0.75rem 0 0;
+        .select2-container--default .select2-selection--single .select2-selection__clear:hover {
+            color: #ef4444;
+        }
+
+        .select2-results__option {
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .select2-results__option--highlighted[aria-selected] {
+            background-color: #232833 !important;
+            color: #60a5fa !important;
+        }
+
+        .group-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+        }
+
+        .group-logo-sm {
+            width: 22px;
+            height: 22px;
+            border-radius: 4px;
+            object-fit: contain;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
     </style>
 </head>
@@ -95,13 +150,13 @@
             <div class="text-lg font-semibold tracking-tight">HLS Groups Viewer</div>
             <div class="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
                 <input ng-model="q" ng-change="apply()" type="search" placeholder="Tìm kênh hoặc nhóm…" class="w-full sm:w-72 rounded-xl2 border border-border bg-card/80 px-3 py-2 outline-none focus:ring-2 focus:ring-accent/60 placeholder:text-muted" />
-                <select id="groupSelect" ng-model="selectedGroup" ng-change="apply()" class="rounded-xl2 border border-border bg-card/80 px-3 py-2 w-full sm:w-56 outline-none focus:ring-2 focus:ring-accent/60" style="width:100px">
+                <select id="groupSelect" ng-model="selectedGroup" ng-change="apply()" class="rounded-xl2 border border-border bg-card/80 px-3 py-2 w-full sm:w-64 outline-none focus:ring-2 focus:ring-accent/60">
                     <option value="">— Tất cả nhóm —</option>
-                    <option ng-repeat="g in groups" ng-value="g" data-logo="{{$scope.groupMap[g] && $scope.groupMap[g].logo}}">
-                        {{$scope.groupMap[g] && $scope.groupMap[g].name || g}}
+                    <option ng-repeat="g in groups" value="{{g}}">
+                        {{groupMap[g].name || g}}
                     </option>
                 </select>
-                <button ng-click="reload()" class="rounded-xl2 border border-border bg-chip px-3 py-2 hover:brightness-110 active:scale-[.99] transition">↻ Tải lại</button>
+                <button ng-click="reload()" class="rounded-xl2 w-48 border border-border bg-chip px-3 py-2 hover:brightness-110 active:scale-[.99] transition">↻ Tải lại</button>
             </div>
         </div>
     </div>
@@ -128,18 +183,37 @@
                     </div>
                 </div>
                 <div class="grid gap-3 p-4 pt-0 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
-                    <article ng-repeat="ch in gr.channels | orderBy:'sortOrder' track by ch.id" class="group rounded-2xl border border-border bg-[#0f1216] hover:bg-[#12161b] transition shadow-glass p-3 flex gap-3">
-                        <div class="h-24 w-24 rounded-xl flex-shrink-0 overflow-hidden border border-border p-2 bg-black/30">
-                            <img class="h-full w-full object-contain" ng-src="{{ch.logo.replace('https://tchiphuong.github.io/miscmisc/', '') || fallbackLogo(ch.name)}}" alt="{{ch.name}}" on-error-fallback />
+                    <article ng-repeat="ch in gr.channels | orderBy:'sortOrder' track by ch.id" class="group relative rounded-2xl border border-border bg-[#0f1216] hover:border-accent/40 transition-all duration-300 shadow-glass flex flex-col p-4">
+
+                        <!-- Thumbnail Tooltip: Hiện khi hover -->
+                        <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 aspect-video rounded-lg border border-border bg-black shadow-2xl opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-300 z-50 overflow-hidden translate-y-2 group-hover:translate-y-0">
+                            <img ng-if="ch.thumbnail" ng-src="{{ch.thumbnail}}" class="w-full h-full object-cover" alt="Preview">
+                            <div ng-if="!ch.thumbnail" class="w-full h-full flex items-center justify-center text-[10px] text-muted font-medium bg-card">No Thumbnail</div>
                         </div>
-                        <div class="min-w-0 flex-1">
-                            <div class="font-semibold line-clamp-2" title="{{ch.name}}">{{ch.name}}</div>
-                            <div class="text-xs text-muted truncate">#{{ch.id}}</div>
-                            <div class="mt-1 flex flex-wrap gap-1">
-                                <span ng-repeat="t in (ch.tags||[])" class="text-[11px] px-2 py-0.5 rounded-full border border-border bg-chip text-muted hover:opacity-80">{{t}}</span>
+
+                        <div class="flex gap-4 items-center relative z-10 w-full">
+                            <!-- Logo container -->
+                            <div class="h-16 w-16 rounded-xl flex-shrink-0 overflow-hidden border border-border/50 p-2 bg-black/50 backdrop-blur-md flex items-center justify-center group-hover:border-accent/40 transition-colors">
+                                <img class="max-h-full max-w-full object-contain" ng-src="{{ch.logo.replace('https://tchiphuong.github.io/miscmisc/', '') || fallbackLogo(ch.name)}}" alt="{{ch.name}}" on-error-fallback />
                             </div>
+
+                            <!-- Information block -->
+                            <div class="min-w-0 flex-1 flex flex-col justify-center">
+                                <div class="font-bold text-lg leading-tight line-clamp-1 text-white text-shadow-md mb-0.5" title="{{ch.name}}">{{ch.name}}</div>
+                                <div class="text-[11px] text-muted truncate opacity-80 font-mono mb-2">#{{ch.id}}</div>
+                                <div class="flex flex-wrap gap-1.5 items-center">
+                                    <span ng-if="ch.enabled !== false" class="px-2 py-0.5 rounded-md text-[9px] font-black bg-green-500/20 text-green-400 border border-green-500/30">ACTIVE</span>
+                                    <span ng-if="ch.enabled === false" class="px-2 py-0.5 rounded-md text-[9px] font-black bg-red-500/20 text-red-400 border border-red-500/30">INACTIVE</span>
+
+                                    <!-- Hiển thị tối đa 2 tag đầu tiên -->
+                                    <span ng-repeat="t in (ch.tags||[]) | limitTo:2" class="text-[9px] px-2 py-0.5 rounded-md border border-white/10 bg-white/10 text-gray-200 truncate max-w-[80px]" title="{{t}}">{{t}}</span>
+
+                                    <span ng-if="ch.tags.length > 2" class="text-[9px] px-2 py-0.5 rounded-md border border-white/10 bg-white/10 text-accent font-bold cursor-pointer hover:bg-accent hover:text-white transition-all uppercase" title="Xem tất cả {{ch.tags.length}} tags" ng-click="showFullTags(ch, $event)">+{{ch.tags.length - 2}} tags</span>
+                                </div>
+                            </div>
+
+                            <button type="button" class="self-center text-[10px] px-3 py-1.5 rounded-lg border border-white/10 bg-black/60 hover:bg-accent hover:text-white hover:border-accent transition-all backdrop-blur-md font-bold whitespace-nowrap" ng-click="copy(ch)">Copy ID</button>
                         </div>
-                        <button type="button" class="self-start text-xs px-2 py-1 rounded-lg border border-border bg-chip hover:brightness-110" ng-click="copy(ch)">Copy ID</button>
                     </article>
                 </div>
             </section>
@@ -163,8 +237,29 @@
                 $scope.q = '';
                 $scope.selectedGroup = '';
                 $scope.groups = [];
+                $scope.groupMap = {};
                 $scope.vm = [];
                 $scope.stats = { groups: 0, channels: 0 };
+
+                function formatGroupOption(state) {
+                    if (!state.id) return state.text;
+                    const group = $scope.groupMap[state.id];
+                    if (!group) return state.text;
+
+                    let logoUrl = group.logo || '';
+                    if (logoUrl.includes('tchiphuong.github.io/miscmisc/')) {
+                        logoUrl = logoUrl.replace('https://tchiphuong.github.io/miscmisc/', '');
+                    }
+                    const fallback = $scope.fallbackLogo(group.name);
+
+                    const $state = $(
+                        '<span class="group-option">' +
+                        '<img src="' + (logoUrl || fallback) + '" class="group-logo-sm" onerror="this.src=\'' + fallback + '\'" /> ' +
+                        '<span class="truncate">' + state.text + '</span>' +
+                        '</span>'
+                    );
+                    return $state;
+                }
 
                 function normalize(input) {
                     var groups = Array.isArray(input) ? input : (input && input.groups) || [];
@@ -178,8 +273,17 @@
                 }
 
                 function buildGroupList(groups) {
-                    var names = groups.map(function (g) { return g.name || 'Unknown'; });
-                    $scope.groups = Array.from(new Set(names));//.sort(function (a, b) { return a.localeCompare(b) });
+                    var map = {};
+                    var names = [];
+                    groups.forEach(function (g) {
+                        if (g.name) {
+                            names.push(g.name);
+                            map[g.name] = { name: g.name, logo: g.logo };
+                        }
+                    });
+                    $scope.groupMap = map;
+                    $scope.groups = Array.from(new Set(names)).sort();
+
                     $timeout(function () {
                         var $select = $("#groupSelect");
                         if ($select.data('select2')) $select.select2('destroy');
@@ -193,7 +297,24 @@
                         });
                         $select.off('change.select2').on('change.select2', function (e) {
                             var val = $(this).val();
-                            $timeout(function () { $scope.selectedGroup = val; });
+                            $timeout(function () {
+                                $scope.selectedGroup = val || '';
+                                $scope.apply();
+                            });
+                        });
+
+                        // Set initial value from URL if any
+                        var params = new URLSearchParams(window.location.search);
+                        var g = params.get('group');
+                        if (g) $select.val(g).trigger('change');
+
+                        // Handle clear event specifically to force update
+                        $select.on('select2:clearing', function () {
+                            $timeout(function () {
+                                $scope.selectedGroup = '';
+                                $scope.apply();
+                                $select.val(null).trigger('change');
+                            });
                         });
                     }, 0);
                 }
@@ -262,6 +383,16 @@
                     navigator.clipboard.writeText(ch.id);
                 };
 
+                $scope.activeTagsChannel = null;
+                $scope.showFullTags = function (ch, ev) {
+                    if (ev) ev.stopPropagation();
+                    $scope.activeTagsChannel = ch;
+                };
+
+                $scope.closeFullTags = function () {
+                    $scope.activeTagsChannel = null;
+                };
+
                 $scope.fallbackLogo = function (name) {
                     return 'https://ui-avatars.com/api/?format=png&rounded=true&background=random&length=2&name=' + encodeURIComponent(name || '?');
                 };
@@ -295,5 +426,32 @@
                 })();
             });
     </script>
+    <!-- Modal hiển thị Full Tags -->
+    <div ng-if="activeTagsChannel" class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" ng-click="closeFullTags()">
+        <div class="bg-[#14161a] border border-border rounded-2xl w-full max-w-md overflow-hidden shadow-2xl" ng-click="$event.stopPropagation()">
+            <div class="p-4 border-b border-border flex items-center justify-between bg-card/50">
+                <div class="flex items-center gap-3">
+                    <img ng-src="{{activeTagsChannel.logo.replace('https://tchiphuong.github.io/miscmisc/', '')}}" class="h-8 w-8 object-contain" alt="">
+                    <h3 class="font-bold text-white">{{activeTagsChannel.name}}</h3>
+                </div>
+                <button class="p-2 hover:bg-white/5 rounded-lg transition-colors text-muted hover:text-white" ng-click="closeFullTags()">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="text-xs text-accent font-bold uppercase tracking-wider mb-4">Danh sách Tags ({{activeTagsChannel.tags.length}})</div>
+                <div class="flex flex-wrap gap-2">
+                    <span ng-repeat="t in activeTagsChannel.tags" class="px-3 py-1.5 rounded-lg bg-chip border border-border text-gray-300 text-sm">
+                        {{t}}
+                    </span>
+                </div>
+            </div>
+            <div class="p-4 bg-black/20 flex justify-end">
+                <button class="px-6 py-2 rounded-xl bg-accent/20 hover:bg-accent/30 text-accent font-bold text-sm transition-all border border-accent/30" ng-click="closeFullTags()">Đóng</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
