@@ -834,8 +834,10 @@
                 "name": "SCTV22",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv22hd.png",
                 "tags": [
+                    "SCTV 22 - SSPORT 1 🇻🇳",
                     "SCTV22 HD"
-                ]
+                ],
+                "enabled": true
             },
             {
                 "id": "sctvhdpth",
@@ -4130,123 +4132,145 @@
                 "name": "HR: Arena Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.1.HD.hr.png",
                 "tags": [
-                    "arenasport1.hr",
-                    "Arena Sport 1 HD 🇷🇸",
-                    "Arena_Sport_1 HD 🇷🇸",
-                    "ARENA SPORT 1 HD",
-                    "ARENA 1 PREMIUM FHD SR",
+                    "Arena 1 HD 🇷🇸",
                     "ARENA 1 PREMIUM FHD BIH",
                     "ARENA 1 PREMIUM FHD SLO",
-                    "Arena 1 HD 🇷🇸"
+                    "ARENA 1 PREMIUM FHD SR",
+                    "ARENA SPORT 1",
+                    "Arena Sport 1 🇸🇰",
+                    "ARENA SPORT 1 HD",
+                    "Arena Sport 1 HD 🇷🇸",
+                    "Arena_Sport_1 HD 🇷🇸",
+                    "arenasport1.hr"
                 ],
-                "sortOrder": 194
+                "sortOrder": 194,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.2.HD.hr",
                 "name": "HR: Arena Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.2.HD.hr.png",
                 "tags": [
-                    "arenasport2.hr",
+                    "ARENA 2 PREMIUM FHD SR",
+                    "ARENA SPORT 2",
+                    "Arena Sport 2 🇸🇰",
+                    "ARENA SPORT 2 FHD",
                     "Arena Sport 2 HD 🇷🇸",
                     "Arena_Sport_2 HD 🇷🇸",
-                    "ARENA SPORT 2 FHD",
-                    "ARENA 2 PREMIUM FHD SR"
+                    "arenasport2.hr"
                 ],
-                "sortOrder": 195
+                "sortOrder": 195,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.3.HD.hr",
                 "name": "HR: Arena Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.3.HD.hr.png",
                 "tags": [
-                    "arenasport3.hr",
+                    "ARENA SPORT 3",
+                    "ARENA SPORT 3 FHD",
                     "Arena Sport 3 HD 🇷🇸",
                     "Arena_Sport_3 HD 🇷🇸",
-                    "ARENA SPORT 3 FHD"
+                    "arenasport3.hr"
                 ],
-                "sortOrder": 196
+                "sortOrder": 196,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.4.HD.hr",
                 "name": "HR: Arena Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.4.HD.hr.png",
                 "tags": [
-                    "arenasport4.hr",
+                    "Arena 4 HD 🇷🇸",
+                    "ARENA SPORT 4",
+                    "ARENA SPORT 4 FHD",
                     "Arena Sport 4 HD 🇷🇸",
                     "Arena_Sport_4 HD 🇷🇸",
-                    "ARENA SPORT 4 FHD",
-                    "Arena 4 HD 🇷🇸"
+                    "arenasport4.hr"
                 ],
-                "sortOrder": 197
+                "sortOrder": 197,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.5.HD.hr",
                 "name": "HR: Arena Sport 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.5.HD.hr.png",
                 "tags": [
-                    "arenasport5.hr",
+                    "Arena 5 HD 🇷🇸",
+                    "ARENA SPORT 5",
+                    "ARENA SPORT 5 FHD",
                     "Arena Sport 5 HD 🇷🇸",
                     "Arena_Sport_5 HD 🇷🇸",
-                    "ARENA SPORT 5 FHD",
-                    "Arena 5 HD 🇷🇸"
+                    "arenasport5.hr"
                 ],
-                "sortOrder": 198
+                "sortOrder": 198,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.6.HD.hr",
                 "name": "HR: Arena Sport 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.6.HD.hr.png",
                 "tags": [
-                    "arenasport6.hr",
+                    "ARENA SPORT 6",
+                    "ARENA SPORT 6 FHD",
                     "Arena Sport 6 HD 🇷🇸",
                     "Arena_Sport_6 HD 🇷🇸",
-                    "ARENA SPORT 6 FHD"
+                    "arenasport6.hr"
                 ],
-                "sortOrder": 199
+                "sortOrder": 199,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.7.HD.hr",
                 "name": "HR: Arena Sport 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.7.HD.hr.png",
                 "tags": [
-                    "arenasport7.hr",
+                    "ARENA SPORT 7",
+                    "ARENA SPORT 7 FHD",
                     "Arena Sport 7 HD 🇷🇸",
-                    "ARENA SPORT 7 FHD"
+                    "arenasport7.hr"
                 ],
-                "sortOrder": 200
+                "sortOrder": 200,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.8.HD.hr",
                 "name": "HR: Arena Sport 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.8.HD.hr.png",
                 "tags": [
-                    "arenasport8.hr",
+                    "ARENA SPORT 8",
+                    "ARENA SPORT 8 FHD",
                     "Arena Sport 8 HD 🇷🇸",
-                    "ARENA SPORT 8 FHD"
+                    "arenasport8.hr"
                 ],
-                "sortOrder": 201
+                "sortOrder": 201,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.9.HD.hr",
                 "name": "HR: Arena Sport 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.9.HD.hr.png",
                 "tags": [
-                    "arenasport9.hr",
+                    "ARENA SPORT 9",
+                    "ARENA SPORT 9 FHD",
                     "Arena Sport 9 HD 🇷🇸",
-                    "ARENA SPORT 9 FHD"
+                    "arenasport9.hr"
                 ],
-                "sortOrder": 202
+                "sortOrder": 202,
+                "enabled": true
             },
             {
                 "id": "Arena.Sport.10.HD.hr",
                 "name": "HR: Arena Sport 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.10.HD.hr.png",
                 "tags": [
-                    "arenasport10.hr",
+                    "ARENA SPORT 10",
+                    "ARENA SPORT 10 FHD",
                     "Arena Sport 10 HD 🇷🇸",
-                    "ARENA SPORT 10 FHD"
+                    "arenasport10.hr"
                 ],
-                "sortOrder": 203
+                "sortOrder": 203,
+                "enabled": true
             },
             {
                 "id": "1.sport.il",
@@ -4835,87 +4859,99 @@
                 "name": "NL: Ziggo Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.nl.png",
                 "tags": [
-                    "ziggosportselect.nl",
+                    "NL ▎ZIGGO SPORT HD ʀᴀᴡ",
                     "NL:Ziggo.Sport.Select",
-                    "ZIGGO SPORT 🇳🇱",
-                    "ZIGGO SPORT",
-                    "ZiggoSportSelect",
                     "ZG1",
-                    "ZIGGO SPORTS 1"
+                    "ZIGGO SPORT",
+                    "ZIGGO SPORT 🇳🇱",
+                    "ZIGGO SPORTS 1",
+                    "ZiggoSportSelect",
+                    "ziggosportselect.nl"
                 ],
-                "sortOrder": 248
+                "sortOrder": 248,
+                "enabled": true
             },
             {
                 "id": "Ziggo.Sport.2.nl",
                 "name": "NL: Ziggo Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.2.nl.png",
                 "tags": [
-                    "ziggosportvoetbal.nl",
-                    "nl:ziggosport2hd",
+                    "NL ▎ZIGGO SPORT 2 HD ʀᴀᴡ",
                     "NL:Ziggo Sport.Voetba",
-                    "ZIGGO SPORT 2 HD 🇳🇱",
-                    "ZIGGO SPORT 2 (NEDERLAND)",
-                    "ZiggoSportVoetbal",
-                    "ZIGGO SPORT 2",
+                    "nl:ziggosport2hd",
                     "ZG2",
-                    "ZIGGO SPORTS 2"
+                    "ZIGGO SPORT 2",
+                    "ZIGGO SPORT 2 (NEDERLAND)",
+                    "ZIGGO SPORT 2 HD 🇳🇱",
+                    "ZIGGO SPORTS 2",
+                    "ZiggoSportVoetbal",
+                    "ziggosportvoetbal.nl"
                 ],
-                "sortOrder": 249
+                "sortOrder": 249,
+                "enabled": true
             },
             {
                 "id": "Ziggo.Sport.3.nl",
                 "name": "NL: Ziggo Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.3.nl.png",
                 "tags": [
-                    "ziggosportgolf.nl",
+                    "NL ▎ZIGGO SPORT 3 HD ʀᴀᴡ",
                     "NL:Ziggo.Sport.Golf",
-                    "ZIGGO SPORT 3 HD 🇳🇱",
-                    "ZIGGO SPORT 3 (NEDERLAND)",
-                    "ZiggoSportGolf",
                     "ZG3",
-                    "ZIGGO SPORTS 3"
+                    "ZIGGO SPORT 3 (NEDERLAND)",
+                    "ZIGGO SPORT 3 HD 🇳🇱",
+                    "ZIGGO SPORTS 3",
+                    "ZiggoSportGolf",
+                    "ziggosportgolf.nl"
                 ],
-                "sortOrder": 250
+                "sortOrder": 250,
+                "enabled": true
             },
             {
                 "id": "Ziggo.Sport.4.nl",
                 "name": "NL: Ziggo Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.4.nl.png",
                 "tags": [
-                    "ziggosportracing.nl",
+                    "NL ▎ZIGGO SPORT 4 HD ʀᴀᴡ",
                     "NL:Ziggo.Sport.Racing",
-                    "ZiggoSportRacing",
                     "ZG4",
-                    "ZIGGO SPORTS 4"
+                    "ZIGGO SPORTS 4",
+                    "ZiggoSportRacing",
+                    "ziggosportracing.nl"
                 ],
-                "sortOrder": 251
+                "sortOrder": 251,
+                "enabled": true
             },
             {
                 "id": "Ziggo.Sport.5.nl",
                 "name": "NL: Ziggo Sport 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.5.nl.png",
                 "tags": [
-                    "ziggosportextra1.nl",
+                    "NL ▎ZIGGO SPORT 5 HD ʀᴀᴡ",
                     "nl:ziggosport5fhdhevc",
-                    "ZIGGO SPORT 5 (NEDERLAND)",
-                    "ZiggoSportExtra1",
                     "ZG5",
-                    "ZIGGO SPORTS 5"
+                    "ZIGGO SPORT 5 (NEDERLAND)",
+                    "ZIGGO SPORTS 5",
+                    "ZiggoSportExtra1",
+                    "ziggosportextra1.nl"
                 ],
-                "sortOrder": 252
+                "sortOrder": 252,
+                "enabled": true
             },
             {
                 "id": "Ziggo.Sport.6.nl",
                 "name": "NL: Ziggo Sport 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Ziggo.Sport.6.nl.png",
                 "tags": [
-                    "ziggosportextra2.nl",
+                    "NL ▎ZIGGO SPORT 6 HD ʀᴀᴡ",
                     "nl:ziggosport6hd",
-                    "ZIGGO SPORT 6 (NEDERLAND)",
                     "ZG6",
-                    "ZIGGO SPORTS 6"
+                    "ZIGGO SPORT 6 (NEDERLAND)",
+                    "ZIGGO SPORTS 6",
+                    "ziggosportextra2.nl"
                 ],
-                "sortOrder": 253
+                "sortOrder": 253,
+                "enabled": true
             },
             {
                 "id": "Canal.Plus.Now.pl",
@@ -5440,40 +5476,48 @@
                 "name": "RO: Orange Sport 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport1.ro.png",
                 "tags": [
+                    "ORANGE SPORT 1",
                     "orangesport1.ro",
                     "RO: ORANGE SPORT 1"
                 ],
-                "sortOrder": 303
+                "sortOrder": 303,
+                "enabled": true
             },
             {
                 "id": "orangesport2.ro",
                 "name": "RO: Orange Sport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport2.ro.png",
                 "tags": [
+                    "ORANGE SPORT 2",
                     "orangesport2.ro",
                     "RO: ORANGE SPORT 2"
                 ],
-                "sortOrder": 304
+                "sortOrder": 304,
+                "enabled": true
             },
             {
                 "id": "orangesport3.ro",
                 "name": "RO: Orange Sport 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport3.ro.png",
                 "tags": [
+                    "ORANGE SPORT 3",
                     "orangesport3.ro",
                     "RO: ORANGE SPORT 3"
                 ],
-                "sortOrder": 305
+                "sortOrder": 305,
+                "enabled": true
             },
             {
                 "id": "orangesport4.ro",
                 "name": "RO: Orange Sport 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/orangesport4.ro.png",
                 "tags": [
+                    "ORANGE SPORT 4",
                     "orangesport4.ro",
                     "RO: ORANGE SPORT 4"
                 ],
-                "sortOrder": 306
+                "sortOrder": 306,
+                "enabled": true
             },
             {
                 "id": "Prima.Sport.1.HD.ro",
@@ -5597,60 +5641,70 @@
                 "name": "RU: Match",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match.ru.png",
                 "tags": [
+                    "MATCH! 🇷🇺",
+                    "RU ▎МАТЧ! HD",
                     "RU:Match",
-                    "Матч! 🇷🇺",
-                    "MATCH! 🇷🇺"
+                    "Матч! 🇷🇺"
                 ],
-                "sortOrder": 318
+                "sortOrder": 318,
+                "enabled": true
             },
             {
                 "id": "match-arena.ru",
                 "name": "RU: Match Arena",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-arena.ru.png",
                 "tags": [
-                    "RU:Match.Arena",
-                    "MATCH! ARENA 🇷🇺"
+                    "MATCH! ARENA 🇷🇺",
+                    "RU ▎МАТЧ! АРЕНА HD",
+                    "RU:Match.Arena"
                 ],
-                "sortOrder": 319
+                "sortOrder": 319,
+                "enabled": true
             },
             {
                 "id": "match-footbal1.ru",
                 "name": "RU: Match Football 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal1.ru.png",
                 "tags": [
+                    "MATCH! FOOTBALL 1 🇷🇺",
+                    "RU ▎МАТЧ! ФУТБОЛ 1 HD",
                     "RU:Match.Footbal1",
                     "МАТЧ! ФУТБOЛ 1HD 🇷🇺",
-                    "MATCH! FOOTBALL 1 🇷🇺",
                     "Матч! Футбол 1 HD",
                     "Матч! ФУТБОЛ. .1 HD"
                 ],
-                "sortOrder": 320
+                "sortOrder": 320,
+                "enabled": true
             },
             {
                 "id": "match-footbal2.ru",
                 "name": "RU: Match Football 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal2.ru.png",
                 "tags": [
+                    "MATCH! FOOTBALL 2 🇷🇺",
+                    "RU ▎МАТЧ! ФУТБОЛ 2 HD",
                     "RU:Match.Footbal2",
                     "МАТЧ! ФУТБOЛ 2HD 🇷🇺",
-                    "MATCH! FOOTBALL 2 🇷🇺",
-                    "Матч! ФУТБОЛ. .2 HD",
-                    "МАТЧ! Футбол 2 HD"
+                    "МАТЧ! Футбол 2 HD",
+                    "Матч! ФУТБОЛ. .2 HD"
                 ],
-                "sortOrder": 321
+                "sortOrder": 321,
+                "enabled": true
             },
             {
                 "id": "match-footbal3.ru",
                 "name": "RU: Match Football 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/match-footbal3.ru.png",
                 "tags": [
+                    "MATCH! FOOTBALL 3 🇷🇺",
+                    "RU ▎МАТЧ! ФУТБОЛ 3 HD",
                     "RU:Match.Footbal3",
                     "МАТЧ! ФУТБOЛ 3HD 🇷🇺",
-                    "MATCH! FOOTBALL 3 🇷🇺",
-                    "Матч! ФУТБОЛ. .3 HD",
-                    "МАТЧ! Футбол 3 HD"
+                    "МАТЧ! Футбол 3 HD",
+                    "Матч! ФУТБОЛ. .3 HD"
                 ],
-                "sortOrder": 322
+                "sortOrder": 322,
+                "enabled": true
             },
             {
                 "id": "match-igra.ru",
@@ -6276,18 +6330,19 @@
             {
                 "id": "Sky.Sports.Action.HD.uk",
                 "name": "UK: Sky Sports Action",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Action.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-action-icon-alt-uk.png",
                 "tags": [
                     "skysportsaction.uk",
                     "UK: SKY SPORTS ACTION FHD",
                     "UK:SkySport.Action"
                 ],
-                "sortOrder": 381
+                "sortOrder": 381,
+                "enabled": true
             },
             {
                 "id": "Sky.Sports.Arena.HD.uk",
                 "name": "UK: Sky Sports Arena",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Arena.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-arena-icon-alt-uk.png",
                 "tags": [
                     "UK: SKY SPORTS ARENA HD",
                     "UK:SkySport.Arena",
@@ -6299,29 +6354,31 @@
             {
                 "id": "SkySpBoxOff.uk",
                 "name": "UK: Sky Sports Box Office",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySpBoxOff.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-box-office-icon-alt-uk.png",
                 "tags": [
                     "skysportsboxoffice.uk",
                     "UK: SKY SPORTS BOX OFFICE (LIVE DURING BOXING MATCH)"
                 ],
-                "sortOrder": 383
+                "sortOrder": 383,
+                "enabled": true
             },
             {
                 "id": "Sky.Sports.Cricket.HD.uk",
                 "name": "UK: Sky Sports Cricket",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Cricket.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-cricket-icon-alt-uk.png",
                 "tags": [
                     "skysportscricket.uk",
                     "UK: SKY SPORTS CRICKET FHD",
                     "UK:SkySport.Cricket",
                     "UK: SKY SPORTS CRICKET HD"
                 ],
-                "sortOrder": 384
+                "sortOrder": 384,
+                "enabled": true
             },
             {
                 "id": "Sky.Sports.F1.HD.uk",
                 "name": "UK: Sky Sports F1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.F1.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-f1-icon-alt-uk.png",
                 "tags": [
                     "skysportsf1.uk",
                     "UK: SKY SPORTS F1 FHD",
@@ -6336,19 +6393,20 @@
             {
                 "id": "Sky.Sports.Football.HD.uk",
                 "name": "UK: Sky Sports Football",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Football.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-football-icon-alt-uk.png",
                 "tags": [
                     "skysportsfootball.uk",
                     "UK: SKY SPORTS FOOTBALL FHD",
                     "UK:SkySport.Football",
                     "UK: SKY SPORTS FOOTBALL HD"
                 ],
-                "sortOrder": 386
+                "sortOrder": 386,
+                "enabled": true
             },
             {
                 "id": "Sky.Sports.Golf.HD.uk",
                 "name": "UK: Sky Sports Golf",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Sky.Sports.Golf.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-golf-icon-alt-uk.png",
                 "tags": [
                     "skysportsgolf.uk",
                     "UK Sky Sports Golf FHD",
@@ -6361,7 +6419,7 @@
             {
                 "id": "SkySpMainEvHD.uk",
                 "name": "UK: Sky Sports Main Event",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySpMainEvHD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-main-event-icon-alt-uk.png",
                 "tags": [
                     "skysportsmainevent.uk",
                     "UK-Sky Sports Main Event",
@@ -6374,18 +6432,19 @@
             {
                 "id": "SkySp.Mix.HD.uk",
                 "name": "UK: Sky Sports Mix",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp.Mix.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-mix-icon-alt-uk.png",
                 "tags": [
                     "skysportsmix.uk",
                     "UK: SKY SPORTS MIX FHD",
                     "UK:Sky.Sports.Mix"
                 ],
-                "sortOrder": 389
+                "sortOrder": 389,
+                "enabled": true
             },
             {
                 "id": "SkySp.News.HD.uk",
                 "name": "UK: Sky Sports News",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp.News.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-news-icon-alt-uk.png",
                 "tags": [
                     "skysportsnews.uk",
                     "UK-Sky Sports News",
@@ -6399,25 +6458,27 @@
             {
                 "id": "SkySp+HD.uk",
                 "name": "UK: Sky Sports Plus",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp+HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-plus-hz-uk.png",
                 "tags": [
                     "skysportsplus.uk",
                     "UK: SKY SPORTS + FHD",
                     "UK: SKY SPORTS PLUS HD"
                 ],
-                "sortOrder": 391
+                "sortOrder": 391,
+                "enabled": true
             },
             {
                 "id": "SkySp.PL.HD.uk",
                 "name": "UK: Sky Sports Premier League",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SkySp.PL.HD.uk.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-premier-league-icon-alt-uk.png",
                 "tags": [
                     "skysportspremiereleague.uk",
                     "UK: SKY SPORTS PREMIER LEAGUE FHD",
                     "UK:SkySport.Premiere.League",
                     "UK: SKY SPORTS PREMIER LEAGUE HD"
                 ],
-                "sortOrder": 392
+                "sortOrder": 392,
+                "enabled": true
             },
             {
                 "id": "TNT.Sports.1.HD.uk",
