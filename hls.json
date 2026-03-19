@@ -470,7 +470,7 @@
                 "tags": [
                     "Sự Kiện VTVPrime 11"
                 ],
-                "enabled": false
+                "enabled": true
             },
             {
                 "id": "vtvprime12",
@@ -479,7 +479,7 @@
                 "tags": [
                     "Sự Kiện VTVPrime 12"
                 ],
-                "enabled": false
+                "enabled": true
             },
             {
                 "id": "vtvprime13",
@@ -488,7 +488,7 @@
                 "tags": [
                     "Sự Kiện VTVPrime 13"
                 ],
-                "enabled": false
+                "enabled": true
             },
             {
                 "id": "vtvprime14",
@@ -497,7 +497,7 @@
                 "tags": [
                     "Sự Kiện VTVPrime 14"
                 ],
-                "enabled": false
+                "enabled": true
             },
             {
                 "id": "vtvprime15",
@@ -506,7 +506,7 @@
                 "tags": [
                     "Sự Kiện VTVPrime 15"
                 ],
-                "enabled": false
+                "enabled": true
             },
             {
                 "id": "vtvprime16",
@@ -515,7 +515,7 @@
                 "tags": [
                     "Sự Kiện VTVPrime 16"
                 ],
-                "enabled": false
+                "enabled": true
             }
         ]
     },
