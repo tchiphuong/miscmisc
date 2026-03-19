@@ -1079,6 +1079,14 @@
                 "tags": [
                     "TV360+11"
                 ]
+            },
+            {
+                "id": "tv360plus12",
+                "name": "TV360+ 12",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus12.png",
+                "tags": [
+                    "TV360+12"
+                ]
             }
         ]
     },
