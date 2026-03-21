@@ -1,250 +1,248 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" class="dark">
 <head>
-    <meta charset="utf-8" />
-    <title>M3U → JSON Parser</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3U ⇄ JSON Advanced Parser</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="assets/css/prism-tomorrow.css" rel="stylesheet" />
-    <script src="assets/js/prism-core.js"></script>
-    <script src="assets/js/prism-autoloader.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
     <script>
         tailwind.config = {
             darkMode: 'class',
             theme: {
                 extend: {
                     colors: {
-                        brand: {
-                            50: '#eef2ff', 100: '#e0e7ff', 200: '#c7d2fe', 300: '#a5b4fc',
-                            400: '#818cf8', 500: '#6366f1', 600: '#4f46e5', 700: '#4338ca',
-                            800: '#3730a3', 900: '#312e81', 950: '#1e1b4b'
+                        border: "#27272a",
+                        input: "#27272a",
+                        ring: "#3f3f46",
+                        background: "#09090b",
+                        foreground: "#fafafa",
+                        primary: {
+                            DEFAULT: "#3b82f6",
+                            foreground: "#ffffff",
+                        },
+                        muted: {
+                            DEFAULT: "#71717a",
+                            foreground: "#a1a1aa",
+                        },
+                        accent: {
+                            DEFAULT: "#3b82f6",
+                            foreground: "#ffffff",
+                        },
+                        card: {
+                            DEFAULT: "#18181b",
+                            foreground: "#fafafa",
                         }
-                    }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
                 }
             }
         }
     </script>
     <style>
-        /* Custom scrollbar cho phần kết quả */
-        #out::-webkit-scrollbar {
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #09090b;
+            color: #fafafa;
+        }
+
+        .scrollbar-custom::-webkit-scrollbar {
             width: 8px;
+            height: 8px;
         }
 
-        #out::-webkit-scrollbar-track {
-            background: #1f2937;
-            /* gray-800 */
-            border-radius: 4px;
+        .scrollbar-custom::-webkit-scrollbar-track {
+            background: #09090b;
         }
 
-        #out::-webkit-scrollbar-thumb {
-            background: #4b5563;
-            /* gray-600 */
-            border-radius: 4px;
-            transition: background 0.2s ease;
+        .scrollbar-custom::-webkit-scrollbar-thumb {
+            background: #27272a;
+            border-radius: 10px;
+            border: 2px solid #09090b;
         }
 
-        #out::-webkit-scrollbar-thumb:hover {
-            background: #6b7280;
-            /* gray-500 */
+        .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+            background: #3f3f46;
         }
 
-        /* Dark mode scrollbar */
-        .dark #out::-webkit-scrollbar-track {
-            background: #111827;
-            /* gray-900 */
+        .animate-in {
+            animation: fadeIn 0.4s ease-out forwards;
         }
 
-        .dark #out::-webkit-scrollbar-thumb {
-            background: #374151;
-            /* gray-700 */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        .dark #out::-webkit-scrollbar-thumb:hover {
-            background: #4b5563;
-            /* gray-600 */
+        [v-cloak] { display: none; }
+
+        .glass-card {
+            background: rgba(24, 24, 27, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        /* Firefox scrollbar */
-        #out {
-            scrollbar-width: thin;
-            scrollbar-color: #4b5563 #1f2937;
-        }
-
-        .dark #out {
-            scrollbar-color: #374151 #111827;
-        }
-
-        /* VS Code style syntax highlighting */
-        #out {
-            background: #1e1e1e !important;
-            color: #d4d4d4 !important;
-            font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-
-        /* JSON syntax colors */
-        .token.string {
-            color: #ce9178;
-        }
-
-        .token.number {
-            color: #b5cea8;
-        }
-
-        .token.boolean {
-            color: #569cd6;
-        }
-
-        .token.null {
-            color: #569cd6;
-        }
-
-        .token.property {
-            color: #9cdcfe;
-        }
-
-        .token.punctuation {
-            color: #d4d4d4;
-        }
-
-        .token.operator {
-            color: #d4d4d4;
-        }
-
-        /* Dark mode adjustments */
-        .dark #out {
-            background: #1e1e1e !important;
+        pre code {
+            font-family: 'JetBrains Mono', monospace !important;
         }
     </style>
 </head>
-<body class="transition-colors overflow-hidden">
-    <div class="h-screen bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100 flex flex-col">
-        <div class="container mx-auto px-4 py-8 flex flex-col flex-grow overflow-hidden">
-            <div class="flex items-center justify-between mb-6">
-                <h1 class="text-2xl font-bold tracking-tight">M3U ⇄ JSON Playground</h1>
-                <button id="btnTheme" class="rounded-md border border-gray-200 dark:border-gray-800 px-3 py-1.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-900">Toggle theme</button>
-            </div>
-
-            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl shadow-sm p-4 md:p-6">
-                <label for="url" class="block text-sm font-medium mb-2">Nguồn M3U hoặc URL</label>
-                <input id="url" type="text" value="https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/playlist25" class="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-950 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
-
-                <div class="flex flex-wrap gap-2 mt-4">
-                    <button id="btnParse" class="inline-flex items-center gap-2 rounded-lg bg-brand-600 hover:bg-brand-500 text-white px-4 py-2 text-sm font-medium">Parse</button>
-                    <button id="btnToM3U8" class="inline-flex items-center gap-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 text-sm font-medium">Xuất M3U8 từ JSON</button>
-                    <button id="btnDownload" class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800">Tải xuống JSON</button>
-                    <button id="btnCopy" class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800">Copy JSON</button>
-                </div>
-            </div>
-
-            <div class="mt-6 flex flex-col flex-1 min-h-0">
-                <div class="flex items-center justify-between mb-2">
-                    <h3 class="text-sm font-medium text-gray-600 dark:text-gray-400">Kết quả</h3>
-                    <button id="btnCopyResult" class="inline-flex items-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800">Copy Result</button>
-                </div>
-                <pre id="out" class="bg-gray-900 text-indigo-50 border border-gray-800 rounded-xl p-4 md:p-6 flex-1 min-h-0 overflow-y-auto">// JSON sẽ hiện ở đây</pre>
+<body class="bg-zinc-950 text-foreground overflow-hidden font-sans h-screen">
+    <div id="app" v-cloak class="flex flex-col h-full uppercase-text-none">
+        <!-- Loading Overlay -->
+        <div v-if="loading" class="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-md">
+            <div class="flex flex-col items-center">
+                <div class="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+                <p class="mt-4 text-blue-500 font-bold animate-pulse uppercase tracking-widest text-[10px]">Processing Data...</p>
             </div>
         </div>
+
+        <!-- Header -->
+        <header class="h-16 border-b border-zinc-800 flex items-center justify-between px-6 bg-zinc-900/50 backdrop-blur-xl z-50 flex-shrink-0">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-600/20">
+                    <i data-lucide="zap" class="text-white w-6 h-6"></i>
+                </div>
+                <div>
+                    <h1 class="font-extrabold text-lg tracking-tight text-white italic lowercase">M3U ⇄ JSON</h1>
+                    <p class="text-[10px] text-blue-400 font-bold uppercase tracking-widest leading-none">IPTV Manager Pro</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <nav class="hidden md:flex items-center gap-1 bg-zinc-800/50 p-1 rounded-xl border border-white/5">
+                    <a href="index.html" class="px-4 py-1.5 bg-blue-600 text-white rounded-lg text-[10px] font-black uppercase transition-all shadow-lg shadow-blue-600/10">Parser</a>
+                    <a href="editor.html" class="px-4 py-1.5 text-zinc-500 hover:text-white rounded-lg text-[10px] font-black uppercase transition-all">Editor</a>
+                </nav>
+                <div class="h-6 w-px bg-zinc-800 mx-2"></div>
+                <a href="https://github.com/tchiphuong" target="_blank" class="p-2 bg-zinc-800 hover:bg-zinc-700 rounded-xl border border-white/5 text-zinc-400 hover:text-white transition-all">
+                    <i data-lucide="github" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-1 overflow-hidden flex flex-col md:flex-row p-6 gap-6 bg-zinc-950">
+            <!-- Left Side: Input Configuration -->
+            <div class="w-full md:w-[450px] flex flex-col gap-6 flex-shrink-0 overflow-y-auto scrollbar-custom pr-2">
+                <div class="glass-card rounded-[2rem] p-8 shadow-2xl animate-in">
+                    <div class="mb-8">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-[10px] font-bold text-blue-500 uppercase tracking-[0.2em]">Source Config</span>
+                        </div>
+                        <h2 class="text-2xl font-extrabold tracking-tight text-white lowercase">Input Playlist</h2>
+                    </div>
+
+                    <!-- Tabs Header -->
+                    <div class="flex p-1 bg-zinc-950/80 rounded-2xl border border-zinc-800 mb-8 w-fit mx-auto">
+                        <button @click="currentTab = 'url'" :class="['px-6 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all', currentTab === 'url' ? 'bg-zinc-800 text-blue-400 shadow-xl border border-white/5' : 'text-zinc-500 hover:text-zinc-300']">URL</button>
+                        <button @click="currentTab = 'text'" :class="['px-6 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all', currentTab === 'text' ? 'bg-zinc-800 text-blue-400 shadow-xl border border-white/5' : 'text-zinc-500 hover:text-zinc-300']">Paste</button>
+                        <button @click="currentTab = 'file'" :class="['px-6 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all', currentTab === 'file' ? 'bg-zinc-800 text-blue-400 shadow-xl border border-white/5' : 'text-zinc-500 hover:text-zinc-300']">File</button>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div v-if="currentTab === 'url'" class="animate-in">
+                            <div class="relative group">
+                                <i data-lucide="link" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-600 group-focus-within:text-blue-500 transition-colors"></i>
+                                <input v-model="inputUrl" type="text" class="w-full bg-zinc-900/50 border border-zinc-800 rounded-2xl py-4 pl-12 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-white placeholder-zinc-700 font-medium" placeholder="Playlist link (http/https)...">
+                            </div>
+                        </div>
+
+                        <div v-if="currentTab === 'text'" class="animate-in">
+                            <textarea v-model="inputText" class="w-full h-48 bg-zinc-900/50 border border-zinc-800 rounded-2xl p-5 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-zinc-300 placeholder-zinc-800 scrollbar-custom resize-none leading-relaxed" placeholder="#EXTM3U..."></textarea>
+                        </div>
+
+                        <div v-if="currentTab === 'file'" class="animate-in">
+                            <label class="flex flex-col items-center justify-center border-2 border-dashed border-zinc-800 rounded-[2rem] py-12 hover:border-blue-500/30 cursor-pointer transition-all bg-zinc-900/10 group">
+                                <div class="w-12 h-12 bg-zinc-800 rounded-2xl flex items-center justify-center mb-4 border border-white/5 group-hover:scale-110 transition-transform">
+                                    <i data-lucide="upload" class="w-6 h-6 text-zinc-500 group-hover:text-blue-500 transition-colors"></i>
+                                </div>
+                                <span class="text-[10px] font-black text-zinc-500 group-hover:text-zinc-300 uppercase tracking-widest">{{ fileName || 'Select .m3u, .m3u8 playlist' }}</span>
+                                <input type="file" @change="handleFileChange" accept=".m3u,.m3u8,.txt" class="hidden">
+                            </label>
+                        </div>
+
+                        <div class="pt-6 border-t border-zinc-800 flex flex-col gap-6">
+                            <div @click="parseSources = !parseSources" class="flex items-center gap-4 px-5 py-4 bg-zinc-900/40 border border-zinc-800 rounded-2xl cursor-pointer group hover:bg-zinc-900/60 transition-all shadow-inner shadow-black/20">
+                                <div class="relative w-10 h-6 bg-zinc-800 rounded-full transition-all" :class="{ 'bg-blue-600': parseSources }">
+                                    <div class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all shadow-sm flex items-center justify-center" :class="{ 'translate-x-4': parseSources }"></div>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-[11px] font-black text-zinc-100 uppercase tracking-widest">Parse Source Detail</p>
+                                    <p class="text-[8px] text-zinc-500 font-bold uppercase tracking-widest">Fetch URLs, DRM, and Headers</p>
+                                </div>
+                            </div>
+
+                            <button @click="handleParse" class="w-full py-4 rounded-2xl bg-blue-600 hover:bg-blue-500 text-white font-black text-sm shadow-xl shadow-blue-600/20 transition-all border border-blue-400/50 flex items-center justify-center gap-3 group active:scale-[0.98]">
+                                <i data-lucide="play" class="w-4 h-4 group-hover:translate-x-1 transition-transform fill-current"></i>
+                                PROCESS PLAYLIST
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Output Terminal -->
+            <div class="flex-1 flex flex-col min-h-0 min-w-0">
+                <div class="glass-card flex-1 rounded-[2.5rem] overflow-hidden flex flex-col shadow-2xl relative border-zinc-800/50">
+                    <!-- Terminal Header -->
+                    <div class="bg-zinc-900/80 px-8 py-5 flex items-center justify-between border-b border-zinc-800 backdrop-blur-md">
+                        <div class="flex items-center gap-4">
+                            <div class="flex gap-2">
+                                <div class="w-3 h-3 rounded-full bg-zinc-800 border border-white/5"></div>
+                                <div class="w-3 h-3 rounded-full bg-zinc-800 border border-white/5"></div>
+                                <div class="w-3 h-3 rounded-full bg-zinc-800 border border-white/5"></div>
+                            </div>
+                            <div class="h-4 w-px bg-zinc-800 mx-2"></div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="terminal" class="w-4 h-4 text-blue-500"></i>
+                                <span class="text-[10px] font-black text-zinc-400 uppercase tracking-[0.2em]">Output Terminal</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-2">
+                             <button @click="downloadJson" :disabled="!result" class="px-5 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-white text-[10px] font-black uppercase transition-all border border-white/5 disabled:opacity-20 flex items-center gap-2 shadow-sm">
+                                 <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                                 JSON
+                             </button>
+                             <button @click="copyJson" :disabled="!result" class="px-5 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-white text-[10px] font-black uppercase transition-all border border-white/5 disabled:opacity-20 flex items-center gap-2 shadow-sm">
+                                 <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                                 COPY
+                             </button>
+                             <button @click="exportM3U8" :disabled="!result" class="px-5 py-2 rounded-xl bg-emerald-600/10 hover:bg-emerald-600/20 text-emerald-500 text-[10px] font-black uppercase transition-all border border-emerald-500/20 disabled:opacity-20 flex items-center gap-2 shadow-sm">
+                                 <i data-lucide="file-output" class="w-3.5 h-3.5"></i>
+                                 M3U8
+                             </button>
+                        </div>
+                    </div>
+
+                    <!-- Terminal Content -->
+                    <div class="flex-1 overflow-hidden relative bg-zinc-950/50">
+                        <pre id="out" class="h-full w-full p-8 overflow-auto scrollbar-custom leading-relaxed text-xs font-mono"><code class="language-json text-zinc-400 font-medium">{{ result ? JSON.stringify(result, null, 2) : '// No data processed yet. Please select an input source and click Process.' }}</code></pre>
+                        
+                        <!-- Empty State Decoration -->
+                        <div v-if="!result" class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none transition-opacity duration-1000 opacity-[0.03]">
+                             <i data-lucide="binary" class="w-64 h-64 text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="h-10 px-8 flex items-center justify-center border-t border-zinc-900 bg-zinc-950 text-[9px] font-black text-zinc-600 uppercase tracking-[0.4em] flex-shrink-0">
+            &copy; 2024 UniManage Ecosystem • Built for Premium Productivity
+        </footer>
     </div>
 
-    <!-- <script src="main.js"></script> -->
-    <script src="main.js"></script>
-    <script>
-            // Theme toggle (persist)
-            (function initTheme() {
-                const root = document.documentElement;
-                const saved = localStorage.getItem('theme');
-                if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                    root.classList.add('dark');
-                }
-                const btn = document.getElementById('btnTheme');
-                if (btn) btn.addEventListener('click', () => {
-                    root.classList.toggle('dark');
-                    localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
-                });
-            })();
-
-
-        const out = document.getElementById('out');
-        const inputUrl = document.getElementById('url');
-
-        function show(obj) {
-            const jsonString = JSON.stringify(obj, null, 2);
-            out.innerHTML = `<code class="language-json">${jsonString}</code>`;
-            Prism.highlightElement(out.querySelector('code'));
-        }
-
-        function download(filename, text) {
-            const a = document.createElement('a');
-            a.href = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
-            a.download = filename;
-            a.click();
-            URL.revokeObjectURL(a.href);
-        }
-
-        // ======= Hàm duy nhất =======
-        // Dùng: const data = await parseM3U(input); // input = URL hoặc raw text
-        async function parseM3U(input) {
-            // ---- lấy dữ liệu
-            let text = String(input ?? '');
-            const looksLikeUrl = /^https?:\/\//i.test(text) && !text.includes('\n');
-            if (looksLikeUrl) {
-                text = await fetch(text, { cache: 'no-store' }).then(r => r.text());
-            }
-            return parseOttNavigationFast(text)
-        }
-
-        // ===== Events =====
-        document.getElementById('btnParse').addEventListener('click', async () => {
-            const url = inputUrl.value.trim();
-            if (!url) return alert('Điền URL vào đã.');
-
-            out.textContent = 'Đang tải & parse...';
-
-            try {
-                const result = await parseM3U(url);
-                show(result);
-                window.__LAST_JSON__ = result;
-            } catch (err) {
-                show({ error: true, message: String(err) });
-            }
-        });
-
-        document.getElementById('btnDownload').addEventListener('click', () => {
-            const data = window.__LAST_JSON__ || { note: 'Chưa parse gì cả' };
-            download('m3u-parsed.json', JSON.stringify(data, null, 2));
-        });
-
-        document.getElementById('btnCopy').addEventListener('click', () => {
-            const data = window.__LAST_JSON__ || { note: 'Chưa parse gì cả' };
-            navigator.clipboard.writeText(JSON.stringify(data, null, 2))
-                .then(() => alert("Đã copy JSON vào clipboard"));
-        });
-
-        document.getElementById('btnCopyResult').addEventListener('click', () => {
-            const codeElement = out.querySelector('code');
-            const resultText = codeElement ? codeElement.textContent : out.textContent;
-            navigator.clipboard.writeText(resultText)
-                .then(() => alert("Đã copy kết quả vào clipboard"));
-        });
-
-        document.getElementById('btnToM3U8').addEventListener('click', async () => {
-            const data = window.__LAST_JSON__;
-            if (!data) {
-                const result = await parseM3U(url);
-                show(result);
-                window.__LAST_JSON__ = result;
-            }
-            try {
-                const m3u = streamM3U(data, [], { mode: "string" });
-                out.innerHTML = `<code class="language-m3u">${m3u}</code>`;
-                Prism.highlightElement(out.querySelector('code'));
-            } catch (err) {
-                show({ error: true, message: String(err) });
-            }
-        });
-
-    </script>
+    <!-- Scripts -->
+    <script src="src/services/parserService.js"></script>
+    <script src="src/pages/parserPage.js"></script>
 </body>
 </html>

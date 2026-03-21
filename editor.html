@@ -104,6 +104,15 @@
             background: rgba(59, 130, 246, 0.1) !important;
             border: 1px dashed rgba(59, 130, 246, 0.5) !important;
         }
+
+        .sidebar-channel-item.drag-over {
+            background: rgba(59, 130, 246, 0.2) !important;
+            border: 1px solid rgba(59, 130, 246, 0.5) !important;
+        }
+
+        .rotate-icon-active {
+            transform: rotate(90deg);
+        }
     </style>
 </head>
 <body class="bg-zinc-950 text-foreground scrollbar-hide overflow-hidden h-screen font-sans">
@@ -132,17 +141,25 @@
                     {{ data ? 'Change File' : 'Open hls.json' }}
                 </button>
 
-                <div v-if="fileHandle" class="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-zinc-800/50 border border-white/5 cursor-pointer group hover:bg-zinc-800 transition-all" @click="minimizeJson = !minimizeJson">
+                <div v-if="data" class="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-zinc-800/50 border border-white/5 cursor-pointer group hover:bg-zinc-800 transition-all" @click="minimizeJson = !minimizeJson">
                     <div class="relative w-8 h-4 bg-zinc-700 rounded-full transition-all" :class="{ 'bg-blue-600': minimizeJson }">
                         <div class="absolute left-0.5 top-0.5 w-3 h-3 bg-white rounded-full transition-all" :class="{ 'translate-x-4': minimizeJson }"></div>
                     </div>
                     <span class="text-[10px] font-bold text-zinc-400 group-hover:text-zinc-200 uppercase tracking-wider">Minimize</span>
                 </div>
 
-                <button v-if="fileHandle" @click="saveFile" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-sm font-bold shadow-lg shadow-blue-600/20 transition-all border border-blue-400/50 text-white">
-                    <i data-lucide="save" class="w-4 h-4"></i>
-                    Save Changes
+                <button @click="showImportModal = true" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-purple-600/20 hover:bg-purple-600 border border-purple-500/30 text-purple-400 hover:text-white text-sm font-semibold transition-all">
+                    <i data-lucide="import" class="w-4 h-4"></i>
+                    Import JSON
                 </button>
+
+                <button v-if="data" @click="saveFile" :class="['flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all border shadow-lg', fileHandle ? 'bg-blue-600 hover:bg-blue-500 text-white border-blue-400/50 shadow-blue-600/20' : 'bg-zinc-800 hover:bg-zinc-700 text-zinc-300 border-white/5 shadow-black/20']">
+                    <i :data-lucide="fileHandle ? 'save' : 'download'" class="w-4 h-4"></i>
+                    {{ fileHandle ? 'Save Changes' : 'Download JSON' }}
+                </button>
+
+                <!-- Hidden Fallback Input -->
+                <input type="file" id="fileFallback" class="hidden" accept=".json" @change="handleFallbackFile">
             </div>
         </header>
 
@@ -166,18 +183,38 @@
                         CATEGORIES
                         <button @click="addCategory" class="hover:text-blue-500 transition-colors"><i data-lucide="plus" class="w-3 h-3"></i></button>
                     </div>
-                    <div v-for="(group, idx) in sortedGroups" :key="group.id" draggable="true" @dragstart="handleDragStart(group, $event)" @dragover.prevent="handleDragOver(group, $event)" @dragleave="handleDragLeave($event)" @drop="handleDrop(group, $event)" @dragend="handleDragEnd($event)" @click="selectedGroupId = group.id" :class="['group flex items-center justify-between px-3 py-2.5 rounded-xl cursor-pointer transition-all category-item', selectedGroupId === group.id ? 'bg-blue-500/10 text-blue-400 font-semibold border border-blue-500/20 shadow-sm' : 'hover:bg-zinc-800/50 text-zinc-400 hover:text-zinc-200']">
-                        <div class="flex items-center gap-3 truncate">
-                            <div class="w-5 h-5 rounded-md overflow-hidden bg-black/40 border border-white/5 flex items-center justify-center flex-shrink-0">
-                                <img v-if="group.logo" :src="group.logo" class="w-full h-full object-contain" @error="$event.target.style.display = 'none'; $event.target.nextElementSibling.style.display = 'block'">
-                                <i :data-lucide="getIcon(group.name)" class="w-3.5 h-3.5" :style="{ display: group.logo ? 'none' : 'block' }" :class="selectedGroupId === group.id ? 'text-blue-400' : 'text-zinc-500 group-hover:text-zinc-300'"></i>
+                    <div v-for="(group, idx) in sortedGroups" :key="group.id" class="flex flex-col mb-1 last:mb-0">
+                        <div draggable="true" @dragstart="handleDragStart(group, $event)" @dragover.prevent="handleDragOver(group, $event)" @dragleave="handleDragLeave($event)" @drop="enhancedHandleDrop(group, $event)" @dragend="handleDragEnd($event)" @click="selectedGroupId = group.id" :class="['group flex items-center justify-between px-3 py-2.5 rounded-xl cursor-pointer transition-all category-item', selectedGroupId === group.id ? 'bg-blue-500/10 text-blue-400 font-semibold border border-blue-500/20 shadow-sm' : 'hover:bg-zinc-800/50 text-zinc-400 hover:text-zinc-200']">
+                            <div class="flex items-center gap-3 truncate">
+                                <button @click.stop="toggleGroup(group.id)" class="p-1 hover:bg-zinc-700/50 rounded-md transition-colors">
+                                    <span class="inline-block transition-transform duration-300" :class="{ 'rotate-icon-active': expandedGroups.includes(group.id) }">
+                                        <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                                    </span>
+                                </button>
+                                <div class="w-5 h-5 rounded-md overflow-hidden bg-black/40 border border-white/5 flex items-center justify-center flex-shrink-0">
+                                    <img v-if="group.logo" :src="group.logo" class="w-full h-full object-contain" @error="$event.target.style.display = 'none'; $event.target.nextElementSibling.style.display = 'block'">
+                                    <i :data-lucide="getIcon(group.name)" class="w-3.5 h-3.5" :style="{ display: group.logo ? 'none' : 'block' }" :class="selectedGroupId === group.id ? 'text-blue-400' : 'text-zinc-500 group-hover:text-zinc-300'"></i>
+                                </div>
+                                <span class="truncate text-sm">{{ group.name }}</span>
                             </div>
-                            <span class="truncate text-sm">{{ group.name }}</span>
+                            <div class="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <button @click.stop="moveGroup(idx, -1)" :disabled="idx === 0" class="p-1 hover:bg-zinc-700 rounded-md disabled:opacity-20"><i data-lucide="chevron-up" class="w-3 h-3"></i></button>
+                                <button @click.stop="moveGroup(idx, 1)" :disabled="idx === sortedGroups.length - 1" class="p-1 hover:bg-zinc-700 rounded-md disabled:opacity-20"><i data-lucide="chevron-down" class="w-3 h-3"></i></button>
+                                <span class="text-[10px] bg-zinc-800 px-1.5 py-0.5 rounded-md group-hover:bg-zinc-700 transition-colors">{{ group.channels.length }}</span>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                            <button @click.stop="moveGroup(idx, -1)" :disabled="idx === 0" class="p-1 hover:bg-zinc-700 rounded-md disabled:opacity-20"><i data-lucide="chevron-up" class="w-3 h-3"></i></button>
-                            <button @click.stop="moveGroup(idx, 1)" :disabled="idx === sortedGroups.length - 1" class="p-1 hover:bg-zinc-700 rounded-md disabled:opacity-20"><i data-lucide="chevron-down" class="w-3 h-3"></i></button>
-                            <span class="text-[10px] bg-zinc-800 px-1.5 py-0.5 rounded-md group-hover:bg-zinc-700 transition-colors">{{ group.channels.length }}</span>
+                        
+                        <!-- Child Channels (Sidebar Expansion) -->
+                        <div v-if="expandedGroups.includes(group.id)" class="ml-8 mt-1 space-y-0.5 border-l border-zinc-800/50 pl-2 mb-2 animate-in">
+                            <div v-for="ch in group.channels" :key="ch.id" 
+                                @dragover.prevent="handleChannelDragOverOnSidebar(ch, $event)" 
+                                @dragleave="handleChannelDragLeave($event)" 
+                                @drop="handleChannelDropOnSidebar(ch, group, $event)"
+                                class="flex items-center gap-2 p-1.5 rounded-lg hover:bg-zinc-800/40 text-xs text-zinc-500 hover:text-zinc-300 cursor-pointer transition-colors truncate sidebar-channel-item">
+                                <img :src="ch.logo || fallbackLogo(ch.name)" class="w-4 h-4 rounded-sm object-contain opacity-70">
+                                <span class="truncate">{{ ch.name }}</span>
+                            </div>
+                            <div v-if="group.channels.length === 0" class="p-2 text-[10px] text-zinc-600 italic">No channels</div>
                         </div>
                     </div>
                 </nav>
@@ -220,23 +257,25 @@
                 <template v-else>
                     <!-- Category Header -->
                     <div class="p-6 border-b border-zinc-800 bg-zinc-900/10 flex items-center justify-between backdrop-blur-md">
-                        <div>
-                            <div class="flex items-center gap-2 mb-1">
-                                <span class="text-[10px] font-bold text-blue-500 uppercase tracking-widest">{{ searchQuery ? 'Search Results' : 'Selected Category' }}</span>
+                        <div class="flex items-center gap-3">
+                            <div v-if="!searchQuery" class="w-10 h-10 rounded-xl bg-black/40 border border-zinc-800 p-1.5 flex items-center justify-center overflow-hidden flex-shrink-0">
+                                <img v-if="currentGroup?.logo" :src="currentGroup.logo" class="max-h-full max-w-full object-contain" @error="$event.target.style.display = 'none'; $event.target.nextElementSibling.style.display = 'block'">
+                                <i :data-lucide="getIcon(currentGroup?.name || '')" class="w-6 h-6 text-blue-500" :style="{ display: currentGroup?.logo ? 'none' : 'block' }"></i>
                             </div>
-                            <div class="flex items-center gap-3">
-                                <div v-if="!searchQuery" class="w-10 h-10 rounded-xl bg-black/40 border border-zinc-800 p-1.5 flex items-center justify-center overflow-hidden flex-shrink-0">
-                                    <img v-if="currentGroup?.logo" :src="currentGroup.logo" class="max-h-full max-w-full object-contain" @error="$event.target.style.display = 'none'; $event.target.nextElementSibling.style.display = 'block'">
-                                    <i :data-lucide="getIcon(currentGroup?.name || '')" class="w-6 h-6 text-blue-500" :style="{ display: currentGroup?.logo ? 'none' : 'block' }"></i>
+                            <div>
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="text-[10px] font-bold text-blue-500 uppercase tracking-widest">{{ searchQuery ? 'Search Results' : 'Selected Category' }}</span>
                                 </div>
-                                <h2 class="text-2xl font-extrabold tracking-tight text-white">{{ searchQuery ? 'Tìm kiếm cho: ' + searchQuery : currentGroup?.name }}</h2>
-                                <button @click="editCategory" class="p-1.5 hover:bg-zinc-800 rounded-lg text-zinc-500 hover:text-white transition-colors"><i data-lucide="edit-3" class="w-4 h-4"></i></button>
+                                <div class="flex items-center gap-3">
+                                    <h2 class="text-2xl font-extrabold tracking-tight text-white">{{ searchQuery ? 'Tìm kiếm cho: ' + searchQuery : currentGroup?.name }}</h2>
+                                    <button @click="editCategory" class="p-1.5 hover:bg-zinc-800 rounded-lg text-zinc-500 hover:text-white transition-colors"><i data-lucide="edit-3" class="w-4 h-4"></i></button>
+                                </div>
                             </div>
                         </div>
 
                         <div class="flex items-center gap-3">
-                            <div v-if="currentGroup?.channels?.length > 1" class="flex items-center gap-1 bg-zinc-800/50 rounded-xl p-1 px-3 border border-white/5">
-                                <button @click="sortChannels('name')" title="Sắp xếp theo tên A-Z (Chuẩn tiếng Việt)" class="px-2 py-1.5 hover:bg-zinc-700 rounded-lg text-[10px] font-bold text-zinc-400 hover:text-white transition-all flex items-center gap-1.5">
+                            <div v-if="currentGroup?.channels?.length > 1 && !isSelectionMode" class="flex items-center gap-1 bg-zinc-800/50 rounded-xl p-1 px-3 border border-white/5">
+                                <button @click="sortChannels('name')" title="Sắp xếp theo tên A-Z" class="px-2 py-1.5 hover:bg-zinc-700 rounded-lg text-[10px] font-bold text-zinc-400 hover:text-white transition-all flex items-center gap-1.5">
                                     <i data-lucide="sort-asc" class="w-3 h-3 text-blue-500"></i>
                                     A-Z
                                 </button>
@@ -245,6 +284,11 @@
                                     ID
                                 </button>
                             </div>
+
+                            <button @click="isSelectionMode = !isSelectionMode; selectedChannelIds = []" :class="['flex items-center gap-2 px-4 py-2 rounded-xl border transition-all text-sm font-bold', isSelectionMode ? 'bg-zinc-800 border-blue-500 text-blue-400' : 'bg-zinc-800/50 border-white/5 text-zinc-400 hover:text-white hover:bg-zinc-800']">
+                                <i :data-lucide="isSelectionMode ? 'check-square' : 'square'" class="w-4 h-4"></i>
+                                {{ isSelectionMode ? 'Exit Selection' : 'Bulk Actions' }}
+                            </button>
 
                             <button @click="addChannel" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-sm font-bold shadow-lg shadow-blue-600/20 transition-all border border-blue-400/50 text-white">
                                 <i data-lucide="plus-circle" class="w-4 h-4"></i>
@@ -256,7 +300,14 @@
                     <!-- Scroll Area -->
                     <div class="flex-1 overflow-y-auto scrollbar-custom p-6">
                         <div class="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-4">
-                            <div v-for="(ch, idx) in filteredChannels" :key="ch.id || idx" :draggable="!searchQuery" @dragstart="handleChannelDragStart(ch, $event)" @dragover.prevent="handleChannelDragOver(ch, $event)" @dragleave="handleChannelDragLeave($event)" @drop="handleChannelDrop(ch, $event)" @dragend="handleChannelDragEnd($event)" class="group relative bg-zinc-900/50 border border-zinc-800/50 rounded-2xl p-5 hover:border-blue-500/30 transition-all duration-300 shadow-xl overflow-hidden animate-in channel-card">
+                            <div v-for="(ch, idx) in filteredChannels" :key="ch.id || idx" :draggable="!searchQuery && !isSelectionMode" @dragstart="handleChannelDragStart(ch, $event)" @dragover.prevent="handleChannelDragOver(ch, $event)" @dragleave="handleChannelDragLeave($event)" @drop="handleChannelDrop(ch, $event)" @dragend="handleChannelDragEnd($event)" @click="isSelectionMode && toggleSelection(ch.id)" :class="['group relative bg-zinc-900/50 border rounded-2xl p-5 transition-all duration-300 shadow-xl overflow-hidden animate-in channel-card', isSelectionMode && selectedChannelIds.includes(ch.id) ? 'border-blue-500 bg-blue-500/5 ring-1 ring-blue-500/20' : 'border-zinc-800/50 hover:border-blue-500/30', isSelectionMode ? 'cursor-pointer' : '']">
+
+                                <!-- Selection Checkbox -->
+                                <div v-if="isSelectionMode" class="absolute top-4 right-4 z-10">
+                                    <div :class="['w-6 h-6 rounded-lg border-2 flex items-center justify-center transition-all', selectedChannelIds.includes(ch.id) ? 'bg-blue-600 border-blue-600 shadow-lg shadow-blue-600/20' : 'bg-transparent border-zinc-700']">
+                                        <i v-if="selectedChannelIds.includes(ch.id)" data-lucide="check" class="w-4 h-4 text-white"></i>
+                                    </div>
+                                </div>
 
                                 <div class="flex gap-4 items-start mb-4">
                                     <div class="h-14 w-14 rounded-xl flex-shrink-0 overflow-hidden border border-zinc-700/40 p-2 bg-black/40 flex items-center justify-center">
@@ -265,10 +316,10 @@
                                     <div class="flex-1 min-w-0">
                                         <div class="flex items-center justify-between gap-2 mb-1">
                                             <h3 class="font-bold text-lg truncate leading-tight group-hover:text-blue-400 transition-colors text-zinc-100">{{ ch.name }}</h3>
-                                            <div class="flex items-center gap-1">
-                                                <button @click="duplicateChannel(ch)" title="Copy Channel" class="p-2 bg-zinc-800/50 hover:bg-green-500/10 hover:text-green-500 rounded-lg transition-colors border border-white/5"><i data-lucide="copy" class="w-3.5 h-3.5"></i></button>
-                                                <button @click="editChannel(ch)" title="Edit Channel" class="p-2 bg-zinc-800/50 hover:bg-blue-500/10 hover:text-blue-500 rounded-lg transition-colors border border-white/5"><i data-lucide="edit-2" class="w-3.5 h-3.5"></i></button>
-                                                <button @click="removeChannel(ch)" title="Remove Channel" class="p-2 bg-zinc-800/50 hover:bg-red-500/10 hover:text-red-500 rounded-lg transition-colors border border-white/5"><i data-lucide="trash-2" class="w-3.5 h-3.5"></i></button>
+                                            <div v-if="!isSelectionMode" class="flex items-center gap-1">
+                                                <button @click.stop="duplicateChannel(ch)" title="Copy Channel" class="p-2 bg-zinc-800/50 hover:bg-green-500/10 hover:text-green-500 rounded-lg transition-colors border border-white/5"><i data-lucide="copy" class="w-3.5 h-3.5"></i></button>
+                                                <button @click.stop="editChannel(ch)" title="Edit Channel" class="p-2 bg-zinc-800/50 hover:bg-blue-500/10 hover:text-blue-500 rounded-lg transition-colors border border-white/5"><i data-lucide="edit-2" class="w-3.5 h-3.5"></i></button>
+                                                <button @click.stop.prevent="removeChannel(ch)" title="Remove Channel" class="p-2 bg-zinc-800/50 hover:bg-red-500/10 hover:text-red-500 rounded-lg transition-colors border border-white/5"><i data-lucide="trash-2" class="w-3.5 h-3.5"></i></button>
                                             </div>
                                         </div>
                                         <p class="text-[11px] font-mono text-zinc-500 mb-2 tracking-tight">ID: {{ ch.id }}</p>
@@ -284,6 +335,33 @@
                                     <div class="absolute inset-0 bg-gradient-to-t from-zinc-950/80 to-transparent"></div>
                                     <span class="absolute bottom-2 left-2 text-[10px] font-bold text-white/50 bg-black/40 px-2 py-1 rounded backdrop-blur-md uppercase tracking-wider">Thumbnail Preview</span>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Bulk Action Bar -->
+                    <div v-if="isSelectionMode && selectedChannelIds.length > 0" class="fixed bottom-10 left-1/2 -translate-x-1/2 z-50 animate-in">
+                        <div class="bg-zinc-900/90 backdrop-blur-2xl border border-blue-500/30 rounded-3xl px-6 py-4 shadow-2xl flex items-center gap-8 ring-1 ring-white/5">
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold shadow-lg shadow-blue-600/20">
+                                    {{ selectedChannelIds.length }}
+                                </div>
+                                <div class="text-zinc-300">
+                                    <p class="text-[10px] font-bold text-blue-400 uppercase tracking-widest leading-none mb-1">Items Selected</p>
+                                    <p class="text-sm font-semibold">Ready for bulk actions</p>
+                                </div>
+                            </div>
+                            
+                            <div class="h-8 w-px bg-zinc-800"></div>
+
+                            <div class="flex items-center gap-3">
+                                <button @click="handleMergeChannels" :disabled="selectedChannelIds.length < 2" class="flex items-center gap-2 px-6 py-2.5 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold text-sm shadow-xl shadow-blue-600/20 transition-all disabled:opacity-30 disabled:grayscale">
+                                    <i data-lucide="merge" class="w-4 h-4"></i>
+                                    Merge Channels
+                                </button>
+                                <button @click="isSelectionMode = false; selectedChannelIds = []" class="px-6 py-2.5 rounded-2xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 font-bold text-sm border border-white/5 transition-all">
+                                    Cancel
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -379,6 +457,112 @@
             </div>
         </div>
 
+        <!-- Merge Channels Modal -->
+        <div v-if="showMergeModal" class="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/70 backdrop-blur-md animate-in">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl w-full max-w-2xl overflow-hidden shadow-2xl flex flex-col max-h-[85vh]">
+                <div class="p-6 border-b border-zinc-800 flex items-center justify-between bg-zinc-900/30">
+                    <div class="flex items-center gap-4">
+                        <div class="h-12 w-12 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-500">
+                            <i data-lucide="merge" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-xl tracking-tight text-white">Merge Channels</h3>
+                            <p class="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Select the primary channel to keep</p>
+                        </div>
+                    </div>
+                    <button class="p-2 hover:bg-zinc-800 rounded-xl transition-colors text-zinc-500" @click="showMergeModal = false">
+                        <i data-lucide="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+
+                <div class="flex-1 overflow-y-auto p-8 scrollbar-custom space-y-4">
+                    <p class="text-xs text-zinc-400 italic bg-zinc-800/50 p-4 rounded-xl border border-white/5">
+                        <i data-lucide="info" class="w-3 h-3 inline-block mr-1 mb-0.5"></i>
+                        Tên của các kênh phụ sẽ được tự động thêm vào <strong>Tags</strong> của kênh chính. Các kênh phụ sẽ bị xóa sau khi gộp.
+                    </p>
+
+                    <div class="space-y-2">
+                        <div v-for="id in selectedChannelIds" :key="id" @click="primaryMergeChannelId = id" :class="['flex items-center gap-4 p-4 rounded-2xl border cursor-pointer transition-all', primaryMergeChannelId === id ? 'bg-blue-600/10 border-blue-500' : 'bg-zinc-950 border-zinc-800 hover:border-zinc-700']">
+                            <div :class="['w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0', primaryMergeChannelId === id ? 'border-blue-500' : 'border-zinc-700']">
+                                <div v-if="primaryMergeChannelId === id" class="w-2.5 h-2.5 rounded-full bg-blue-500"></div>
+                            </div>
+                            
+                            <img :src="currentGroup.channels.find(c => c.id === id)?.logo || fallbackLogo('')" class="w-10 h-10 rounded-lg bg-black/40 p-1 border border-white/5 object-contain">
+                            
+                            <div class="flex-1 min-w-0">
+                                <p class="font-bold text-zinc-100 truncate">{{ currentGroup.channels.find(c => c.id === id)?.name }}</p>
+                                <p class="text-[10px] font-mono text-zinc-500 uppercase">ID: {{ id }}</p>
+                            </div>
+
+                            <span v-if="primaryMergeChannelId === id" class="px-3 py-1 bg-blue-600/20 text-blue-400 text-[10px] font-bold rounded-full border border-blue-500/20 uppercase tracking-tighter">Primary</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 border-t border-zinc-800 bg-zinc-900/50 flex justify-end gap-3">
+                    <button @click="showMergeModal = false" class="px-6 py-2.5 rounded-2xl bg-zinc-800 hover:bg-zinc-700 text-sm font-bold transition-all border border-white/5 text-zinc-300">Cancel</button>
+                    <button @click="executeMerge" class="px-10 py-2.5 rounded-2xl bg-blue-600 text-white font-extrabold text-sm shadow-xl shadow-blue-600/20 hover:scale-105 active:scale-95 transition-all outline-none">
+                        Confirm & Merge
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Import JSON Modal -->
+        <div v-if="showImportModal" class="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/70 backdrop-blur-md animate-in">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl w-full max-w-3xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
+                <div class="p-6 border-b border-zinc-800 flex items-center justify-between bg-zinc-900/30">
+                    <div class="flex items-center gap-4">
+                        <div class="h-12 w-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-500">
+                            <i data-lucide="import" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-xl tracking-tight text-white">Import JSON Data</h3>
+                            <p class="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Paste your JSON content to import categories and channels</p>
+                        </div>
+                    </div>
+                    <button class="p-2 hover:bg-zinc-800 rounded-xl transition-colors text-zinc-500" @click="showImportModal = false">
+                        <i data-lucide="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+
+                <div class="flex-1 overflow-y-auto p-8 scrollbar-custom space-y-6">
+                    <div class="space-y-2">
+                        <label class="text-[10px] font-bold text-zinc-500 uppercase tracking-widest px-1">JSON Content</label>
+                        <textarea v-model="importJsonInput" placeholder='[{"id": "vtv", "name": "VTV", "channels": [...]}, ...]' class="w-full h-64 bg-zinc-950 border border-zinc-800 rounded-2xl p-4 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500/50 focus:border-purple-500 transition-all text-zinc-300 scrollbar-custom"></textarea>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div @click="importMode = 'replace'" :class="['p-4 rounded-2xl border cursor-pointer transition-all', importMode === 'replace' ? 'bg-purple-600/10 border-purple-500/50' : 'bg-zinc-950 border-zinc-800 hover:border-zinc-700']">
+                            <div class="flex items-center gap-3 mb-2">
+                                <div :class="['w-4 h-4 rounded-full border-2 flex items-center justify-center', importMode === 'replace' ? 'border-purple-500' : 'border-zinc-600']">
+                                    <div v-if="importMode === 'replace'" class="w-2 h-2 rounded-full bg-purple-500"></div>
+                                </div>
+                                <span class="font-bold text-sm text-white">Replace All</span>
+                            </div>
+                            <p class="text-[10px] text-zinc-500 leading-relaxed">Xóa tất cả dữ liệu hiện tại và thay thế bằng dữ liệu mới.</p>
+                        </div>
+                        <div @click="importMode = 'append'" :class="['p-4 rounded-2xl border cursor-pointer transition-all', importMode === 'append' ? 'bg-blue-600/10 border-blue-500/50' : 'bg-zinc-950 border-zinc-800 hover:border-zinc-700']">
+                            <div class="flex items-center gap-3 mb-2">
+                                <div :class="['w-4 h-4 rounded-full border-2 flex items-center justify-center', importMode === 'append' ? 'border-blue-500' : 'border-zinc-600']">
+                                    <div v-if="importMode === 'append'" class="w-2 h-2 rounded-full bg-blue-500"></div>
+                                </div>
+                                <span class="font-bold text-sm text-white">Append Data</span>
+                            </div>
+                            <p class="text-[10px] text-zinc-500 leading-relaxed">Giữ lại dữ liệu cũ và thêm các danh mục mới vào cuối danh sách.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 border-t border-zinc-800 bg-zinc-900/50 flex justify-end gap-3">
+                    <button @click="showImportModal = false" class="px-6 py-2.5 rounded-2xl bg-zinc-800 hover:bg-zinc-700 text-sm font-bold transition-all border border-white/5 text-zinc-300">Cancel</button>
+                    <button @click="handleImportJson" class="px-10 py-2.5 rounded-2xl bg-purple-600 text-white font-extrabold text-sm shadow-xl shadow-purple-600/20 hover:scale-105 active:scale-95 transition-all outline-none">
+                        Execute Import
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <!-- Notification Toast -->
         <div v-if="notification" class="fixed bottom-6 right-6 z-[200] animate-in">
             <div :class="['px-6 py-4 rounded-2xl border shadow-2xl flex items-center gap-4', notification.type === 'success' ? 'bg-green-500/10 border-green-500/20 text-green-400' : 'bg-red-500/10 border-red-500/20 text-red-500']">
@@ -407,6 +591,17 @@
                 const newTagInput = ref('');
                 const notification = ref(null);
                 const minimizeJson = ref(true);
+                const showImportModal = ref(false);
+                const importJsonInput = ref('');
+                const importMode = ref('replace');
+
+                // Selection & Bulk Actions
+                const isSelectionMode = ref(false);
+                const selectedChannelIds = ref([]);
+                const showMergeModal = ref(false);
+                const primaryMergeChannelId = ref(null);
+                const expandedGroups = ref([]); // Cho phép mở nhiều group một lúc
+                const mergePayload = ref(null); // { primary, secondary, targetGroup }
 
                 // Icons help
                 const getIcon = (name) => {
@@ -430,39 +625,154 @@
                 };
 
                 const openFile = async () => {
+                    // Check if the modern File System Access API is supported and we are in a secure context
+                    if (window.showOpenFilePicker && window.isSecureContext) {
+                        try {
+                            const [handle] = await window.showOpenFilePicker({
+                                types: [{ description: 'JSON File', accept: { 'application/json': ['.json'] } }]
+                            });
+                            fileHandle.value = handle;
+                            fileName.value = handle.name;
+                            const file = await handle.getFile();
+                            const content = await file.text();
+                            data.value = JSON.parse(content);
+                            if (data.value.length > 0) {
+                                selectedGroupId.value = data.value[0].id;
+                                expandedGroups.value = [data.value[0].id];
+                            }
+                            hasChanges.value = false;
+                            notify('Success', 'Loaded ' + fileName.value);
+                            nextTick(() => lucide.createIcons());
+                        } catch (err) {
+                            console.error(err);
+                            if (err.name !== 'AbortError') notify('Error', 'Could not open file', 'error');
+                        }
+                    } else {
+                        // Fallback to standard input file
+                        document.getElementById('fileFallback').click();
+                    }
+                };
+
+                const handleFallbackFile = async (event) => {
+                    const file = event.target.files[0];
+                    if (!file) return;
+
                     try {
-                        const [handle] = await window.showOpenFilePicker({
-                            types: [{ description: 'JSON File', accept: { 'application/json': ['.json'] } }]
-                        });
-                        fileHandle.value = handle;
-                        fileName.value = handle.name;
-                        const file = await handle.getFile();
                         const content = await file.text();
                         data.value = JSON.parse(content);
-                        if (data.value.length > 0) selectedGroupId.value = data.value[0].id;
+                        fileHandle.value = null; // We don't have a writable handle
+                        fileName.value = file.name;
+                        if (data.value.length > 0) {
+                            selectedGroupId.value = data.value[0].id;
+                            expandedGroups.value = [data.value[0].id];
+                        }
                         hasChanges.value = false;
-                        notify('Success', 'Loaded ' + fileName.value);
+                        notify('Success (Legacy Mode)', 'Loaded ' + fileName.value + '. Direct save disabled (will download instead).');
                         nextTick(() => lucide.createIcons());
                     } catch (err) {
                         console.error(err);
-                        if (err.name !== 'AbortError') notify('Error', 'Could not open file', 'error');
+                        notify('Error', 'Could not parse JSON file', 'error');
+                    }
+                    // Reset input so it can be triggered again for the same file
+                    event.target.value = '';
+                };
+
+                const handleImportJson = () => {
+                    if (!importJsonInput.value.trim()) return notify('Warning', 'Vui lòng nhập nội dung JSON!', 'error');
+                    
+                    try {
+                        const importedData = JSON.parse(importJsonInput.value);
+                        if (!Array.isArray(importedData)) {
+                            throw new Error('Dữ liệu JSON phải là một mảng []');
+                        }
+
+                        if (importMode.value === 'replace') {
+                            data.value = importedData;
+                            notify('Imported', 'Đã thay thế toàn bộ dữ liệu.');
+                        } else {
+                            // Append mode with Update on Conflict
+                            if (!data.value) data.value = [];
+                            
+                            importedData.forEach(newGroup => {
+                                const targetGroup = data.value.find(g => g.id === newGroup.id);
+                                
+                                if (!targetGroup) {
+                                    // ID Category chưa tồn tại -> Thêm mới hoàn toàn
+                                    data.value.push(newGroup);
+                                } else {
+                                    // ID Category đã tồn tại -> Cập nhật thông tin Category
+                                    if (newGroup.name) targetGroup.name = newGroup.name;
+                                    if (newGroup.logo) targetGroup.logo = newGroup.logo;
+                                    if (newGroup.sortOrder !== undefined) targetGroup.sortOrder = newGroup.sortOrder;
+                                    
+                                    // Xử lý Channels bên trong Category
+                                    if (newGroup.channels && Array.isArray(newGroup.channels)) {
+                                        newGroup.channels.forEach(newCh => {
+                                            const targetCh = targetGroup.channels.find(tc => tc.id === newCh.id);
+                                            if (!targetCh) {
+                                                // ID Channel chưa có -> Thêm mới
+                                                targetGroup.channels.push(newCh);
+                                            } else {
+                                                // ID Channel đã có -> Cập nhật thông tin Channel
+                                                Object.assign(targetCh, newCh);
+                                            }
+                                        });
+                                    }
+                                }
+                            });
+                            notify('Imported', `Đã gập và cập nhật dữ liệu thành công.`);
+                        }
+
+                        if (data.value.length > 0 && !selectedGroupId.value) {
+                            selectedGroupId.value = data.value[0].id;
+                        }
+
+                        showImportModal.value = false;
+                        importJsonInput.value = '';
+                        hasChanges.value = true;
+                        nextTick(() => {
+                            lucide.createIcons();
+                        });
+                    } catch (err) {
+                        console.error(err);
+                        notify('Import Error', 'JSON không hợp lệ: ' + err.message, 'error');
                     }
                 };
 
                 const saveFile = async () => {
-                    if (!fileHandle.value) return;
-                    try {
-                        const writable = await fileHandle.value.createWritable();
-                        const content = minimizeJson.value 
-                            ? JSON.stringify(data.value) 
-                            : JSON.stringify(data.value, null, 4);
-                        await writable.write(content);
-                        await writable.close();
-                        hasChanges.value = false;
-                        notify('Saved!', `File hls.json has been updated (${minimizeJson.value ? 'Minified' : 'Pretty'}).`);
-                    } catch (err) {
-                        console.error(err);
-                        notify('Error', 'Could not save file', 'error');
+                    if (fileHandle.value) {
+                        try {
+                            const writable = await fileHandle.value.createWritable();
+                            const content = minimizeJson.value 
+                                ? JSON.stringify(data.value) 
+                                : JSON.stringify(data.value, null, 4);
+                            await writable.write(content);
+                            await writable.close();
+                            hasChanges.value = false;
+                            notify('Saved!', `File hls.json has been updated (${minimizeJson.value ? 'Minified' : 'Pretty'}).`);
+                        } catch (err) {
+                            console.error(err);
+                            notify('Error', 'Could not save file', 'error');
+                        }
+                    } else if (data.value) {
+                        // Fallback: Download file
+                        try {
+                            const content = minimizeJson.value 
+                                ? JSON.stringify(data.value) 
+                                : JSON.stringify(data.value, null, 4);
+                            const blob = new Blob([content], { type: 'application/json' });
+                            const url = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = url;
+                            a.download = fileName.value || 'hls.json';
+                            a.click();
+                            URL.revokeObjectURL(url);
+                            hasChanges.value = false;
+                            notify('Downloaded', 'File has been downloaded to your computer.');
+                        } catch (err) {
+                            console.error(err);
+                            notify('Error', 'Could not generate download', 'error');
+                        }
                     }
                 };
 
@@ -637,7 +947,10 @@
                             const content = await response.text();
                             data.value = JSON.parse(content);
                             fileName.value = 'hls.json (Default)';
-                            if (data.value.length > 0) selectedGroupId.value = data.value[0].id;
+                            if (data.value.length > 0) {
+                                selectedGroupId.value = data.value[0].id;
+                                expandedGroups.value = [data.value[0].id];
+                            }
                             hasChanges.value = false;
                             nextTick(() => lucide.createIcons());
                         }
@@ -724,15 +1037,33 @@
                     notify('Reordered', 'Category order updated.');
                 };
 
+                const toggleGroup = (groupId) => {
+                    const idx = expandedGroups.value.indexOf(groupId);
+                    if (idx === -1) expandedGroups.value.push(groupId);
+                    else expandedGroups.value.splice(idx, 1);
+                };
+
                 const handleDragEnd = (event) => {
                     event.target.classList.remove('dragging');
                     draggedGroup.value = null;
                 };
 
                 const draggedChannel = ref(null);
+                const draggedChannelSourceGroup = ref(null);
 
                 const handleChannelDragStart = (ch, event) => {
-                    if (searchQuery.value) return;
+                    if (searchQuery.value && !isSelectionMode) {
+                        // Nếu đang search, chúng ta cần tìm group chứa channel này
+                        for (const g of data.value) {
+                            if (g.channels.some(c => c.id === ch.id)) {
+                                draggedChannelSourceGroup.value = g;
+                                break;
+                            }
+                        }
+                    } else {
+                        draggedChannelSourceGroup.value = currentGroup.value;
+                    }
+
                     draggedChannel.value = ch;
                     event.dataTransfer.effectAllowed = 'move';
                     event.target.classList.add('dragging');
@@ -772,9 +1103,72 @@
                     }
                 };
 
+                const handleChannelDragOverOnSidebar = (ch, event) => {
+                    if (draggedChannel.value && draggedChannel.value.id !== ch.id) {
+                        event.currentTarget.classList.add('drag-over');
+                    }
+                };
+
+                const handleChannelDropOnSidebar = (targetCh, targetGroup, event) => {
+                    event.currentTarget.classList.remove('drag-over');
+                    if (!draggedChannel.value) return;
+
+                    // Nếu thả lên một channel khác -> Merge
+                    if (targetCh && draggedChannel.value.id !== targetCh.id) {
+                        mergePayload.value = {
+                            primary: targetCh,
+                            secondary: [draggedChannel.value],
+                            targetGroup: targetGroup,
+                            sourceGroup: currentGroup.value
+                        };
+                        selectedChannelIds.value = [targetCh.id, draggedChannel.value.id];
+                        primaryMergeChannelId.value = targetCh.id;
+                        showMergeModal.value = true;
+                    } 
+                    // Nếu thả lên một Category (đã xử lý ở handleDrop phía dưới)
+                };
+
+                // Cập nhật handleDrop của Category để hỗ trợ di chuyển channel
+                const originalHandleDrop = handleDrop;
+                const enhancedHandleDrop = (targetGroup, event) => {
+                    event.currentTarget.classList.remove('drag-over');
+                    
+                    if (draggedChannel.value) {
+                        // Di chuyển channel sang group mới
+                        const sourceGroup = draggedChannelSourceGroup.value;
+                        if (!sourceGroup || sourceGroup.id === targetGroup.id) return;
+
+                        const chIdx = sourceGroup.channels.findIndex(c => c.id === draggedChannel.value.id);
+                        if (chIdx !== -1) {
+                            sourceGroup.channels.splice(chIdx, 1);
+                            targetGroup.channels.push(draggedChannel.value);
+                            hasChanges.value = true;
+                            notify('Moved', `Đã chuyển ${draggedChannel.value.name} sang ${targetGroup.name}`);
+                        }
+                        return;
+                    }
+
+                    if (draggedGroup.value) {
+                        // Logic reorder group cũ
+                        if (draggedGroup.value.id === targetGroup.id) return;
+                        const groups = [...data.value].sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0));
+                        const draggedIdx = groups.findIndex(g => g.id === draggedGroup.value.id);
+                        const targetIdx = groups.findIndex(g => g.id === targetGroup.id);
+                        groups.splice(draggedIdx, 1);
+                        groups.splice(targetIdx, 0, draggedGroup.value);
+                        groups.forEach((g, i) => {
+                            const og = data.value.find(item => item.id === g.id);
+                            if (og) og.sortOrder = i + 1;
+                        });
+                        hasChanges.value = true;
+                        notify('Reordered', 'Category order updated.');
+                    }
+                };
+
                 const handleChannelDragEnd = (event) => {
                     event.target.classList.remove('dragging');
                     draggedChannel.value = null;
+                    draggedChannelSourceGroup.value = null;
                 };
 
                 onMounted(() => {
@@ -786,14 +1180,77 @@
                     nextTick(() => lucide.createIcons());
                 }, { deep: true });
 
+                watch(showImportModal, (val) => {
+                    if (val) nextTick(() => lucide.createIcons());
+                });
+
+                const toggleSelection = (id) => {
+                    const idx = selectedChannelIds.value.indexOf(id);
+                    if (idx === -1) selectedChannelIds.value.push(id);
+                    else selectedChannelIds.value.splice(idx, 1);
+                };
+
+                const handleMergeChannels = () => {
+                    if (selectedChannelIds.value.length < 2) return;
+                    primaryMergeChannelId.value = selectedChannelIds.value[0];
+                    showMergeModal.value = true;
+                };
+
+                const executeMerge = () => {
+                    const targetGroup = mergePayload.value?.targetGroup || currentGroup.value;
+                    const sourceGroup = mergePayload.value?.sourceGroup || currentGroup.value;
+
+                    if (!primaryMergeChannelId.value || !targetGroup) return;
+
+                    const primaryCh = targetGroup.channels.find(c => c.id === primaryMergeChannelId.value);
+                    if (!primaryCh) return;
+
+                    const otherChannels = [];
+                    // Thu thập các channel phụ từ cả sourceGroup và currentGroup
+                    selectedChannelIds.value.forEach(id => {
+                        if (id === primaryMergeChannelId.value) return;
+                        let ch = sourceGroup.channels.find(c => c.id === id);
+                        if (!ch) ch = targetGroup.channels.find(c => c.id === id);
+                        if (!ch && currentGroup.value) ch = currentGroup.value.channels.find(c => c.id === id);
+                        if (ch) otherChannels.push(ch);
+                    });
+
+                    // Gộp name vào tags
+                    const secondaryNames = otherChannels.map(c => c.name);
+                    if (!primaryCh.tags) primaryCh.tags = [];
+                    primaryCh.tags = [...new Set([...primaryCh.tags, ...secondaryNames])];
+
+                    otherChannels.forEach(oc => {
+                        // Tìm trong cả sourceGroup và targetGroup vì có thể kéo từ ngoài vào
+                        let idx = sourceGroup.channels.indexOf(oc);
+                        if (idx !== -1) sourceGroup.channels.splice(idx, 1);
+                        else {
+                            idx = targetGroup.channels.indexOf(oc);
+                            if (idx !== -1) targetGroup.channels.splice(idx, 1);
+                        }
+                    });
+
+                    // Hoàn tất
+                    showMergeModal.value = false;
+                    isSelectionMode.value = false;
+                    selectedChannelIds.value = [];
+                    mergePayload.value = null;
+                    hasChanges.value = true;
+                    notify('Merged', `Đã gộp ${secondaryNames.length} kênh vào ${primaryCh.name}.`);
+                    nextTick(() => lucide.createIcons());
+                };
+
                 return {
                     data, fileHandle, fileName, hasChanges, selectedGroupId, searchQuery,
                     editingChannel, isNewChannel, newTagInput, notification, minimizeJson,
+                    showImportModal, importJsonInput, importMode,
+                    isSelectionMode, selectedChannelIds, showMergeModal, primaryMergeChannelId,
                     sortedGroups, currentGroup, filteredChannels,
-                    openFile, saveFile, getIcon, fallbackLogo, editChannel, addChannel, duplicateChannel, removeChannel, saveChannelEdit, addTag, handleTagPaste, addCategory, editCategory, moveGroup, sortChannels,
+                    openFile, handleFallbackFile, saveFile, getIcon, fallbackLogo, editChannel, addChannel, duplicateChannel, removeChannel, saveChannelEdit, addTag, handleTagPaste, addCategory, editCategory, moveGroup, sortChannels,
                     handleDragStart, handleDragOver, handleDragLeave, handleDrop, handleDragEnd,
                     handleChannelDragStart, handleChannelDragOver, handleChannelDragLeave, handleChannelDrop, handleChannelDragEnd,
-                    sortEditingTags
+                    sortEditingTags, handleImportJson, toggleSelection, handleMergeChannels, executeMerge,
+                    expandedGroups, toggleGroup, handleChannelDragOverOnSidebar, handleChannelDropOnSidebar, enhancedHandleDrop
                 };
             }
         }).mount('#app');

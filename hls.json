@@ -204,17 +204,20 @@
                 "id": "onviegiaitri",
                 "name": "ON Vie Giải trí",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onviegiaitri.png",
-                "thumbnail": "https://cdn-img.onlivetv.vn/prod/720x405/06800aef-236e-4568-8177-74cef1a50c3b.jpg",
+                "thumbnail": "",
                 "tags": [
-                    "ON Vie Giải Trí"
-                ]
+                    "ON Vie Giải Trí",
+                    "VTVcab 1 - Vie Giải Trí HD"
+                ],
+                "enabled": true
             },
             {
                 "id": "onphimviet",
                 "name": "ON Phim Việt",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onphimviet.png",
                 "tags": [
-                    "ON Phim Việt"
+                    "ON Phim Việt",
+                    "VTVcab 2 - Phim Việt HD"
                 ]
             },
             {
@@ -230,7 +233,8 @@
                 "name": "ON Movies",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onmovies.png",
                 "tags": [
-                    "On Movies"
+                    "On Movies",
+                    "Vtvcab 4 – On Movies"
                 ]
             },
             {
@@ -239,7 +243,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onechannel.png",
                 "tags": [
                     "ON EChannel",
-                    "ON E- Channel"
+                    "ON E- Channel",
+                    "VTVcab 5 - E Channel HD"
                 ]
             },
             {
@@ -255,7 +260,8 @@
                 "name": "ON O2TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/ono2tv.png",
                 "tags": [
-                    "On O2TV"
+                    "On O2TV",
+                    "O2TV"
                 ]
             },
             {
@@ -263,7 +269,8 @@
                 "name": "ON BiBi",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onbibi.png",
                 "tags": [
-                    "On BiBi"
+                    "On BiBi",
+                    "VTVcab 8 Bibi SD"
                 ]
             },
             {
@@ -271,7 +278,8 @@
                 "name": "ON Info TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/oninfotv.png",
                 "tags": [
-                    "ON Info TV"
+                    "ON Info TV",
+                    "VTVcab 9 - InfoTV HD"
                 ]
             },
             {
@@ -279,7 +287,8 @@
                 "name": "ON Cine",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/oncine.png",
                 "tags": [
-                    "ON Cine"
+                    "ON Cine",
+                    "VTVcab10 - On Cine HD"
                 ]
             },
             {
@@ -287,21 +296,25 @@
                 "name": "ON Style TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onstyle.png",
                 "tags": [
-                    "ON Style TV"
+                    "ON Style TV",
+                    "VTVcab 12 - StyleTV HD"
                 ]
             },
             {
                 "id": "onhomeshopping",
                 "name": "ON Home Shopping",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onhomeshopping.png",
-                "tags": []
+                "tags": [
+                    "VTVcab13-On Homeshopping"
+                ]
             },
             {
                 "id": "onmusic",
                 "name": "ON Music",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onmusic.png",
                 "tags": [
-                    "On Music"
+                    "On Music",
+                    "VTVcab15 – On Music"
                 ]
             },
             {
@@ -317,7 +330,8 @@
                 "name": "ON Trending TV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/ontrending.png",
                 "tags": [
-                    "ON TRENDING TV"
+                    "ON TRENDING TV",
+                    "Vtvcab17 – Trending TV"
                 ]
             },
             {
@@ -333,7 +347,8 @@
                 "name": "ON Vie Dramas",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onviedramas.png",
                 "tags": [
-                    "ON Vie Dramas"
+                    "ON Vie Dramas",
+                    "VTVcab19 – Vie Dramas"
                 ]
             },
             {
@@ -341,7 +356,8 @@
                 "name": "ON VFamily",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onvfamily.png",
                 "tags": [
-                    "ON V Family"
+                    "ON V Family",
+                    "VTVcab 20 - V Family HD"
                 ]
             },
             {
@@ -349,7 +365,8 @@
                 "name": "ON Kids",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onkids.png",
                 "tags": [
-                    "On Kids"
+                    "On Kids",
+                    "VTVcab 21- Cartoon Kids HD"
                 ]
             },
             {
@@ -357,7 +374,8 @@
                 "name": "ON Life",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onlife.png",
                 "tags": [
-                    "On Life"
+                    "On Life",
+                    "VTVcab 22 - Life TV HD"
                 ]
             },
             {
@@ -365,7 +383,8 @@
                 "name": "ON Golf",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/ongolf.png",
                 "tags": [
-                    "ON Golf HD"
+                    "ON Golf HD",
+                    "VTVcab 23 - Golf Channel(Kênh VTV Cab)"
                 ]
             },
             {
@@ -534,7 +553,8 @@
                     "binhduong1",
                     "binhduong2",
                     "HTV1 HD"
-                ]
+                ],
+                "sortOrder": 1
             },
             {
                 "id": "htv2hd",
@@ -542,7 +562,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv2hd.png",
                 "tags": [
                     "HTV2 HD"
-                ]
+                ],
+                "sortOrder": 2
             },
             {
                 "id": "htv3",
@@ -550,7 +571,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv3.png",
                 "tags": [
                     "HTV3 HD"
-                ]
+                ],
+                "sortOrder": 3
             },
             {
                 "id": "htvkey",
@@ -559,7 +581,8 @@
                 "tags": [
                     "HTV Key HD",
                     "HTV4 HD | HTV Key"
-                ]
+                ],
+                "sortOrder": 4
             },
             {
                 "id": "anvienhd",
@@ -568,8 +591,10 @@
                 "tags": [
                     "btv9",
                     "binhduong9",
-                    "BTV9"
-                ]
+                    "BTV9",
+                    "An Viên HD"
+                ],
+                "sortOrder": 5
             },
             {
                 "id": "htv7hd",
@@ -577,7 +602,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htv7hd.png",
                 "tags": [
                     "HTV7 HD"
-                ]
+                ],
+                "sortOrder": 6
             },
             {
                 "id": "htv9hd",
@@ -586,7 +612,8 @@
                 "tags": [
                     "htv bình dương 1",
                     "HTV9 HD"
-                ]
+                ],
+                "sortOrder": 7
             },
             {
                 "id": "htvthethaohd",
@@ -596,7 +623,8 @@
                     "baria",
                     "vungtau",
                     "HTV Thể Thao"
-                ]
+                ],
+                "sortOrder": 8
             },
             {
                 "id": "htvccanhachd",
@@ -604,7 +632,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvccanhachd.png",
                 "tags": [
                     "HTVC Ca Nhạc"
-                ]
+                ],
+                "sortOrder": 9
             },
             {
                 "id": "htvcdulichhd",
@@ -612,7 +641,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcdulichhd.png",
                 "tags": [
                     "HTVC Du Lịch"
-                ]
+                ],
+                "sortOrder": 10
             },
             {
                 "id": "htvcgiadinhhd",
@@ -620,7 +650,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcgiadinhhd.png",
                 "tags": [
                     "HTVC Gia Đình"
-                ]
+                ],
+                "sortOrder": 11
             },
             {
                 "id": "htvcphimhd",
@@ -628,7 +659,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcphimhd.png",
                 "tags": [
                     "HTVC Phim"
-                ]
+                ],
+                "sortOrder": 12
             },
             {
                 "id": "htvcphunuhd",
@@ -636,7 +668,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv/htvcphunuhd.png",
                 "tags": [
                     "HTVC Phụ Nữ"
-                ]
+                ],
+                "sortOrder": 13
             },
             {
                 "id": "htvcplushd",
@@ -645,7 +678,8 @@
                 "tags": [
                     "htvcplus",
                     "HTVC Plus"
-                ]
+                ],
+                "sortOrder": 14
             },
             {
                 "id": "htvcthuanviet",
@@ -654,7 +688,8 @@
                 "tags": [
                     "HTVC Thuần Việt HD",
                     "HTVC THUAN VIET"
-                ]
+                ],
+                "sortOrder": 15
             }
         ]
     },
@@ -675,19 +710,21 @@
             },
             {
                 "id": "sctv2hd",
-                "name": "SCTV2 HD - TODAY TV",
+                "name": "SCTV2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv2hd.png",
                 "tags": [
                     "SCTV2 HD - TODAY TV"
-                ]
+                ],
+                "enabled": true
             },
             {
                 "id": "sctv3hd",
-                "name": "SCTV3 - SEE TV",
+                "name": "SCTV3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv/sctv3hd.png",
                 "tags": [
                     "SCTV3 - SEE TV"
-                ]
+                ],
+                "enabled": true
             },
             {
                 "id": "sctv4hd",
@@ -998,7 +1035,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus1.png",
                 "tags": [
                     "TV360+1"
-                ]
+                ],
+                "enabled": true
             },
             {
                 "id": "tv360plus2",
@@ -1006,7 +1044,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus2.png",
                 "tags": [
                     "TV360+2"
-                ]
+                ],
+                "enabled": true
             },
             {
                 "id": "tv360plus3",
@@ -1014,7 +1053,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus3.png",
                 "tags": [
                     "TV360+3"
-                ]
+                ],
+                "enabled": true
             },
             {
                 "id": "tv360plus4",
@@ -1115,7 +1155,7 @@
                     "quocphong",
                     "QPVN HD"
                 ],
-                "sortOrder": 1
+                "sortOrder": 2
             },
             {
                 "id": "hitv",
@@ -1125,7 +1165,7 @@
                     "hitv",
                     "HiTV"
                 ],
-                "sortOrder": 2
+                "sortOrder": 4
             },
             {
                 "id": "youtv",
@@ -1135,7 +1175,7 @@
                     "youtv",
                     "You TV"
                 ],
-                "sortOrder": 2
+                "sortOrder": 5
             },
             {
                 "id": "angiang1",
@@ -1145,7 +1185,8 @@
                     "kiengiang",
                     "ATV1 - Báo và PTTH An Giang",
                     "ATV1 HD | TH An Giang"
-                ]
+                ],
+                "sortOrder": 6
             },
             {
                 "id": "angiang2",
@@ -1155,7 +1196,8 @@
                     "angiang",
                     "ATV2 | Báo và PTTH An Giang",
                     "ATV2 HD | TH An Giang"
-                ]
+                ],
+                "sortOrder": 7
             },
             {
                 "id": "angiang3",
@@ -1165,7 +1207,8 @@
                     "kiengiang1",
                     "ATV3 - Báo và PTTH An Giang",
                     "ATV3 HD | TH An Giang"
-                ]
+                ],
+                "sortOrder": 8
             },
             {
                 "id": "bacninh",
@@ -1175,7 +1218,8 @@
                     "bacgiang",
                     "BTV - Báo và PTTH Bắc Ninh",
                     "TTV | TH Bắc Ninh"
-                ]
+                ],
+                "sortOrder": 9
             },
             {
                 "id": "btv6",
@@ -1183,7 +1227,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/btv6.png",
                 "tags": [
                     "btv6"
-                ]
+                ],
+                "sortOrder": 10
             },
             {
                 "id": "camau",
@@ -1193,7 +1238,8 @@
                     "baclieu",
                     "CTV HD - Báo và PTTH Cà Mau",
                     "CTV HD | TH Cà Mau"
-                ]
+                ],
+                "sortOrder": 11
             },
             {
                 "id": "caobang",
@@ -1202,7 +1248,8 @@
                 "tags": [
                     "CRTV HD - Báo Cao Bằng",
                     "CRTV HD | TH Cao Bằng"
-                ]
+                ],
+                "sortOrder": 12
             },
             {
                 "id": "cantho1",
@@ -1212,7 +1259,8 @@
                     "cantho",
                     "THTPCT1 HD - Báo và PTTH Cần Thơ",
                     "THTPCT HD | TH Cần Thơ"
-                ]
+                ],
+                "sortOrder": 13
             },
             {
                 "id": "cantho2",
@@ -1221,7 +1269,8 @@
                 "tags": [
                     "haugiang",
                     "THTPCT2 HD - Báo và PTTH Cần Thơ"
-                ]
+                ],
+                "sortOrder": 14
             },
             {
                 "id": "cantho3",
@@ -1231,7 +1280,8 @@
                     "soctrang",
                     "soctrang1",
                     "THTPCT3 HD - Báo và PTTH Cần Thơ"
-                ]
+                ],
+                "sortOrder": 15
             },
             {
                 "id": "danang1",
@@ -1240,7 +1290,8 @@
                 "tags": [
                     "ĐNRT1 - Báo và PTTH Đà Nẵng",
                     "DaNang1 HD | TH Đà Nẵng"
-                ]
+                ],
+                "sortOrder": 16
             },
             {
                 "id": "danang2",
@@ -1250,7 +1301,8 @@
                     "quangnam",
                     "ĐNRT2 - Báo và PTTH Đà Nẵng",
                     "DaNang2 HD | TH Đà Nẵng"
-                ]
+                ],
+                "sortOrder": 17
             },
             {
                 "id": "daklak",
@@ -1260,7 +1312,8 @@
                     "phuyen",
                     "DRT HD - Báo và PTTH Đắk Lắk",
                     "DRT HD | TH Đắk Lắk"
-                ]
+                ],
+                "sortOrder": 18
             },
             {
                 "id": "dienbien",
@@ -1269,7 +1322,8 @@
                 "tags": [
                     "ĐTV HD - Báo Điện Biên Phủ",
                     "ĐTV HD | TH Điện Biên"
-                ]
+                ],
+                "sortOrder": 19
             },
             {
                 "id": "dongnai1",
@@ -1281,7 +1335,8 @@
                     "BPTV2 HD | TH Bình Phước",
                     "ĐNNRTV1 - Báo và PTTH Đồng Nai",
                     "DN1 HD | TH Đồng Nai"
-                ]
+                ],
+                "sortOrder": 20
             },
             {
                 "id": "dongnai2",
@@ -1289,7 +1344,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/dongnai2.png",
                 "tags": [
                     "ĐNNRTV2 - Báo và PTTH Đồng Nai"
-                ]
+                ],
+                "sortOrder": 21
             },
             {
                 "id": "dongnai3",
@@ -1297,7 +1353,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/dongnai3.png",
                 "tags": [
                     "ĐNNRTV3 - Báo và PTTH Đồng Nai"
-                ]
+                ],
+                "sortOrder": 22
             },
             {
                 "id": "dongthap1",
@@ -1307,7 +1364,8 @@
                     "dongthap",
                     "THĐT1 HD - Báo và PTTH Đồng Tháp",
                     "THĐT1 HD | TH Đồng Tháp"
-                ]
+                ],
+                "sortOrder": 23
             },
             {
                 "id": "dongthap2",
@@ -1317,7 +1375,8 @@
                     "tiengiang",
                     "THĐT2 - Báo và PTTH Đồng Tháp",
                     "THĐT2 Miền Tây"
-                ]
+                ],
+                "sortOrder": 24
             },
             {
                 "id": "gialai",
@@ -1327,7 +1386,8 @@
                     "binhdinh",
                     "GTV - Báo và PTTH Gia Lai",
                     "GTV HD | TH Gia Lai"
-                ]
+                ],
+                "sortOrder": 25
             },
             {
                 "id": "hanoi1",
@@ -1336,7 +1396,8 @@
                 "tags": [
                     "Hà Nội 1 HD - Đài Hà Nội",
                     "HANOI1 HD | TH Hà Nội"
-                ]
+                ],
+                "sortOrder": 26
             },
             {
                 "id": "hanoi2",
@@ -1345,7 +1406,8 @@
                 "tags": [
                     "Hà Nội 2 HD - Đài Hà Nội",
                     "HANOI2 HD | TH Hà Nội"
-                ]
+                ],
+                "sortOrder": 27
             },
             {
                 "id": "hatinh",
@@ -1354,7 +1416,8 @@
                 "tags": [
                     "BHTTV - Báo Hà Tĩnh",
                     "HTTV HD | TH Hà Tĩnh"
-                ]
+                ],
+                "sortOrder": 28
             },
             {
                 "id": "haiphong",
@@ -1363,7 +1426,8 @@
                 "tags": [
                     "THP HD - Báo và PTTH Hải Phòng",
                     "THP HD | TH Hải Phòng"
-                ]
+                ],
+                "sortOrder": 29
             },
             {
                 "id": "haiphong3",
@@ -1372,7 +1436,8 @@
                 "tags": [
                     "haiduong",
                     "THP3 HD - Báo và PTTH Hải Phòng"
-                ]
+                ],
+                "sortOrder": 30
             },
             {
                 "id": "haiphongplus",
@@ -1380,7 +1445,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/haiphongplus.png",
                 "tags": [
                     "THP+ HD - Báo và PTTH Hải Phòng"
-                ]
+                ],
+                "sortOrder": 31
             },
             {
                 "id": "hue",
@@ -1389,7 +1455,8 @@
                 "tags": [
                     "Huế TV - Báo và PTTH Huế",
                     "TRT HD | TH Thừa Thiên Huế"
-                ]
+                ],
+                "sortOrder": 32
             },
             {
                 "id": "hungyen",
@@ -1399,7 +1466,8 @@
                     "thaibinh",
                     "HYTV HD - Báo và PTTH Hưng Yên",
                     "HY HD | TH Hưng Yên"
-                ]
+                ],
+                "sortOrder": 33
             },
             {
                 "id": "khanhhoa",
@@ -1408,7 +1476,8 @@
                 "tags": [
                     "KTV HD - Báo và PTTH Khánh Hòa",
                     "KTV HD | TH Khánh Hòa"
-                ]
+                ],
+                "sortOrder": 34
             },
             {
                 "id": "khanhhoa1",
@@ -1417,7 +1486,8 @@
                 "tags": [
                     "ninhthuan",
                     "KTV1 HD - Báo và PTTH Khánh Hòa"
-                ]
+                ],
+                "sortOrder": 35
             },
             {
                 "id": "laichau",
@@ -1426,7 +1496,8 @@
                 "tags": [
                     "LTV - Báo Lai Châu",
                     "LTV HD | TH Lai Châu"
-                ]
+                ],
+                "sortOrder": 36
             },
             {
                 "id": "langson",
@@ -1435,7 +1506,8 @@
                 "tags": [
                     "LSTV HD - Báo và PTTH Lạng Sơn",
                     "LSTV HD | TH Lạng Sơn"
-                ]
+                ],
+                "sortOrder": 37
             },
             {
                 "id": "laocai",
@@ -1446,7 +1518,8 @@
                     "YTV HD | TH Yên Bái",
                     "THLC HD - Báo và PTTH Lào Cai",
                     "THLC HD | TH Lào Cai"
-                ]
+                ],
+                "sortOrder": 38
             },
             {
                 "id": "lamdong1",
@@ -1456,7 +1529,8 @@
                     "lamdong",
                     "LTV1 HD - Báo và PTTH Lâm Đồng",
                     "LTV1 HD | TH Lâm Đồng"
-                ]
+                ],
+                "sortOrder": 39
             },
             {
                 "id": "lamdong2",
@@ -1465,7 +1539,8 @@
                 "tags": [
                     "binhthuan",
                     "LTV2 HD - Báo và PTTH Lâm Đồng"
-                ]
+                ],
+                "sortOrder": 40
             },
             {
                 "id": "lamdong3",
@@ -1474,7 +1549,19 @@
                 "tags": [
                     "daknong",
                     "LTV3 HD - Báo và PTTH Lâm Đồng"
-                ]
+                ],
+                "sortOrder": 41
+            },
+            {
+                "id": "thainguyen",
+                "name": "Thái Nguyên",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/thainguyen.png",
+                "tags": [
+                    "backan",
+                    "TBK HD | TH Bắc Kạn",
+                    "TN - Báo và PTTH Thái Nguyên"
+                ],
+                "sortOrder": 42
             },
             {
                 "id": "nghean",
@@ -1483,7 +1570,8 @@
                 "tags": [
                     "NTV - Báo và PTTH Nghệ An",
                     "NTV HD | TH Nghệ An"
-                ]
+                ],
+                "sortOrder": 43
             },
             {
                 "id": "ninhbinh",
@@ -1494,7 +1582,8 @@
                     "namdinh",
                     "NBTV - Báo và PTTH Ninh Bình",
                     "NBTV HD | TH Ninh Bình"
-                ]
+                ],
+                "sortOrder": 44
             },
             {
                 "id": "phutho",
@@ -1505,7 +1594,8 @@
                     "vinhphuc",
                     "PTV HD - Báo và PTTH Phú Thọ",
                     "PTV HD | TH Phú Thọ"
-                ]
+                ],
+                "sortOrder": 45
             },
             {
                 "id": "quangngai",
@@ -1517,7 +1607,8 @@
                     "QNgTV - Báo và PTTH Quảng Ngãi",
                     "quangngai1",
                     "PTQ HD | TH Quảng Ngãi"
-                ]
+                ],
+                "sortOrder": 46
             },
             {
                 "id": "quangngai2",
@@ -1526,7 +1617,8 @@
                 "tags": [
                     "QNgTV2 - Báo và PTTH Quảng Ngãi",
                     "quangngai2"
-                ]
+                ],
+                "sortOrder": 47
             },
             {
                 "id": "quangninh1",
@@ -1535,7 +1627,8 @@
                 "tags": [
                     "QTV1 HD - Trung tâm truyền thông Quảng Ninh",
                     "QTV1 HD | TH Quảng Ninh"
-                ]
+                ],
+                "sortOrder": 48
             },
             {
                 "id": "quangninh3",
@@ -1543,7 +1636,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/quangninh3.png",
                 "tags": [
                     "QTV3 HD - Trung tâm truyền thông Quảng Ninh"
-                ]
+                ],
+                "sortOrder": 49
             },
             {
                 "id": "quangtri",
@@ -1552,7 +1646,8 @@
                 "tags": [
                     "quangbinh",
                     "QTTV - Báo và PTTH Quảng Trị"
-                ]
+                ],
+                "sortOrder": 50
             },
             {
                 "id": "sonla",
@@ -1560,7 +1655,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/sonla.png",
                 "tags": [
                     "STV HD - Báo và PTTH Sơn La"
-                ]
+                ],
+                "sortOrder": 51
             },
             {
                 "id": "tayninh1",
@@ -1569,7 +1665,8 @@
                 "tags": [
                     "longan",
                     "TTV1 - Báo và PTTH Tây Ninh"
-                ]
+                ],
+                "sortOrder": 52
             },
             {
                 "id": "tayninh2",
@@ -1578,17 +1675,8 @@
                 "tags": [
                     "tayninh",
                     "TTV2 - Báo và PTTH Tây Ninh"
-                ]
-            },
-            {
-                "id": "thainguyen",
-                "name": "Thái Nguyên",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/thainguyen.png",
-                "tags": [
-                    "backan",
-                    "TBK HD | TH Bắc Kạn",
-                    "TN - Báo và PTTH Thái Nguyên"
-                ]
+                ],
+                "sortOrder": 53
             },
             {
                 "id": "thanhhoa",
@@ -1596,7 +1684,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/thanhhoa.png",
                 "tags": [
                     "TTV HD - Báo và PTTH Thanh Hóa"
-                ]
+                ],
+                "sortOrder": 54
             },
             {
                 "id": "tuyenquang",
@@ -1605,7 +1694,8 @@
                 "tags": [
                     "hagiang",
                     "TTV HD - Báo và PTTH Tuyên Quang"
-                ]
+                ],
+                "sortOrder": 55
             },
             {
                 "id": "vinhlong1hd",
@@ -1613,7 +1703,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong1hd.png",
                 "tags": [
                     "THVL1 HD - Báo và PTTH Vĩnh Long"
-                ]
+                ],
+                "sortOrder": 56
             },
             {
                 "id": "vinhlong2hd",
@@ -1622,7 +1713,8 @@
                 "tags": [
                     "bentre",
                     "THVL2 HD - Báo và PTTH Vĩnh Long"
-                ]
+                ],
+                "sortOrder": 57
             },
             {
                 "id": "vinhlong3hd",
@@ -1630,7 +1722,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong3hd.png",
                 "tags": [
                     "THVL3 HD - Báo và PTTH Vĩnh Long"
-                ]
+                ],
+                "sortOrder": 58
             },
             {
                 "id": "vinhlong4hd",
@@ -1638,7 +1731,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong4hd.png",
                 "tags": [
                     "THVL4 HD - Báo và PTTH Vĩnh Long"
-                ]
+                ],
+                "sortOrder": 59
             },
             {
                 "id": "vinhlong5hd",
@@ -1649,7 +1743,8 @@
                     "travinh1",
                     "THTV2 HD | TH Trà Vinh",
                     "THVL5 HD - Báo và PTTH Vĩnh Long"
-                ]
+                ],
+                "sortOrder": 60
             }
         ]
     },
@@ -1666,7 +1761,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/abcaustralia.png",
                 "tags": [
                     "ABC Australia"
-                ]
+                ],
+                "sortOrder": 1
             },
             {
                 "id": "animalhd",
@@ -1674,7 +1770,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/animalhd.png",
                 "tags": [
                     "Animal Planet"
-                ]
+                ],
+                "sortOrder": 2
             },
             {
                 "id": "animaxhd",
@@ -1682,7 +1779,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/animaxhd.png",
                 "tags": [
                     "Animax"
-                ]
+                ],
+                "sortOrder": 3
             },
             {
                 "id": "arirang",
@@ -1690,7 +1788,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/arirang.png",
                 "tags": [
                     "Arirang"
-                ]
+                ],
+                "sortOrder": 4
             },
             {
                 "id": "afnhd",
@@ -1698,7 +1797,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/afnhd.png",
                 "tags": [
                     "Asian Food Network"
-                ]
+                ],
+                "sortOrder": 5
             },
             {
                 "id": "axnhd",
@@ -1706,7 +1806,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/axnhd.png",
                 "tags": [
                     "AXN"
-                ]
+                ],
+                "sortOrder": 6
             },
             {
                 "id": "babytvhd",
@@ -1714,7 +1815,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/babytvhd.png",
                 "tags": [
                     "Baby TV"
-                ]
+                ],
+                "sortOrder": 7
             },
             {
                 "id": "cbeebies",
@@ -1724,7 +1826,8 @@
                     "BBC CBeeBies%",
                     "BBC CBeeBies (HD 9Mbps)",
                     "BBC Cbeebies"
-                ]
+                ],
+                "sortOrder": 8
             },
             {
                 "id": "bbcearth",
@@ -1732,7 +1835,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bbcearth.png",
                 "tags": [
                     "BBC Earth"
-                ]
+                ],
+                "sortOrder": 9
             },
             {
                 "id": "bbclifestyle",
@@ -1740,7 +1844,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bbclifestyle.png",
                 "tags": [
                     "BBC Lifestyle"
-                ]
+                ],
+                "sortOrder": 10
             },
             {
                 "id": "bbcworldnews",
@@ -1748,7 +1853,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/bbcworldnews.png",
                 "tags": [
                     "BBC World News"
-                ]
+                ],
+                "sortOrder": 11
             },
             {
                 "id": "bloomberg",
@@ -1757,7 +1863,8 @@
                 "tags": [
                     "Bloomberg TV",
                     "Bloomberg"
-                ]
+                ],
+                "sortOrder": 12
             },
             {
                 "id": "boxhits",
@@ -1765,7 +1872,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/boxhits.png",
                 "tags": [
                     "Box Hits"
-                ]
+                ],
+                "sortOrder": 13
             },
             {
                 "id": "boxmovie1",
@@ -1773,7 +1881,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/boxmovie1.png",
                 "tags": [
                     "Box Movie 1"
-                ]
+                ],
+                "sortOrder": 14
             },
             {
                 "id": "cartoonhd",
@@ -1781,7 +1890,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cartoonhd.png",
                 "tags": [
                     "Cartoon Network"
-                ]
+                ],
+                "sortOrder": 15
             },
             {
                 "id": "boomerang",
@@ -1789,7 +1899,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/boomerang.png",
                 "tags": [
                     "Cartoonito"
-                ]
+                ],
+                "sortOrder": 16
             },
             {
                 "id": "cinemaworldhd",
@@ -1798,7 +1909,8 @@
                 "tags": [
                     "CINEMAWORLD",
                     "Cinema World"
-                ]
+                ],
+                "sortOrder": 17
             },
             {
                 "id": "cinemaxhd",
@@ -1807,7 +1919,8 @@
                 "tags": [
                     "CINEMAX",
                     "Cinemax"
-                ]
+                ],
+                "sortOrder": 18
             },
             {
                 "id": "cna",
@@ -1815,7 +1928,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cna.png",
                 "tags": [
                     "CNA"
-                ]
+                ],
+                "sortOrder": 19
             },
             {
                 "id": "cnbc",
@@ -1823,7 +1937,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cnbc.png",
                 "tags": [
                     "CNBC SD"
-                ]
+                ],
+                "sortOrder": 20
             },
             {
                 "id": "cnn",
@@ -1831,7 +1946,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/cnn.png",
                 "tags": [
                     "CNN"
-                ]
+                ],
+                "sortOrder": 21
             },
             {
                 "id": "davinci",
@@ -1840,7 +1956,8 @@
                 "tags": [
                     "davincihd",
                     "Da Vinci"
-                ]
+                ],
+                "sortOrder": 22
             },
             {
                 "id": "discoveryhd",
@@ -1848,7 +1965,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/discoveryhd.png",
                 "tags": [
                     "Discovery"
-                ]
+                ],
+                "sortOrder": 23
             },
             {
                 "id": "discoveryasiahd",
@@ -1856,7 +1974,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/discoveryasiahd.png",
                 "tags": [
                     "Discovery Asia"
-                ]
+                ],
+                "sortOrder": 24
             },
             {
                 "id": "dmax",
@@ -1864,7 +1983,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/dmax.png",
                 "tags": [
                     "DMAX"
-                ]
+                ],
+                "sortOrder": 25
             },
             {
                 "id": "drfithd",
@@ -1872,7 +1992,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/drfithd.png",
                 "tags": [
                     "Dr Fit"
-                ]
+                ],
+                "sortOrder": 26
             },
             {
                 "id": "dreamworks",
@@ -1881,7 +2002,8 @@
                 "tags": [
                     "DREAMWORKS (FMX)",
                     "Dreamworks"
-                ]
+                ],
+                "sortOrder": 27
             },
             {
                 "id": "dw",
@@ -1890,7 +2012,8 @@
                 "tags": [
                     "DW ENGLISH",
                     "DW"
-                ]
+                ],
+                "sortOrder": 28
             },
             {
                 "id": "fashionhd",
@@ -1898,7 +2021,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/fashionhd.png",
                 "tags": [
                     "Fashion TV"
-                ]
+                ],
+                "sortOrder": 29
             },
             {
                 "id": "france24eng",
@@ -1909,7 +2033,8 @@
                     "France 24",
                     "France 24 English"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 30
             },
             {
                 "id": "happykids",
@@ -1917,7 +2042,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/happykids.png",
                 "tags": [
                     "Happy Kids"
-                ]
+                ],
+                "sortOrder": 31
             },
             {
                 "id": "hbohd",
@@ -1925,7 +2051,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hbohd.png",
                 "tags": [
                     "HBO"
-                ]
+                ],
+                "sortOrder": 32
             },
             {
                 "id": "hbofamily",
@@ -1934,7 +2061,8 @@
                 "tags": [
                     "HBO FAMILY",
                     "HBO Family"
-                ]
+                ],
+                "sortOrder": 33
             },
             {
                 "id": "hbohits",
@@ -1943,7 +2071,8 @@
                 "tags": [
                     "HBO HITS",
                     "HBO Hits"
-                ]
+                ],
+                "sortOrder": 34
             },
             {
                 "id": "hbosignaturehd",
@@ -1952,7 +2081,8 @@
                 "tags": [
                     "HBO SIGNATURE",
                     "HBO Signature"
-                ]
+                ],
+                "sortOrder": 35
             },
             {
                 "id": "hgtv",
@@ -1961,7 +2091,8 @@
                 "tags": [
                     "HGTV (FMX)",
                     "HGTV"
-                ]
+                ],
+                "sortOrder": 36
             },
             {
                 "id": "historyhd",
@@ -1969,7 +2100,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/historyhd.png",
                 "tags": [
                     "History"
-                ]
+                ],
+                "sortOrder": 37
             },
             {
                 "id": "hollywoodclassics",
@@ -1977,7 +2109,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/hollywoodclassics.png",
                 "tags": [
                     "Hollywood Classics"
-                ]
+                ],
+                "sortOrder": 38
             },
             {
                 "id": "inthebox",
@@ -1985,7 +2118,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/inthebox.png",
                 "tags": [
                     "In The Box"
-                ]
+                ],
+                "sortOrder": 39
             },
             {
                 "id": "kbsworld",
@@ -1993,7 +2127,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/kbsworld.png",
                 "tags": [
                     "KBS World"
-                ]
+                ],
+                "sortOrder": 40
             },
             {
                 "id": "kix",
@@ -2001,7 +2136,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/kix.png",
                 "tags": [
                     "KIX"
-                ]
+                ],
+                "sortOrder": 41
             },
             {
                 "id": "lovenature",
@@ -2009,7 +2145,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/lovenature.png",
                 "tags": [
                     "Love Nature 4K"
-                ]
+                ],
+                "sortOrder": 42
             },
             {
                 "id": "manhd",
@@ -2017,7 +2154,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/manhd.png",
                 "tags": [
                     "Man HD"
-                ]
+                ],
+                "sortOrder": 43
             },
             {
                 "id": "musicbox",
@@ -2025,7 +2163,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/musicbox.png",
                 "tags": [
                     "Music Box"
-                ]
+                ],
+                "sortOrder": 44
             },
             {
                 "id": "nhkworld",
@@ -2034,7 +2173,8 @@
                 "tags": [
                     "nhk",
                     "NHK World-Japan"
-                ]
+                ],
+                "sortOrder": 45
             },
             {
                 "id": "outdoorhd",
@@ -2043,7 +2183,8 @@
                 "tags": [
                     "outdoor",
                     "Outdoor Channel"
-                ]
+                ],
+                "sortOrder": 46
             },
             {
                 "id": "planetearthhd",
@@ -2051,7 +2192,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/planetearthhd.png",
                 "tags": [
                     "Planet Earth"
-                ]
+                ],
+                "sortOrder": 47
             },
             {
                 "id": "blueantext",
@@ -2059,7 +2201,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantext.png",
                 "tags": [
                     "Rock Action"
-                ]
+                ],
+                "sortOrder": 48
             },
             {
                 "id": "blueantent",
@@ -2067,7 +2210,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/blueantent.png",
                 "tags": [
                     "Rock Entertainment"
-                ]
+                ],
+                "sortOrder": 49
             },
             {
                 "id": "tlchd",
@@ -2075,7 +2219,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/tlchd.png",
                 "tags": [
                     "TLC"
-                ]
+                ],
+                "sortOrder": 50
             },
             {
                 "id": "tv5monde",
@@ -2083,7 +2228,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/tv5monde.png",
                 "tags": [
                     "TV5Monde"
-                ]
+                ],
+                "sortOrder": 51
             },
             {
                 "id": "warnertvhd",
@@ -2091,7 +2237,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/warnertvhd.png",
                 "tags": [
                     "Warner TV"
-                ]
+                ],
+                "sortOrder": 52
             },
             {
                 "id": "woman",
@@ -2099,7 +2246,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/quocte/woman.png",
                 "tags": [
                     "Woman"
-                ]
+                ],
+                "sortOrder": 53
             }
         ]
     },
@@ -2145,7 +2293,9 @@
                 "name": "AL: SuperSport 1",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-1-al.png",
                 "tags": [
-                    "Super Sport 1 🇦🇱"
+                    "Super Sport 1 🇦🇱",
+                    "SuperSport1",
+                    "AL: SUPER SPORT 1"
                 ],
                 "sortOrder": 4
             },
@@ -2154,7 +2304,9 @@
                 "name": "AL: SuperSport 2",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-2-al.png",
                 "tags": [
-                    "Super Sport 2 🇦🇱"
+                    "Super Sport 2 🇦🇱",
+                    "SuperSport2",
+                    "AL: SUPER SPORT 2"
                 ],
                 "sortOrder": 5
             },
@@ -2163,7 +2315,9 @@
                 "name": "AL: SuperSport 3",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-3-al.png",
                 "tags": [
-                    "Super Sport 3 🇦🇱"
+                    "Super Sport 3 🇦🇱",
+                    "SuperSport3",
+                    "AL: SUPER SPORT 3"
                 ],
                 "sortOrder": 6
             },
@@ -2172,7 +2326,8 @@
                 "name": "AL: SuperSport 4",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-4-al.png",
                 "tags": [
-                    "Super Sport 4 🇦🇱"
+                    "Super Sport 4 🇦🇱",
+                    "AL: SUPER SPORT 4"
                 ],
                 "sortOrder": 7
             },
@@ -2190,7 +2345,8 @@
                 "name": "AL: SuperSport 6",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/albania/supersport-6-al.png",
                 "tags": [
-                    "Super Sport 6 🇦🇱"
+                    "Super Sport 6 🇦🇱",
+                    "AL: SUPER SPORT 6 [Live During Events Only]"
                 ],
                 "sortOrder": 9
             },
@@ -2639,7 +2795,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/DAZN.1.de.png",
                 "tags": [
                     "dazn1.de",
-                    "DE:DAZN1"
+                    "DE:DAZN1",
+                    "DAZN 1 DE"
                 ],
                 "sortOrder": 52
             },
@@ -3772,7 +3929,7 @@
             {
                 "id": "Eurosport.1.fr",
                 "name": "FR: Eurosport 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.fr.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/france/eurosport-1-fr.png",
                 "tags": [
                     "FR:Eurosport1.4K+",
                     "FR:Eurosport1.HD+",
@@ -3786,7 +3943,7 @@
             {
                 "id": "Eurosport.2.fr",
                 "name": "FR: Eurosport 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.fr.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/france/eurosport-2-fr.png",
                 "tags": [
                     "FR:Eurosport2.4K+",
                     "FR:Eurosport2.HD+",
@@ -4321,14 +4478,15 @@
                 "name": "IL: 5 SPORT",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/israel/5sport-il.png",
                 "tags": [
-                    "5 SPORT 🇮🇱"
+                    "5 SPORT 🇮🇱",
+                    "IL: SPORT-5"
                 ],
                 "sortOrder": 208
             },
             {
                 "id": "IL.5.Sport.4K",
-                "name": "IL: 5 SPORT 4k",
-                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fepg.pw%2Fmedia%2Fimages%2Fepg%2F2024%2F06%2F08%2F20240608032319157910_40.png",
+                "name": "IL: 5 SPORT 4K",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/israel/5sport4k-il.png",
                 "tags": [
                     "5-sport-4k",
                     "5 SPORT 4k",
@@ -4338,20 +4496,8 @@
                 "sortOrder": 209
             },
             {
-                "id": "5SPORT.HD.il",
-                "name": "IL: SPORT-5",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/5sport-il.png",
-                "tags": [
-                    "sport-5",
-                    "SPORT-5",
-                    "IL:SPORT5"
-                ],
-                "enabled": true,
-                "sortOrder": 210
-            },
-            {
                 "id": "5GOLD.il",
-                "name": "IL: SPORT-5 GOLD",
+                "name": "IL: 5 SPORT GOLD",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/5gold-il.png",
                 "tags": [
                     "sport-5-gold",
@@ -4359,11 +4505,11 @@
                     "IL:SPORT5.GOLD"
                 ],
                 "enabled": true,
-                "sortOrder": 211
+                "sortOrder": 210
             },
             {
                 "id": "5LIVE.HD.il",
-                "name": "IL: SPORT-5 LIVE",
+                "name": "IL: 5 SPORT LIVE",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/5live-il.png",
                 "tags": [
                     "sport-5-live",
@@ -4371,21 +4517,21 @@
                     "IL:SPORT5.LIVE"
                 ],
                 "enabled": true,
-                "sortOrder": 212
+                "sortOrder": 211
             },
             {
                 "id": "5PLUS.HD.il",
-                "name": "IL: SPORT-5 PLUS",
+                "name": "IL: 5 SPORT PLUS",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/5plus-il.png",
                 "tags": [
                     "IL:SPORT5.PLUS"
                 ],
                 "enabled": true,
-                "sortOrder": 213
+                "sortOrder": 212
             },
             {
                 "id": "5STARS.il",
-                "name": "IL: SPORT-5 STARS",
+                "name": "IL: 5 SPORT STARS",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/israel/5stars-il.png",
                 "tags": [
                     "sport-5-stars",
@@ -4393,7 +4539,7 @@
                     "IL:SPORT5.STARS"
                 ],
                 "enabled": true,
-                "sortOrder": 214
+                "sortOrder": 213
             },
             {
                 "id": "Star.Sports.1.HD.in",
@@ -4403,7 +4549,7 @@
                     "Star Sports 1 HD",
                     "STAR Sports 1"
                 ],
-                "sortOrder": 215
+                "sortOrder": 214
             },
             {
                 "id": "Star.Sports.2.HD.in",
@@ -4413,7 +4559,7 @@
                     "Star Sports 2 HD",
                     "STAR Sports 2"
                 ],
-                "sortOrder": 216
+                "sortOrder": 215
             },
             {
                 "id": "DAZN.1.it.it",
@@ -4422,7 +4568,7 @@
                 "tags": [
                     "[IT] Eleven Sport 1 HD"
                 ],
-                "sortOrder": 217
+                "sortOrder": 216
             },
             {
                 "id": "DAZN.2.it.it",
@@ -4431,7 +4577,7 @@
                 "tags": [
                     "[IT] Eleven Sport 2 HD"
                 ],
-                "sortOrder": 218
+                "sortOrder": 217
             },
             {
                 "id": "DAZN3.it",
@@ -4440,7 +4586,7 @@
                 "tags": [
                     "[IT] Eleven Sport 3 HD"
                 ],
-                "sortOrder": 219
+                "sortOrder": 218
             },
             {
                 "id": "DAZN4.it",
@@ -4449,7 +4595,7 @@
                 "tags": [
                     "[IT] Eleven Sport 4 HD"
                 ],
-                "sortOrder": 220
+                "sortOrder": 219
             },
             {
                 "id": "Eurosport.1.it",
@@ -4458,7 +4604,7 @@
                 "tags": [
                     "[IT] Eurosport 1 HD"
                 ],
-                "sortOrder": 221
+                "sortOrder": 220
             },
             {
                 "id": "Eurosport.2.it",
@@ -4467,7 +4613,7 @@
                 "tags": [
                     "[IT] Eurosport 2 HD"
                 ],
-                "sortOrder": 222
+                "sortOrder": 221
             },
             {
                 "id": "RaiSport.it",
@@ -4477,7 +4623,7 @@
                     "RAI SPORT 1",
                     "[IT] Rai Sport   HD"
                 ],
-                "sortOrder": 223
+                "sortOrder": 222
             },
             {
                 "id": "Go3.Sport.1.HD.lv",
@@ -4486,7 +4632,7 @@
                 "tags": [
                     "GO3 Sport 1"
                 ],
-                "sortOrder": 224
+                "sortOrder": 223
             },
             {
                 "id": "Go3.Sport.2.HD.lv",
@@ -4495,7 +4641,7 @@
                 "tags": [
                     "GO3 Sport 2"
                 ],
-                "sortOrder": 225
+                "sortOrder": 224
             },
             {
                 "id": "Go3.Sport.3.HD.lv",
@@ -4504,7 +4650,7 @@
                 "tags": [
                     "GO3 Sport 3"
                 ],
-                "sortOrder": 226
+                "sortOrder": 225
             },
             {
                 "id": "Go3.Sport.Open.HD.lv",
@@ -4513,7 +4659,48 @@
                 "tags": [
                     "GO3 Sport Open"
                 ],
-                "sortOrder": 227
+                "sortOrder": 226,
+                "enabled": true
+            },
+            {
+                "id": "Go3.Sport.Extra.HD.lv",
+                "name": "LV: GO3 Sports Extra 1",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fi.ibb.co.com%2FFb8YXK5g%2FGo3live.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 227,
+                "tags": [],
+                "enabled": true
+            },
+            {
+                "id": "setanta-live-1",
+                "name": "LV: Setanta Live 1",
+                "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
+                "sortOrder": 228,
+                "tags": [],
+                "enabled": true
+            },
+            {
+                "id": "setanta-live-2",
+                "name": "LV: Setanta Live 2",
+                "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
+                "sortOrder": 229,
+                "tags": [],
+                "enabled": true
+            },
+            {
+                "id": "setanta-live-3",
+                "name": "LV: Setanta Live 3",
+                "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
+                "sortOrder": 230,
+                "tags": [],
+                "enabled": true
+            },
+            {
+                "id": "setanta-live-4",
+                "name": "LV: Setanta Live 4",
+                "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
+                "sortOrder": 231,
+                "tags": [],
+                "enabled": true
             },
             {
                 "id": "Setanta.Sports.1.HD.lv",
@@ -4522,7 +4709,7 @@
                 "tags": [
                     "Setanta Sports"
                 ],
-                "sortOrder": 228
+                "sortOrder": 232
             },
             {
                 "id": "Setanta.Sports.2.HD.lv",
@@ -4531,7 +4718,7 @@
                 "tags": [
                     "Setanta Sports 2"
                 ],
-                "sortOrder": 229
+                "sortOrder": 233
             },
             {
                 "id": "Arena.Bola.my",
@@ -4545,7 +4732,7 @@
                     "Arena Bola",
                     "Arena Bola (MLY)"
                 ],
-                "sortOrder": 230
+                "sortOrder": 234
             },
             {
                 "id": "Arena.Bola.2.my",
@@ -4560,31 +4747,33 @@
                     "Arena Bola 2",
                     "ASTRO ARENA BOLA 2 ᴴᴰ"
                 ],
-                "sortOrder": 231
+                "sortOrder": 235
             },
             {
                 "id": "Arena.Bola.3.my",
                 "name": "MY: Arena Bola 3",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Bola.3.my.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/malaysia/astro-arena-bola-my.png",
                 "tags": [
                     "AstroArenaBola3",
                     "013. AstroArenaBola3",
                     "Astro Arena Bola 3",
                     "ASTRO ARENA BOLA 3"
                 ],
-                "sortOrder": 232
+                "sortOrder": 236,
+                "enabled": true
             },
             {
                 "id": "Arena.Bola.4.my",
                 "name": "MY: Arena Bola 4",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Bola.4.my.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/malaysia/astro-arena-bola-my.png",
                 "tags": [
                     "AstroArenaBola4",
                     "014. AstroArenaBola4",
                     "Astro Arena Bola 4",
                     "ASTRO ARENA BOLA 4"
                 ],
-                "sortOrder": 233
+                "sortOrder": 237,
+                "enabled": true
             },
             {
                 "id": "Astro.Arena.my",
@@ -4603,7 +4792,7 @@
                     "MY | Astro Arena FHD",
                     "ASTRO ARENA (play)"
                 ],
-                "sortOrder": 234
+                "sortOrder": 238
             },
             {
                 "id": "Astro.Arena.2.my",
@@ -4622,7 +4811,7 @@
                     "MY | Astro Arena 2 FHD",
                     "ASTRO ARENA 2 (play)"
                 ],
-                "sortOrder": 235
+                "sortOrder": 239
             },
             {
                 "id": "Astro.Badminton.my",
@@ -4644,7 +4833,7 @@
                     "ASTRO BADMINTON (play)",
                     "Astro Badminton"
                 ],
-                "sortOrder": 236
+                "sortOrder": 240
             },
             {
                 "id": "Astro.Cricket.my",
@@ -4661,7 +4850,7 @@
                     "MY | Astro Cricket FHD",
                     "SPORTS : ASTRO CRICKET"
                 ],
-                "sortOrder": 237
+                "sortOrder": 241
             },
             {
                 "id": "Astro.Football.my",
@@ -4682,7 +4871,7 @@
                     "Astro SuperSport 4",
                     "SPORTS : ASTRO SUPERSPORT 4"
                 ],
-                "sortOrder": 238
+                "sortOrder": 242
             },
             {
                 "id": "Astro.Grandstand.my",
@@ -4704,7 +4893,7 @@
                     "Astro SuperSport 3",
                     "SPORTS : ASTRO SUPERSPORT 3"
                 ],
-                "sortOrder": 239
+                "sortOrder": 243
             },
             {
                 "id": "Astro.Premier.League.my",
@@ -4731,7 +4920,7 @@
                     "SPORTS : ASTRO SUPERSPORT 1",
                     "ASTRO PREMIER LEAGUE 2 (play)"
                 ],
-                "sortOrder": 240
+                "sortOrder": 244
             },
             {
                 "id": "Astro.Premier.League.2.my",
@@ -4756,7 +4945,7 @@
                     "Astro SuperSport 2",
                     "SPORTS : ASTRO SUPERSPORT 2"
                 ],
-                "sortOrder": 241
+                "sortOrder": 245
             },
             {
                 "id": "Astro.Premier.League.3.my",
@@ -4776,12 +4965,12 @@
                     "AsrtoPremierLeague3",
                     "MY | Astro Premier League 3 FHD"
                 ],
-                "sortOrder": 242
+                "sortOrder": 246
             },
             {
                 "id": "Astro.Premier.League.4.my",
                 "name": "MY: Astro Premier League 4",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.4.my.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/malaysia/astro-premier-league-my.png",
                 "tags": [
                     "ASTRO PL 4",
                     "ASTRO PREMIER LEAGUE 4",
@@ -4796,12 +4985,13 @@
                     "AsrtoPremierLeague4",
                     "MY | Astro Premier League 4 FHD"
                 ],
-                "sortOrder": 243
+                "sortOrder": 247,
+                "enabled": true
             },
             {
                 "id": "Astro.Premier.League.5.my",
                 "name": "MY: Astro Premier League 5",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Astro.Premier.League.5.my.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/malaysia/astro-premier-league-my.png",
                 "tags": [
                     "ASTRO PL 5",
                     "ASTRO PREMIER LEAGUE 5",
@@ -4816,7 +5006,8 @@
                     "AsrtoPremierLeague5",
                     "MY | Astro Premier League 5 FHD"
                 ],
-                "sortOrder": 244
+                "sortOrder": 248,
+                "enabled": true
             },
             {
                 "id": "Astro.Sports.Plus.my",
@@ -4835,7 +5026,7 @@
                     "018. AstroSportPlus2",
                     "AstroSportPlus2"
                 ],
-                "sortOrder": 245
+                "sortOrder": 249
             },
             {
                 "id": "Astro.Sports.UHD.my",
@@ -4847,7 +5038,7 @@
                     "Astro Sports UHD",
                     "MY | Astro Sports UHD"
                 ],
-                "sortOrder": 246
+                "sortOrder": 250
             },
             {
                 "id": "W-Sport.my",
@@ -4860,7 +5051,7 @@
                     "Astro W-Sports SD",
                     "W-SPORT"
                 ],
-                "sortOrder": 247
+                "sortOrder": 251
             },
             {
                 "id": "Ziggo.Sport.nl",
@@ -4876,7 +5067,7 @@
                     "ZiggoSportSelect",
                     "ziggosportselect.nl"
                 ],
-                "sortOrder": 248,
+                "sortOrder": 252,
                 "enabled": true
             },
             {
@@ -4895,7 +5086,7 @@
                     "ZiggoSportVoetbal",
                     "ziggosportvoetbal.nl"
                 ],
-                "sortOrder": 249,
+                "sortOrder": 253,
                 "enabled": true
             },
             {
@@ -4912,7 +5103,7 @@
                     "ZiggoSportGolf",
                     "ziggosportgolf.nl"
                 ],
-                "sortOrder": 250,
+                "sortOrder": 254,
                 "enabled": true
             },
             {
@@ -4927,7 +5118,7 @@
                     "ZiggoSportRacing",
                     "ziggosportracing.nl"
                 ],
-                "sortOrder": 251,
+                "sortOrder": 255,
                 "enabled": true
             },
             {
@@ -4943,7 +5134,7 @@
                     "ZiggoSportExtra1",
                     "ziggosportextra1.nl"
                 ],
-                "sortOrder": 252,
+                "sortOrder": 256,
                 "enabled": true
             },
             {
@@ -4958,7 +5149,7 @@
                     "ZIGGO SPORTS 6",
                     "ziggosportextra2.nl"
                 ],
-                "sortOrder": 253,
+                "sortOrder": 257,
                 "enabled": true
             },
             {
@@ -4969,7 +5160,7 @@
                     "canalplusnow.pl",
                     "Canal+ Now"
                 ],
-                "sortOrder": 254
+                "sortOrder": 258
             },
             {
                 "id": "Canal.Plus.Premium.pl",
@@ -4979,7 +5170,7 @@
                     "pl:canal+premiumfhd",
                     "Canal+ Premium"
                 ],
-                "sortOrder": 255
+                "sortOrder": 259
             },
             {
                 "id": "Canal.Plus.Sport.pl",
@@ -4989,7 +5180,7 @@
                     "canalplussport.pl",
                     "Canal+ Sport"
                 ],
-                "sortOrder": 256
+                "sortOrder": 260
             },
             {
                 "id": "Canal.Plus.Sport.2.pl",
@@ -4999,7 +5190,7 @@
                     "pl:canal+sport2fhd",
                     "Canal+ Sport 2"
                 ],
-                "sortOrder": 257
+                "sortOrder": 261
             },
             {
                 "id": "Canal.Plus.Sport.3.pl",
@@ -5009,7 +5200,7 @@
                     "canalplussport3.pl",
                     "Canal+ Sport 3"
                 ],
-                "sortOrder": 258
+                "sortOrder": 262
             },
             {
                 "id": "Canal.Plus.Sport.4.pl",
@@ -5019,7 +5210,7 @@
                     "canalplussport4.pl",
                     "Canal+ Sport 4"
                 ],
-                "sortOrder": 259
+                "sortOrder": 263
             },
             {
                 "id": "Eleven.Sports.1.pl",
@@ -5030,7 +5221,7 @@
                     "Eleven Sports 1",
                     "PL:Eleven.Sports1"
                 ],
-                "sortOrder": 260
+                "sortOrder": 264
             },
             {
                 "id": "Eleven.Sports.2.pl",
@@ -5041,7 +5232,7 @@
                     "Eleven Sports 2",
                     "PL:Eleven.Sports2"
                 ],
-                "sortOrder": 261
+                "sortOrder": 265
             },
             {
                 "id": "Eleven.Sports.3.pl",
@@ -5052,7 +5243,7 @@
                     "Eleven Sports 3",
                     "PL:Eleven.Sports3"
                 ],
-                "sortOrder": 262
+                "sortOrder": 266
             },
             {
                 "id": "Eleven.Sports.4.pl",
@@ -5063,7 +5254,7 @@
                     "Eleven Sports 4",
                     "PL:Eleven.Sports4"
                 ],
-                "sortOrder": 263
+                "sortOrder": 267
             },
             {
                 "id": "Polsat.Sport.pl",
@@ -5074,7 +5265,7 @@
                     "Polsat Sport",
                     "PL:Polsat.Sport"
                 ],
-                "sortOrder": 264
+                "sortOrder": 268
             },
             {
                 "id": "Polsat.Sport.Extra.pl",
@@ -5085,7 +5276,7 @@
                     "Polsat Sport Extra",
                     "PL:Polsat.Sport.Extra"
                 ],
-                "sortOrder": 265
+                "sortOrder": 269
             },
             {
                 "id": "Polsat.Sport.Fight.pl",
@@ -5095,7 +5286,7 @@
                     "pl:polsatsportfighthd",
                     "Polsat Sport Fight"
                 ],
-                "sortOrder": 266
+                "sortOrder": 270
             },
             {
                 "id": "Polsat.Sport.News.pl",
@@ -5105,7 +5296,7 @@
                     "polsatsportnews.pl",
                     "Polsat Sport News"
                 ],
-                "sortOrder": 267
+                "sortOrder": 271
             },
             {
                 "id": "Polsat.Sport.Premium.1.pl",
@@ -5115,7 +5306,7 @@
                     "polsatsportpremium1.pl",
                     "Polsat Sport Premium 1"
                 ],
-                "sortOrder": 268
+                "sortOrder": 272
             },
             {
                 "id": "Polsat.Sport.Premium.2.pl",
@@ -5125,7 +5316,7 @@
                     "pl:polsatsportpremium2fhd",
                     "Polsat Sport Premium 2"
                 ],
-                "sortOrder": 269
+                "sortOrder": 273
             },
             {
                 "id": "Polsat.Sport.Premium.3.pl",
@@ -5135,7 +5326,7 @@
                     "polsatsportpremium3ppv.pl",
                     "Polsat Sport Premium 3"
                 ],
-                "sortOrder": 270
+                "sortOrder": 274
             },
             {
                 "id": "Polsat.Sport.Premium.4.pl",
@@ -5145,7 +5336,7 @@
                     "pl:polsatsportpremium4hd",
                     "Polsat Sport Premium 4"
                 ],
-                "sortOrder": 271
+                "sortOrder": 275
             },
             {
                 "id": "Polsat.Sport.Premium.5.pl",
@@ -5155,7 +5346,7 @@
                     "polsatsportpremium5ppv.pl",
                     "Polsat Sport Premium 5"
                 ],
-                "sortOrder": 272
+                "sortOrder": 276
             },
             {
                 "id": "Polsat.Sport.Premium.6.pl",
@@ -5165,7 +5356,7 @@
                     "polsatsportpremium6ppv.pl",
                     "Polsat Sport Premium 6"
                 ],
-                "sortOrder": 273
+                "sortOrder": 277
             },
             {
                 "id": "TVP.Sport.pl",
@@ -5176,7 +5367,7 @@
                     "TVP Sport",
                     "PL:TVP.Sport"
                 ],
-                "sortOrder": 274
+                "sortOrder": 278
             },
             {
                 "id": "Benfica.TV.fr",
@@ -5185,7 +5376,7 @@
                 "tags": [
                     "PT:Benfica.TV"
                 ],
-                "sortOrder": 275
+                "sortOrder": 279
             },
             {
                 "id": "Benfica.TV.pt",
@@ -5194,7 +5385,7 @@
                 "tags": [
                     "PT: Benfica TV HD"
                 ],
-                "sortOrder": 276
+                "sortOrder": 280
             },
             {
                 "id": "Canal.11.HD.pt",
@@ -5203,7 +5394,7 @@
                 "tags": [
                     "PT:Canal.11"
                 ],
-                "sortOrder": 277
+                "sortOrder": 281
             },
             {
                 "id": "DAZN.1.pt",
@@ -5215,7 +5406,7 @@
                     "PT:Eleven.Sports1",
                     "Dazn 1 🇵🇹"
                 ],
-                "sortOrder": 278
+                "sortOrder": 282
             },
             {
                 "id": "DAZN.2.pt",
@@ -5227,7 +5418,7 @@
                     "PT:Eleven.Sports2",
                     "Dazn 2 🇵🇹"
                 ],
-                "sortOrder": 279
+                "sortOrder": 283
             },
             {
                 "id": "DAZN.3.pt",
@@ -5240,7 +5431,7 @@
                     "PT:Eleven.Sports3",
                     "Dazn 3 🇵🇹"
                 ],
-                "sortOrder": 280
+                "sortOrder": 284
             },
             {
                 "id": "DAZN.4.pt",
@@ -5252,7 +5443,7 @@
                     "PT:Eleven.Sports.4",
                     "Dazn 4 🇵🇹"
                 ],
-                "sortOrder": 281
+                "sortOrder": 285
             },
             {
                 "id": "DAZN.5.pt",
@@ -5264,7 +5455,7 @@
                     "PT:Eleven.Sports.5",
                     "Dazn 5 🇵🇹"
                 ],
-                "sortOrder": 282
+                "sortOrder": 286
             },
             {
                 "id": "DAZN.6.pt",
@@ -5276,7 +5467,7 @@
                     "PT:Eleven.Sports.6",
                     "Dazn 6 🇵🇹"
                 ],
-                "sortOrder": 283
+                "sortOrder": 287
             },
             {
                 "id": "Eurosport.1.HD.pt",
@@ -5286,7 +5477,7 @@
                     "eurosport1.pt",
                     "PT: EUROSPORT 1"
                 ],
-                "sortOrder": 284
+                "sortOrder": 288
             },
             {
                 "id": "Eurosport.2.HD.pt",
@@ -5296,7 +5487,7 @@
                     "eurosport2.pt",
                     "PT: EUROSPORT 2 HD"
                 ],
-                "sortOrder": 285
+                "sortOrder": 289
             },
             {
                 "id": "SPORT.TV+.HD.pt",
@@ -5306,7 +5497,7 @@
                     "sporttvplus.pt",
                     "PT:Sport+"
                 ],
-                "sortOrder": 286
+                "sortOrder": 290
             },
             {
                 "id": "SPORT.TV1.HD.pt",
@@ -5318,7 +5509,7 @@
                     "PT: SPORT TV 1 H.265/HEVC",
                     "PT:Sport.TV1"
                 ],
-                "sortOrder": 287
+                "sortOrder": 291
             },
             {
                 "id": "SPORT.TV2.HD.pt",
@@ -5329,7 +5520,7 @@
                     "SPΘRT TV 2-265 FHD",
                     "PT:Sport.TV2"
                 ],
-                "sortOrder": 288
+                "sortOrder": 292
             },
             {
                 "id": "SPORT.TV3.HD.pt",
@@ -5340,7 +5531,7 @@
                     "SPΘRT TV 3-265 HD",
                     "PT:Sport.TV3"
                 ],
-                "sortOrder": 289
+                "sortOrder": 293
             },
             {
                 "id": "SPORT.TV4.HD.pt",
@@ -5351,7 +5542,7 @@
                     "SPΘRT TV 4-265 HD",
                     "PT:Sport.TV4"
                 ],
-                "sortOrder": 290
+                "sortOrder": 294
             },
             {
                 "id": "SPORT.TV5.HD.pt",
@@ -5364,7 +5555,7 @@
                     "SPΘRT TV 5 FHD",
                     "PT:Sport.TV5"
                 ],
-                "sortOrder": 291
+                "sortOrder": 295
             },
             {
                 "id": "Sport.TV.6.HD.pt",
@@ -5374,7 +5565,7 @@
                     "sporttv6.pt",
                     "PT: SPORT TV 6"
                 ],
-                "sortOrder": 292
+                "sortOrder": 296
             },
             {
                 "id": "Sport.TV.7.HD.pt",
@@ -5386,7 +5577,7 @@
                     "PT: SPORT TV 7 HD",
                     "PT: SPORT TV 7 1080"
                 ],
-                "sortOrder": 293
+                "sortOrder": 297
             },
             {
                 "id": "Sporting.TV.HD.pt",
@@ -5395,7 +5586,7 @@
                 "tags": [
                     "PT:Sporting.TV"
                 ],
-                "sortOrder": 294
+                "sortOrder": 298
             },
             {
                 "id": "Digi.Sport.1.HD.ro",
@@ -5406,7 +5597,7 @@
                     "RO: DIGI SPORT 1 HD",
                     "RO:Digi.Sport1"
                 ],
-                "sortOrder": 295
+                "sortOrder": 299
             },
             {
                 "id": "Digi.Sport.2.HD.ro",
@@ -5417,7 +5608,7 @@
                     "RO: DIGI SPORT 2 HD",
                     "RO:Digi.Sport2"
                 ],
-                "sortOrder": 296
+                "sortOrder": 300
             },
             {
                 "id": "Digi.Sport.3.HD.ro",
@@ -5428,7 +5619,7 @@
                     "RO: DIGI SPORT 3 HD",
                     "RO:Digi.Sport3"
                 ],
-                "sortOrder": 297
+                "sortOrder": 301
             },
             {
                 "id": "Digi.Sport.4.HD.ro",
@@ -5439,7 +5630,7 @@
                     "RO: DIGI SPORT 4 HD",
                     "RO:Digi.Sport4"
                 ],
-                "sortOrder": 298
+                "sortOrder": 302
             },
             {
                 "id": "Eurosport.1.HD.ro",
@@ -5449,7 +5640,7 @@
                     "eurosport1.ro",
                     "RO: EUROSPORT 1 HD"
                 ],
-                "sortOrder": 299
+                "sortOrder": 303
             },
             {
                 "id": "looksport2.ro",
@@ -5458,7 +5649,7 @@
                 "tags": [
                     "RO: LOOK SPORT 2 HD"
                 ],
-                "sortOrder": 300
+                "sortOrder": 304
             },
             {
                 "id": "looksport3.ro",
@@ -5467,7 +5658,7 @@
                 "tags": [
                     "RO: LOOK SPORT 3 FHD"
                 ],
-                "sortOrder": 301
+                "sortOrder": 305
             },
             {
                 "id": "fineliving.ro",
@@ -5477,7 +5668,7 @@
                     "fineliving.ro",
                     "RO: LOOK SPORT HD"
                 ],
-                "sortOrder": 302
+                "sortOrder": 306
             },
             {
                 "id": "orangesport1.ro",
@@ -5488,7 +5679,7 @@
                     "orangesport1.ro",
                     "RO: ORANGE SPORT 1"
                 ],
-                "sortOrder": 303,
+                "sortOrder": 307,
                 "enabled": true
             },
             {
@@ -5500,7 +5691,7 @@
                     "orangesport2.ro",
                     "RO: ORANGE SPORT 2"
                 ],
-                "sortOrder": 304,
+                "sortOrder": 308,
                 "enabled": true
             },
             {
@@ -5512,7 +5703,7 @@
                     "orangesport3.ro",
                     "RO: ORANGE SPORT 3"
                 ],
-                "sortOrder": 305,
+                "sortOrder": 309,
                 "enabled": true
             },
             {
@@ -5524,7 +5715,7 @@
                     "orangesport4.ro",
                     "RO: ORANGE SPORT 4"
                 ],
-                "sortOrder": 306,
+                "sortOrder": 310,
                 "enabled": true
             },
             {
@@ -5536,7 +5727,7 @@
                     "RO: PRIMA SPORT 1 HD",
                     "∆ PRIMA SPORT 1"
                 ],
-                "sortOrder": 307
+                "sortOrder": 311
             },
             {
                 "id": "Prima.Sport.2.HD.ro",
@@ -5547,7 +5738,7 @@
                     "RO: PRIMA SPORT 2 HD",
                     "∆ PRIMA SPORT 2"
                 ],
-                "sortOrder": 308
+                "sortOrder": 312
             },
             {
                 "id": "Prima.Sport.3.HD.ro",
@@ -5558,7 +5749,7 @@
                     "RO: PRIMA SPORT 3 HD",
                     "∆ PRIMA SPORT 3"
                 ],
-                "sortOrder": 309
+                "sortOrder": 313
             },
             {
                 "id": "Prima.Sport.4.HD.ro",
@@ -5569,7 +5760,7 @@
                     "RO: PRIMA SPORT 4 HD",
                     "∆ PRIMA SPORT 4"
                 ],
-                "sortOrder": 310
+                "sortOrder": 314
             },
             {
                 "id": "telekomsport1.ro",
@@ -5579,7 +5770,7 @@
                     "telekomsport1.ro",
                     "RO: TELEKOM SPORT 1 HD"
                 ],
-                "sortOrder": 311
+                "sortOrder": 315
             },
             {
                 "id": "telekomsport2.ro",
@@ -5589,7 +5780,7 @@
                     "telekomsport2.ro",
                     "RO: TELEKOM SPORT 2 HD"
                 ],
-                "sortOrder": 312
+                "sortOrder": 316
             },
             {
                 "id": "telekomsport3.ro",
@@ -5599,7 +5790,7 @@
                     "telekomsport3.ro",
                     "RO: TELEKOM SPORT 3 HD"
                 ],
-                "sortOrder": 313
+                "sortOrder": 317
             },
             {
                 "id": "telekomsport4.ro",
@@ -5609,7 +5800,7 @@
                     "telekomsport4.ro",
                     "RO: TELEKOM SPORT 4 HD"
                 ],
-                "sortOrder": 314
+                "sortOrder": 318
             },
             {
                 "id": "Arena.Premium.1.HD.(RS).rs",
@@ -5617,9 +5808,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.1.HD.(RS).rs.png",
                 "tags": [
                     "bh:arenapremium1hd",
-                    "Arena Premium 1 HD 🇷🇸"
+                    "Arena Premium 1 HD 🇷🇸",
+                    "ARENA 1 PREMIUM"
                 ],
-                "sortOrder": 315
+                "sortOrder": 319
             },
             {
                 "id": "Arena.Premium.2.HD.(RS).rs",
@@ -5627,9 +5819,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.2.HD.(RS).rs.png",
                 "tags": [
                     "bh:arenapremium2hd",
-                    "Arena Premium 2 HD 🇷🇸"
+                    "Arena Premium 2 HD 🇷🇸",
+                    "ARENA 2 PREMIUM"
                 ],
-                "sortOrder": 316
+                "sortOrder": 320
             },
             {
                 "id": "Arena.Premium.3.HD.(RS).rs",
@@ -5640,9 +5833,18 @@
                     "Arena Premium 3 HD 🇷🇸",
                     "ARENA 3 PREMIUM (FA CUP)",
                     "ARENA 3 PREMIUM FHD BIH",
-                    "ARENA 3 PREMIUM FHD SR"
+                    "ARENA 3 PREMIUM FHD SR",
+                    "ARENA 3 PREMIUM"
                 ],
-                "sortOrder": 317
+                "sortOrder": 321
+            },
+            {
+                "id": "Arena.Sport.1X2.HD.(RS).rs",
+                "name": "RS: Arena Sport 1x2",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ih14ab1646222134.png",
+                "sortOrder": 322,
+                "tags": [],
+                "enabled": true
             },
             {
                 "id": "match.ru",
@@ -5654,7 +5856,7 @@
                     "RU:Match",
                     "Матч! 🇷🇺"
                 ],
-                "sortOrder": 318,
+                "sortOrder": 323,
                 "enabled": true
             },
             {
@@ -5666,7 +5868,7 @@
                     "RU ▎МАТЧ! АРЕНА HD",
                     "RU:Match.Arena"
                 ],
-                "sortOrder": 319,
+                "sortOrder": 324,
                 "enabled": true
             },
             {
@@ -5681,7 +5883,7 @@
                     "Матч! Футбол 1 HD",
                     "Матч! ФУТБОЛ. .1 HD"
                 ],
-                "sortOrder": 320,
+                "sortOrder": 325,
                 "enabled": true
             },
             {
@@ -5696,7 +5898,7 @@
                     "МАТЧ! Футбол 2 HD",
                     "Матч! ФУТБОЛ. .2 HD"
                 ],
-                "sortOrder": 321,
+                "sortOrder": 326,
                 "enabled": true
             },
             {
@@ -5711,7 +5913,7 @@
                     "МАТЧ! Футбол 3 HD",
                     "Матч! ФУТБОЛ. .3 HD"
                 ],
-                "sortOrder": 322,
+                "sortOrder": 327,
                 "enabled": true
             },
             {
@@ -5723,7 +5925,7 @@
                     "МАТЧ! ИГРА 🇷🇺",
                     "MATCH! IGRA 🇷🇺"
                 ],
-                "sortOrder": 323
+                "sortOrder": 328
             },
             {
                 "id": "match-premier.ru",
@@ -5733,7 +5935,7 @@
                     "RU:Match.Premier",
                     "MATCH! PREMIERE 🇷🇺"
                 ],
-                "sortOrder": 324
+                "sortOrder": 329
             },
             {
                 "id": "match-strana.ru",
@@ -5743,7 +5945,7 @@
                     "RU:Match.Strana",
                     "MATCH! STRANA 🇷🇺"
                 ],
-                "sortOrder": 325
+                "sortOrder": 330
             },
             {
                 "id": "Hub.Premier.1.sg",
@@ -5757,7 +5959,7 @@
                     "Hub Premier 1 HD",
                     "HUB Premier 1"
                 ],
-                "sortOrder": 326
+                "sortOrder": 331
             },
             {
                 "id": "Hub.Premier.2.sg",
@@ -5770,7 +5972,7 @@
                     "Hub Premier 2 FHD",
                     "HUB Premier 2"
                 ],
-                "sortOrder": 327
+                "sortOrder": 332
             },
             {
                 "id": "Hub.Premier.3.sg",
@@ -5782,7 +5984,7 @@
                     "Hub Premier3 FHD",
                     "Hub Premier 3 FHD"
                 ],
-                "sortOrder": 328
+                "sortOrder": 333
             },
             {
                 "id": "Hub.Premier.4.sg",
@@ -5793,7 +5995,7 @@
                     "Hub Premier4 FHD",
                     "Hub Premier 4 FHD"
                 ],
-                "sortOrder": 329
+                "sortOrder": 334
             },
             {
                 "id": "Hub.Premier.5.sg",
@@ -5804,7 +6006,7 @@
                     "Hub Premier  EPL 05",
                     "Hub Premier 5 FHD"
                 ],
-                "sortOrder": 330
+                "sortOrder": 335
             },
             {
                 "id": "Hub.Premier.6.sg",
@@ -5815,7 +6017,7 @@
                     "Hub Premier6 FHD",
                     "Hub Premier 6 FHD"
                 ],
-                "sortOrder": 331
+                "sortOrder": 336
             },
             {
                 "id": "Hub.Premier.7.sg",
@@ -5826,7 +6028,7 @@
                     "Hub Premier7 FHD",
                     "Hub Premier 7 FHD"
                 ],
-                "sortOrder": 332
+                "sortOrder": 337
             },
             {
                 "id": "Hub.Premier.8.sg",
@@ -5838,7 +6040,7 @@
                     "Hub Premier8 FHD",
                     "Hub Premier 8 FHD"
                 ],
-                "sortOrder": 333
+                "sortOrder": 338
             },
             {
                 "id": "Hub.Premier.9.sg",
@@ -5849,7 +6051,7 @@
                     "Hub Premier9 FHD",
                     "Hub Premier 9 FHD"
                 ],
-                "sortOrder": 334
+                "sortOrder": 339
             },
             {
                 "id": "Hub.Premier.10.sg",
@@ -5861,7 +6063,7 @@
                     "Hub Premier10 FHD",
                     "Hub Premier 10 FHD"
                 ],
-                "sortOrder": 335
+                "sortOrder": 340
             },
             {
                 "id": "Hub.Premier.11.sg",
@@ -5873,7 +6075,7 @@
                     "Hub Premier11 FHD",
                     "Hub Premier 11 FHD"
                 ],
-                "sortOrder": 336
+                "sortOrder": 341
             },
             {
                 "id": "Hub.Sports.1.HD.sg",
@@ -5888,7 +6090,7 @@
                     "|SP| Hub Sports 1"
                 ],
                 "enabled": true,
-                "sortOrder": 337
+                "sortOrder": 342
             },
             {
                 "id": "Hub.Sports.2.HD.sg",
@@ -5903,7 +6105,7 @@
                     "|SP| Hub Sports 2"
                 ],
                 "enabled": true,
-                "sortOrder": 338
+                "sortOrder": 343
             },
             {
                 "id": "Hub.Sports.3.HD.sg",
@@ -5918,7 +6120,7 @@
                     "|SP| Hub Sports 3"
                 ],
                 "enabled": true,
-                "sortOrder": 339
+                "sortOrder": 344
             },
             {
                 "id": "Hub.Sports.4.HD.sg",
@@ -5933,7 +6135,7 @@
                     "|SP| Hub Sports 4"
                 ],
                 "enabled": true,
-                "sortOrder": 340
+                "sortOrder": 345
             },
             {
                 "id": "Hub.Sports.5.HD.sg",
@@ -5948,7 +6150,7 @@
                     "|SP| Hub Sports 5"
                 ],
                 "enabled": true,
-                "sortOrder": 341
+                "sortOrder": 346
             },
             {
                 "id": "NBA.TV.sg",
@@ -5958,7 +6160,7 @@
                     "SG| NBA TV HD",
                     "NBA TV HD"
                 ],
-                "sortOrder": 342
+                "sortOrder": 347
             },
             {
                 "id": "JOJ.Å PORT.HD.sk",
@@ -5968,7 +6170,7 @@
                     "JOJ SPORT 🇸🇰",
                     "JOJ Sport SLV"
                 ],
-                "sortOrder": 343
+                "sortOrder": 348
             },
             {
                 "id": "spotv",
@@ -5985,7 +6187,7 @@
                     "SpoTV (ott)",
                     "SPOTV (VS+)_ott.navigator"
                 ],
-                "sortOrder": 344
+                "sortOrder": 349
             },
             {
                 "id": "spotvnow",
@@ -5994,7 +6196,7 @@
                 "tags": [
                     "SPOTV NOW (Korea)"
                 ],
-                "sortOrder": 345
+                "sortOrder": 350
             },
             {
                 "id": "spotv2",
@@ -6011,7 +6213,7 @@
                     "SpoTV 2 (ott)",
                     "SPOTV2 (mmd)"
                 ],
-                "sortOrder": 346
+                "sortOrder": 351
             },
             {
                 "id": "A.SPOR.HD.tr",
@@ -6020,7 +6222,7 @@
                 "tags": [
                     "[TR] A SPOR HD"
                 ],
-                "sortOrder": 347
+                "sortOrder": 352
             },
             {
                 "id": "bein.connect.1.tr",
@@ -6029,7 +6231,7 @@
                 "tags": [
                     "|TR| beIN Connect 1 |Mac Saati|"
                 ],
-                "sortOrder": 348
+                "sortOrder": 353
             },
             {
                 "id": "bein.connect.2.tr",
@@ -6038,7 +6240,7 @@
                 "tags": [
                     "|TR| beIN Connect 2 |Mac Saati|"
                 ],
-                "sortOrder": 349
+                "sortOrder": 354
             },
             {
                 "id": "bein.connect.3.tr",
@@ -6047,7 +6249,7 @@
                 "tags": [
                     "|TR| beIN Connect 3 |Mac Saati|"
                 ],
-                "sortOrder": 350
+                "sortOrder": 355
             },
             {
                 "id": "beIN.SPORTS.1.tr",
@@ -6056,7 +6258,7 @@
                 "tags": [
                     "[TR] Bein Sport 1"
                 ],
-                "sortOrder": 351
+                "sortOrder": 356
             },
             {
                 "id": "beIN.SPORTS.2.tr",
@@ -6065,7 +6267,7 @@
                 "tags": [
                     "[TR] Bein Sport 2"
                 ],
-                "sortOrder": 352
+                "sortOrder": 357
             },
             {
                 "id": "beIN.SPORTS.3.tr",
@@ -6074,7 +6276,7 @@
                 "tags": [
                     "[TR] Bein Sport 3"
                 ],
-                "sortOrder": 353
+                "sortOrder": 358
             },
             {
                 "id": "beIN.SPORTS.4.tr",
@@ -6083,7 +6285,7 @@
                 "tags": [
                     "[TR] Bein Sport 4"
                 ],
-                "sortOrder": 354
+                "sortOrder": 359
             },
             {
                 "id": "beIN.SPORTS.HABER.HD.tr",
@@ -6092,7 +6294,7 @@
                 "tags": [
                     "[TR] beIN Sports Haber"
                 ],
-                "sortOrder": 355
+                "sortOrder": 360
             },
             {
                 "id": "beIN.SPORTS.MAX.1.tr",
@@ -6101,7 +6303,7 @@
                 "tags": [
                     "[TR] beIN SPORTS MAX 1"
                 ],
-                "sortOrder": 356
+                "sortOrder": 361
             },
             {
                 "id": "beIN.SPORTS.MAX.2.tr",
@@ -6110,7 +6312,7 @@
                 "tags": [
                     "[TR] beIN SPORTS MAX 2"
                 ],
-                "sortOrder": 357
+                "sortOrder": 362
             },
             {
                 "id": "EUROSPORT.1.HD.tr",
@@ -6119,7 +6321,7 @@
                 "tags": [
                     "[TR] Euro Sport 1 HD"
                 ],
-                "sortOrder": 358,
+                "sortOrder": 363,
                 "enabled": true
             },
             {
@@ -6129,7 +6331,7 @@
                 "tags": [
                     "[TR] Euro Sport 2 HD"
                 ],
-                "sortOrder": 359,
+                "sortOrder": 364,
                 "enabled": true
             },
             {
@@ -6139,7 +6341,7 @@
                 "tags": [
                     "[TR] FB TV"
                 ],
-                "sortOrder": 360
+                "sortOrder": 365
             },
             {
                 "id": "GS.TV.in",
@@ -6148,7 +6350,7 @@
                 "tags": [
                     "[TR] GS TV"
                 ],
-                "sortOrder": 361
+                "sortOrder": 366
             },
             {
                 "id": "NBA.TV.hk",
@@ -6157,7 +6359,7 @@
                 "tags": [
                     "[TR] NBA TV"
                 ],
-                "sortOrder": 362
+                "sortOrder": 367
             },
             {
                 "id": "tr-spor-smart-1",
@@ -6166,7 +6368,7 @@
                 "tags": [
                     "[TR] Spor Smart 1"
                 ],
-                "sortOrder": 363
+                "sortOrder": 368
             },
             {
                 "id": "SPORTS.TV.HD.tr",
@@ -6175,7 +6377,7 @@
                 "tags": [
                     "[TR] SPORTS TV HD"
                 ],
-                "sortOrder": 364
+                "sortOrder": 369
             },
             {
                 "id": "TIVIBU.SPOR.1.tr",
@@ -6184,7 +6386,7 @@
                 "tags": [
                     "[TR] Tivibu  Spor 1"
                 ],
-                "sortOrder": 365
+                "sortOrder": 370
             },
             {
                 "id": "TIVIBU.SPOR.2.tr",
@@ -6193,7 +6395,7 @@
                 "tags": [
                     "[TR] Tivibu  Spor 2"
                 ],
-                "sortOrder": 366
+                "sortOrder": 371
             },
             {
                 "id": "TIVIBU.SPOR.3.tr",
@@ -6202,26 +6404,26 @@
                 "tags": [
                     "[TR] Tivibu Spor 3"
                 ],
-                "sortOrder": 367
+                "sortOrder": 372
             },
             {
                 "id": "TRT.SPOR.HD.tr",
                 "name": "TR: TRT Spor",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TRT.SPOR.HD.tr.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/turkey/trt-spor-tr.png",
                 "tags": [
                     "[TR] TRT Spor HD"
                 ],
-                "sortOrder": 368,
+                "sortOrder": 373,
                 "enabled": true
             },
             {
                 "id": "tr-trt-spor-2-hd",
                 "name": "TR: TRT Spor 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/tr-trt-spor-2-hd.png",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/turkey/trt-spor-2-tr.png",
                 "tags": [
                     "[TR] TRT Spor 2 HD"
                 ],
-                "sortOrder": 369,
+                "sortOrder": 374,
                 "enabled": true
             },
             {
@@ -6231,7 +6433,7 @@
                 "tags": [
                     "DAZN ELEVEN 1 (twn)"
                 ],
-                "sortOrder": 370
+                "sortOrder": 375
             },
             {
                 "id": "DAZN.Eleven.2.tw",
@@ -6240,7 +6442,7 @@
                 "tags": [
                     "DAZN ELEVEN 2 (twn)"
                 ],
-                "sortOrder": 371
+                "sortOrder": 376
             },
             {
                 "id": "BoxNation.HD.uk",
@@ -6250,7 +6452,7 @@
                     "boxnation.uk",
                     "UK: BOXNATION HD"
                 ],
-                "sortOrder": 372
+                "sortOrder": 377
             },
             {
                 "id": "UK:BT.Sports.Espn",
@@ -6259,25 +6461,27 @@
                 "tags": [
                     "UK:BT.Sports.Espn"
                 ],
-                "sortOrder": 373
+                "sortOrder": 378
             },
             {
                 "id": "Eurosport.1.uk",
-                "name": "UK: Eurosport 1 FHD",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.1.uk.png",
+                "name": "UK: Eurosport 1",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/eurosport-1-uk.png",
                 "tags": [
                     "[UK] Eurosport 1 FHD"
                 ],
-                "sortOrder": 374
+                "sortOrder": 379,
+                "enabled": true
             },
             {
                 "id": "Eurosport.2.uk",
-                "name": "UK: Eurosport 2 FHD VIP",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.uk.png",
+                "name": "UK: Eurosport 2",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/eurosport-2-uk.png",
                 "tags": [
                     "[UK] Eurosport 2 FHD VIP"
                 ],
-                "sortOrder": 375
+                "sortOrder": 380,
+                "enabled": true
             },
             {
                 "id": "LFCTV.HD.uk",
@@ -6288,7 +6492,7 @@
                     "UK: LFC TV",
                     "UK:Liverpool.TV"
                 ],
-                "sortOrder": 376
+                "sortOrder": 381
             },
             {
                 "id": "MUTV.HD.uk",
@@ -6299,7 +6503,7 @@
                     "UK: MUTV HD",
                     "UK:Manutd .TV"
                 ],
-                "sortOrder": 377
+                "sortOrder": 382
             },
             {
                 "id": "Premier.Sports.1.HD.uk",
@@ -6311,7 +6515,7 @@
                     "PremierSports HD_mpd(ott)",
                     "Premiere Sports 1 UK"
                 ],
-                "sortOrder": 378
+                "sortOrder": 383
             },
             {
                 "id": "Premier.Sports.2.HD.uk",
@@ -6323,7 +6527,7 @@
                     "PremierSports 2_mpd(ott)",
                     "Premiere Sports 2 UK"
                 ],
-                "sortOrder": 379
+                "sortOrder": 384
             },
             {
                 "id": "Racing.TV.HD.uk",
@@ -6333,7 +6537,7 @@
                     "racinguk.uk",
                     "UK: RACING UK"
                 ],
-                "sortOrder": 380
+                "sortOrder": 385
             },
             {
                 "id": "Sky.Sports.Action.HD.uk",
@@ -6344,7 +6548,7 @@
                     "UK: SKY SPORTS ACTION FHD",
                     "UK:SkySport.Action"
                 ],
-                "sortOrder": 381,
+                "sortOrder": 386,
                 "enabled": true
             },
             {
@@ -6357,7 +6561,7 @@
                     "UK: SKYSPORT ARENA FullHD"
                 ],
                 "enabled": true,
-                "sortOrder": 382
+                "sortOrder": 387
             },
             {
                 "id": "SkySpBoxOff.uk",
@@ -6367,7 +6571,7 @@
                     "skysportsboxoffice.uk",
                     "UK: SKY SPORTS BOX OFFICE (LIVE DURING BOXING MATCH)"
                 ],
-                "sortOrder": 383,
+                "sortOrder": 388,
                 "enabled": true
             },
             {
@@ -6380,7 +6584,7 @@
                     "UK:SkySport.Cricket",
                     "UK: SKY SPORTS CRICKET HD"
                 ],
-                "sortOrder": 384,
+                "sortOrder": 389,
                 "enabled": true
             },
             {
@@ -6396,7 +6600,7 @@
                     "UK:Sky.Sports.F1"
                 ],
                 "enabled": true,
-                "sortOrder": 385
+                "sortOrder": 390
             },
             {
                 "id": "Sky.Sports.Football.HD.uk",
@@ -6408,7 +6612,7 @@
                     "UK:SkySport.Football",
                     "UK: SKY SPORTS FOOTBALL HD"
                 ],
-                "sortOrder": 386,
+                "sortOrder": 391,
                 "enabled": true
             },
             {
@@ -6422,7 +6626,7 @@
                     "UK: SKY SPORTS GOLF HD"
                 ],
                 "enabled": true,
-                "sortOrder": 387
+                "sortOrder": 392
             },
             {
                 "id": "SkySpMainEvHD.uk",
@@ -6435,7 +6639,7 @@
                     "UK: SKY SPORTS MAIN EVENTS FHD"
                 ],
                 "enabled": true,
-                "sortOrder": 388
+                "sortOrder": 393
             },
             {
                 "id": "SkySp.Mix.HD.uk",
@@ -6446,7 +6650,7 @@
                     "UK: SKY SPORTS MIX FHD",
                     "UK:Sky.Sports.Mix"
                 ],
-                "sortOrder": 389,
+                "sortOrder": 394,
                 "enabled": true
             },
             {
@@ -6461,7 +6665,7 @@
                     "UK:Sky.Sports.News"
                 ],
                 "enabled": true,
-                "sortOrder": 390
+                "sortOrder": 395
             },
             {
                 "id": "SkySp+HD.uk",
@@ -6472,7 +6676,7 @@
                     "UK: SKY SPORTS + FHD",
                     "UK: SKY SPORTS PLUS HD"
                 ],
-                "sortOrder": 391,
+                "sortOrder": 396,
                 "enabled": true
             },
             {
@@ -6485,7 +6689,7 @@
                     "UK:SkySport.Premiere.League",
                     "UK: SKY SPORTS PREMIER LEAGUE HD"
                 ],
-                "sortOrder": 392,
+                "sortOrder": 397,
                 "enabled": true
             },
             {
@@ -6508,7 +6712,7 @@
                     "UK:BT.Sport1"
                 ],
                 "enabled": true,
-                "sortOrder": 393
+                "sortOrder": 398
             },
             {
                 "id": "TNT.Sports.2.HD.uk",
@@ -6530,7 +6734,7 @@
                     "UK:BT.Sport2"
                 ],
                 "enabled": true,
-                "sortOrder": 394
+                "sortOrder": 399
             },
             {
                 "id": "TNT.Sports.3.HD.uk",
@@ -6552,7 +6756,7 @@
                     "UK:BTSport3"
                 ],
                 "enabled": true,
-                "sortOrder": 395
+                "sortOrder": 400
             },
             {
                 "id": "TNT.Sports.4.HD.uk",
@@ -6571,7 +6775,7 @@
                     "UK: TNT SPORTS 4 HD"
                 ],
                 "enabled": true,
-                "sortOrder": 396
+                "sortOrder": 401
             },
             {
                 "id": "TNT.Sports.5.HD.uk",
@@ -6587,7 +6791,7 @@
                     "TNT 5x",
                     "TNT 5x FHD"
                 ],
-                "sortOrder": 397
+                "sortOrder": 402
             },
             {
                 "id": "TNT.Sports.6.HD.uk",
@@ -6598,7 +6802,7 @@
                     "UK: TNT SPORTS 6 HD",
                     "TNT Sports 6 (GBR)"
                 ],
-                "sortOrder": 398
+                "sortOrder": 403
             },
             {
                 "id": "TNT.Sports.7.HD.uk",
@@ -6609,7 +6813,7 @@
                     "UK: TNT SPORTS 7 HD",
                     "TNT Sports 7 (GBR)"
                 ],
-                "sortOrder": 399
+                "sortOrder": 404
             },
             {
                 "id": "TNT.Sports.8.HD.uk",
@@ -6619,7 +6823,7 @@
                     "btsportx4.uk",
                     "UK: TNT SPORTS 8 HD"
                 ],
-                "sortOrder": 400
+                "sortOrder": 405
             },
             {
                 "id": "TNT.Sports.Ultimate.uk",
@@ -6628,7 +6832,7 @@
                 "tags": [
                     "tntultimate"
                 ],
-                "sortOrder": 401
+                "sortOrder": 406
             },
             {
                 "id": "US.BeIN.Xtra.en",
@@ -6640,7 +6844,7 @@
                     "US:BEIN.XTRA"
                 ],
                 "enabled": true,
-                "sortOrder": 402
+                "sortOrder": 407
             },
             {
                 "id": "US.BeIN.Xtra.es",
@@ -6652,7 +6856,7 @@
                     "US:BEIN.XTRA.ES"
                 ],
                 "enabled": true,
-                "sortOrder": 403
+                "sortOrder": 408
             },
             {
                 "id": "ESPN.HD.us2",
@@ -6663,7 +6867,7 @@
                     "US:ESPN"
                 ],
                 "enabled": true,
-                "sortOrder": 404
+                "sortOrder": 409
             },
             {
                 "id": "ESPN2.HD.us2",
@@ -6674,7 +6878,7 @@
                     "US:ESPN2"
                 ],
                 "enabled": true,
-                "sortOrder": 405
+                "sortOrder": 410
             },
             {
                 "id": "ESPNEWS.HD.us2",
@@ -6685,7 +6889,7 @@
                     "US:ESPNEWS"
                 ],
                 "enabled": true,
-                "sortOrder": 406
+                "sortOrder": 411
             },
             {
                 "id": "ESPNU.HD.us2",
@@ -6696,7 +6900,7 @@
                     "US:ESPNU"
                 ],
                 "enabled": true,
-                "sortOrder": 407
+                "sortOrder": 412
             },
             {
                 "id": "USA.Network.HD.us2",
@@ -6708,7 +6912,7 @@
                     "US:USA.NETWORK"
                 ],
                 "enabled": true,
-                "sortOrder": 408
+                "sortOrder": 413
             }
         ]
     },
@@ -6720,22 +6924,14 @@
         "isAutoSort": true,
         "channels": [
             {
-                "id": "testcard",
-                "name": "Kênh test card",
-                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
-                "tags": [
-                    "(Test Card)"
-                ],
-                "enabled": true
-            },
-            {
                 "id": "mytv-infocard",
                 "name": "MyTV Info Card",
                 "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
                 "tags": [
                     "(MyTV Infocard)"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 1
             },
             {
                 "id": "mytv801",
@@ -6744,7 +6940,8 @@
                 "tags": [
                     "Event 801"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 2
             },
             {
                 "id": "mytv802",
@@ -6753,7 +6950,8 @@
                 "tags": [
                     "Event 802"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 3
             },
             {
                 "id": "mytv803",
@@ -6762,7 +6960,8 @@
                 "tags": [
                     "Event 803"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 4
             },
             {
                 "id": "mytv804",
@@ -6771,7 +6970,8 @@
                 "tags": [
                     "Event 804"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 5
             },
             {
                 "id": "mytv806",
@@ -6780,7 +6980,8 @@
                 "tags": [
                     "Event 806"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 6
             },
             {
                 "id": "mytv807",
@@ -6789,7 +6990,8 @@
                 "tags": [
                     "Event 807"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 7
             },
             {
                 "id": "mytv903",
@@ -6798,7 +7000,8 @@
                 "tags": [
                     "Event 903"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 8
             },
             {
                 "id": "mytv904",
@@ -6807,7 +7010,8 @@
                 "tags": [
                     "Event 904"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 9
             },
             {
                 "id": "mytv905",
@@ -6816,7 +7020,8 @@
                 "tags": [
                     "Event 905"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 10
             },
             {
                 "id": "mytv906",
@@ -6825,7 +7030,18 @@
                 "tags": [
                     "Event 906"
                 ],
-                "enabled": true
+                "enabled": true,
+                "sortOrder": 11
+            },
+            {
+                "id": "testcard",
+                "name": "Kênh test card",
+                "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
+                "tags": [
+                    "(Test Card)"
+                ],
+                "enabled": true,
+                "sortOrder": 12
             }
         ]
     },
@@ -6852,13 +7068,13 @@
                 ]
             }
         ],
-        "sortOrder": 13
+        "sortOrder": 14
     },
     {
         "id": "japan",
         "name": "Nhật Bản",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/japan-flag-icon.png",
-        "sortOrder": 14,
+        "sortOrder": 17,
         "isAutoSort": true,
         "channels": [
             {
@@ -7273,7 +7489,9 @@
                 "id": "yomiuri_tv",
                 "name": "YTV",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Yomiuri_Telecasting_Corporation_Logo.svg/150px-Yomiuri_Telecasting_Corporation_Logo.svg.png",
-                "tags": []
+                "tags": [
+                    "DFB Play TV"
+                ]
             }
         ]
     },
@@ -7281,7 +7499,7 @@
         "id": "china",
         "name": "Trung Quốc",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
-        "sortOrder": 15,
+        "sortOrder": 18,
         "isAutoSort": true,
         "channels": [
             {
@@ -7723,7 +7941,7 @@
         "id": "thailand",
         "name": "Thái Lan",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/thailand-flag-icon.png",
-        "sortOrder": 16,
+        "sortOrder": 19,
         "isAutoSort": true,
         "channels": [
             {
@@ -8029,7 +8247,7 @@
         "id": "uk",
         "name": "Vương quốc Anh",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/united-kingdom-flag-icon.png",
-        "sortOrder": 17,
+        "sortOrder": 20,
         "isAutoSort": false,
         "channels": [
             {
@@ -8105,5 +8323,595 @@
                 "sortOrder": 8
             }
         ]
+    },
+    {
+        "id": "indonesia",
+        "name": "Indonesia",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/indonesia-flag-icon.png",
+        "channels": [
+            {
+                "id": "antv",
+                "name": "ANTV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/antv.png",
+                "tags": [
+                    "ANTV",
+                    "FANTV Extra"
+                ],
+                "sortOrder": 1
+            },
+            {
+                "id": "beritasatu",
+                "name": "BERITA SATU",
+                "logo": "https://img.logo-cdn.cc/beritasatu.png",
+                "tags": [
+                    "BERITA SATU"
+                ],
+                "sortOrder": 4
+            },
+            {
+                "id": "btv",
+                "name": "BTV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/btv.png",
+                "tags": [
+                    "BTV"
+                ],
+                "sortOrder": 5
+            },
+            {
+                "id": "cnbcindonesia",
+                "name": "CNBC Indonesia",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/cnbcindo.png",
+                "tags": [
+                    "CNBC Indonesia"
+                ],
+                "sortOrder": 6
+            },
+            {
+                "id": "cnnindonesia",
+                "name": "CNN Indonesia",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/cnnindo.png",
+                "tags": [
+                    "CNN Indonesia"
+                ],
+                "sortOrder": 7
+            },
+            {
+                "id": "discoveryworld",
+                "name": "DISCOVERY WORLD",
+                "logo": "https://img.logo-cdn.cc/discoveryworld.png",
+                "tags": [
+                    "DISCOVERY WORLD"
+                ],
+                "sortOrder": 8
+            },
+            {
+                "id": "disneychannel",
+                "name": "DISNEY CHANNEL",
+                "logo": "https://img.logo-cdn.cc/disneychannel.png",
+                "tags": [
+                    "DISNEY CHANNEL"
+                ],
+                "sortOrder": 9
+            },
+            {
+                "id": "dreamworks",
+                "name": "DREAMWORKS",
+                "logo": "https://img.logo-cdn.cc/dreamworks.png",
+                "tags": [
+                    "DREAMWORKS"
+                ],
+                "sortOrder": 10
+            },
+            {
+                "id": "duniaanak",
+                "name": "DUNIA ANAK",
+                "logo": "https://img.logo-cdn.cc/duniaanak.png",
+                "tags": [
+                    "DUNIA ANAK"
+                ],
+                "sortOrder": 11
+            },
+            {
+                "id": "dunialain",
+                "name": "DUNIA LAIN",
+                "logo": "https://img.logo-cdn.cc/dunialain.png",
+                "tags": [
+                    "DUNIA LAIN"
+                ],
+                "sortOrder": 12
+            },
+            {
+                "id": "flik",
+                "name": "FLIK",
+                "logo": "https://img.logo-cdn.cc/flik.png",
+                "tags": [
+                    "FLIK"
+                ],
+                "sortOrder": 13
+            },
+            {
+                "id": "galaxypremium",
+                "name": "GALAXY PREMIUM",
+                "logo": "https://img.logo-cdn.cc/galaxy.png",
+                "tags": [
+                    "GALAXY PREMIUM"
+                ],
+                "sortOrder": 14
+            },
+            {
+                "id": "gtv",
+                "name": "GTV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/gtv.png",
+                "tags": [
+                    "GTV",
+                    "Boxing TV"
+                ],
+                "sortOrder": 15
+            },
+            {
+                "id": "hbo",
+                "name": "HBO",
+                "logo": "https://img.logo-cdn.cc/hbo.png",
+                "tags": [
+                    "HBO"
+                ],
+                "sortOrder": 16
+            },
+            {
+                "id": "hbofamily",
+                "name": "HBO FAMILY",
+                "logo": "https://img.logo-cdn.cc/hbo.png",
+                "tags": [
+                    "HBO FAMILY"
+                ],
+                "sortOrder": 17
+            },
+            {
+                "id": "hbohits",
+                "name": "HBO HITS",
+                "logo": "https://img.logo-cdn.cc/hbo.png",
+                "tags": [
+                    "HBO HITS"
+                ],
+                "sortOrder": 18
+            },
+            {
+                "id": "hbosignature",
+                "name": "HBO SIGNATURE",
+                "logo": "https://img.logo-cdn.cc/hbo.png",
+                "tags": [
+                    "HBO SIGNATURE"
+                ],
+                "sortOrder": 19
+            },
+            {
+                "id": "indosiar",
+                "name": "INDOSIAR",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/indosiar.png",
+                "tags": [
+                    "INDOSIAR",
+                    "INDOSIAR DIGITAL HD",
+                    "INDOSIAR DIGITAL HD 2"
+                ],
+                "sortOrder": 20
+            },
+            {
+                "id": "inews",
+                "name": "iNews",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/inews.png",
+                "tags": [
+                    "iNews",
+                    "INEWS HD",
+                    "Inews",
+                    "iNews DIGITAL",
+                    "iNews HD 1 (R+)",
+                    "iNews HD 2 (R+)"
+                ],
+                "sortOrder": 21
+            },
+            {
+                "id": "jaktv",
+                "name": "JAKTV",
+                "logo": "http://adp-premium.my.id/logo/jaktv.jpg",
+                "tags": [
+                    "JAKTV"
+                ],
+                "sortOrder": 22
+            },
+            {
+                "id": "kompastv",
+                "name": "KompasTV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/kompastv.png",
+                "tags": [
+                    "KompasTV",
+                    "KOMPAS TV"
+                ],
+                "sortOrder": 23
+            },
+            {
+                "id": "mdtv",
+                "name": "MDTV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/mdtv.png",
+                "tags": [
+                    "MDTV"
+                ],
+                "sortOrder": 24
+            },
+            {
+                "id": "metrotv",
+                "name": "Metro TV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/metrotv.png",
+                "tags": [
+                    "Metro TV",
+                    "Metro TV DIGITAL"
+                ],
+                "sortOrder": 25
+            },
+            {
+                "id": "mnctv",
+                "name": "MNCTV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/mnctv.png",
+                "tags": [
+                    "MNCTV",
+                    "MNC TV",
+                    "MNCTV HD 1 (R+)",
+                    "MNCTV HD 2 (R+)",
+                    "MNCTV HD DIGITAL"
+                ],
+                "sortOrder": 26
+            },
+            {
+                "id": "moji",
+                "name": "MOJI",
+                "logo": "https://img.logo-cdn.cc/moji.png",
+                "tags": [
+                    "MOJI",
+                    "MOJI Proliga",
+                    "MOJI VIDIO"
+                ],
+                "sortOrder": 27
+            },
+            {
+                "id": "mojitv",
+                "name": "MOJITV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/moji.png",
+                "tags": [
+                    "MOJITV"
+                ],
+                "sortOrder": 28
+            },
+            {
+                "id": "net",
+                "name": "NET",
+                "logo": "https://img.logo-cdn.cc/net..png",
+                "tags": [
+                    "NET",
+                    "Futbol Network",
+                    "WWE NETWORK 1 ON",
+                    "MY | WWE Network",
+                    "MY | SkyNet Golf",
+                    "WWE Network",
+                    "SuperSport WWE Network FHD"
+                ],
+                "sortOrder": 29
+            },
+            {
+                "id": "nickjr",
+                "name": "NICK JR",
+                "logo": "https://img.logo-cdn.cc/nickjr.png",
+                "tags": [
+                    "NICK JR"
+                ],
+                "sortOrder": 30
+            },
+            {
+                "id": "nickelodeon",
+                "name": "NICKELODEON",
+                "logo": "https://img.logo-cdn.cc/nickelodeon.png",
+                "tags": [
+                    "NICKELODEON"
+                ],
+                "sortOrder": 31
+            },
+            {
+                "id": "one",
+                "name": "ONE",
+                "logo": "https://img.logo-cdn.cc/ONE.png",
+                "tags": [
+                    "ONE",
+                    "Indonesiana TV",
+                    "TVONE HD",
+                    "CBS Golazo Network"
+                ],
+                "sortOrder": 32
+            },
+            {
+                "id": "rcti",
+                "name": "RCTI",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/rcti.png",
+                "tags": [
+                    "RCTI",
+                    "RCTI Live Sports"
+                ],
+                "sortOrder": 33
+            },
+            {
+                "id": "sctv",
+                "name": "SCTV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/sctv.png",
+                "tags": [
+                    "SCTV"
+                ],
+                "sortOrder": 34
+            },
+            {
+                "id": "sindonews",
+                "name": "SINDONEWS",
+                "logo": "http://adp-premium.my.id/logo/sindo.jpg",
+                "tags": [
+                    "SINDONEWS",
+                    "Sindonews"
+                ],
+                "sortOrder": 35
+            },
+            {
+                "id": "sinpotv",
+                "name": "SINPO TV",
+                "logo": "http://adp-premium.my.id/logo/Simpotv.jpg",
+                "tags": [
+                    "SINPO TV"
+                ],
+                "sortOrder": 36
+            },
+            {
+                "id": "trans7",
+                "name": "Trans 7",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/trans7.png",
+                "tags": [
+                    "Trans 7",
+                    "TRANS 7",
+                    "Trans 7 FHD"
+                ],
+                "sortOrder": 37
+            },
+            {
+                "id": "transtv",
+                "name": "Trans TV",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/transtv.png",
+                "tags": [
+                    "Trans TV",
+                    "Trans TV FHD"
+                ],
+                "sortOrder": 38
+            },
+            {
+                "id": "tvone",
+                "name": "TV ONE",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/tvone.png",
+                "tags": [
+                    "TV ONE",
+                    "TvOne"
+                ],
+                "sortOrder": 39
+            },
+            {
+                "id": "tv5monde",
+                "name": "TV5 MONDE",
+                "logo": "https://img.logo-cdn.cc/tv5monde.png",
+                "tags": [
+                    "TV5 MONDE"
+                ],
+                "sortOrder": 40
+            },
+            {
+                "id": "tvku",
+                "name": "TVKU",
+                "logo": "",
+                "tags": [
+                    "TVKU"
+                ],
+                "sortOrder": 41
+            },
+            {
+                "id": "tvn",
+                "name": "TVN",
+                "logo": "https://img.logo-cdn.cc/tvn.png",
+                "tags": [
+                    "TVN"
+                ],
+                "sortOrder": 42
+            },
+            {
+                "id": "tvnmovies",
+                "name": "TVN MOVIES",
+                "logo": "https://img.logo-cdn.cc/tvnmovies.png",
+                "tags": [
+                    "TVN MOVIES"
+                ],
+                "sortOrder": 43
+            },
+            {
+                "id": "tvri",
+                "name": "TVRI",
+                "logo": "http://adp-premium.my.id/logo/tvri.jpg",
+                "tags": [
+                    "TVRI"
+                ],
+                "sortOrder": 44
+            },
+            {
+                "id": "ugtv",
+                "name": "UG TV",
+                "logo": "",
+                "tags": [
+                    "UG TV"
+                ],
+                "sortOrder": 45
+            },
+            {
+                "id": "visionprime",
+                "name": "Vision Prime",
+                "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/visionprime.png",
+                "tags": [
+                    "Vision Prime"
+                ],
+                "sortOrder": 46
+            },
+            {
+                "id": "zeebioskop",
+                "name": "ZEE BIOSKOP",
+                "logo": "https://img.logo-cdn.cc/zeebioskop.png",
+                "tags": [
+                    "ZEE BIOSKOP"
+                ],
+                "sortOrder": 47
+            }
+        ],
+        "sortOrder": 15
+    },
+    {
+        "id": "lao",
+        "name": "Lào",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/laos-flag-icon.png",
+        "sortOrder": 16,
+        "isAutoSort": true,
+        "channels": [
+            {
+                "id": "lnbtv1",
+                "name": "LNBT TV1",
+                "logo": "https://i.ibb.co/hL4qWpY/lao1.png",
+                "tags": [
+                    "Lao National TV"
+                ]
+            },
+            {
+                "id": "laostar",
+                "name": "Lao Star TV",
+                "logo": "https://i.ibb.co/6yXmPzJ/laostar.png",
+                "tags": [
+                    "Lao Star"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "campuchia",
+        "name": "Campuchia",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/cambodia-flag-icon.png",
+        "sortOrder": 13,
+        "isAutoSort": true,
+        "channels": [
+            {
+                "id": "tvk",
+                "name": "TVK Cambodia",
+                "logo": "https://i.ibb.co/S7mX0Yw/tvk.png",
+                "tags": [
+                    "National TV Cambodia"
+                ]
+            },
+            {
+                "id": "bayontv",
+                "name": "Bayon TV",
+                "logo": "https://i.ibb.co/d0S6pXw/bayon.png",
+                "tags": [
+                    "Bayon"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Khác",
+        "channels": [
+            {
+                "id": "abcaustralia.au",
+                "name": "ABC News",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FdVK1ux1.png?t=2026-03-19T04:49:58Z",
+                "tags": [
+                    "ABC News Live"
+                ],
+                "sortOrder": 1
+            },
+            {
+                "id": "513.astro",
+                "name": "Al Jazeera English",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhksBZG.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 2
+            },
+            {
+                "id": "bbcnewshd.uk",
+                "name": "BBC News UK",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhksqjs.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 4
+            },
+            {
+                "id": "cnninternationalasiapacific.hk",
+                "name": "CNN International",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fwww.seekpng.com%2Fpng%2Fdetail%2F51-517961_cnn-logo-with-earth-png-cnn-international.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 5
+            },
+            {
+                "id": "cnn.us",
+                "name": "CNN USA",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJmKv9vn.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 6
+            },
+            {
+                "id": "euronewsenglish.fr",
+                "name": "Euronews English",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhksR99.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 7
+            },
+            {
+                "id": "gbnews.uk",
+                "name": "GB News",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJmKP4YQ.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 8
+            },
+            {
+                "id": "514.astro",
+                "name": "Sky News",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhkslMx.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 9
+            },
+            {
+                "id": "trtworld.tr",
+                "name": "TRT World",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhks06Q.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 10
+            },
+            {
+                "id": "voice-of-america",
+                "name": "Voice Of America",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F494%2F982%2Fpng-transparent-united-states-voice-of-america-internet-radio-voa-amharic-broadcasting-united-states-text-logo-united-states.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 11
+            },
+            {
+                "id": "5f161c0a8ba90f0007d5bd0b",
+                "name": "Yahoo! Finance",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJmKv2jf.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 12
+            },
+            {
+                "id": "bein-sport-1-hd",
+                "name": "BEIN SPORT 1 HD",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Fe5%2FLogo_bein_sports_1.png?t=2026-03-19T04:49:58Z"
+            },
+            {
+                "id": "bein-sport-3-hd",
+                "name": "BEIN SPORT 3 HD",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fimages.now-tv.com%2Fshares%2FchannelPreview%2Fimg%2Fen_hk%2Fcolor%2Fch643_170_122?t=2026-03-19T04:49:58Z"
+            },
+            {
+                "id": "espn 2.ar",
+                "name": "ESPN 2",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fi.ibb.co.com%2FqRhgT1D%2F20241123-095655.png?t=2026-03-19T04:49:58Z"
+            },
+            {
+                "id": "poker-tv",
+                "name": "POKER TV",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%253A%252F%252Fui-avatars.com%252Fapi%252F%253Fsize%253D256%2526format%253Dpng%2526rounded%253Dtrue%2526background%253Drandom%2526length%253D2%2526name%253DPOKER%252520TV?t=2026-03-19T04:49:58Z"
+            }
+        ],
+        "sortOrder": 999
     }
 ]

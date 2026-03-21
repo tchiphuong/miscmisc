@@ -152,7 +152,7 @@
                 <input ng-model="q" ng-change="apply()" type="search" placeholder="Tìm kênh hoặc nhóm…" class="w-full sm:w-72 rounded-xl2 border border-border bg-card/80 px-3 py-2 outline-none focus:ring-2 focus:ring-accent/60 placeholder:text-muted" />
                 <select id="groupSelect" ng-model="selectedGroup" ng-change="apply()" class="rounded-xl2 border border-border bg-card/80 px-3 py-2 w-full sm:w-64 outline-none focus:ring-2 focus:ring-accent/60">
                     <option value="">— Tất cả nhóm —</option>
-                    <option ng-repeat="g in groups" value="{{g}}">
+                    <option ng-repeat="g in groups | orderBy:'sortOrder'" value="{{g}}">
                         {{groupMap[g].name || g}}
                     </option>
                 </select>
