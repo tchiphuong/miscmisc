@@ -43,6 +43,15 @@
                 ]
             },
             {
+                "id": "vietnamtoday",
+                "name": "Vietnam Today",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vietnamtoday.png",
+                "thumbnail": "https://vtvgo-assets.vtvdigital.vn/assets/images/v2/channel/20250905/2025090515/S1CWNGr2gI-VIETNAMTODAY-THUMBNAIL-KENHVTVgo-500x281.webp",
+                "tags": [
+                    "VIỆT NAM TODAY"
+                ]
+            },
+            {
                 "id": "vtv5hd",
                 "name": "VTV5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv5hd.png",
@@ -68,15 +77,6 @@
                 "tags": [
                     "vtv5hdtnn",
                     "VTV5 TN"
-                ]
-            },
-            {
-                "id": "vtvcantho",
-                "name": "VTV Cần Thơ",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtvcantho.png",
-                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/b656ea10-a477-43f6-b260-fefb844ed0c5.jpg",
-                "tags": [
-                    "VTV Cần Thơ"
                 ]
             },
             {
@@ -107,12 +107,12 @@
                 ]
             },
             {
-                "id": "vietnamtoday",
-                "name": "Vietnam Today",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vietnamtoday.png",
-                "thumbnail": "https://vtvgo-assets.vtvdigital.vn/assets/images/v2/channel/20250905/2025090515/S1CWNGr2gI-VIETNAMTODAY-THUMBNAIL-KENHVTVgo-500x281.webp",
+                "id": "vtvcantho",
+                "name": "VTV Cần Thơ",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv10hd.png",
+                "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/b656ea10-a477-43f6-b260-fefb844ed0c5.jpg",
                 "tags": [
-                    "VIỆT NAM TODAY"
+                    "VTV Cần Thơ"
                 ]
             }
         ]
