@@ -107,13 +107,14 @@
                 ]
             },
             {
-                "id": "vtvcantho",
+                "id": "vtv10hd",
                 "name": "VTV10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv10hd.png",
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/b656ea10-a477-43f6-b260-fefb844ed0c5.jpg",
                 "tags": [
                     "VTV Cần Thơ",
-                    "vtv10"
+                    "vtv10",
+                    "vtvcantho"
                 ]
             }
         ]
