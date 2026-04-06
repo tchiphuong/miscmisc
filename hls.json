@@ -1731,9 +1731,11 @@
                 "name": "Vĩnh Long 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong1hd.png",
                 "tags": [
-                    "THVL1 HD - Báo và PTTH Vĩnh Long"
+                    "THVL1 HD - Báo và PTTH Vĩnh Long",
+                    "thvl1hd"
                 ],
-                "sortOrder": 56
+                "sortOrder": 56,
+                "enabled": true
             },
             {
                 "id": "vinhlong2hd",
@@ -1741,39 +1743,47 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong2hd.png",
                 "tags": [
                     "bentre",
-                    "THVL2 HD - Báo và PTTH Vĩnh Long"
+                    "THVL2 HD - Báo và PTTH Vĩnh Long",
+                    "thvl2hd"
                 ],
-                "sortOrder": 57
+                "sortOrder": 57,
+                "enabled": true
             },
             {
                 "id": "vinhlong3hd",
                 "name": "Vĩnh Long 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong3hd.png",
                 "tags": [
-                    "THVL3 HD - Báo và PTTH Vĩnh Long"
+                    "THVL3 HD - Báo và PTTH Vĩnh Long",
+                    "thvl3hd"
                 ],
-                "sortOrder": 58
+                "sortOrder": 58,
+                "enabled": true
             },
             {
                 "id": "vinhlong4hd",
                 "name": "Vĩnh Long 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong4hd.png",
                 "tags": [
-                    "THVL4 HD - Báo và PTTH Vĩnh Long"
+                    "THVL4 HD - Báo và PTTH Vĩnh Long",
+                    "thvl4hd"
                 ],
-                "sortOrder": 59
+                "sortOrder": 59,
+                "enabled": true
             },
             {
                 "id": "vinhlong5hd",
                 "name": "Vĩnh Long 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/vinhlong5hd.png",
                 "tags": [
-                    "travinh",
-                    "travinh1",
                     "THTV2 HD | TH Trà Vinh",
-                    "THVL5 HD - Báo và PTTH Vĩnh Long"
+                    "THVL5 HD - Báo và PTTH Vĩnh Long",
+                    "thvl5hd",
+                    "travinh",
+                    "travinh1"
                 ],
-                "sortOrder": 60
+                "sortOrder": 60,
+                "enabled": true
             }
         ]
     },
