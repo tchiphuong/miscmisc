@@ -1069,7 +1069,7 @@
             },
             {
                 "id": "tv360plus4",
-                "name": "360 Thể Thao 24/7",
+                "name": "360 V-Sport",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus4.png",
                 "tags": [
                     "TV360+4"
@@ -1089,66 +1089,73 @@
             },
             {
                 "id": "tv360plus6",
-                "name": "TV360+ 6",
+                "name": "360 Sân Cỏ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus6.png",
                 "tags": [
                     "TV360+6"
                 ],
-                "sortOrder": 12
+                "sortOrder": 12,
+                "enabled": true
             },
             {
                 "id": "tv360plus7",
-                "name": "TV360+ 7",
+                "name": "360 Phút 90",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus7.png",
                 "tags": [
                     "TV360+7"
                 ],
-                "sortOrder": 13
+                "sortOrder": 13,
+                "enabled": true
             },
             {
                 "id": "tv360plus8",
-                "name": "TV360+ 8",
+                "name": "360 Cuồng Nhiệt",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus8.png",
                 "tags": [
                     "TV360+8"
                 ],
-                "sortOrder": 14
+                "sortOrder": 14,
+                "enabled": true
             },
             {
                 "id": "tv360plus9",
-                "name": "TV360+ 9",
+                "name": "360 Goal",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus9.png",
                 "tags": [
                     "TV360+9"
                 ],
-                "sortOrder": 15
+                "sortOrder": 15,
+                "enabled": true
             },
             {
                 "id": "tv360plus10",
-                "name": "TV360+ 10",
+                "name": "360 Score",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus10.png",
                 "tags": [
                     "TV360+10"
                 ],
-                "sortOrder": 16
+                "sortOrder": 16,
+                "enabled": true
             },
             {
                 "id": "tv360plus11",
-                "name": "TV360+ 11",
+                "name": "360 Nhịp Đập",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus11.png",
                 "tags": [
                     "TV360+11"
                 ],
-                "sortOrder": 17
+                "sortOrder": 17,
+                "enabled": true
             },
             {
                 "id": "tv360plus12",
-                "name": "TV360+ 12",
+                "name": "360 Tốc Độ",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus12.png",
                 "tags": [
                     "TV360+12"
                 ],
-                "sortOrder": 18
+                "sortOrder": 18,
+                "enabled": true
             }
         ]
     },
