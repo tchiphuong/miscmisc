@@ -13,7 +13,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/5de59236-89a2-4387-8664-f2fc27608093.jpg",
                 "tags": [
                     "VTV1 HD"
-                ]
+                ],
+                "sortOrder": 1
             },
             {
                 "id": "vtv2hd",
@@ -22,7 +23,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/5ac4a9fb-6da7-4785-aab5-ae85e471d869.jpg",
                 "tags": [
                     "VTV2 HD"
-                ]
+                ],
+                "sortOrder": 2
             },
             {
                 "id": "vtv3hd",
@@ -31,7 +33,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/292a3f4e-c6ee-4858-9c49-f61dde69a854.jpg",
                 "tags": [
                     "VTV3 HD"
-                ]
+                ],
+                "sortOrder": 3
             },
             {
                 "id": "vtv4hd",
@@ -40,16 +43,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/f161041d-3a3f-4c0a-88f2-ae97f8052ee7.jpg",
                 "tags": [
                     "VTV4 HD"
-                ]
-            },
-            {
-                "id": "vietnamtoday",
-                "name": "Vietnam Today",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vietnamtoday.png",
-                "thumbnail": "https://vtvgo-assets.vtvdigital.vn/assets/images/v2/channel/20250905/2025090515/S1CWNGr2gI-VIETNAMTODAY-THUMBNAIL-KENHVTVgo-500x281.webp",
-                "tags": [
-                    "VIỆT NAM TODAY"
-                ]
+                ],
+                "sortOrder": 4
             },
             {
                 "id": "vtv5hd",
@@ -58,7 +53,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/d84c3036-3cc4-4c45-911f-8d1c5025cd93.jpg",
                 "tags": [
                     "VTV5 HD"
-                ]
+                ],
+                "sortOrder": 5
             },
             {
                 "id": "vtv5hdtnb",
@@ -67,7 +63,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/d96ee31b-eeef-4f4a-8245-0a9c0006bc46.jpg",
                 "tags": [
                     "VTV5 TNB"
-                ]
+                ],
+                "sortOrder": 6
             },
             {
                 "id": "vtv5hdtn",
@@ -77,7 +74,8 @@
                 "tags": [
                     "vtv5hdtnn",
                     "VTV5 TN"
-                ]
+                ],
+                "sortOrder": 7
             },
             {
                 "id": "vtv6hd",
@@ -86,7 +84,8 @@
                 "tags": [
                     "VTV6",
                     "VTV6 HD"
-                ]
+                ],
+                "sortOrder": 8
             },
             {
                 "id": "vtv7hd",
@@ -95,7 +94,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/fe6f00dd-e418-44bf-9c0a-ae47cec1a67c.jpg",
                 "tags": [
                     "VTV7 HD"
-                ]
+                ],
+                "sortOrder": 9
             },
             {
                 "id": "vtv8hd",
@@ -104,7 +104,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/447aba67-bee4-443a-ac5b-f6e457ff4abe.jpg",
                 "tags": [
                     "VTV8 HD"
-                ]
+                ],
+                "sortOrder": 10
             },
             {
                 "id": "vtv9hd",
@@ -113,7 +114,8 @@
                 "thumbnail": "https://vtvgo-images.vtvdigital.vn/images/20230626/7f951ab0-a128-44a9-84cd-ba8faf108ad3.jpg",
                 "tags": [
                     "VTV9 HD"
-                ]
+                ],
+                "sortOrder": 11
             },
             {
                 "id": "vtv10hd",
@@ -124,7 +126,18 @@
                     "VTV Cần Thơ",
                     "vtv10",
                     "vtvcantho"
-                ]
+                ],
+                "sortOrder": 12
+            },
+            {
+                "id": "vietnamtoday",
+                "name": "Vietnam Today",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vietnamtoday.png",
+                "thumbnail": "https://vtvgo-assets.vtvdigital.vn/assets/images/v2/channel/20250905/2025090515/S1CWNGr2gI-VIETNAMTODAY-THUMBNAIL-KENHVTVgo-500x281.webp",
+                "tags": [
+                    "VIỆT NAM TODAY"
+                ],
+                "sortOrder": 13
             }
         ]
     },
@@ -978,74 +991,229 @@
                 ]
             }
         ],
-        "sortOrder": 11
+        "sortOrder": 13
     },
     {
-        "id": "tv360",
-        "name": "TV360",
+        "id": "tv360-movie",
+        "name": "TV360 - Rạp phim",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
-        "sortOrder": 7,
+        "sortOrder": 8,
         "isAutoSort": true,
         "channels": [
             {
+                "id": "tv360phimviet",
+                "name": "360 Phim Việt",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/07/15/1775549899305/f54a93a767c5_480_270.png",
+                "tags": [
+                    "Phim Việt",
+                    "V Phim Viet"
+                ],
+                "sortOrder": 1,
+                "enabled": true
+            },
+            {
+                "id": "tv360aumy",
+                "name": "360 Phim Âu Mỹ",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/09/08/1775697767861/9a6dc88794cf_480_270.png",
+                "tags": [
+                    "Phim Âu Mỹ",
+                    "Phim Au My"
+                ],
+                "sortOrder": 2,
+                "enabled": true
+            },
+            {
                 "id": "tv360hoathinh",
-                "name": "Hoạt Hình",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360hoathinh.png",
+                "name": "360 Hoạt Hình",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/07/15/1775549978212/fcfc9c6d7919_480_270.png",
                 "tags": [
                     "Hoạt Hình",
                     "Hoat hinh"
                 ],
-                "sortOrder": 1
+                "sortOrder": 3,
+                "enabled": true
+            },
+            {
+                "id": "tv360hoangu",
+                "name": "360 Hoa Ngữ",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/09/08/1775697736867/3854900b7263_480_270.png",
+                "tags": [
+                    "360 Hoa Ngữ",
+                    "360 PHIM HOA NGŨ"
+                ],
+                "sortOrder": 4,
+                "enabled": true
+            },
+            {
+                "id": "360-hanh-ong-chau-a",
+                "name": "360 Hành động Châu Á",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/08/10/1775617851169/1f38a5af77c1_480_270.png",
+                "tags": [
+                    "360 HÀNH ĐỘNG CHÂU Á"
+                ],
+                "sortOrder": 5,
+                "enabled": true
+            },
+            {
+                "id": "tv360kdrama",
+                "name": "360 K-Drama",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/09/21/1775744591740/79928f9b003f_480_270.png",
+                "tags": [
+                    "360 K-Drama",
+                    "360 K-SERIES"
+                ],
+                "sortOrder": 6,
+                "enabled": true
+            },
+            {
+                "id": "tv360haitinhcam",
+                "name": "360 Hài -Tình cảm",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063183880/03439dc9da19_480_270.png",
+                "tags": [
+                    "360 Hài -Tình cảm"
+                ],
+                "sortOrder": 7,
+                "enabled": true
+            },
+            {
+                "id": "tv360phimkinhdien",
+                "name": "360 Phim Kinh điển",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063200976/6ced2ef539a4_480_270.png",
+                "tags": [
+                    "360 Phim Kinh điển"
+                ],
+                "sortOrder": 8,
+                "enabled": true
+            },
+            {
+                "id": "tv360anime",
+                "name": "360 Anime",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/13/13/1776063223569/462daff06d9d_480_270.png",
+                "tags": [
+                    "360 Anime"
+                ],
+                "sortOrder": 9,
+                "enabled": true
             },
             {
                 "id": "tv360mekong",
-                "name": "Mê Kông",
+                "name": "360 Mê Kông",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360mekong.png",
                 "tags": [
                     "mê kông",
                     "Mê Kông"
                 ],
-                "sortOrder": 2
+                "sortOrder": 10,
+                "enabled": true
             },
             {
-                "id": "tv360aumy",
-                "name": "Phim Âu Mỹ",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360aumy.png",
-                "tags": [
-                    "Phim Âu Mỹ",
-                    "Phim Au My"
-                ],
-                "sortOrder": 3
-            },
-            {
-                "id": "tv360phimviet",
-                "name": "Phim Việt",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360phimviet.png",
-                "tags": [
-                    "Phim Việt",
-                    "V Phim Viet"
-                ],
-                "sortOrder": 4
-            },
-            {
-                "id": "tv360promo",
-                "name": "Promo",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360promo.png",
-                "tags": [
-                    "Promo",
-                    "TV360 Promo"
-                ],
-                "sortOrder": 5
-            },
-            {
-                "id": "tv360livestream",
-                "name": "TV360 Livestream",
+                "id": "tv360livestream01",
+                "name": "Livestream 01",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
                 "tags": [
-                    "TV360 Livestream"
+                    "Livestream 01"
                 ],
-                "sortOrder": 6
+                "sortOrder": 11,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "id": "tv360-sport-highlight",
+        "name": "TV360 - Khoảnh khắc thể thao",
+        "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
+        "sortOrder": 9,
+        "isAutoSort": true,
+        "channels": [
+            {
+                "id": "tv360c1chauau",
+                "name": "360 C1 Châu Âu",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/15/22/177626841934/e289a43bd190_480_270.png",
+                "tags": [
+                    "360 C1 Châu Âu"
+                ],
+                "sortOrder": 1,
+                "enabled": true
             },
+            {
+                "id": "tv360c2chauau",
+                "name": "360 C2 Châu Âu",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/15/23/1776269925378/3875f76de1cd_480_270.png",
+                "tags": [
+                    "360 C2 Châu Âu"
+                ],
+                "sortOrder": 2,
+                "enabled": true
+            },
+            {
+                "id": "tv360c3chauau",
+                "name": "360 C3 Châu Âu",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/15/23/1776269965595/9f150757c9e3_480_270.png",
+                "tags": [
+                    "360 C3 Châu Âu"
+                ],
+                "sortOrder": 3,
+                "enabled": true
+            },
+            {
+                "id": "tv360thethaochaua",
+                "name": "360 Thể Thao Châu Á",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/16/00/1776274695415/4b2703dbb4c4_480_270.png",
+                "tags": [
+                    "360 Thể Thao Châu Á"
+                ],
+                "sortOrder": 4,
+                "enabled": true
+            },
+            {
+                "id": "tv360congthuc1",
+                "name": "360 Công Thức 1",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/15/23/1776269172914/ceaa765c5dbe_480_270.png",
+                "tags": [
+                    "360 Công Thức 1"
+                ],
+                "sortOrder": 5,
+                "enabled": true
+            },
+            {
+                "id": "tv360bundesliga",
+                "name": "360 Bundesliga",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/16/08/1776301510855/e14eaed5c4d8_480_270.png",
+                "tags": [
+                    "360 Bundesliga"
+                ],
+                "sortOrder": 6,
+                "enabled": true
+            },
+            {
+                "id": "tv360golf",
+                "name": "360 Golf",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/16/14/1776326073777/e6e315b781fb_480_270.png",
+                "tags": [
+                    "360 Golf"
+                ],
+                "sortOrder": 7,
+                "enabled": true
+            },
+            {
+                "id": "tv360tennis",
+                "name": "360 Tennis",
+                "logo": "https://img-zlr1.tv360.vn/image1/2026/04/16/15/177632805669/a8c9881d6b08_480_270.png",
+                "tags": [
+                    "360 Tennis"
+                ],
+                "sortOrder": 8,
+                "enabled": true
+            }
+        ]
+    },
+    {
+        "id": "tv360-live",
+        "name": "TV360 - Sự kiện trực tiếp",
+        "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
+        "sortOrder": 7,
+        "isAutoSort": true,
+        "channels": [
             {
                 "id": "tv360plus1",
                 "name": "TV360+ 1",
@@ -1054,7 +1222,7 @@
                     "TV360+1"
                 ],
                 "enabled": true,
-                "sortOrder": 7
+                "sortOrder": 1
             },
             {
                 "id": "tv360plus2",
@@ -1064,7 +1232,7 @@
                     "TV360+2"
                 ],
                 "enabled": true,
-                "sortOrder": 8
+                "sortOrder": 2
             },
             {
                 "id": "tv360plus3",
@@ -1074,7 +1242,7 @@
                     "TV360+3"
                 ],
                 "enabled": true,
-                "sortOrder": 9
+                "sortOrder": 3
             },
             {
                 "id": "tv360plus4",
@@ -1083,7 +1251,7 @@
                 "tags": [
                     "TV360+4"
                 ],
-                "sortOrder": 10,
+                "sortOrder": 4,
                 "enabled": true
             },
             {
@@ -1093,7 +1261,7 @@
                 "tags": [
                     "TV360+5"
                 ],
-                "sortOrder": 11,
+                "sortOrder": 5,
                 "enabled": true
             },
             {
@@ -1103,7 +1271,7 @@
                 "tags": [
                     "TV360+6"
                 ],
-                "sortOrder": 12,
+                "sortOrder": 6,
                 "enabled": true
             },
             {
@@ -1113,7 +1281,7 @@
                 "tags": [
                     "TV360+7"
                 ],
-                "sortOrder": 13,
+                "sortOrder": 7,
                 "enabled": true
             },
             {
@@ -1123,7 +1291,7 @@
                 "tags": [
                     "TV360+8"
                 ],
-                "sortOrder": 14,
+                "sortOrder": 8,
                 "enabled": true
             },
             {
@@ -1133,7 +1301,7 @@
                 "tags": [
                     "TV360+9"
                 ],
-                "sortOrder": 15,
+                "sortOrder": 9,
                 "enabled": true
             },
             {
@@ -1143,7 +1311,7 @@
                 "tags": [
                     "TV360+10"
                 ],
-                "sortOrder": 16,
+                "sortOrder": 10,
                 "enabled": true
             },
             {
@@ -1153,7 +1321,7 @@
                 "tags": [
                     "TV360+11"
                 ],
-                "sortOrder": 17,
+                "sortOrder": 11,
                 "enabled": true
             },
             {
@@ -1163,7 +1331,29 @@
                 "tags": [
                     "TV360+12"
                 ],
-                "sortOrder": 18,
+                "sortOrder": 12,
+                "enabled": true
+            },
+            {
+                "id": "tv360promo",
+                "name": "TV360 Promo",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360promo.png",
+                "tags": [
+                    "Promo",
+                    "TV360 Promo",
+                    "TV360"
+                ],
+                "sortOrder": 13,
+                "enabled": true
+            },
+            {
+                "id": "tv360livestream",
+                "name": "TV360 Livestream",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
+                "tags": [
+                    "TV360 Livestream"
+                ],
+                "sortOrder": 14,
                 "enabled": true
             }
         ]
@@ -1172,7 +1362,7 @@
         "id": "trongnuoc",
         "name": "Trong nước",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
-        "sortOrder": 9,
+        "sortOrder": 11,
         "isAutoSort": true,
         "channels": [
             {
@@ -1800,7 +1990,7 @@
         "id": "quocte",
         "name": "Quốc Tế",
         "logo": "https://cdn-icons-png.freepik.com/512/7296/7296866.png",
-        "sortOrder": 10,
+        "sortOrder": 12,
         "isAutoSort": true,
         "channels": [
             {
@@ -2303,7 +2493,7 @@
         "id": "sport",
         "name": "Thể Thao",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport.png",
-        "sortOrder": 12,
+        "sortOrder": 14,
         "isAutoSort": true,
         "channels": [
             {
@@ -6968,7 +7158,7 @@
         "id": "mytv",
         "name": "MyTV Service",
         "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
-        "sortOrder": 8,
+        "sortOrder": 10,
         "isAutoSort": true,
         "channels": [
             {
@@ -7105,7 +7295,8 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e2/EBS_1TV_Logo.svg",
                 "tags": [
                     "EBS1"
-                ]
+                ],
+                "sortOrder": 1
             },
             {
                 "id": "ebs2",
@@ -7113,257 +7304,298 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/960px-EBS_2TV_Logo.svg.png",
                 "tags": [
                     "EBS2"
-                ]
+                ],
+                "sortOrder": 2
             }
         ],
-        "sortOrder": 14
+        "sortOrder": 16
     },
     {
         "id": "japan",
         "name": "Nhật Bản",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/japan-flag-icon.png",
-        "sortOrder": 17,
+        "sortOrder": 19,
         "isAutoSort": true,
         "channels": [
             {
                 "id": "abc",
                 "name": "ABC",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Asahi_Broadcasting_Corporation_Logo.svg/261px-Asahi_Broadcasting_Corporation_Logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 1
             },
             {
                 "id": "animax",
                 "name": "ANIMAX",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/1920px-Animax.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 2
             },
             {
                 "id": "at_x",
                 "name": "AT-X",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2560px-AT-X_logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 3
             },
             {
                 "id": "bs10_star_channel",
                 "name": "BS 10 STAR CHANNEL",
                 "logo": "https://www.lyngsat.com/logo/tv/bb/bs-10-star-channel-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 4
             },
             {
                 "id": "bs_asahi",
                 "name": "BS ASAHI",
                 "logo": "https://www.bs-asahi.co.jp/wp-content/uploads/2021/06/oglogo.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 5
             },
             {
                 "id": "bs_fuji",
                 "name": "BS FUJI",
                 "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/BSFuji2008Symbol.svg/1280px-BSFuji2008Symbol.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 6
             },
             {
                 "id": "bs_ntv",
                 "name": "BS NTV",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/2560px-BS4_logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 7
             },
             {
                 "id": "bs_tbs",
                 "name": "BS TBS",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BS-TBS_2020.svg/1920px-BS-TBS_2020.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 8
             },
             {
                 "id": "bs_tv_tokyo",
                 "name": "BS TV TOKYO",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BS_TV_Tokyo_%28Japanese%29_2023.svg/1920px-BS_TV_Tokyo_%28Japanese%29_2023.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 9
             },
             {
                 "id": "bs_tv_tokyo_4k",
                 "name": "BS TV TOKYO 4K (TEST) UHD",
                 "logo": "https://www2.myjcom.jp/special/common/channel_logo/bs_tv_tokyo_4k.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 10
             },
             {
                 "id": "bs10",
                 "name": "BS10",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Japan_BS10_logo.svg/250px-Japan_BS10_logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 11
             },
             {
                 "id": "bs11",
                 "name": "BS11",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/2/23/BS11_logo.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 12
             },
             {
                 "id": "bs12",
                 "name": "BS12",
                 "logo": "https://www.lyngsat.com/logo/tv/bb/bs-12-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 13
             },
             {
                 "id": "cartoon_network",
                 "name": "CARTOON NETWORK JAPAN",
                 "logo": "https://www.lyngsat.com/logo/tv/cc/cartoon-network-us.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 14
             },
             {
                 "id": "channel_ginga",
                 "name": "CHANNEL GINGA",
                 "logo": "https://www.lyngsat.com/logo/tv/cc/channel_ginga.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 15
             },
             {
                 "id": "disney_channel",
                 "name": "DISNEY CHANNEL",
                 "logo": "https://www.lyngsat.com/logo/tv/dd/disney-channel-us.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 16
             },
             {
                 "id": "dlife",
                 "name": "DLIFE",
                 "logo": "https://www.lyngsat.com/logo/tv/dd/dlife-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 17
             },
             {
                 "id": "entermei_tele",
                 "name": "ENTERMEI TELE",
                 "logo": "https://www.lyngsat.com/logo/tv/ee/entermei-telepng-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 18
             },
             {
                 "id": "family_gekijo",
                 "name": "FAMILY GEKIJYO",
                 "logo": "https://www.lyngsat.com/logo/tv/ff/family_gekijyo_jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 19
             },
             {
                 "id": "fighting_tv",
                 "name": "FIGHTING TV SAMURAI",
                 "logo": "https://www.lyngsat.com/logo/tv/ff/fighting-tv-samurai-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 20
             },
             {
                 "id": "fuji_tv",
                 "name": "FUJI TV",
                 "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/65/Fuji_TV_Logo.svg/1049px-Fuji_TV_Logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 21
             },
             {
                 "id": "fuji_tv_next",
                 "name": "FUJI TV NEXT",
                 "logo": "https://www.lyngsat.com/logo/tv/ff/fuji_tv_next.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 22
             },
             {
                 "id": "fuji_tv_one",
                 "name": "FUJI TV ONE",
                 "logo": "https://www.lyngsat.com/logo/tv/ff/fuji_tv_one.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 23
             },
             {
                 "id": "fuji_tv_two",
                 "name": "FUJI TV TWO",
                 "logo": "https://www.lyngsat.com/logo/tv/ff/fuji_tv_two.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 24
             },
             {
                 "id": "gaora",
                 "name": "GAORA SPORTS",
                 "logo": "https://www.lyngsat.com/logo/tv/gg/gaora-sports-jp.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 25
             },
             {
                 "id": "green_channel",
                 "name": "GREEN CHANNEL",
                 "logo": "https://www.lyngsat.com/logo/tv/gg/green-channel-jp.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 26
             },
             {
                 "id": "home_drama",
                 "name": "HOME DRAMA CHANNEL",
                 "logo": "https://www.lyngsat.com/logo/tv/hh/home-drama-channelpng-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 27
             },
             {
                 "id": "jcom_bs",
                 "name": "JCOM BS",
                 "logo": "https://www.shochiku-tokyu.co.jp/common/img/common/logo-jcombs.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 28
             },
             {
                 "id": "js1",
                 "name": "JSPORT 1",
                 "logo": "https://www.starcat.co.jp/ch/upload/channel/69/jsports1_logo.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 29
             },
             {
                 "id": "js2",
                 "name": "JSPORT 2",
                 "logo": "https://www.starcat.co.jp/ch/upload/channel/70/jsports2_logo.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 30
             },
             {
                 "id": "js3",
                 "name": "JSPORT 3",
                 "logo": "https://www.starcat.co.jp/ch/upload/channel/71/jsports3_logo.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 31
             },
             {
                 "id": "js4",
                 "name": "JSPORT 4",
                 "logo": "https://www.starcat.co.jp/ch/upload/channel/74/jsports4_logo.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 32
             },
             {
                 "id": "kansai_tv",
                 "name": "KANSAI TV",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ktv_logo.svg/200px-Ktv_logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 33
             },
             {
                 "id": "kayo_pops",
                 "name": "KAYO POPS",
                 "logo": "https://www.lyngsat.com/logo/tv/kk/kayo-pops-jp.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 34
             },
             {
                 "id": "kbs",
                 "name": "KBS",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kbs_logo.svg/250px-Kbs_logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 35
             },
             {
                 "id": "mbs",
                 "name": "MBS",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mainichi_Broadcasting_System_logo.svg/1920px-Mainichi_Broadcasting_System_logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 36
             },
             {
                 "id": "mondo_tv",
                 "name": "MONDO TV",
                 "logo": "https://www.lyngsat.com/logo/tv/mm/mondo_tv_jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 37
             },
             {
                 "id": "mtv",
                 "name": "MTV",
                 "logo": "https://www.lyngsat.com/logo/tv/mm/mtv-us.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 38
             },
             {
                 "id": "neco",
                 "name": "NECO CHANNEL",
                 "logo": "[https://www.lyngsat.com/logo/tv/cc/channel-neco-jp.png](https://www.lyngsat.com/logo/tv/cc/channel-neco-jp.png)",
-                "tags": []
+                "tags": [],
+                "sortOrder": 39
             },
             {
                 "id": "nhk_bs",
                 "name": "NHK BS",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6c/NHK_BS.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 40
             },
             {
                 "id": "nhk_bsp4k",
@@ -7371,19 +7603,22 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/NHK_BSP4K_2023_logo.svg/1920px-NHK_BSP4K_2023_logo.svg.png",
                 "tags": [
                     "nhk_bsp_4k"
-                ]
+                ],
+                "sortOrder": 41
             },
             {
                 "id": "nhk_e_tokyo",
                 "name": "NHK E",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/a/aa/NHKE%E3%83%86%E3%83%AC%E3%83%AD2020-.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 42
             },
             {
                 "id": "nhk_g_tokyo",
                 "name": "NHK G",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 43
             },
             {
                 "id": "nihoneiga",
@@ -7391,85 +7626,99 @@
                 "logo": "https://www.lyngsat.com/logo/tv/nn/nihon_eiga_senmon.png",
                 "tags": [
                     "nihon_eiga"
-                ]
+                ],
+                "sortOrder": 44
             },
             {
                 "id": "ntv_g_tasu",
                 "name": "NITTELE G+",
                 "logo": "https://www.lyngsat-logo.com/logo/tv/nn/ntv-g-plus-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 45
             },
             {
                 "id": "ntv",
                 "name": "NTV",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/2560px-Nippon_TV_logo_2014.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 46
             },
             {
                 "id": "pigoo",
                 "name": "PIGOO (NSFW)",
                 "logo": "https://www.lyngsat.com/logo/tv/pp/pigoo-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 47
             },
             {
                 "id": "sky_a",
                 "name": "SKY A",
                 "logo": "https://www.lyngsat.com/logo/tv/ss/sky-a-jp.svg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 48
             },
             {
                 "id": "space_shower_tv",
                 "name": "SPACE SHOWER TV",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/SPACE_SHOWER_TV.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 49
             },
             {
                 "id": "sports_live_plus",
                 "name": "SPORT LIVE PLUS",
                 "logo": "https://www.lyngsat.com/logo/tv/ss/sports-live-plus-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 50
             },
             {
                 "id": "sun_tv",
                 "name": "SUN",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/SUN-TV_wordmark_2019.png/180px-SUN-TV_wordmark_2019.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 51
             },
             {
                 "id": "tabi_channel",
                 "name": "TABI CHANNEL",
                 "logo": "https://www.lyngsat.com/logo/tv/tt/tabi_channel.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 52
             },
             {
                 "id": "tbs",
                 "name": "TBS",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tokyo_Broadcasting_System_logo_2020.svg/2560px-Tokyo_Broadcasting_System_logo_2020.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 53
             },
             {
                 "id": "tbs_channel_1",
                 "name": "TBS CHANNEL 1",
                 "logo": "https://www.lyngsat.com/logo/tv/tt/tbs-channel-1-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 54
             },
             {
                 "id": "tbs_channel_2",
                 "name": "TBS CHANNEL 2",
                 "logo": "https://www.lyngsat.com/logo/tv/tt/tbs-channel-2-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 55
             },
             {
                 "id": "toei_channel",
                 "name": "TOEI CHANNEL",
                 "logo": "https://www.lyngsat.com/logo/tv/tt/toei_channel.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 56
             },
             {
                 "id": "tokyo_mx_1",
                 "name": "TOKYO MX1",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 57
             },
             {
                 "id": "tokyo_mx_2",
@@ -7477,61 +7726,71 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png",
                 "tags": [
                     "tokyo_mx2"
-                ]
+                ],
+                "sortOrder": 58
             },
             {
                 "id": "tv_asahi",
                 "name": "TV ASAHI",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/2560px-TV_Asahi_Logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 59
             },
             {
                 "id": "tv_asahi_channel_1",
                 "name": "TV ASAHI CHANNEL 1",
                 "logo": "https://www.lyngsat.com/logo/tv/tt/tv-asahi-channel-1-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 60
             },
             {
                 "id": "tv_asahi_channel_2",
                 "name": "TV ASAHI CHANNEL 2",
                 "logo": "https://www.lyngsat.com/logo/tv/tt/tv-asahi-channel-2-jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 61
             },
             {
                 "id": "tv_osaka",
                 "name": "TV OSAKA",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Tv_osaka_logo.svg/178px-Tv_osaka_logo.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 62
             },
             {
                 "id": "tv_tokyo",
                 "name": "TV TOKYO",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/TV_Tokyo_logo_2023.svg/2560px-TV_Tokyo_logo_2023.svg.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 63
             },
             {
                 "id": "v_paradise",
                 "name": "V PARADISE (NSFW)",
                 "logo": "https://www.lyngsat.com/logo/tv/vv/v_paradise_jp.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 64
             },
             {
                 "id": "wowow_cinema",
                 "name": "WOWOW CINEMA",
                 "logo": "https://www.lyngsat.com/logo/tv/ww/wowow_cinema.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 65
             },
             {
                 "id": "wowow_live",
                 "name": "WOWOW LIVE",
                 "logo": "https://www.lyngsat.com/logo/tv/ww/wowow_live.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 66
             },
             {
                 "id": "wowow_prime",
                 "name": "WOWOW PRIME",
                 "logo": "https://www.lyngsat.com/logo/tv/ww/wowow_prime.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 67
             },
             {
                 "id": "yomiuri_tv",
@@ -7539,7 +7798,8 @@
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Yomiuri_Telecasting_Corporation_Logo.svg/150px-Yomiuri_Telecasting_Corporation_Logo.svg.png",
                 "tags": [
                     "DFB Play TV"
-                ]
+                ],
+                "sortOrder": 68
             }
         ]
     },
@@ -7547,7 +7807,7 @@
         "id": "china",
         "name": "Trung Quốc",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
-        "sortOrder": 18,
+        "sortOrder": 20,
         "isAutoSort": true,
         "channels": [
             {
@@ -7989,7 +8249,7 @@
         "id": "thailand",
         "name": "Thái Lan",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/thailand-flag-icon.png",
-        "sortOrder": 19,
+        "sortOrder": 21,
         "isAutoSort": true,
         "channels": [
             {
@@ -8000,7 +8260,8 @@
                     "CH3 HD",
                     "ch3 hd",
                     "3HD.th"
-                ]
+                ],
+                "sortOrder": 1
             },
             {
                 "id": "CH5 HD.th",
@@ -8009,7 +8270,8 @@
                 "tags": [
                     "CH5 HD",
                     "5HD.th"
-                ]
+                ],
+                "sortOrder": 2
             },
             {
                 "id": "CH7 HD.th",
@@ -8018,7 +8280,8 @@
                 "tags": [
                     "CH7 HD",
                     "7HD.th"
-                ]
+                ],
+                "sortOrder": 3
             },
             {
                 "id": "ALTV4.th",
@@ -8027,7 +8290,8 @@
                 "tags": [
                     "ALTV",
                     "altv.th"
-                ]
+                ],
+                "sortOrder": 4
             },
             {
                 "id": "AmarinTV HD.th",
@@ -8036,13 +8300,15 @@
                 "tags": [
                     "AMARIN",
                     "amarin.th"
-                ]
+                ],
+                "sortOrder": 5
             },
             {
                 "id": "Boomerang.th",
                 "name": "BOOMERANG",
                 "logo": "https://media-mvtv8.imgix.net/channel/153_y_3V9s1SWHcnaNILkoXMmF8GER4ZTrxJvg.jpg",
-                "tags": []
+                "tags": [],
+                "sortOrder": 6
             },
             {
                 "id": "CH8.th",
@@ -8051,7 +8317,8 @@
                 "tags": [
                     "ช่อง 8",
                     "ch8 hd"
-                ]
+                ],
+                "sortOrder": 7
             },
             {
                 "id": "CNA.th",
@@ -8060,103 +8327,120 @@
                 "tags": [
                     "Channel News Asia.th",
                     "Channel News Asia"
-                ]
+                ],
+                "sortOrder": 8
             },
             {
                 "id": "DLTV1.th",
                 "name": "DLTV1",
                 "logo": "https://media-mvtv.imgix.net/channel/136_y_tPkVabFhc7iUGQdmlEDC5IxvJZj4326M.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 9
             },
             {
                 "id": "DLTV2.th",
                 "name": "DLTV2",
                 "logo": "https://media-mvtv.imgix.net/channel/137_y_yQOMjhFVupi8I1oal5TScnbkfAYtJC2v.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 10
             },
             {
                 "id": "DLTV3.th",
                 "name": "DLTV3",
                 "logo": "https://media-mvtv.imgix.net/channel/138_y_NrPWRcyIBzbd5kJ3n8MqHDOmoVpA19fS.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 11
             },
             {
                 "id": "DLTV4.th",
                 "name": "DLTV4",
                 "logo": "https://media-mvtv.imgix.net/channel/139_y_gx6RdEWuPqjBnAwoCI2mrltX5vJU4bDO.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 12
             },
             {
                 "id": "DLTV5.th",
                 "name": "DLTV5",
                 "logo": "https://media-mvtv.imgix.net/channel/140_y_0NYqGlHdDfQeZFoSUcMWsx1rtOyTXb78.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 13
             },
             {
                 "id": "DLTV6.th",
                 "name": "DLTV6",
                 "logo": "https://media-mvtv.imgix.net/channel/141_y_gIp8YiEP6MQsdeb9hjKcBFmUHVw1kNxy.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 14
             },
             {
                 "id": "DLTV7.th",
                 "name": "DLTV7",
                 "logo": "https://media-mvtv.imgix.net/channel/142_y_U53zK2mOiFQ9xsCMS7AJrvTtoEf6dpIc.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 15
             },
             {
                 "id": "DLTV8.th",
                 "name": "DLTV8",
                 "logo": "https://media-mvtv.imgix.net/channel/143_y_k4YNqBSgRW1OndxQuU6Pac0CMJVKIf57.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 16
             },
             {
                 "id": "DLTV9.th",
                 "name": "DLTV9",
                 "logo": "https://media-mvtv.imgix.net/channel/144_y_9yo8mDwnI5OLgCHKvfsZ42BMXTzEbrSe.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 17
             },
             {
                 "id": "DLTV10.th",
                 "name": "DLTV10",
                 "logo": "https://media-mvtv.imgix.net/channel/145_y_9Fkli2DoLIP0EX56AHW74MhquQKfng1a.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 18
             },
             {
                 "id": "DLTV11.th",
                 "name": "DLTV11",
                 "logo": "https://media-mvtv.imgix.net/channel/146_y_5LVm0hDdr2N19IOlU3MAtqscKSk6xgZe.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 19
             },
             {
                 "id": "DLTV12.th",
                 "name": "DLTV12",
                 "logo": "https://media-mvtv.imgix.net/channel/147_y_Uel5LZmKGoutv2PJiFIx60jayQbpnzqT.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 20
             },
             {
                 "id": "DLTV13.th",
                 "name": "DLTV13",
                 "logo": "https://media-mvtv.imgix.net/channel/148_y_23K7iaWFMTnyxjfH5NIhUpCgZc8SB4s9.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 21
             },
             {
                 "id": "DLTV14.th",
                 "name": "DLTV14",
                 "logo": "https://media-mvtv.imgix.net/channel/149_y_EzhGev4MFkQUOR08CdZisfP5Lnw9Jx6A.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 22
             },
             {
                 "id": "DLTV15.th",
                 "name": "DLTV15",
                 "logo": "https://media-mvtv.imgix.net/channel/150_y_eUWs21cyV38ARS0OZmtgILodzKiJqfaD.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 23
             },
             {
                 "id": "France 24.th",
                 "name": "FRANCE 24",
                 "logo": "https://media-mvtv.imgix.net/channel/151_y_YrFS8xk32BmplLV4NcHgdXRsuU7TvWZ5.png",
-                "tags": []
+                "tags": [],
+                "sortOrder": 24
             },
             {
                 "id": "GMM25.th",
@@ -8165,7 +8449,8 @@
                 "tags": [
                     "gmm25.th",
                     "GMM25"
-                ]
+                ],
+                "sortOrder": 25
             },
             {
                 "id": "JKN 18.th",
@@ -8174,7 +8459,8 @@
                 "tags": [
                     "jkn18.th",
                     "JKN18"
-                ]
+                ],
+                "sortOrder": 26
             },
             {
                 "id": "MCOT HD.th",
@@ -8183,7 +8469,8 @@
                 "tags": [
                     "MCOT",
                     "mcot.th"
-                ]
+                ],
+                "sortOrder": 27
             },
             {
                 "id": "MONO.th",
@@ -8193,7 +8480,8 @@
                     "mono 29.th",
                     "MONO29",
                     "mono29"
-                ]
+                ],
+                "sortOrder": 28
             },
             {
                 "id": "Nation TV.th",
@@ -8202,13 +8490,15 @@
                 "tags": [
                     "NATION",
                     "nation.th"
-                ]
+                ],
+                "sortOrder": 29
             },
             {
                 "id": "NBT 2 HD.th",
                 "name": "NBT 2 HD",
                 "logo": "",
-                "tags": []
+                "tags": [],
+                "sortOrder": 30
             },
             {
                 "id": "ONE 31 HD.th",
@@ -8217,7 +8507,8 @@
                 "tags": [
                     "ONE",
                     "one.th"
-                ]
+                ],
+                "sortOrder": 31
             },
             {
                 "id": "PPTV HD.th",
@@ -8227,7 +8518,8 @@
                     "PPTV",
                     "PPTV36",
                     "pptv.th"
-                ]
+                ],
+                "sortOrder": 32
             },
             {
                 "id": "T-Sports7.th",
@@ -8235,7 +8527,8 @@
                 "logo": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/T-SPorts_7_Final.png",
                 "tags": [
                     "t sports 7"
-                ]
+                ],
+                "sortOrder": 33
             },
             {
                 "id": "TPBS.th",
@@ -8244,7 +8537,8 @@
                 "tags": [
                     "TPBS",
                     "thai pbs"
-                ]
+                ],
+                "sortOrder": 34
             },
             {
                 "id": "Thairath TV HD.th",
@@ -8253,7 +8547,8 @@
                 "tags": [
                     "thairath.th",
                     "THAIRATH"
-                ]
+                ],
+                "sortOrder": 35
             },
             {
                 "id": "TNN.th",
@@ -8261,7 +8556,8 @@
                 "logo": "https://media-mvtv.imgix.net/channel/121_y_uQNBde5zrpo4TKm9kOZPx6iRbGaACfFE.png",
                 "tags": [
                     "tnn.th"
-                ]
+                ],
+                "sortOrder": 36
             },
             {
                 "id": "Parliament.th",
@@ -8270,7 +8566,8 @@
                 "tags": [
                     "TPTV",
                     "tptv.th"
-                ]
+                ],
+                "sortOrder": 37
             },
             {
                 "id": "True 4 U.th",
@@ -8278,7 +8575,8 @@
                 "logo": "",
                 "tags": [
                     "true4u"
-                ]
+                ],
+                "sortOrder": 38
             },
             {
                 "id": "Workpoint TV.th",
@@ -8287,7 +8585,8 @@
                 "tags": [
                     "WORKPOINT",
                     "workpoint.th"
-                ]
+                ],
+                "sortOrder": 39
             }
         ]
     },
@@ -8295,7 +8594,7 @@
         "id": "uk",
         "name": "Vương quốc Anh",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/united-kingdom-flag-icon.png",
-        "sortOrder": 20,
+        "sortOrder": 22,
         "isAutoSort": false,
         "channels": [
             {
@@ -8394,7 +8693,7 @@
                 "tags": [
                     "BERITA SATU"
                 ],
-                "sortOrder": 4
+                "sortOrder": 2
             },
             {
                 "id": "btv",
@@ -8403,7 +8702,7 @@
                 "tags": [
                     "BTV"
                 ],
-                "sortOrder": 5
+                "sortOrder": 3
             },
             {
                 "id": "cnbcindonesia",
@@ -8412,7 +8711,7 @@
                 "tags": [
                     "CNBC Indonesia"
                 ],
-                "sortOrder": 6
+                "sortOrder": 4
             },
             {
                 "id": "cnnindonesia",
@@ -8421,7 +8720,7 @@
                 "tags": [
                     "CNN Indonesia"
                 ],
-                "sortOrder": 7
+                "sortOrder": 5
             },
             {
                 "id": "discoveryworld",
@@ -8430,7 +8729,7 @@
                 "tags": [
                     "DISCOVERY WORLD"
                 ],
-                "sortOrder": 8
+                "sortOrder": 6
             },
             {
                 "id": "disneychannel",
@@ -8439,7 +8738,7 @@
                 "tags": [
                     "DISNEY CHANNEL"
                 ],
-                "sortOrder": 9
+                "sortOrder": 7
             },
             {
                 "id": "dreamworks",
@@ -8448,7 +8747,7 @@
                 "tags": [
                     "DREAMWORKS"
                 ],
-                "sortOrder": 10
+                "sortOrder": 8
             },
             {
                 "id": "duniaanak",
@@ -8457,7 +8756,7 @@
                 "tags": [
                     "DUNIA ANAK"
                 ],
-                "sortOrder": 11
+                "sortOrder": 9
             },
             {
                 "id": "dunialain",
@@ -8466,7 +8765,7 @@
                 "tags": [
                     "DUNIA LAIN"
                 ],
-                "sortOrder": 12
+                "sortOrder": 10
             },
             {
                 "id": "flik",
@@ -8475,7 +8774,7 @@
                 "tags": [
                     "FLIK"
                 ],
-                "sortOrder": 13
+                "sortOrder": 11
             },
             {
                 "id": "galaxypremium",
@@ -8484,7 +8783,7 @@
                 "tags": [
                     "GALAXY PREMIUM"
                 ],
-                "sortOrder": 14
+                "sortOrder": 12
             },
             {
                 "id": "gtv",
@@ -8494,7 +8793,7 @@
                     "GTV",
                     "Boxing TV"
                 ],
-                "sortOrder": 15
+                "sortOrder": 13
             },
             {
                 "id": "hbo",
@@ -8503,7 +8802,7 @@
                 "tags": [
                     "HBO"
                 ],
-                "sortOrder": 16
+                "sortOrder": 14
             },
             {
                 "id": "hbofamily",
@@ -8512,7 +8811,7 @@
                 "tags": [
                     "HBO FAMILY"
                 ],
-                "sortOrder": 17
+                "sortOrder": 15
             },
             {
                 "id": "hbohits",
@@ -8521,7 +8820,7 @@
                 "tags": [
                     "HBO HITS"
                 ],
-                "sortOrder": 18
+                "sortOrder": 16
             },
             {
                 "id": "hbosignature",
@@ -8530,7 +8829,7 @@
                 "tags": [
                     "HBO SIGNATURE"
                 ],
-                "sortOrder": 19
+                "sortOrder": 17
             },
             {
                 "id": "indosiar",
@@ -8541,7 +8840,7 @@
                     "INDOSIAR DIGITAL HD",
                     "INDOSIAR DIGITAL HD 2"
                 ],
-                "sortOrder": 20
+                "sortOrder": 18
             },
             {
                 "id": "inews",
@@ -8555,7 +8854,7 @@
                     "iNews HD 1 (R+)",
                     "iNews HD 2 (R+)"
                 ],
-                "sortOrder": 21
+                "sortOrder": 19
             },
             {
                 "id": "jaktv",
@@ -8564,7 +8863,7 @@
                 "tags": [
                     "JAKTV"
                 ],
-                "sortOrder": 22
+                "sortOrder": 20
             },
             {
                 "id": "kompastv",
@@ -8574,7 +8873,7 @@
                     "KompasTV",
                     "KOMPAS TV"
                 ],
-                "sortOrder": 23
+                "sortOrder": 21
             },
             {
                 "id": "mdtv",
@@ -8583,7 +8882,7 @@
                 "tags": [
                     "MDTV"
                 ],
-                "sortOrder": 24
+                "sortOrder": 22
             },
             {
                 "id": "metrotv",
@@ -8593,7 +8892,7 @@
                     "Metro TV",
                     "Metro TV DIGITAL"
                 ],
-                "sortOrder": 25
+                "sortOrder": 23
             },
             {
                 "id": "mnctv",
@@ -8606,7 +8905,7 @@
                     "MNCTV HD 2 (R+)",
                     "MNCTV HD DIGITAL"
                 ],
-                "sortOrder": 26
+                "sortOrder": 24
             },
             {
                 "id": "moji",
@@ -8617,7 +8916,7 @@
                     "MOJI Proliga",
                     "MOJI VIDIO"
                 ],
-                "sortOrder": 27
+                "sortOrder": 25
             },
             {
                 "id": "mojitv",
@@ -8626,7 +8925,7 @@
                 "tags": [
                     "MOJITV"
                 ],
-                "sortOrder": 28
+                "sortOrder": 26
             },
             {
                 "id": "net",
@@ -8641,7 +8940,7 @@
                     "WWE Network",
                     "SuperSport WWE Network FHD"
                 ],
-                "sortOrder": 29
+                "sortOrder": 27
             },
             {
                 "id": "nickjr",
@@ -8650,7 +8949,7 @@
                 "tags": [
                     "NICK JR"
                 ],
-                "sortOrder": 30
+                "sortOrder": 28
             },
             {
                 "id": "nickelodeon",
@@ -8659,7 +8958,7 @@
                 "tags": [
                     "NICKELODEON"
                 ],
-                "sortOrder": 31
+                "sortOrder": 29
             },
             {
                 "id": "one",
@@ -8671,7 +8970,7 @@
                     "TVONE HD",
                     "CBS Golazo Network"
                 ],
-                "sortOrder": 32
+                "sortOrder": 30
             },
             {
                 "id": "rcti",
@@ -8681,7 +8980,7 @@
                     "RCTI",
                     "RCTI Live Sports"
                 ],
-                "sortOrder": 33
+                "sortOrder": 31
             },
             {
                 "id": "sctv",
@@ -8690,7 +8989,7 @@
                 "tags": [
                     "SCTV"
                 ],
-                "sortOrder": 34
+                "sortOrder": 32
             },
             {
                 "id": "sindonews",
@@ -8700,7 +8999,7 @@
                     "SINDONEWS",
                     "Sindonews"
                 ],
-                "sortOrder": 35
+                "sortOrder": 33
             },
             {
                 "id": "sinpotv",
@@ -8709,7 +9008,7 @@
                 "tags": [
                     "SINPO TV"
                 ],
-                "sortOrder": 36
+                "sortOrder": 34
             },
             {
                 "id": "trans7",
@@ -8720,7 +9019,7 @@
                     "TRANS 7",
                     "Trans 7 FHD"
                 ],
-                "sortOrder": 37
+                "sortOrder": 35
             },
             {
                 "id": "transtv",
@@ -8730,7 +9029,7 @@
                     "Trans TV",
                     "Trans TV FHD"
                 ],
-                "sortOrder": 38
+                "sortOrder": 36
             },
             {
                 "id": "tvone",
@@ -8740,7 +9039,7 @@
                     "TV ONE",
                     "TvOne"
                 ],
-                "sortOrder": 39
+                "sortOrder": 37
             },
             {
                 "id": "tv5monde",
@@ -8749,7 +9048,7 @@
                 "tags": [
                     "TV5 MONDE"
                 ],
-                "sortOrder": 40
+                "sortOrder": 38
             },
             {
                 "id": "tvku",
@@ -8758,7 +9057,7 @@
                 "tags": [
                     "TVKU"
                 ],
-                "sortOrder": 41
+                "sortOrder": 39
             },
             {
                 "id": "tvn",
@@ -8767,7 +9066,7 @@
                 "tags": [
                     "TVN"
                 ],
-                "sortOrder": 42
+                "sortOrder": 40
             },
             {
                 "id": "tvnmovies",
@@ -8776,7 +9075,7 @@
                 "tags": [
                     "TVN MOVIES"
                 ],
-                "sortOrder": 43
+                "sortOrder": 41
             },
             {
                 "id": "tvri",
@@ -8785,7 +9084,7 @@
                 "tags": [
                     "TVRI"
                 ],
-                "sortOrder": 44
+                "sortOrder": 42
             },
             {
                 "id": "ugtv",
@@ -8794,7 +9093,7 @@
                 "tags": [
                     "UG TV"
                 ],
-                "sortOrder": 45
+                "sortOrder": 43
             },
             {
                 "id": "visionprime",
@@ -8803,7 +9102,7 @@
                 "tags": [
                     "Vision Prime"
                 ],
-                "sortOrder": 46
+                "sortOrder": 44
             },
             {
                 "id": "zeebioskop",
@@ -8812,33 +9111,35 @@
                 "tags": [
                     "ZEE BIOSKOP"
                 ],
-                "sortOrder": 47
+                "sortOrder": 45
             }
         ],
-        "sortOrder": 15
+        "sortOrder": 17
     },
     {
         "id": "lao",
         "name": "Lào",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/laos-flag-icon.png",
-        "sortOrder": 16,
+        "sortOrder": 18,
         "isAutoSort": true,
         "channels": [
-            {
-                "id": "lnbtv1",
-                "name": "LNBT TV1",
-                "logo": "https://i.ibb.co/hL4qWpY/lao1.png",
-                "tags": [
-                    "Lao National TV"
-                ]
-            },
             {
                 "id": "laostar",
                 "name": "Lao Star TV",
                 "logo": "https://i.ibb.co/6yXmPzJ/laostar.png",
                 "tags": [
                     "Lao Star"
-                ]
+                ],
+                "sortOrder": 1
+            },
+            {
+                "id": "lnbtv1",
+                "name": "LNBT TV1",
+                "logo": "https://i.ibb.co/hL4qWpY/lao1.png",
+                "tags": [
+                    "Lao National TV"
+                ],
+                "sortOrder": 2
             }
         ]
     },
@@ -8846,24 +9147,26 @@
         "id": "campuchia",
         "name": "Campuchia",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/cambodia-flag-icon.png",
-        "sortOrder": 13,
+        "sortOrder": 15,
         "isAutoSort": true,
         "channels": [
-            {
-                "id": "tvk",
-                "name": "TVK Cambodia",
-                "logo": "https://i.ibb.co/S7mX0Yw/tvk.png",
-                "tags": [
-                    "National TV Cambodia"
-                ]
-            },
             {
                 "id": "bayontv",
                 "name": "Bayon TV",
                 "logo": "https://i.ibb.co/d0S6pXw/bayon.png",
                 "tags": [
                     "Bayon"
-                ]
+                ],
+                "sortOrder": 1
+            },
+            {
+                "id": "tvk",
+                "name": "TVK Cambodia",
+                "logo": "https://i.ibb.co/S7mX0Yw/tvk.png",
+                "tags": [
+                    "National TV Cambodia"
+                ],
+                "sortOrder": 2
             }
         ]
     },
@@ -8889,77 +9192,81 @@
                 "id": "bbcnewshd.uk",
                 "name": "BBC News UK",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhksqjs.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 3
+            },
+            {
+                "id": "bein-sport-1-hd",
+                "name": "BEIN SPORT 1 HD",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Fe5%2FLogo_bein_sports_1.png?t=2026-03-19T04:49:58Z",
                 "sortOrder": 4
+            },
+            {
+                "id": "bein-sport-3-hd",
+                "name": "BEIN SPORT 3 HD",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fimages.now-tv.com%2Fshares%2FchannelPreview%2Fimg%2Fen_hk%2Fcolor%2Fch643_170_122?t=2026-03-19T04:49:58Z",
+                "sortOrder": 5
             },
             {
                 "id": "cnninternationalasiapacific.hk",
                 "name": "CNN International",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fwww.seekpng.com%2Fpng%2Fdetail%2F51-517961_cnn-logo-with-earth-png-cnn-international.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 5
+                "sortOrder": 6
             },
             {
                 "id": "cnn.us",
                 "name": "CNN USA",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJmKv9vn.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 6
+                "sortOrder": 7
+            },
+            {
+                "id": "espn 2.ar",
+                "name": "ESPN 2",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fi.ibb.co.com%2FqRhgT1D%2F20241123-095655.png?t=2026-03-19T04:49:58Z",
+                "sortOrder": 8
             },
             {
                 "id": "euronewsenglish.fr",
                 "name": "Euronews English",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhksR99.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 7
+                "sortOrder": 9
             },
             {
                 "id": "gbnews.uk",
                 "name": "GB News",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJmKP4YQ.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 8
+                "sortOrder": 10
+            },
+            {
+                "id": "poker-tv",
+                "name": "POKER TV",
+                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%253A%252F%252Fui-avatars.com%252Fapi%252F%253Fsize%253D256%2526format%253Dpng%2526rounded%253Dtrue%2526background%253Drandom%2526length%253D2%2526name%253DPOKER%252520TV?t=2026-03-19T04:49:58Z",
+                "sortOrder": 11
             },
             {
                 "id": "514.astro",
                 "name": "Sky News",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhkslMx.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 9
+                "sortOrder": 12
             },
             {
                 "id": "trtworld.tr",
                 "name": "TRT World",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJhks06Q.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 10
+                "sortOrder": 13
             },
             {
                 "id": "voice-of-america",
                 "name": "Voice Of America",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F494%2F982%2Fpng-transparent-united-states-voice-of-america-internet-radio-voa-amharic-broadcasting-united-states-text-logo-united-states.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 11
+                "sortOrder": 14
             },
             {
                 "id": "5f161c0a8ba90f0007d5bd0b",
                 "name": "Yahoo! Finance",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fiili.io%2FJmKv2jf.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 12
-            },
-            {
-                "id": "bein-sport-1-hd",
-                "name": "BEIN SPORT 1 HD",
-                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Fe5%2FLogo_bein_sports_1.png?t=2026-03-19T04:49:58Z"
-            },
-            {
-                "id": "bein-sport-3-hd",
-                "name": "BEIN SPORT 3 HD",
-                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fimages.now-tv.com%2Fshares%2FchannelPreview%2Fimg%2Fen_hk%2Fcolor%2Fch643_170_122?t=2026-03-19T04:49:58Z"
-            },
-            {
-                "id": "espn 2.ar",
-                "name": "ESPN 2",
-                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fi.ibb.co.com%2FqRhgT1D%2F20241123-095655.png?t=2026-03-19T04:49:58Z"
-            },
-            {
-                "id": "poker-tv",
-                "name": "POKER TV",
-                "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%253A%252F%252Fui-avatars.com%252Fapi%252F%253Fsize%253D256%2526format%253Dpng%2526rounded%253Dtrue%2526background%253Drandom%2526length%253D2%2526name%253DPOKER%252520TV?t=2026-03-19T04:49:58Z"
+                "sortOrder": 15
             }
         ],
-        "sortOrder": 999
+        "sortOrder": 23
     }
 ]
