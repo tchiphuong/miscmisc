@@ -80,6 +80,15 @@
                 ]
             },
             {
+                "id": "vtv6hd",
+                "name": "VTV6",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv6hd.png",
+                "tags": [
+                    "VTV6",
+                    "VTV6 HD"
+                ]
+            },
+            {
                 "id": "vtv7hd",
                 "name": "VTV7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vtv7hd.png",
