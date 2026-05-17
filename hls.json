@@ -1580,7 +1580,9 @@
                 "name": "Đồng Nai 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/dongnai3.png",
                 "tags": [
-                    "ĐNNRTV3 - Báo và PTTH Đồng Nai"
+                    "dnrtv3",
+                    "ĐNNRTV3 - Báo và PTTH Đồng Nai",
+                    "ĐNRTV3 HD | TH Đồng Nai"
                 ],
                 "sortOrder": 22
             },
@@ -1892,7 +1894,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/trongnuoc/tayninh1.png",
                 "tags": [
                     "longan",
-                    "TTV1 - Báo và PTTH Tây Ninh"
+                    "TTV1 - Báo và PTTH Tây Ninh",
+                    "TN HD | TH Tây Ninh"
                 ],
                 "sortOrder": 52
             },
@@ -6195,7 +6198,8 @@
                     "Hub Premier1 FHD",
                     "Hub Premier 1 FHD",
                     "Hub Premier 1 HD",
-                    "HUB Premier 1"
+                    "HUB Premier 1",
+                    "Hub Premier 1 HD (UK)"
                 ],
                 "sortOrder": 331
             },
@@ -6208,7 +6212,8 @@
                     "Hub Premier  EPL 02",
                     "Hub Premier2 FHD",
                     "Hub Premier 2 FHD",
-                    "HUB Premier 2"
+                    "HUB Premier 2",
+                    "Hub Premier 2 HD (UK)"
                 ],
                 "sortOrder": 332
             },
@@ -6221,7 +6226,8 @@
                     "Hub Premier  EPL 03",
                     "Hub Premier3 FHD",
                     "Hub Premier 3 FHD",
-                    "HUB Premier 3"
+                    "HUB Premier 3",
+                    "Hub Premier 3 HD (UK)"
                 ],
                 "sortOrder": 333
             },
@@ -6233,7 +6239,8 @@
                     "Hub Premier  EPL 04",
                     "Hub Premier4 FHD",
                     "Hub Premier 4 FHD",
-                    "HUB Premier 4"
+                    "HUB Premier 4",
+                    "Hub Premier 4 HD (UK)"
                 ],
                 "sortOrder": 334
             },
@@ -6245,7 +6252,8 @@
                     "Hub Premier EPL 05",
                     "Hub Premier  EPL 05",
                     "Hub Premier 5 FHD",
-                    "HUB Premier 5"
+                    "HUB Premier 5",
+                    "Hub Premier 5 HD (UK)"
                 ],
                 "sortOrder": 335
             },
@@ -6257,7 +6265,8 @@
                     "Hub Premier  EPL 06",
                     "Hub Premier6 FHD",
                     "Hub Premier 6 FHD",
-                    "HUB Premier 6"
+                    "HUB Premier 6",
+                    "Hub Premier 6 HD (UK)"
                 ],
                 "sortOrder": 336
             },
@@ -6269,7 +6278,8 @@
                     "Hub Premier  EPL 07",
                     "Hub Premier7 FHD",
                     "Hub Premier 7 FHD",
-                    "HUB Premier 7"
+                    "HUB Premier 7",
+                    "Hub Premier 7 HD (UK)"
                 ],
                 "sortOrder": 337
             },
@@ -6282,7 +6292,8 @@
                     "Hub Premier  EPL 08",
                     "Hub Premier8 FHD",
                     "Hub Premier 8 FHD",
-                    "HUB Premier 8"
+                    "HUB Premier 8",
+                    "Hub Premier 8 HD (UK)"
                 ],
                 "sortOrder": 338
             },
@@ -6294,7 +6305,8 @@
                     "Hub Premier  EPL 09",
                     "Hub Premier9 FHD",
                     "Hub Premier 9 FHD",
-                    "HUB Premier 9"
+                    "HUB Premier 9",
+                    "Hub Premier 9 HD (UK)"
                 ],
                 "sortOrder": 339
             },
@@ -6334,7 +6346,9 @@
                     "Hub Sports 1 HD",
                     "Hub Sports 1",
                     "Hub Sports 1 FHD",
-                    "|SP| Hub Sports 1"
+                    "|SP| Hub Sports 1",
+                    "HUB SPORTS 1 (pro)",
+                    "Hub Sports 1 HD (Sgp)"
                 ],
                 "enabled": true,
                 "sortOrder": 342
@@ -6349,7 +6363,9 @@
                     "Hub Sports 2 HD",
                     "Hub Sports 2",
                     "Hub Sports 2 FHD",
-                    "|SP| Hub Sports 2"
+                    "|SP| Hub Sports 2",
+                    "HUB SPORTS 2 (pro)",
+                    "Hub Sports 2 HD (Sgp)"
                 ],
                 "enabled": true,
                 "sortOrder": 343
@@ -6364,7 +6380,9 @@
                     "Hub Sports 3 HD",
                     "Hub Sports 3",
                     "Hub Sports 3 FHD",
-                    "|SP| Hub Sports 3"
+                    "|SP| Hub Sports 3",
+                    "HUB SPORTS 3 (pro)",
+                    "Hub Sports 3 HD (Sgp)"
                 ],
                 "enabled": true,
                 "sortOrder": 344
@@ -6379,7 +6397,9 @@
                     "Hub Sports 4 HD",
                     "Hub Sports 4",
                     "Hub Sports 4 FHD",
-                    "|SP| Hub Sports 4"
+                    "|SP| Hub Sports 4",
+                    "HUB SPORTS 4 (pro)",
+                    "Hub Sports 4 HD (Sgp)"
                 ],
                 "enabled": true,
                 "sortOrder": 345
@@ -6394,7 +6414,9 @@
                     "Hub Sports 5 HD",
                     "Hub Sports 5",
                     "Hub Sports 5 FHD",
-                    "|SP| Hub Sports 5"
+                    "|SP| Hub Sports 5",
+                    "HUB SPORTS 5 (pro)",
+                    "Hub Sports 5 HD (Sgp)"
                 ],
                 "enabled": true,
                 "sortOrder": 346
