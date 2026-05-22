@@ -135,9 +135,11 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv/vietnamtoday.png",
                 "thumbnail": "https://vtvgo-assets.vtvdigital.vn/assets/images/v2/channel/20250905/2025090515/S1CWNGr2gI-VIETNAMTODAY-THUMBNAIL-KENHVTVgo-500x281.webp",
                 "tags": [
-                    "VIỆT NAM TODAY"
+                    "VIỆT NAM TODAY",
+                    "VIETNAM TODAY HD"
                 ],
-                "sortOrder": 13
+                "sortOrder": 13,
+                "enabled": true
             }
         ]
     },
@@ -249,8 +251,10 @@
                 "name": "ON Sports",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onsports.png",
                 "tags": [
-                    "ON Sports HD"
-                ]
+                    "ON Sports HD",
+                    "VTVcab 3 - On Sports"
+                ],
+                "enabled": true
             },
             {
                 "id": "onmovies",
@@ -276,8 +280,10 @@
                 "name": "ON Sports+",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onsportsplus.png",
                 "tags": [
-                    "ON Sports+"
-                ]
+                    "ON Sports+",
+                    "VTVcab 6 - On Sports +"
+                ],
+                "enabled": true
             },
             {
                 "id": "ono2tv",
@@ -346,8 +352,10 @@
                 "name": "ON Football",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onfootball.png",
                 "tags": [
-                    "ON Football HD"
-                ]
+                    "ON Football HD",
+                    "VTVcab 16 - On Football HD"
+                ],
+                "enabled": true
             },
             {
                 "id": "ontrending",
@@ -363,8 +371,10 @@
                 "name": "ON Sports News",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/onsportsnews.png",
                 "tags": [
-                    "ON Sports News"
-                ]
+                    "ON Sports News",
+                    "VTVcab 18 - On Sports News"
+                ],
+                "enabled": true
             },
             {
                 "id": "onviedramas",
@@ -408,8 +418,10 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab/ongolf.png",
                 "tags": [
                     "ON Golf HD",
-                    "VTVcab 23 - Golf Channel(Kênh VTV Cab)"
-                ]
+                    "VTVcab 23 - Golf Channel(Kênh VTV Cab)",
+                    "VTVcab 23 - Golf Channel"
+                ],
+                "enabled": true
             },
             {
                 "id": "btv5hd",
@@ -4308,26 +4320,30 @@
                 "name": "HK: Now Sports 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.3.hk.png",
                 "tags": [
-                    "uk:nowsport3",
-                    "NOW HK NOW SPORTS 3",
                     "HK | Now Sports 3",
                     "HK: Now Sports 3 FHD",
-                    "Now Sports 3 FHD"
+                    "NOW HK NOW SPORTS 3",
+                    "Now Sports 3 FHD",
+                    "Now Sports 3 HD (anbox)",
+                    "uk:nowsport3"
                 ],
-                "sortOrder": 176
+                "sortOrder": 176,
+                "enabled": true
             },
             {
                 "id": "Now.Sports.4.hk",
                 "name": "HK: Now Sports 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.4.hk.png",
                 "tags": [
-                    "uk:nowsport4",
-                    "NOW HK NOW SPORTS 4",
                     "HK | Now Sports 4",
                     "HK: Now Sports 4 FHD",
-                    "Now Sports 4 FHD"
+                    "NOW HK NOW SPORTS 4",
+                    "Now Sports 4 FHD",
+                    "Now Sports 4 HD (anbox)",
+                    "uk:nowsport4"
                 ],
-                "sortOrder": 177
+                "sortOrder": 177,
+                "enabled": true
             },
             {
                 "id": "Now.Sports.4K.1.hk",
@@ -4362,39 +4378,45 @@
                 "name": "HK: Now Sports 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.5.hk.png",
                 "tags": [
-                    "uk:nowsport5",
-                    "NOW HK NOW SPORTS 5",
                     "HK | Now Sports 5",
                     "HK: Now Sports 5 FHD",
-                    "Now Sports 5 FHD"
+                    "NOW HK NOW SPORTS 5",
+                    "Now Sports 5 FHD",
+                    "Now Sports 5 HD (anbox)",
+                    "uk:nowsport5"
                 ],
-                "sortOrder": 181
+                "sortOrder": 181,
+                "enabled": true
             },
             {
                 "id": "Now.Sports.6.hk",
                 "name": "HK: Now Sports 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.6.hk.png",
                 "tags": [
-                    "uk:nowsport6",
-                    "NOW HK NOW SPORTS 6",
                     "HK | Now Sports 6",
                     "HK: Now Sports 6 FHD",
-                    "Now Sports 6 FHD"
+                    "NOW HK NOW SPORTS 6",
+                    "Now Sports 6 FHD",
+                    "Now Sports 6 HD (anbox)",
+                    "uk:nowsport6"
                 ],
-                "sortOrder": 182
+                "sortOrder": 182,
+                "enabled": true
             },
             {
                 "id": "Now.Sports.7.hk",
                 "name": "HK: Now Sports 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Now.Sports.7.hk.png",
                 "tags": [
-                    "uk:nowsport7",
-                    "NOW HK NOW SPORTS 7",
                     "HK | Now Sports 7",
                     "HK: Now Sports 7 FHD",
-                    "Now Sports 7 FHD"
+                    "NOW HK NOW SPORTS 7",
+                    "Now Sports 7 FHD",
+                    "Now Sports 7 HD (anbox)",
+                    "uk:nowsport7"
                 ],
-                "sortOrder": 183
+                "sortOrder": 183,
+                "enabled": true
             },
             {
                 "id": "Now.Sports.Plus.hk",
@@ -4547,7 +4569,8 @@
                     "ARENA SPORT 1 HD",
                     "Arena Sport 1 HD 🇷🇸",
                     "Arena_Sport_1 HD 🇷🇸",
-                    "arenasport1.hr"
+                    "arenasport1.hr",
+                    "Arena Sport 1 CZ"
                 ],
                 "sortOrder": 194,
                 "enabled": true
@@ -4679,13 +4702,53 @@
                 "enabled": true
             },
             {
+                "id": "beIN.Sports.1.HD.id",
+                "name": "ID: beIN SPORTS 1",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_1_Australia.png",
+                "tags": [
+                    "beinsports1.id"
+                ],
+                "enabled": true,
+                "sortOrder": 204
+            },
+            {
+                "id": "beIN.Sports.2.HD.id",
+                "name": "ID: beIN SPORTS 2",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_2_Australia.png",
+                "tags": [
+                    "beinsports2.id"
+                ],
+                "enabled": true,
+                "sortOrder": 205
+            },
+            {
+                "id": "beIN.Sports.3.HD.id",
+                "name": "ID: beIN SPORTS 3",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/BeIn_Sports_3_Australia.png",
+                "tags": [
+                    "beinsports3.id"
+                ],
+                "enabled": true,
+                "sortOrder": 206
+            },
+            {
+                "id": "beIN.Sports.4.HD.id",
+                "name": "ID: beIN SPORTS 4",
+                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/op3ejs1631279425.png",
+                "tags": [
+                    "beinsports4.id"
+                ],
+                "enabled": true,
+                "sortOrder": 207
+            },
+            {
                 "id": "1.sport.il",
                 "name": "IL: 1 SPORT",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ssjl1j1627494247.png",
                 "tags": [
                     "1 SPORT 🇮🇱"
                 ],
-                "sortOrder": 204
+                "sortOrder": 208
             },
             {
                 "id": "2.sport.il",
@@ -4694,7 +4757,7 @@
                 "tags": [
                     "2 SPORT 🇮🇱"
                 ],
-                "sortOrder": 205
+                "sortOrder": 209
             },
             {
                 "id": "3.sport.il",
@@ -4703,7 +4766,7 @@
                 "tags": [
                     "3 SPORT 🇮🇱"
                 ],
-                "sortOrder": 206
+                "sortOrder": 210
             },
             {
                 "id": "4.sport.il",
@@ -4712,7 +4775,7 @@
                 "tags": [
                     "4 SPORT 🇮🇱"
                 ],
-                "sortOrder": 207
+                "sortOrder": 211
             },
             {
                 "id": "5.sport.il",
@@ -4722,7 +4785,7 @@
                     "5 SPORT 🇮🇱",
                     "IL: SPORT-5"
                 ],
-                "sortOrder": 208
+                "sortOrder": 212
             },
             {
                 "id": "IL.5.Sport.4K",
@@ -4734,7 +4797,7 @@
                     "IL:5SPORT.4K"
                 ],
                 "enabled": true,
-                "sortOrder": 209
+                "sortOrder": 213
             },
             {
                 "id": "5GOLD.il",
@@ -4746,7 +4809,7 @@
                     "IL:SPORT5.GOLD"
                 ],
                 "enabled": true,
-                "sortOrder": 210
+                "sortOrder": 214
             },
             {
                 "id": "5LIVE.HD.il",
@@ -4758,7 +4821,7 @@
                     "IL:SPORT5.LIVE"
                 ],
                 "enabled": true,
-                "sortOrder": 211
+                "sortOrder": 215
             },
             {
                 "id": "5PLUS.HD.il",
@@ -4768,7 +4831,7 @@
                     "IL:SPORT5.PLUS"
                 ],
                 "enabled": true,
-                "sortOrder": 212
+                "sortOrder": 216
             },
             {
                 "id": "5STARS.il",
@@ -4780,7 +4843,7 @@
                     "IL:SPORT5.STARS"
                 ],
                 "enabled": true,
-                "sortOrder": 213
+                "sortOrder": 217
             },
             {
                 "id": "Star.Sports.1.HD.in",
@@ -4790,7 +4853,7 @@
                     "Star Sports 1 HD",
                     "STAR Sports 1"
                 ],
-                "sortOrder": 214
+                "sortOrder": 218
             },
             {
                 "id": "Star.Sports.2.HD.in",
@@ -4800,7 +4863,7 @@
                     "Star Sports 2 HD",
                     "STAR Sports 2"
                 ],
-                "sortOrder": 215
+                "sortOrder": 219
             },
             {
                 "id": "DAZN.1.it.it",
@@ -4809,7 +4872,7 @@
                 "tags": [
                     "[IT] Eleven Sport 1 HD"
                 ],
-                "sortOrder": 216
+                "sortOrder": 220
             },
             {
                 "id": "DAZN.2.it.it",
@@ -4818,7 +4881,7 @@
                 "tags": [
                     "[IT] Eleven Sport 2 HD"
                 ],
-                "sortOrder": 217
+                "sortOrder": 221
             },
             {
                 "id": "DAZN3.it",
@@ -4827,7 +4890,7 @@
                 "tags": [
                     "[IT] Eleven Sport 3 HD"
                 ],
-                "sortOrder": 218
+                "sortOrder": 222
             },
             {
                 "id": "DAZN4.it",
@@ -4836,7 +4899,7 @@
                 "tags": [
                     "[IT] Eleven Sport 4 HD"
                 ],
-                "sortOrder": 219
+                "sortOrder": 223
             },
             {
                 "id": "Eurosport.1.it",
@@ -4845,7 +4908,7 @@
                 "tags": [
                     "[IT] Eurosport 1 HD"
                 ],
-                "sortOrder": 220
+                "sortOrder": 224
             },
             {
                 "id": "Eurosport.2.it",
@@ -4854,7 +4917,7 @@
                 "tags": [
                     "[IT] Eurosport 2 HD"
                 ],
-                "sortOrder": 221
+                "sortOrder": 225
             },
             {
                 "id": "RaiSport.it",
@@ -4864,7 +4927,7 @@
                     "RAI SPORT 1",
                     "[IT] Rai Sport   HD"
                 ],
-                "sortOrder": 222
+                "sortOrder": 226
             },
             {
                 "id": "Go3.Sport.1.HD.lv",
@@ -4873,7 +4936,7 @@
                 "tags": [
                     "GO3 Sport 1"
                 ],
-                "sortOrder": 223
+                "sortOrder": 227
             },
             {
                 "id": "Go3.Sport.2.HD.lv",
@@ -4882,7 +4945,7 @@
                 "tags": [
                     "GO3 Sport 2"
                 ],
-                "sortOrder": 224
+                "sortOrder": 228
             },
             {
                 "id": "Go3.Sport.3.HD.lv",
@@ -4891,7 +4954,7 @@
                 "tags": [
                     "GO3 Sport 3"
                 ],
-                "sortOrder": 225
+                "sortOrder": 229
             },
             {
                 "id": "Go3.Sport.Open.HD.lv",
@@ -4900,14 +4963,14 @@
                 "tags": [
                     "GO3 Sport Open"
                 ],
-                "sortOrder": 226,
+                "sortOrder": 230,
                 "enabled": true
             },
             {
                 "id": "Go3.Sport.Extra.HD.lv",
                 "name": "LV: GO3 Sports Extra 1",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fi.ibb.co.com%2FFb8YXK5g%2FGo3live.png?t=2026-03-19T04:49:58Z",
-                "sortOrder": 227,
+                "sortOrder": 231,
                 "tags": [],
                 "enabled": true
             },
@@ -4915,7 +4978,7 @@
                 "id": "setanta-live-1",
                 "name": "LV: Setanta Live 1",
                 "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
-                "sortOrder": 228,
+                "sortOrder": 232,
                 "tags": [],
                 "enabled": true
             },
@@ -4923,7 +4986,7 @@
                 "id": "setanta-live-2",
                 "name": "LV: Setanta Live 2",
                 "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
-                "sortOrder": 229,
+                "sortOrder": 233,
                 "tags": [],
                 "enabled": true
             },
@@ -4931,7 +4994,7 @@
                 "id": "setanta-live-3",
                 "name": "LV: Setanta Live 3",
                 "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
-                "sortOrder": 230,
+                "sortOrder": 234,
                 "tags": [],
                 "enabled": true
             },
@@ -4939,7 +5002,7 @@
                 "id": "setanta-live-4",
                 "name": "LV: Setanta Live 4",
                 "logo": "https://images.seeklogo.com/logo-png/49/2/setanta-sports-logo-png_seeklogo-494575.png",
-                "sortOrder": 231,
+                "sortOrder": 235,
                 "tags": [],
                 "enabled": true
             },
@@ -4950,7 +5013,7 @@
                 "tags": [
                     "Setanta Sports"
                 ],
-                "sortOrder": 232
+                "sortOrder": 236
             },
             {
                 "id": "Setanta.Sports.2.HD.lv",
@@ -4959,7 +5022,7 @@
                 "tags": [
                     "Setanta Sports 2"
                 ],
-                "sortOrder": 233
+                "sortOrder": 237
             },
             {
                 "id": "Arena.Bola.my",
@@ -4973,7 +5036,7 @@
                     "Arena Bola",
                     "Arena Bola (MLY)"
                 ],
-                "sortOrder": 234
+                "sortOrder": 238
             },
             {
                 "id": "Arena.Bola.2.my",
@@ -4988,7 +5051,7 @@
                     "Arena Bola 2",
                     "ASTRO ARENA BOLA 2 ᴴᴰ"
                 ],
-                "sortOrder": 235
+                "sortOrder": 239
             },
             {
                 "id": "Arena.Bola.3.my",
@@ -5000,7 +5063,7 @@
                     "Astro Arena Bola 3",
                     "ASTRO ARENA BOLA 3"
                 ],
-                "sortOrder": 236,
+                "sortOrder": 240,
                 "enabled": true
             },
             {
@@ -5013,7 +5076,7 @@
                     "Astro Arena Bola 4",
                     "ASTRO ARENA BOLA 4"
                 ],
-                "sortOrder": 237,
+                "sortOrder": 241,
                 "enabled": true
             },
             {
@@ -5033,7 +5096,7 @@
                     "MY | Astro Arena FHD",
                     "ASTRO ARENA (play)"
                 ],
-                "sortOrder": 238
+                "sortOrder": 242
             },
             {
                 "id": "Astro.Arena.2.my",
@@ -5052,7 +5115,7 @@
                     "MY | Astro Arena 2 FHD",
                     "ASTRO ARENA 2 (play)"
                 ],
-                "sortOrder": 239
+                "sortOrder": 243
             },
             {
                 "id": "Astro.Badminton.my",
@@ -5074,7 +5137,7 @@
                     "ASTRO BADMINTON (play)",
                     "Astro Badminton"
                 ],
-                "sortOrder": 240
+                "sortOrder": 244
             },
             {
                 "id": "Astro.Cricket.my",
@@ -5091,7 +5154,7 @@
                     "MY | Astro Cricket FHD",
                     "SPORTS : ASTRO CRICKET"
                 ],
-                "sortOrder": 241
+                "sortOrder": 245
             },
             {
                 "id": "Astro.Football.my",
@@ -5112,7 +5175,7 @@
                     "Astro SuperSport 4",
                     "SPORTS : ASTRO SUPERSPORT 4"
                 ],
-                "sortOrder": 242
+                "sortOrder": 246
             },
             {
                 "id": "Astro.Grandstand.my",
@@ -5134,7 +5197,7 @@
                     "Astro SuperSport 3",
                     "SPORTS : ASTRO SUPERSPORT 3"
                 ],
-                "sortOrder": 243
+                "sortOrder": 247
             },
             {
                 "id": "Astro.Premier.League.my",
@@ -5161,7 +5224,7 @@
                     "SPORTS : ASTRO SUPERSPORT 1",
                     "ASTRO PREMIER LEAGUE 2 (play)"
                 ],
-                "sortOrder": 244
+                "sortOrder": 248
             },
             {
                 "id": "Astro.Premier.League.2.my",
@@ -5186,7 +5249,7 @@
                     "Astro SuperSport 2",
                     "SPORTS : ASTRO SUPERSPORT 2"
                 ],
-                "sortOrder": 245
+                "sortOrder": 249
             },
             {
                 "id": "Astro.Premier.League.3.my",
@@ -5206,7 +5269,7 @@
                     "AsrtoPremierLeague3",
                     "MY | Astro Premier League 3 FHD"
                 ],
-                "sortOrder": 246
+                "sortOrder": 250
             },
             {
                 "id": "Astro.Premier.League.4.my",
@@ -5226,7 +5289,7 @@
                     "AsrtoPremierLeague4",
                     "MY | Astro Premier League 4 FHD"
                 ],
-                "sortOrder": 247,
+                "sortOrder": 251,
                 "enabled": true
             },
             {
@@ -5247,7 +5310,7 @@
                     "AsrtoPremierLeague5",
                     "MY | Astro Premier League 5 FHD"
                 ],
-                "sortOrder": 248,
+                "sortOrder": 252,
                 "enabled": true
             },
             {
@@ -5267,7 +5330,7 @@
                     "018. AstroSportPlus2",
                     "AstroSportPlus2"
                 ],
-                "sortOrder": 249
+                "sortOrder": 253
             },
             {
                 "id": "Astro.Sports.UHD.my",
@@ -5279,7 +5342,7 @@
                     "Astro Sports UHD",
                     "MY | Astro Sports UHD"
                 ],
-                "sortOrder": 250
+                "sortOrder": 254
             },
             {
                 "id": "W-Sport.my",
@@ -5290,9 +5353,10 @@
                     "W-Sport HD",
                     "Astro W-Sports HD",
                     "Astro W-Sports SD",
-                    "W-SPORT"
+                    "W-SPORT",
+                    "WSport"
                 ],
-                "sortOrder": 251
+                "sortOrder": 255
             },
             {
                 "id": "Ziggo.Sport.nl",
@@ -5304,11 +5368,12 @@
                     "ZG1",
                     "ZIGGO SPORT",
                     "ZIGGO SPORT 🇳🇱",
+                    "Ziggo Sport NL",
                     "ZIGGO SPORTS 1",
                     "ZiggoSportSelect",
                     "ziggosportselect.nl"
                 ],
-                "sortOrder": 252,
+                "sortOrder": 256,
                 "enabled": true
             },
             {
@@ -5323,11 +5388,12 @@
                     "ZIGGO SPORT 2",
                     "ZIGGO SPORT 2 (NEDERLAND)",
                     "ZIGGO SPORT 2 HD 🇳🇱",
+                    "Ziggo Sport 2 NL",
                     "ZIGGO SPORTS 2",
                     "ZiggoSportVoetbal",
                     "ziggosportvoetbal.nl"
                 ],
-                "sortOrder": 253,
+                "sortOrder": 257,
                 "enabled": true
             },
             {
@@ -5340,11 +5406,12 @@
                     "ZG3",
                     "ZIGGO SPORT 3 (NEDERLAND)",
                     "ZIGGO SPORT 3 HD 🇳🇱",
+                    "Ziggo Sport 3 NL",
                     "ZIGGO SPORTS 3",
                     "ZiggoSportGolf",
                     "ziggosportgolf.nl"
                 ],
-                "sortOrder": 254,
+                "sortOrder": 258,
                 "enabled": true
             },
             {
@@ -5355,11 +5422,12 @@
                     "NL ▎ZIGGO SPORT 4 HD ʀᴀᴡ",
                     "NL:Ziggo.Sport.Racing",
                     "ZG4",
+                    "Ziggo Sport 4 NL",
                     "ZIGGO SPORTS 4",
                     "ZiggoSportRacing",
                     "ziggosportracing.nl"
                 ],
-                "sortOrder": 255,
+                "sortOrder": 259,
                 "enabled": true
             },
             {
@@ -5371,11 +5439,12 @@
                     "nl:ziggosport5fhdhevc",
                     "ZG5",
                     "ZIGGO SPORT 5 (NEDERLAND)",
+                    "Ziggo Sport 5 NL",
                     "ZIGGO SPORTS 5",
                     "ZiggoSportExtra1",
                     "ziggosportextra1.nl"
                 ],
-                "sortOrder": 256,
+                "sortOrder": 260,
                 "enabled": true
             },
             {
@@ -5387,10 +5456,11 @@
                     "nl:ziggosport6hd",
                     "ZG6",
                     "ZIGGO SPORT 6 (NEDERLAND)",
+                    "Ziggo Sport 6 NL",
                     "ZIGGO SPORTS 6",
                     "ziggosportextra2.nl"
                 ],
-                "sortOrder": 257,
+                "sortOrder": 261,
                 "enabled": true
             },
             {
@@ -5401,7 +5471,7 @@
                     "canalplusnow.pl",
                     "Canal+ Now"
                 ],
-                "sortOrder": 258
+                "sortOrder": 262
             },
             {
                 "id": "Canal.Plus.Premium.pl",
@@ -5411,7 +5481,7 @@
                     "pl:canal+premiumfhd",
                     "Canal+ Premium"
                 ],
-                "sortOrder": 259
+                "sortOrder": 263
             },
             {
                 "id": "Canal.Plus.Sport.pl",
@@ -5421,7 +5491,7 @@
                     "canalplussport.pl",
                     "Canal+ Sport"
                 ],
-                "sortOrder": 260
+                "sortOrder": 264
             },
             {
                 "id": "Canal.Plus.Sport.2.pl",
@@ -5431,7 +5501,7 @@
                     "pl:canal+sport2fhd",
                     "Canal+ Sport 2"
                 ],
-                "sortOrder": 261
+                "sortOrder": 265
             },
             {
                 "id": "Canal.Plus.Sport.3.pl",
@@ -5441,7 +5511,7 @@
                     "canalplussport3.pl",
                     "Canal+ Sport 3"
                 ],
-                "sortOrder": 262
+                "sortOrder": 266
             },
             {
                 "id": "Canal.Plus.Sport.4.pl",
@@ -5451,7 +5521,7 @@
                     "canalplussport4.pl",
                     "Canal+ Sport 4"
                 ],
-                "sortOrder": 263
+                "sortOrder": 267
             },
             {
                 "id": "Eleven.Sports.1.pl",
@@ -5462,7 +5532,7 @@
                     "Eleven Sports 1",
                     "PL:Eleven.Sports1"
                 ],
-                "sortOrder": 264
+                "sortOrder": 268
             },
             {
                 "id": "Eleven.Sports.2.pl",
@@ -5473,7 +5543,7 @@
                     "Eleven Sports 2",
                     "PL:Eleven.Sports2"
                 ],
-                "sortOrder": 265
+                "sortOrder": 269
             },
             {
                 "id": "Eleven.Sports.3.pl",
@@ -5484,7 +5554,7 @@
                     "Eleven Sports 3",
                     "PL:Eleven.Sports3"
                 ],
-                "sortOrder": 266
+                "sortOrder": 270
             },
             {
                 "id": "Eleven.Sports.4.pl",
@@ -5495,7 +5565,7 @@
                     "Eleven Sports 4",
                     "PL:Eleven.Sports4"
                 ],
-                "sortOrder": 267
+                "sortOrder": 271
             },
             {
                 "id": "Polsat.Sport.pl",
@@ -5506,7 +5576,7 @@
                     "Polsat Sport",
                     "PL:Polsat.Sport"
                 ],
-                "sortOrder": 268
+                "sortOrder": 272
             },
             {
                 "id": "Polsat.Sport.Extra.pl",
@@ -5517,7 +5587,7 @@
                     "Polsat Sport Extra",
                     "PL:Polsat.Sport.Extra"
                 ],
-                "sortOrder": 269
+                "sortOrder": 273
             },
             {
                 "id": "Polsat.Sport.Fight.pl",
@@ -5527,7 +5597,7 @@
                     "pl:polsatsportfighthd",
                     "Polsat Sport Fight"
                 ],
-                "sortOrder": 270
+                "sortOrder": 274
             },
             {
                 "id": "Polsat.Sport.News.pl",
@@ -5537,7 +5607,7 @@
                     "polsatsportnews.pl",
                     "Polsat Sport News"
                 ],
-                "sortOrder": 271
+                "sortOrder": 275
             },
             {
                 "id": "Polsat.Sport.Premium.1.pl",
@@ -5547,7 +5617,7 @@
                     "polsatsportpremium1.pl",
                     "Polsat Sport Premium 1"
                 ],
-                "sortOrder": 272
+                "sortOrder": 276
             },
             {
                 "id": "Polsat.Sport.Premium.2.pl",
@@ -5557,7 +5627,7 @@
                     "pl:polsatsportpremium2fhd",
                     "Polsat Sport Premium 2"
                 ],
-                "sortOrder": 273
+                "sortOrder": 277
             },
             {
                 "id": "Polsat.Sport.Premium.3.pl",
@@ -5567,7 +5637,7 @@
                     "polsatsportpremium3ppv.pl",
                     "Polsat Sport Premium 3"
                 ],
-                "sortOrder": 274
+                "sortOrder": 278
             },
             {
                 "id": "Polsat.Sport.Premium.4.pl",
@@ -5577,7 +5647,7 @@
                     "pl:polsatsportpremium4hd",
                     "Polsat Sport Premium 4"
                 ],
-                "sortOrder": 275
+                "sortOrder": 279
             },
             {
                 "id": "Polsat.Sport.Premium.5.pl",
@@ -5587,7 +5657,7 @@
                     "polsatsportpremium5ppv.pl",
                     "Polsat Sport Premium 5"
                 ],
-                "sortOrder": 276
+                "sortOrder": 280
             },
             {
                 "id": "Polsat.Sport.Premium.6.pl",
@@ -5597,7 +5667,7 @@
                     "polsatsportpremium6ppv.pl",
                     "Polsat Sport Premium 6"
                 ],
-                "sortOrder": 277
+                "sortOrder": 281
             },
             {
                 "id": "TVP.Sport.pl",
@@ -5608,7 +5678,7 @@
                     "TVP Sport",
                     "PL:TVP.Sport"
                 ],
-                "sortOrder": 278
+                "sortOrder": 282
             },
             {
                 "id": "Benfica.TV.fr",
@@ -5617,7 +5687,7 @@
                 "tags": [
                     "PT:Benfica.TV"
                 ],
-                "sortOrder": 279
+                "sortOrder": 283
             },
             {
                 "id": "Benfica.TV.pt",
@@ -5626,7 +5696,7 @@
                 "tags": [
                     "PT: Benfica TV HD"
                 ],
-                "sortOrder": 280
+                "sortOrder": 284
             },
             {
                 "id": "Canal.11.HD.pt",
@@ -5635,7 +5705,7 @@
                 "tags": [
                     "PT:Canal.11"
                 ],
-                "sortOrder": 281
+                "sortOrder": 285
             },
             {
                 "id": "DAZN.1.pt",
@@ -5647,7 +5717,7 @@
                     "PT:Eleven.Sports1",
                     "Dazn 1 🇵🇹"
                 ],
-                "sortOrder": 282
+                "sortOrder": 286
             },
             {
                 "id": "DAZN.2.pt",
@@ -5659,7 +5729,7 @@
                     "PT:Eleven.Sports2",
                     "Dazn 2 🇵🇹"
                 ],
-                "sortOrder": 283
+                "sortOrder": 287
             },
             {
                 "id": "DAZN.3.pt",
@@ -5672,7 +5742,7 @@
                     "PT:Eleven.Sports3",
                     "Dazn 3 🇵🇹"
                 ],
-                "sortOrder": 284
+                "sortOrder": 288
             },
             {
                 "id": "DAZN.4.pt",
@@ -5684,7 +5754,7 @@
                     "PT:Eleven.Sports.4",
                     "Dazn 4 🇵🇹"
                 ],
-                "sortOrder": 285
+                "sortOrder": 289
             },
             {
                 "id": "DAZN.5.pt",
@@ -5696,7 +5766,7 @@
                     "PT:Eleven.Sports.5",
                     "Dazn 5 🇵🇹"
                 ],
-                "sortOrder": 286
+                "sortOrder": 290
             },
             {
                 "id": "DAZN.6.pt",
@@ -5708,7 +5778,7 @@
                     "PT:Eleven.Sports.6",
                     "Dazn 6 🇵🇹"
                 ],
-                "sortOrder": 287
+                "sortOrder": 291
             },
             {
                 "id": "Eurosport.1.HD.pt",
@@ -5718,7 +5788,7 @@
                     "eurosport1.pt",
                     "PT: EUROSPORT 1"
                 ],
-                "sortOrder": 288
+                "sortOrder": 292
             },
             {
                 "id": "Eurosport.2.HD.pt",
@@ -5728,7 +5798,7 @@
                     "eurosport2.pt",
                     "PT: EUROSPORT 2 HD"
                 ],
-                "sortOrder": 289
+                "sortOrder": 293
             },
             {
                 "id": "SPORT.TV+.HD.pt",
@@ -5738,7 +5808,7 @@
                     "sporttvplus.pt",
                     "PT:Sport+"
                 ],
-                "sortOrder": 290
+                "sortOrder": 294
             },
             {
                 "id": "SPORT.TV1.HD.pt",
@@ -5750,7 +5820,7 @@
                     "PT: SPORT TV 1 H.265/HEVC",
                     "PT:Sport.TV1"
                 ],
-                "sortOrder": 291
+                "sortOrder": 295
             },
             {
                 "id": "SPORT.TV2.HD.pt",
@@ -5761,7 +5831,7 @@
                     "SPΘRT TV 2-265 FHD",
                     "PT:Sport.TV2"
                 ],
-                "sortOrder": 292
+                "sortOrder": 296
             },
             {
                 "id": "SPORT.TV3.HD.pt",
@@ -5772,7 +5842,7 @@
                     "SPΘRT TV 3-265 HD",
                     "PT:Sport.TV3"
                 ],
-                "sortOrder": 293
+                "sortOrder": 297
             },
             {
                 "id": "SPORT.TV4.HD.pt",
@@ -5783,7 +5853,7 @@
                     "SPΘRT TV 4-265 HD",
                     "PT:Sport.TV4"
                 ],
-                "sortOrder": 294
+                "sortOrder": 298
             },
             {
                 "id": "SPORT.TV5.HD.pt",
@@ -5796,7 +5866,7 @@
                     "SPΘRT TV 5 FHD",
                     "PT:Sport.TV5"
                 ],
-                "sortOrder": 295
+                "sortOrder": 299
             },
             {
                 "id": "Sport.TV.6.HD.pt",
@@ -5806,7 +5876,7 @@
                     "sporttv6.pt",
                     "PT: SPORT TV 6"
                 ],
-                "sortOrder": 296
+                "sortOrder": 300
             },
             {
                 "id": "Sport.TV.7.HD.pt",
@@ -5818,7 +5888,7 @@
                     "PT: SPORT TV 7 HD",
                     "PT: SPORT TV 7 1080"
                 ],
-                "sortOrder": 297
+                "sortOrder": 301
             },
             {
                 "id": "Sporting.TV.HD.pt",
@@ -5827,7 +5897,7 @@
                 "tags": [
                     "PT:Sporting.TV"
                 ],
-                "sortOrder": 298
+                "sortOrder": 302
             },
             {
                 "id": "Digi.Sport.1.HD.ro",
@@ -5838,7 +5908,7 @@
                     "RO: DIGI SPORT 1 HD",
                     "RO:Digi.Sport1"
                 ],
-                "sortOrder": 299
+                "sortOrder": 303
             },
             {
                 "id": "Digi.Sport.2.HD.ro",
@@ -5849,7 +5919,7 @@
                     "RO: DIGI SPORT 2 HD",
                     "RO:Digi.Sport2"
                 ],
-                "sortOrder": 300
+                "sortOrder": 304
             },
             {
                 "id": "Digi.Sport.3.HD.ro",
@@ -5860,7 +5930,7 @@
                     "RO: DIGI SPORT 3 HD",
                     "RO:Digi.Sport3"
                 ],
-                "sortOrder": 301
+                "sortOrder": 305
             },
             {
                 "id": "Digi.Sport.4.HD.ro",
@@ -5871,7 +5941,7 @@
                     "RO: DIGI SPORT 4 HD",
                     "RO:Digi.Sport4"
                 ],
-                "sortOrder": 302
+                "sortOrder": 306
             },
             {
                 "id": "Eurosport.1.HD.ro",
@@ -5881,7 +5951,7 @@
                     "eurosport1.ro",
                     "RO: EUROSPORT 1 HD"
                 ],
-                "sortOrder": 303
+                "sortOrder": 307
             },
             {
                 "id": "looksport2.ro",
@@ -5890,7 +5960,7 @@
                 "tags": [
                     "RO: LOOK SPORT 2 HD"
                 ],
-                "sortOrder": 304
+                "sortOrder": 308
             },
             {
                 "id": "looksport3.ro",
@@ -5899,7 +5969,7 @@
                 "tags": [
                     "RO: LOOK SPORT 3 FHD"
                 ],
-                "sortOrder": 305
+                "sortOrder": 309
             },
             {
                 "id": "fineliving.ro",
@@ -5909,7 +5979,7 @@
                     "fineliving.ro",
                     "RO: LOOK SPORT HD"
                 ],
-                "sortOrder": 306
+                "sortOrder": 310
             },
             {
                 "id": "orangesport1.ro",
@@ -5920,7 +5990,7 @@
                     "orangesport1.ro",
                     "RO: ORANGE SPORT 1"
                 ],
-                "sortOrder": 307,
+                "sortOrder": 311,
                 "enabled": true
             },
             {
@@ -5932,7 +6002,7 @@
                     "orangesport2.ro",
                     "RO: ORANGE SPORT 2"
                 ],
-                "sortOrder": 308,
+                "sortOrder": 312,
                 "enabled": true
             },
             {
@@ -5944,7 +6014,7 @@
                     "orangesport3.ro",
                     "RO: ORANGE SPORT 3"
                 ],
-                "sortOrder": 309,
+                "sortOrder": 313,
                 "enabled": true
             },
             {
@@ -5956,7 +6026,7 @@
                     "orangesport4.ro",
                     "RO: ORANGE SPORT 4"
                 ],
-                "sortOrder": 310,
+                "sortOrder": 314,
                 "enabled": true
             },
             {
@@ -5968,7 +6038,7 @@
                     "RO: PRIMA SPORT 1 HD",
                     "∆ PRIMA SPORT 1"
                 ],
-                "sortOrder": 311
+                "sortOrder": 315
             },
             {
                 "id": "Prima.Sport.2.HD.ro",
@@ -5979,7 +6049,7 @@
                     "RO: PRIMA SPORT 2 HD",
                     "∆ PRIMA SPORT 2"
                 ],
-                "sortOrder": 312
+                "sortOrder": 316
             },
             {
                 "id": "Prima.Sport.3.HD.ro",
@@ -5990,7 +6060,7 @@
                     "RO: PRIMA SPORT 3 HD",
                     "∆ PRIMA SPORT 3"
                 ],
-                "sortOrder": 313
+                "sortOrder": 317
             },
             {
                 "id": "Prima.Sport.4.HD.ro",
@@ -6001,7 +6071,7 @@
                     "RO: PRIMA SPORT 4 HD",
                     "∆ PRIMA SPORT 4"
                 ],
-                "sortOrder": 314
+                "sortOrder": 318
             },
             {
                 "id": "telekomsport1.ro",
@@ -6011,7 +6081,7 @@
                     "telekomsport1.ro",
                     "RO: TELEKOM SPORT 1 HD"
                 ],
-                "sortOrder": 315
+                "sortOrder": 319
             },
             {
                 "id": "telekomsport2.ro",
@@ -6021,7 +6091,7 @@
                     "telekomsport2.ro",
                     "RO: TELEKOM SPORT 2 HD"
                 ],
-                "sortOrder": 316
+                "sortOrder": 320
             },
             {
                 "id": "telekomsport3.ro",
@@ -6031,7 +6101,7 @@
                     "telekomsport3.ro",
                     "RO: TELEKOM SPORT 3 HD"
                 ],
-                "sortOrder": 317
+                "sortOrder": 321
             },
             {
                 "id": "telekomsport4.ro",
@@ -6041,7 +6111,7 @@
                     "telekomsport4.ro",
                     "RO: TELEKOM SPORT 4 HD"
                 ],
-                "sortOrder": 318
+                "sortOrder": 322
             },
             {
                 "id": "Arena.Premium.1.HD.(RS).rs",
@@ -6052,7 +6122,7 @@
                     "Arena Premium 1 HD 🇷🇸",
                     "ARENA 1 PREMIUM"
                 ],
-                "sortOrder": 319
+                "sortOrder": 323
             },
             {
                 "id": "Arena.Premium.2.HD.(RS).rs",
@@ -6063,7 +6133,7 @@
                     "Arena Premium 2 HD 🇷🇸",
                     "ARENA 2 PREMIUM"
                 ],
-                "sortOrder": 320
+                "sortOrder": 324
             },
             {
                 "id": "Arena.Premium.3.HD.(RS).rs",
@@ -6077,13 +6147,13 @@
                     "ARENA 3 PREMIUM FHD SR",
                     "ARENA 3 PREMIUM"
                 ],
-                "sortOrder": 321
+                "sortOrder": 325
             },
             {
                 "id": "Arena.Sport.1X2.HD.(RS).rs",
                 "name": "RS: Arena Sport 1x2",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ih14ab1646222134.png",
-                "sortOrder": 322,
+                "sortOrder": 326,
                 "tags": [],
                 "enabled": true
             },
@@ -6097,7 +6167,7 @@
                     "RU:Match",
                     "Матч! 🇷🇺"
                 ],
-                "sortOrder": 323,
+                "sortOrder": 327,
                 "enabled": true
             },
             {
@@ -6109,7 +6179,7 @@
                     "RU ▎МАТЧ! АРЕНА HD",
                     "RU:Match.Arena"
                 ],
-                "sortOrder": 324,
+                "sortOrder": 328,
                 "enabled": true
             },
             {
@@ -6124,7 +6194,7 @@
                     "Матч! Футбол 1 HD",
                     "Матч! ФУТБОЛ. .1 HD"
                 ],
-                "sortOrder": 325,
+                "sortOrder": 329,
                 "enabled": true
             },
             {
@@ -6139,7 +6209,7 @@
                     "МАТЧ! Футбол 2 HD",
                     "Матч! ФУТБОЛ. .2 HD"
                 ],
-                "sortOrder": 326,
+                "sortOrder": 330,
                 "enabled": true
             },
             {
@@ -6154,7 +6224,7 @@
                     "МАТЧ! Футбол 3 HD",
                     "Матч! ФУТБОЛ. .3 HD"
                 ],
-                "sortOrder": 327,
+                "sortOrder": 331,
                 "enabled": true
             },
             {
@@ -6166,7 +6236,7 @@
                     "МАТЧ! ИГРА 🇷🇺",
                     "MATCH! IGRA 🇷🇺"
                 ],
-                "sortOrder": 328
+                "sortOrder": 332
             },
             {
                 "id": "match-premier.ru",
@@ -6176,7 +6246,7 @@
                     "RU:Match.Premier",
                     "MATCH! PREMIERE 🇷🇺"
                 ],
-                "sortOrder": 329
+                "sortOrder": 333
             },
             {
                 "id": "match-strana.ru",
@@ -6186,7 +6256,7 @@
                     "RU:Match.Strana",
                     "MATCH! STRANA 🇷🇺"
                 ],
-                "sortOrder": 330
+                "sortOrder": 334
             },
             {
                 "id": "Hub.Premier.1.sg",
@@ -6201,7 +6271,7 @@
                     "HUB Premier 1",
                     "Hub Premier 1 HD (UK)"
                 ],
-                "sortOrder": 331
+                "sortOrder": 335
             },
             {
                 "id": "Hub.Premier.2.sg",
@@ -6215,7 +6285,7 @@
                     "HUB Premier 2",
                     "Hub Premier 2 HD (UK)"
                 ],
-                "sortOrder": 332
+                "sortOrder": 336
             },
             {
                 "id": "Hub.Premier.3.sg",
@@ -6229,7 +6299,7 @@
                     "HUB Premier 3",
                     "Hub Premier 3 HD (UK)"
                 ],
-                "sortOrder": 333
+                "sortOrder": 337
             },
             {
                 "id": "Hub.Premier.4.sg",
@@ -6242,7 +6312,7 @@
                     "HUB Premier 4",
                     "Hub Premier 4 HD (UK)"
                 ],
-                "sortOrder": 334
+                "sortOrder": 338
             },
             {
                 "id": "Hub.Premier.5.sg",
@@ -6255,7 +6325,7 @@
                     "HUB Premier 5",
                     "Hub Premier 5 HD (UK)"
                 ],
-                "sortOrder": 335
+                "sortOrder": 339
             },
             {
                 "id": "Hub.Premier.6.sg",
@@ -6268,7 +6338,7 @@
                     "HUB Premier 6",
                     "Hub Premier 6 HD (UK)"
                 ],
-                "sortOrder": 336
+                "sortOrder": 340
             },
             {
                 "id": "Hub.Premier.7.sg",
@@ -6281,7 +6351,7 @@
                     "HUB Premier 7",
                     "Hub Premier 7 HD (UK)"
                 ],
-                "sortOrder": 337
+                "sortOrder": 341
             },
             {
                 "id": "Hub.Premier.8.sg",
@@ -6295,7 +6365,7 @@
                     "HUB Premier 8",
                     "Hub Premier 8 HD (UK)"
                 ],
-                "sortOrder": 338
+                "sortOrder": 342
             },
             {
                 "id": "Hub.Premier.9.sg",
@@ -6308,7 +6378,7 @@
                     "HUB Premier 9",
                     "Hub Premier 9 HD (UK)"
                 ],
-                "sortOrder": 339
+                "sortOrder": 343
             },
             {
                 "id": "Hub.Premier.10.sg",
@@ -6321,7 +6391,7 @@
                     "Hub Premier 10 FHD",
                     "HUB Premier 10"
                 ],
-                "sortOrder": 340
+                "sortOrder": 344
             },
             {
                 "id": "Hub.Premier.11.sg",
@@ -6334,7 +6404,7 @@
                     "Hub Premier 11 FHD",
                     "HUB Premier 11"
                 ],
-                "sortOrder": 341
+                "sortOrder": 345
             },
             {
                 "id": "Hub.Sports.1.HD.sg",
@@ -6351,7 +6421,7 @@
                     "Hub Sports 1 HD (Sgp)"
                 ],
                 "enabled": true,
-                "sortOrder": 342
+                "sortOrder": 346
             },
             {
                 "id": "Hub.Sports.2.HD.sg",
@@ -6368,7 +6438,7 @@
                     "Hub Sports 2 HD (Sgp)"
                 ],
                 "enabled": true,
-                "sortOrder": 343
+                "sortOrder": 347
             },
             {
                 "id": "Hub.Sports.3.HD.sg",
@@ -6385,7 +6455,7 @@
                     "Hub Sports 3 HD (Sgp)"
                 ],
                 "enabled": true,
-                "sortOrder": 344
+                "sortOrder": 348
             },
             {
                 "id": "Hub.Sports.4.HD.sg",
@@ -6402,7 +6472,7 @@
                     "Hub Sports 4 HD (Sgp)"
                 ],
                 "enabled": true,
-                "sortOrder": 345
+                "sortOrder": 349
             },
             {
                 "id": "Hub.Sports.5.HD.sg",
@@ -6419,7 +6489,7 @@
                     "Hub Sports 5 HD (Sgp)"
                 ],
                 "enabled": true,
-                "sortOrder": 346
+                "sortOrder": 350
             },
             {
                 "id": "NBA.TV.sg",
@@ -6429,17 +6499,18 @@
                     "SG| NBA TV HD",
                     "NBA TV HD"
                 ],
-                "sortOrder": 347
+                "sortOrder": 351
             },
             {
-                "id": "JOJ.Å PORT.HD.sk",
+                "id": "JOJ.ŠPORT.HD.sk",
                 "name": "SK: JOJ Šport TV",
                 "logo": "https://r2.thesportsdb.com/images/media/channel/logo/s3k56e1649341670.png",
                 "tags": [
                     "JOJ SPORT 🇸🇰",
-                    "JOJ Sport SLV"
+                    "JOJ Sport SLV",
+                    "JOJ SPORT 2 🇸🇰"
                 ],
-                "sortOrder": 348
+                "sortOrder": 352
             },
             {
                 "id": "spotv",
@@ -6456,7 +6527,7 @@
                     "SpoTV (ott)",
                     "SPOTV (VS+)_ott.navigator"
                 ],
-                "sortOrder": 349
+                "sortOrder": 353
             },
             {
                 "id": "spotvnow",
@@ -6465,7 +6536,7 @@
                 "tags": [
                     "SPOTV NOW (Korea)"
                 ],
-                "sortOrder": 350
+                "sortOrder": 354
             },
             {
                 "id": "spotv2",
@@ -6482,7 +6553,7 @@
                     "SpoTV 2 (ott)",
                     "SPOTV2 (mmd)"
                 ],
-                "sortOrder": 351
+                "sortOrder": 355
             },
             {
                 "id": "A.SPOR.HD.tr",
@@ -6491,7 +6562,7 @@
                 "tags": [
                     "[TR] A SPOR HD"
                 ],
-                "sortOrder": 352
+                "sortOrder": 356
             },
             {
                 "id": "bein.connect.1.tr",
@@ -6500,7 +6571,7 @@
                 "tags": [
                     "|TR| beIN Connect 1 |Mac Saati|"
                 ],
-                "sortOrder": 353
+                "sortOrder": 357
             },
             {
                 "id": "bein.connect.2.tr",
@@ -6509,7 +6580,7 @@
                 "tags": [
                     "|TR| beIN Connect 2 |Mac Saati|"
                 ],
-                "sortOrder": 354
+                "sortOrder": 358
             },
             {
                 "id": "bein.connect.3.tr",
@@ -6518,7 +6589,7 @@
                 "tags": [
                     "|TR| beIN Connect 3 |Mac Saati|"
                 ],
-                "sortOrder": 355
+                "sortOrder": 359
             },
             {
                 "id": "beIN.SPORTS.1.tr",
@@ -6527,7 +6598,7 @@
                 "tags": [
                     "[TR] Bein Sport 1"
                 ],
-                "sortOrder": 356
+                "sortOrder": 360
             },
             {
                 "id": "beIN.SPORTS.2.tr",
@@ -6536,7 +6607,7 @@
                 "tags": [
                     "[TR] Bein Sport 2"
                 ],
-                "sortOrder": 357
+                "sortOrder": 361
             },
             {
                 "id": "beIN.SPORTS.3.tr",
@@ -6545,7 +6616,7 @@
                 "tags": [
                     "[TR] Bein Sport 3"
                 ],
-                "sortOrder": 358
+                "sortOrder": 362
             },
             {
                 "id": "beIN.SPORTS.4.tr",
@@ -6554,7 +6625,7 @@
                 "tags": [
                     "[TR] Bein Sport 4"
                 ],
-                "sortOrder": 359
+                "sortOrder": 363
             },
             {
                 "id": "beIN.SPORTS.HABER.HD.tr",
@@ -6563,7 +6634,7 @@
                 "tags": [
                     "[TR] beIN Sports Haber"
                 ],
-                "sortOrder": 360
+                "sortOrder": 364
             },
             {
                 "id": "beIN.SPORTS.MAX.1.tr",
@@ -6572,7 +6643,7 @@
                 "tags": [
                     "[TR] beIN SPORTS MAX 1"
                 ],
-                "sortOrder": 361
+                "sortOrder": 365
             },
             {
                 "id": "beIN.SPORTS.MAX.2.tr",
@@ -6581,7 +6652,7 @@
                 "tags": [
                     "[TR] beIN SPORTS MAX 2"
                 ],
-                "sortOrder": 362
+                "sortOrder": 366
             },
             {
                 "id": "EUROSPORT.1.HD.tr",
@@ -6590,7 +6661,7 @@
                 "tags": [
                     "[TR] Euro Sport 1 HD"
                 ],
-                "sortOrder": 363,
+                "sortOrder": 367,
                 "enabled": true
             },
             {
@@ -6600,7 +6671,7 @@
                 "tags": [
                     "[TR] Euro Sport 2 HD"
                 ],
-                "sortOrder": 364,
+                "sortOrder": 368,
                 "enabled": true
             },
             {
@@ -6610,7 +6681,7 @@
                 "tags": [
                     "[TR] FB TV"
                 ],
-                "sortOrder": 365
+                "sortOrder": 369
             },
             {
                 "id": "GS.TV.in",
@@ -6619,7 +6690,7 @@
                 "tags": [
                     "[TR] GS TV"
                 ],
-                "sortOrder": 366
+                "sortOrder": 370
             },
             {
                 "id": "NBA.TV.hk",
@@ -6628,7 +6699,7 @@
                 "tags": [
                     "[TR] NBA TV"
                 ],
-                "sortOrder": 367
+                "sortOrder": 371
             },
             {
                 "id": "tr-spor-smart-1",
@@ -6637,7 +6708,7 @@
                 "tags": [
                     "[TR] Spor Smart 1"
                 ],
-                "sortOrder": 368
+                "sortOrder": 372
             },
             {
                 "id": "SPORTS.TV.HD.tr",
@@ -6646,7 +6717,7 @@
                 "tags": [
                     "[TR] SPORTS TV HD"
                 ],
-                "sortOrder": 369
+                "sortOrder": 373
             },
             {
                 "id": "TIVIBU.SPOR.1.tr",
@@ -6655,7 +6726,7 @@
                 "tags": [
                     "[TR] Tivibu  Spor 1"
                 ],
-                "sortOrder": 370
+                "sortOrder": 374
             },
             {
                 "id": "TIVIBU.SPOR.2.tr",
@@ -6664,7 +6735,7 @@
                 "tags": [
                     "[TR] Tivibu  Spor 2"
                 ],
-                "sortOrder": 371
+                "sortOrder": 375
             },
             {
                 "id": "TIVIBU.SPOR.3.tr",
@@ -6673,7 +6744,7 @@
                 "tags": [
                     "[TR] Tivibu Spor 3"
                 ],
-                "sortOrder": 372
+                "sortOrder": 376
             },
             {
                 "id": "TRT.SPOR.HD.tr",
@@ -6682,7 +6753,7 @@
                 "tags": [
                     "[TR] TRT Spor HD"
                 ],
-                "sortOrder": 373,
+                "sortOrder": 377,
                 "enabled": true
             },
             {
@@ -6692,7 +6763,7 @@
                 "tags": [
                     "[TR] TRT Spor 2 HD"
                 ],
-                "sortOrder": 374,
+                "sortOrder": 378,
                 "enabled": true
             },
             {
@@ -6702,7 +6773,7 @@
                 "tags": [
                     "DAZN ELEVEN 1 (twn)"
                 ],
-                "sortOrder": 375
+                "sortOrder": 379
             },
             {
                 "id": "DAZN.Eleven.2.tw",
@@ -6711,7 +6782,7 @@
                 "tags": [
                     "DAZN ELEVEN 2 (twn)"
                 ],
-                "sortOrder": 376
+                "sortOrder": 380
             },
             {
                 "id": "BoxNation.HD.uk",
@@ -6721,7 +6792,7 @@
                     "boxnation.uk",
                     "UK: BOXNATION HD"
                 ],
-                "sortOrder": 377
+                "sortOrder": 381
             },
             {
                 "id": "UK:BT.Sports.Espn",
@@ -6730,7 +6801,7 @@
                 "tags": [
                     "UK:BT.Sports.Espn"
                 ],
-                "sortOrder": 378
+                "sortOrder": 382
             },
             {
                 "id": "Eurosport.1.uk",
@@ -6739,7 +6810,7 @@
                 "tags": [
                     "[UK] Eurosport 1 FHD"
                 ],
-                "sortOrder": 379,
+                "sortOrder": 383,
                 "enabled": true
             },
             {
@@ -6749,7 +6820,7 @@
                 "tags": [
                     "[UK] Eurosport 2 FHD VIP"
                 ],
-                "sortOrder": 380,
+                "sortOrder": 384,
                 "enabled": true
             },
             {
@@ -6761,7 +6832,7 @@
                     "UK: LFC TV",
                     "UK:Liverpool.TV"
                 ],
-                "sortOrder": 381
+                "sortOrder": 385
             },
             {
                 "id": "MUTV.HD.uk",
@@ -6772,7 +6843,7 @@
                     "UK: MUTV HD",
                     "UK:Manutd .TV"
                 ],
-                "sortOrder": 382
+                "sortOrder": 386
             },
             {
                 "id": "Premier.Sports.1.HD.uk",
@@ -6782,9 +6853,11 @@
                     "premiersports.uk",
                     "UK: PREMIER SPORTS 1",
                     "PremierSports HD_mpd(ott)",
-                    "Premiere Sports 1 UK"
+                    "Premiere Sports 1 UK",
+                    "Premier Sports 1",
+                    "UK | PREMIER SPORTS 1 [ROI]"
                 ],
-                "sortOrder": 383
+                "sortOrder": 387
             },
             {
                 "id": "Premier.Sports.2.HD.uk",
@@ -6794,9 +6867,10 @@
                     "premiersports2.uk",
                     "UK: PREMIER SPORTS 2",
                     "PremierSports 2_mpd(ott)",
-                    "Premiere Sports 2 UK"
+                    "Premiere Sports 2 UK",
+                    "Premier Sports 2"
                 ],
-                "sortOrder": 384
+                "sortOrder": 388
             },
             {
                 "id": "Racing.TV.HD.uk",
@@ -6806,7 +6880,7 @@
                     "racinguk.uk",
                     "UK: RACING UK"
                 ],
-                "sortOrder": 385
+                "sortOrder": 389
             },
             {
                 "id": "Sky.Sports.Action.HD.uk",
@@ -6817,7 +6891,7 @@
                     "UK: SKY SPORTS ACTION FHD",
                     "UK:SkySport.Action"
                 ],
-                "sortOrder": 386,
+                "sortOrder": 390,
                 "enabled": true
             },
             {
@@ -6830,7 +6904,7 @@
                     "UK: SKYSPORT ARENA FullHD"
                 ],
                 "enabled": true,
-                "sortOrder": 387
+                "sortOrder": 391
             },
             {
                 "id": "SkySpBoxOff.uk",
@@ -6840,7 +6914,7 @@
                     "skysportsboxoffice.uk",
                     "UK: SKY SPORTS BOX OFFICE (LIVE DURING BOXING MATCH)"
                 ],
-                "sortOrder": 388,
+                "sortOrder": 392,
                 "enabled": true
             },
             {
@@ -6853,7 +6927,7 @@
                     "UK:SkySport.Cricket",
                     "UK: SKY SPORTS CRICKET HD"
                 ],
-                "sortOrder": 389,
+                "sortOrder": 393,
                 "enabled": true
             },
             {
@@ -6869,7 +6943,7 @@
                     "UK:Sky.Sports.F1"
                 ],
                 "enabled": true,
-                "sortOrder": 390
+                "sortOrder": 394
             },
             {
                 "id": "Sky.Sports.Football.HD.uk",
@@ -6879,9 +6953,10 @@
                     "skysportsfootball.uk",
                     "UK: SKY SPORTS FOOTBALL FHD",
                     "UK:SkySport.Football",
-                    "UK: SKY SPORTS FOOTBALL HD"
+                    "UK: SKY SPORTS FOOTBALL HD",
+                    "Sky Sports Football"
                 ],
-                "sortOrder": 391,
+                "sortOrder": 395,
                 "enabled": true
             },
             {
@@ -6895,7 +6970,7 @@
                     "UK: SKY SPORTS GOLF HD"
                 ],
                 "enabled": true,
-                "sortOrder": 392
+                "sortOrder": 396
             },
             {
                 "id": "SkySpMainEvHD.uk",
@@ -6908,7 +6983,7 @@
                     "UK: SKY SPORTS MAIN EVENTS FHD"
                 ],
                 "enabled": true,
-                "sortOrder": 393
+                "sortOrder": 397
             },
             {
                 "id": "SkySp.Mix.HD.uk",
@@ -6919,7 +6994,7 @@
                     "UK: SKY SPORTS MIX FHD",
                     "UK:Sky.Sports.Mix"
                 ],
-                "sortOrder": 394,
+                "sortOrder": 398,
                 "enabled": true
             },
             {
@@ -6934,7 +7009,7 @@
                     "UK:Sky.Sports.News"
                 ],
                 "enabled": true,
-                "sortOrder": 395
+                "sortOrder": 399
             },
             {
                 "id": "SkySp+HD.uk",
@@ -6945,7 +7020,7 @@
                     "UK: SKY SPORTS + FHD",
                     "UK: SKY SPORTS PLUS HD"
                 ],
-                "sortOrder": 396,
+                "sortOrder": 400,
                 "enabled": true
             },
             {
@@ -6956,10 +7031,29 @@
                     "skysportspremiereleague.uk",
                     "UK: SKY SPORTS PREMIER LEAGUE FHD",
                     "UK:SkySport.Premiere.League",
-                    "UK: SKY SPORTS PREMIER LEAGUE HD"
+                    "UK: SKY SPORTS PREMIER LEAGUE HD",
+                    "Sky Sports Premier League"
                 ],
-                "sortOrder": 397,
+                "sortOrder": 401,
                 "enabled": true
+            },
+            {
+                "id": "SkySp.Tennis.HD.uk",
+                "name": "UK: Sky Sports Tennis",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-tennis-icon-alt-uk.png",
+                "tags": [
+                    "Sky Sports Tennis"
+                ],
+                "sortOrder": 402
+            },
+            {
+                "id": "SkySp+.uk",
+                "name": "UK: Sky Sports+",
+                "logo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/other/sky-sports-plus-1-icon-alt-uk.png",
+                "tags": [
+                    "Sky Sports+"
+                ],
+                "sortOrder": 403
             },
             {
                 "id": "TNT.Sports.1.HD.uk",
@@ -6978,10 +7072,11 @@
                     "UK: BT SPORT 1 FullHD",
                     "UK: BT SPORTS 1 FHD 50FPS",
                     "UK: TNT SPORTS 1 HD",
-                    "UK:BT.Sport1"
+                    "UK:BT.Sport1",
+                    "TNT SPORTS 1 🇬🇧"
                 ],
                 "enabled": true,
-                "sortOrder": 398
+                "sortOrder": 404
             },
             {
                 "id": "TNT.Sports.2.HD.uk",
@@ -7000,10 +7095,11 @@
                     "UK: BT SPORT 2 FullHD",
                     "UK: BT SPORTS 2 FHD 50FPS",
                     "UK: TNT SPORTS 2 HD",
-                    "UK:BT.Sport2"
+                    "UK:BT.Sport2",
+                    "TNT SPORTS 2 🇬🇧"
                 ],
                 "enabled": true,
-                "sortOrder": 399
+                "sortOrder": 405
             },
             {
                 "id": "TNT.Sports.3.HD.uk",
@@ -7022,10 +7118,11 @@
                     "UK: BT SPORT 3 FullHD",
                     "UK: BT SPORTS 3 HD",
                     "UK: TNT SPORTS 3 HD",
-                    "UK:BTSport3"
+                    "UK:BTSport3",
+                    "TNT SPORTS 3 🇬🇧"
                 ],
                 "enabled": true,
-                "sortOrder": 400
+                "sortOrder": 406
             },
             {
                 "id": "TNT.Sports.4.HD.uk",
@@ -7041,10 +7138,12 @@
                     "tnt4",
                     "UK | BT SPORT ESPN HD",
                     "UK: BT SPORT ESPN FHD 50FPS",
-                    "UK: TNT SPORTS 4 HD"
+                    "UK: TNT SPORTS 4 HD",
+                    "UK | TNT SPORTS 4",
+                    "TNT SPORTS 4 🇬🇧"
                 ],
                 "enabled": true,
-                "sortOrder": 401
+                "sortOrder": 407
             },
             {
                 "id": "TNT.Sports.5.HD.uk",
@@ -7060,7 +7159,7 @@
                     "TNT 5x",
                     "TNT 5x FHD"
                 ],
-                "sortOrder": 402
+                "sortOrder": 408
             },
             {
                 "id": "TNT.Sports.6.HD.uk",
@@ -7071,7 +7170,7 @@
                     "UK: TNT SPORTS 6 HD",
                     "TNT Sports 6 (GBR)"
                 ],
-                "sortOrder": 403
+                "sortOrder": 409
             },
             {
                 "id": "TNT.Sports.7.HD.uk",
@@ -7082,7 +7181,7 @@
                     "UK: TNT SPORTS 7 HD",
                     "TNT Sports 7 (GBR)"
                 ],
-                "sortOrder": 404
+                "sortOrder": 410
             },
             {
                 "id": "TNT.Sports.8.HD.uk",
@@ -7092,7 +7191,7 @@
                     "btsportx4.uk",
                     "UK: TNT SPORTS 8 HD"
                 ],
-                "sortOrder": 405
+                "sortOrder": 411
             },
             {
                 "id": "TNT.Sports.Ultimate.uk",
@@ -7101,7 +7200,7 @@
                 "tags": [
                     "tntultimate"
                 ],
-                "sortOrder": 406
+                "sortOrder": 412
             },
             {
                 "id": "US.BeIN.Xtra.en",
@@ -7113,7 +7212,7 @@
                     "US:BEIN.XTRA"
                 ],
                 "enabled": true,
-                "sortOrder": 407
+                "sortOrder": 413
             },
             {
                 "id": "US.BeIN.Xtra.es",
@@ -7125,7 +7224,7 @@
                     "US:BEIN.XTRA.ES"
                 ],
                 "enabled": true,
-                "sortOrder": 408
+                "sortOrder": 414
             },
             {
                 "id": "ESPN.HD.us2",
@@ -7136,7 +7235,7 @@
                     "US:ESPN"
                 ],
                 "enabled": true,
-                "sortOrder": 409
+                "sortOrder": 415
             },
             {
                 "id": "ESPN2.HD.us2",
@@ -7147,7 +7246,7 @@
                     "US:ESPN2"
                 ],
                 "enabled": true,
-                "sortOrder": 410
+                "sortOrder": 416
             },
             {
                 "id": "ESPNEWS.HD.us2",
@@ -7158,7 +7257,7 @@
                     "US:ESPNEWS"
                 ],
                 "enabled": true,
-                "sortOrder": 411
+                "sortOrder": 417
             },
             {
                 "id": "ESPNU.HD.us2",
@@ -7169,7 +7268,7 @@
                     "US:ESPNU"
                 ],
                 "enabled": true,
-                "sortOrder": 412
+                "sortOrder": 418
             },
             {
                 "id": "USA.Network.HD.us2",
@@ -7181,7 +7280,7 @@
                     "US:USA.NETWORK"
                 ],
                 "enabled": true,
-                "sortOrder": 413
+                "sortOrder": 419
             }
         ]
     },
