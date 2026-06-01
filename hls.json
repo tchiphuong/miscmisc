@@ -3,7 +3,7 @@
         "id": "vtv",
         "name": "VTV",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtv.png",
-        "sortOrder": 1,
+        "sortOrder": 1000,
         "isAutoSort": false,
         "channels": [
             {
@@ -147,7 +147,7 @@
         "id": "kplus",
         "name": "K+",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/kplus.png",
-        "sortOrder": 2,
+        "sortOrder": 2000,
         "isAutoSort": false,
         "channels": [
             {
@@ -223,7 +223,7 @@
         "id": "vtvcab",
         "name": "VTVcab",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvcab.png",
-        "sortOrder": 3,
+        "sortOrder": 3000,
         "isAutoSort": false,
         "channels": [
             {
@@ -435,7 +435,7 @@
         "id": "vtvprime",
         "name": "VTVPrime",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/vtvprime.png",
-        "sortOrder": 4,
+        "sortOrder": 4000,
         "isAutoSort": false,
         "channels": [
             {
@@ -578,7 +578,7 @@
         "id": "htv",
         "name": "HTV - HTVC",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/htv.png",
-        "sortOrder": 5,
+        "sortOrder": 5000,
         "isAutoSort": false,
         "channels": [
             {
@@ -733,7 +733,7 @@
         "id": "sctv",
         "name": "SCTV",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sctv.png",
-        "sortOrder": 6,
+        "sortOrder": 6000,
         "isAutoSort": false,
         "channels": [
             {
@@ -1003,13 +1003,13 @@
                 ]
             }
         ],
-        "sortOrder": 13
+        "sortOrder": 13000
     },
     {
         "id": "tv360-movie",
         "name": "TV360 - Rạp phim",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
-        "sortOrder": 8,
+        "sortOrder": 8000,
         "isAutoSort": true,
         "channels": [
             {
@@ -1134,7 +1134,7 @@
         "id": "tv360-sport-highlight",
         "name": "TV360 - Khoảnh khắc thể thao",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
-        "sortOrder": 9,
+        "sortOrder": 9000,
         "isAutoSort": true,
         "channels": [
             {
@@ -1223,7 +1223,7 @@
         "id": "tv360-live",
         "name": "TV360 - Sự kiện trực tiếp",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
-        "sortOrder": 7,
+        "sortOrder": 7000,
         "isAutoSort": true,
         "channels": [
             {
@@ -1374,7 +1374,7 @@
         "id": "trongnuoc",
         "name": "Trong nước",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/vietnam-flag-icon.png",
-        "sortOrder": 11,
+        "sortOrder": 11000,
         "isAutoSort": true,
         "channels": [
             {
@@ -2005,7 +2005,7 @@
         "id": "quocte",
         "name": "Quốc Tế",
         "logo": "https://cdn-icons-png.freepik.com/512/7296/7296866.png",
-        "sortOrder": 12,
+        "sortOrder": 12000,
         "isAutoSort": true,
         "channels": [
             {
@@ -2508,7 +2508,7 @@
         "id": "sport",
         "name": "Thể Thao",
         "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport.png",
-        "sortOrder": 14,
+        "sortOrder": 14000,
         "isAutoSort": true,
         "channels": [
             {
@@ -7353,7 +7353,7 @@
         "id": "mytv",
         "name": "MyTV Service",
         "logo": "https://vnptmedia.vn/file/8a10a0d36ccebc89016cf4ff8bd72177/8a10a0d36e16e5b3016e261985ed51fc/052020/logoMyTVkenhkovien0220200409153947_2020052992254.png",
-        "sortOrder": 10,
+        "sortOrder": 10000,
         "isAutoSort": true,
         "channels": [
             {
@@ -7503,13 +7503,13 @@
                 "sortOrder": 2
             }
         ],
-        "sortOrder": 16
+        "sortOrder": 16000
     },
     {
         "id": "japan",
         "name": "Nhật Bản",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/japan-flag-icon.png",
-        "sortOrder": 19,
+        "sortOrder": 19000,
         "isAutoSort": true,
         "channels": [
             {
@@ -8002,7 +8002,7 @@
         "id": "china",
         "name": "Trung Quốc",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/china-flag-icon.png",
-        "sortOrder": 20,
+        "sortOrder": 20000,
         "isAutoSort": true,
         "channels": [
             {
@@ -8444,7 +8444,7 @@
         "id": "thailand",
         "name": "Thái Lan",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/thailand-flag-icon.png",
-        "sortOrder": 21,
+        "sortOrder": 22000,
         "isAutoSort": true,
         "channels": [
             {
@@ -8789,7 +8789,7 @@
         "id": "uk",
         "name": "Vương quốc Anh",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/united-kingdom-flag-icon.png",
-        "sortOrder": 22,
+        "sortOrder": 23000,
         "isAutoSort": false,
         "channels": [
             {
@@ -9309,13 +9309,13 @@
                 "sortOrder": 45
             }
         ],
-        "sortOrder": 17
+        "sortOrder": 17000
     },
     {
         "id": "lao",
         "name": "Lào",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/laos-flag-icon.png",
-        "sortOrder": 18,
+        "sortOrder": 18000,
         "isAutoSort": true,
         "channels": [
             {
@@ -9342,7 +9342,7 @@
         "id": "campuchia",
         "name": "Campuchia",
         "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/cambodia-flag-icon.png",
-        "sortOrder": 15,
+        "sortOrder": 15000,
         "isAutoSort": true,
         "channels": [
             {
@@ -9462,6 +9462,27 @@
                 "sortOrder": 15
             }
         ],
-        "sortOrder": 23
+        "sortOrder": 24000
+    },
+    {
+        "id": "tây-ban-nha",
+        "name": "Tây Ban Nha",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/spain-country-flag-icon.png",
+        "sortOrder": 21000,
+        "channels": []
+    },
+    {
+        "id": "na-uy",
+        "name": "Na Uy",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/norway-flag-icon.png",
+        "sortOrder": 19500,
+        "channels": []
+    },
+    {
+        "id": "hà-lan",
+        "name": "Hà Lan",
+        "logo": "https://uxwing.com/wp-content/themes/uxwing/download/flags-landmarks/netherlands-flag-icon.png",
+        "sortOrder": 16500,
+        "channels": []
     }
 ]
