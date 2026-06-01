@@ -922,7 +922,7 @@
                         data.value.push({
                             id,
                             name,
-                            sortOrder: data.value.length + 1,
+                            sortOrder: (data.value.length + 1) * 1000,
                             channels: []
                         });
                         selectedGroupId.value = id;
@@ -978,6 +978,32 @@
                     }
                 };
 
+                const rebalanceOrders = (list) => {
+                    list.forEach((item, i) => {
+                        item.sortOrder = (i + 1) * 1000;
+                    });
+                };
+
+                const calculateGapOrder = (list, finalIdx) => {
+                    if (list.length <= 1) return 1000;
+                    let prevO, nextO;
+                    if (finalIdx === 0) {
+                        nextO = list[1].sortOrder || 1000;
+                        prevO = nextO - 2000; 
+                    } else if (finalIdx === list.length - 1) {
+                        prevO = list[finalIdx - 1].sortOrder || (finalIdx * 1000);
+                        nextO = prevO + 2000; 
+                    } else {
+                        prevO = list[finalIdx - 1].sortOrder || (finalIdx * 1000);
+                        nextO = list[finalIdx + 1].sortOrder || (finalIdx * 1000 + 2000);
+                    }
+                    if (nextO - prevO <= 1) {
+                        rebalanceOrders(list);
+                        return list[finalIdx].sortOrder;
+                    }
+                    return Math.floor((prevO + nextO) / 2);
+                };
+
                 const sortChannels = (type) => {
                     if (!currentGroup.value) return;
                     const channels = currentGroup.value.channels;
@@ -991,9 +1017,7 @@
                     }
 
                     // Cập nhật lại sortOrder sau khi sắp xếp thủ công
-                    channels.forEach((c, i) => {
-                        c.sortOrder = i + 1;
-                    });
+                    rebalanceOrders(channels);
 
                     hasChanges.value = true;
                     notify('Sorted', `Channels in ${currentGroup.value.name} sorted by ${type}.`);
@@ -1028,10 +1052,11 @@
                     groups.splice(draggedIdx, 1);
                     groups.splice(targetIdx, 0, draggedGroup.value);
 
-                    groups.forEach((g, i) => {
-                        const og = data.value.find(item => item.id === g.id);
-                        if (og) og.sortOrder = i + 1;
-                    });
+                    const finalIdx = groups.findIndex(g => g.id === draggedGroup.value.id);
+                    const newOrder = calculateGapOrder(groups, finalIdx);
+
+                    const og = data.value.find(item => item.id === draggedGroup.value.id);
+                    if (og) og.sortOrder = newOrder;
 
                     hasChanges.value = true;
                     notify('Reordered', 'Category order updated.');
@@ -1093,10 +1118,9 @@
                         channels.splice(draggedIdx, 1);
                         channels.splice(targetIdx, 0, draggedChannel.value);
 
-                        // Cập nhật sortOrder cho tất cả
-                        channels.forEach((c, i) => {
-                            c.sortOrder = i + 1;
-                        });
+                        // Cập nhật sortOrder chỉ cho phần tử được thả
+                        const finalIdx = channels.findIndex(c => c.id === draggedChannel.value.id);
+                        draggedChannel.value.sortOrder = calculateGapOrder(channels, finalIdx);
 
                         hasChanges.value = true;
                         notify('Reordered', `Moved ${draggedChannel.value.name}. Auto Sort disabled.`);
@@ -1156,10 +1180,12 @@
                         const targetIdx = groups.findIndex(g => g.id === targetGroup.id);
                         groups.splice(draggedIdx, 1);
                         groups.splice(targetIdx, 0, draggedGroup.value);
-                        groups.forEach((g, i) => {
-                            const og = data.value.find(item => item.id === g.id);
-                            if (og) og.sortOrder = i + 1;
-                        });
+                        
+                        const finalIdx = groups.findIndex(g => g.id === draggedGroup.value.id);
+                        const newOrder = calculateGapOrder(groups, finalIdx);
+
+                        const og = data.value.find(item => item.id === draggedGroup.value.id);
+                        if (og) og.sortOrder = newOrder;
                         hasChanges.value = true;
                         notify('Reordered', 'Category order updated.');
                     }
