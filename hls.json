@@ -1347,6 +1347,36 @@
                 "enabled": true
             },
             {
+                "id": "tv360plus13",
+                "name": "TV360+ 13",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus13.png",
+                "tags": [
+                    "TV360+13"
+                ],
+                "sortOrder": 13,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus14",
+                "name": "TV360+ 14",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus14.png",
+                "tags": [
+                    "TV360+14"
+                ],
+                "sortOrder": 14,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus15",
+                "name": "TV360+ 15",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus15.png",
+                "tags": [
+                    "TV360+15"
+                ],
+                "sortOrder": 15,
+                "enabled": true
+            },
+            {
                 "id": "tv360promo",
                 "name": "TV360 Promo",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360promo.png",
