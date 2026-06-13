@@ -1227,154 +1227,14 @@
         "isAutoSort": true,
         "channels": [
             {
-                "id": "tv360plus1",
-                "name": "TV360+ 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus1.png",
+                "id": "tv360livestream",
+                "name": "TV360 Livestream",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
                 "tags": [
-                    "TV360+1"
+                    "TV360 Livestream"
                 ],
-                "enabled": true,
-                "sortOrder": 1
-            },
-            {
-                "id": "tv360plus2",
-                "name": "TV360+ 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus2.png",
-                "tags": [
-                    "TV360+2"
-                ],
-                "enabled": true,
-                "sortOrder": 2
-            },
-            {
-                "id": "tv360plus3",
-                "name": "TV360+ 3",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus3.png",
-                "tags": [
-                    "TV360+3"
-                ],
-                "enabled": true,
-                "sortOrder": 3
-            },
-            {
-                "id": "tv360plus4",
-                "name": "TV360+ 4",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus4.png",
-                "tags": [
-                    "TV360+4"
-                ],
-                "sortOrder": 4,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus5",
-                "name": "TV360+ 5",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus5.png",
-                "tags": [
-                    "TV360+5"
-                ],
-                "sortOrder": 5,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus6",
-                "name": "TV360+ 6",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus6.png",
-                "tags": [
-                    "TV360+6"
-                ],
-                "sortOrder": 6,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus7",
-                "name": "TV360+ 7",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus7.png",
-                "tags": [
-                    "TV360+7"
-                ],
-                "sortOrder": 7,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus8",
-                "name": "TV360+ 8",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus8.png",
-                "tags": [
-                    "TV360+8"
-                ],
-                "sortOrder": 8,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus9",
-                "name": "TV360+ 9",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus9.png",
-                "tags": [
-                    "TV360+9"
-                ],
-                "sortOrder": 9,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus10",
-                "name": "TV360+ 10",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus10.png",
-                "tags": [
-                    "TV360+10"
-                ],
-                "sortOrder": 10,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus11",
-                "name": "TV360+ 11",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus11.png",
-                "tags": [
-                    "TV360+11"
-                ],
-                "sortOrder": 11,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus12",
-                "name": "TV360+ 12",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus12.png",
-                "tags": [
-                    "TV360+12"
-                ],
-                "sortOrder": 12,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus13",
-                "name": "TV360+ 13",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus13.png",
-                "tags": [
-                    "TV360+13"
-                ],
-                "sortOrder": 13,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus14",
-                "name": "TV360+ 14",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus14.png",
-                "tags": [
-                    "TV360+14"
-                ],
-                "sortOrder": 14,
-                "enabled": true
-            },
-            {
-                "id": "tv360plus15",
-                "name": "TV360+ 15",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus15.png",
-                "tags": [
-                    "TV360+15"
-                ],
-                "sortOrder": 15,
-                "enabled": true
+                "sortOrder": 1000,
+                "enabled": false
             },
             {
                 "id": "tv360promo",
@@ -1385,17 +1245,157 @@
                     "TV360 Promo",
                     "TV360"
                 ],
-                "sortOrder": 13,
+                "sortOrder": 2000,
+                "enabled": false
+            },
+            {
+                "id": "tv360plus1",
+                "name": "TV360+ 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus1.png",
+                "tags": [
+                    "TV360+1"
+                ],
+                "enabled": true,
+                "sortOrder": 3000
+            },
+            {
+                "id": "tv360plus2",
+                "name": "TV360+ 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus2.png",
+                "tags": [
+                    "TV360+2"
+                ],
+                "enabled": true,
+                "sortOrder": 4000
+            },
+            {
+                "id": "tv360plus3",
+                "name": "TV360+ 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus3.png",
+                "tags": [
+                    "TV360+3"
+                ],
+                "enabled": true,
+                "sortOrder": 5000
+            },
+            {
+                "id": "tv360plus4",
+                "name": "TV360+ 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus4.png",
+                "tags": [
+                    "TV360+4"
+                ],
+                "sortOrder": 6000,
                 "enabled": true
             },
             {
-                "id": "tv360livestream",
-                "name": "TV360 Livestream",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360.png",
+                "id": "tv360plus5",
+                "name": "TV360+ 5",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus5.png",
                 "tags": [
-                    "TV360 Livestream"
+                    "TV360+5"
                 ],
-                "sortOrder": 14,
+                "sortOrder": 7000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus6",
+                "name": "TV360+ 6",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus6.png",
+                "tags": [
+                    "TV360+6"
+                ],
+                "sortOrder": 8000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus7",
+                "name": "TV360+ 7",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus7.png",
+                "tags": [
+                    "TV360+7"
+                ],
+                "sortOrder": 9000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus8",
+                "name": "TV360+ 8",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus8.png",
+                "tags": [
+                    "TV360+8"
+                ],
+                "sortOrder": 10000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus9",
+                "name": "TV360+ 9",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus9.png",
+                "tags": [
+                    "TV360+9"
+                ],
+                "sortOrder": 11000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus10",
+                "name": "TV360+ 10",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus10.png",
+                "tags": [
+                    "TV360+10"
+                ],
+                "sortOrder": 12000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus11",
+                "name": "TV360+ 11",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus11.png",
+                "tags": [
+                    "TV360+11"
+                ],
+                "sortOrder": 13000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus12",
+                "name": "TV360+ 12",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus12.png",
+                "tags": [
+                    "TV360+12"
+                ],
+                "sortOrder": 14000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus13",
+                "name": "TV360+ 13",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus13.png",
+                "tags": [
+                    "TV360+13"
+                ],
+                "sortOrder": 15000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus14",
+                "name": "TV360+ 14",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus14.png",
+                "tags": [
+                    "TV360+14"
+                ],
+                "sortOrder": 16000,
+                "enabled": true
+            },
+            {
+                "id": "tv360plus15",
+                "name": "TV360+ 15",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/tv360/tv360plus15.png",
+                "tags": [
+                    "TV360+15"
+                ],
+                "sortOrder": 17000,
                 "enabled": true
             }
         ]
