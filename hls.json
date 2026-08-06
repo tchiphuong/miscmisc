@@ -8507,7 +8507,7 @@
                 "name": "RS: Arena Sport Tennis",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.Tennis.rs.png",
                 "tags": [
-                    "%arena%sports%tennis%"
+                    "%arena%tennis%"
                 ],
                 "sortOrder": 372000
             },
@@ -8618,6 +8618,43 @@
                     "%sky%sports%cricket%"
                 ],
                 "sortOrder": 280003
+            },
+            {
+                "id": "DAZN.LaLiga.es",
+                "name": "ES: DAZN LaLiga",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-es.png",
+                "tags": [
+                    "%es%dazn%laliga%"
+                ],
+                "sortOrder": 290003
+            },
+            {
+                "id": "LaLiga.TV.es",
+                "name": "ES: La Liga",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/laliga-tv-es.png",
+                "tags": [
+                    "%es%la%liga%",
+                    "%eslaliga%"
+                ],
+                "sortOrder": 290004
+            },
+            {
+                "id": "M+.Deportes.es",
+                "name": "ES: M Deportes",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/movistar-deportes-es.png",
+                "tags": [
+                    "%es%m%deportes%"
+                ],
+                "sortOrder": 290006
+            },
+            {
+                "id": "M+.Golf.es",
+                "name": "ES: M Golf",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/movistar-golf-es.png",
+                "tags": [
+                    "%es%m%golf%"
+                ],
+                "sortOrder": 290007
             }
         ]
     },
