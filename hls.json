@@ -2774,7 +2774,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports1.au.png",
                 "tags": [
                     "BEIN SPORTS 1 🇦🇺",
-                    "BEINSPORT 1 AU"
+                    "BEINSPORT 1 AU",
+                    "%bein%sports%1%aus%"
                 ],
                 "enabled": true,
                 "sortOrder": 24000
@@ -2787,7 +2788,8 @@
                     "BEIN SPORTS 2 🇦🇺",
                     "beIN Sports 2 HD",
                     "Bein Sport 2",
-                    "BEINSPORT 2 AU"
+                    "BEINSPORT 2 AU",
+                    "%bein%sports%2%aus%"
                 ],
                 "enabled": true,
                 "sortOrder": 25000
@@ -2798,7 +2800,8 @@
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports3.au.png",
                 "tags": [
                     "BEIN SPORTS 3 🇦🇺",
-                    "BEINSPORT 3 AU"
+                    "BEINSPORT 3 AU",
+                    "%bein%sports%3%aus%"
                 ],
                 "enabled": true,
                 "sortOrder": 26000
@@ -3192,7 +3195,8 @@
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tsn-5-ca.png",
                 "tags": [
                     "tsn-5",
-                    "CA:TSN5"
+                    "CA:TSN5",
+                    "%tsn%5%"
                 ],
                 "enabled": true,
                 "sortOrder": 64000
@@ -6707,32 +6711,34 @@
             {
                 "id": "Arena.Premium.1.HD.(RS).rs",
                 "name": "RS: Arena Premium 1",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.1.HD.(RS).rs.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-1-premium-rs.png",
                 "tags": [
                     "bh:arenapremium1hd",
                     "Arena Premium 1 HD 🇷🇸",
                     "ARENA 1 PREMIUM",
-                    "067. ArenaPremium1"
+                    "067. ArenaPremium1",
+                    "%arena%premium%1%"
                 ],
                 "sortOrder": 368000
             },
             {
                 "id": "Arena.Premium.2.HD.(RS).rs",
                 "name": "RS: Arena Premium 2",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.2.HD.(RS).rs.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-2-premium-rs.png",
                 "tags": [
                     "bh:arenapremium2hd",
                     "Arena Premium 2 HD 🇷🇸",
                     "ARENA 2 PREMIUM",
                     "068. ArenaPremium2",
-                    "ARENA 2 PREMIUM FHD BIH"
+                    "ARENA 2 PREMIUM FHD BIH",
+                    "%arena%premium%2%"
                 ],
                 "sortOrder": 369000
             },
             {
                 "id": "Arena.Premium.3.HD.(RS).rs",
                 "name": "RS: Arena Premium 3",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Premium.3.HD.(RS).rs.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-3-premium-rs.png",
                 "tags": [
                     "bh:arenapremium3hd",
                     "Arena Premium 3 HD 🇷🇸",
@@ -6740,14 +6746,15 @@
                     "ARENA 3 PREMIUM FHD BIH",
                     "ARENA 3 PREMIUM FHD SR",
                     "ARENA 3 PREMIUM",
-                    "069. ArenaPremium3"
+                    "069. ArenaPremium3",
+                    "%arena%premium%3%"
                 ],
                 "sortOrder": 370000
             },
             {
-                "id": "Arena.Sport.1.rs",
+                "id": "Arena.Sport.1.HD.(RS).rs",
                 "name": "RS: Arena Sport 1",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-1-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-1-rs.png",
                 "tags": [
                     "ARENA SPORT 1 HD BIH",
                     "ARENA SPORT 1 HD HR",
@@ -6759,7 +6766,8 @@
                     "UEFA-ARENA SPORT 1 HD HR",
                     "UEFA-ARENA SPORT 1 HD MK",
                     "UEFA-ARENA SPORT 1 HD SR",
-                    "RS: Arena Sport 1"
+                    "RS: Arena Sport 1",
+                    "%arena%sports%1%"
                 ],
                 "sortOrder": 371000
             },
@@ -6772,9 +6780,9 @@
                 "enabled": true
             },
             {
-                "id": "Arena.Sport.2.rs",
+                "id": "Arena.Sport.2.HD.(RS).rs",
                 "name": "RS: Arena Sport 2",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-2-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-2-rs.png",
                 "tags": [
                     "Arena 2 HD 🇷🇸",
                     "Arena Sport 2 HD",
@@ -6788,14 +6796,15 @@
                     "UEFA-ARENA SPORT 2 HD HR",
                     "UEFA-ARENA SPORT 2 HD MK",
                     "UEFA-ARENA SPORT 2 HD SR",
-                    "RS: Arena Sport 2"
+                    "RS: Arena Sport 2",
+                    "%arena%sports%2%"
                 ],
                 "sortOrder": 373000
             },
             {
-                "id": "Arena.Sport.3.rs",
+                "id": "Arena.Sport.3.HD.(RS).rs",
                 "name": "RS: Arena Sport 3",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-3-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-3-rs.png",
                 "tags": [
                     "Arena 3 HD 🇷🇸",
                     "Arena Sport 3 HD",
@@ -6805,14 +6814,15 @@
                     "ARENA SPORT 3 HD SR",
                     "Arena Sport 3 HR",
                     "RS: ARENA SPORT 3 HD",
-                    "RS: Arena Sport 3"
+                    "RS: Arena Sport 3",
+                    "%arena%sports%3%"
                 ],
                 "sortOrder": 374000
             },
             {
-                "id": "Arena.Sport.4.rs",
+                "id": "Arena.Sport.4.HD.(RS).rs",
                 "name": "RS: Arena Sport 4",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-4-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-4-rs.png",
                 "tags": [
                     "Arena Sport 4 HD",
                     "ARENA SPORT 4 HD BIH",
@@ -6821,14 +6831,15 @@
                     "ARENA SPORT 4 HD SR",
                     "Arena Sport 4 HR",
                     "RS: ARENA SPORT 4 HD",
-                    "RS: Arena Sport 4"
+                    "RS: Arena Sport 4",
+                    "%arena%sports%4%"
                 ],
                 "sortOrder": 375000
             },
             {
-                "id": "Arena.Sport.5.rs",
+                "id": "Arena.Sport.5.HD.(RS).rs",
                 "name": "RS: Arena Sport 5",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-5-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-5-rs.png",
                 "tags": [
                     "Arena Sport 5 HD",
                     "ARENA SPORT 5 HD BIH",
@@ -6837,75 +6848,81 @@
                     "Arena Sport 5 HR",
                     "RS: ARENA SPORT 5 HD",
                     "Arena Sport 5 Croatia (DRM)",
-                    "RS: Arena Sport 5"
+                    "RS: Arena Sport 5",
+                    "%arena%sports%5%"
                 ],
                 "sortOrder": 376000
             },
             {
-                "id": "Arena.Sport.6.rs",
+                "id": "Arena.Sport.6.HD.(RS).rs",
                 "name": "RS: Arena Sport 6",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-6-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-6-rs.png",
                 "tags": [
                     "Arena Sport 6 HD",
                     "ARENA SPORT 6 HD BIH",
                     "ARENA SPORT 6 HD HR",
                     "ARENA SPORT 6 HD SR",
                     "Arena Sport 6 HR",
-                    "RS: Arena Sport 6"
+                    "RS: Arena Sport 6",
+                    "%arena%sports%6%"
                 ],
                 "sortOrder": 377000
             },
             {
-                "id": "Arena.Sport.7.rs",
+                "id": "Arena.Sport.7.HD.(RS).rs",
                 "name": "RS: Arena Sport 7",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-7-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-7-rs.png",
                 "tags": [
                     "Arena Sport 7 HD",
                     "ARENA SPORT 7 HD HR",
                     "ARENA SPORT 7 HD SR",
                     "Arena Sport 7 HR",
                     "HR: ARENA SPORT 7 HD",
-                    "RS: Arena Sport 7"
+                    "RS: Arena Sport 7",
+                    "%arena%sports%7%"
                 ],
                 "sortOrder": 378000
             },
             {
-                "id": "Arena.Sport.8.rs",
+                "id": "Arena.Sport.8.HD.(RS).rs",
                 "name": "RS: Arena Sport 8",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-8-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-8-rs.png",
                 "tags": [
                     "Arena Sport 8 HD",
                     "ARENA SPORT 8 HD HR",
                     "ARENA SPORT 8 HD SR",
                     "Arena Sport 8 HR",
                     "HR: ARENA SPORT 8 HD",
-                    "RS: Arena Sport 8"
+                    "RS: Arena Sport 8",
+                    "%arena%sports%8%"
                 ],
                 "sortOrder": 379000
             },
             {
-                "id": "Arena.Sport.9.rs",
+                "id": "Arena.Sport.9.HD.(RS).rs",
                 "name": "RS: Arena Sport 9",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-9-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-9-rs.png",
                 "tags": [
                     "ARENA SPORT 9 HD HR",
                     "ARENA SPORT 9 HD SR",
                     "Arena Sport 9 HR",
                     "HR: ARENA SPORT 9 HD",
-                    "RS: Arena Sport 9"
+                    "RS: Arena Sport 9",
+                    "%arena%sports%9%"
                 ],
                 "sortOrder": 380000
             },
             {
-                "id": "Arena.Sport.10.rs",
+                "id": "Arena.Sport.10.HD.(RS).rs",
                 "name": "RS: Arena Sport 10",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/arena-sport-10-hr.png",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/serbia/arena-sport-10-rs.png",
                 "tags": [
                     "ARENA SPORT 10 HD HR",
                     "ARENA SPORT 10 HD SR",
                     "Arena Sport 10 HR",
                     "HR: ARENA SPORT 10 HD",
-                    "RS: Arena Sport 10"
+                    "RS: Arena Sport 10",
+                    "%arena%sports%10%"
                 ],
                 "sortOrder": 381000
             },
@@ -7287,21 +7304,27 @@
                 "id": "Hub.Sports.6.HD.sg",
                 "name": "SG: Hub Sports 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.6.HD.sg.png",
-                "tags": ["Hub%Sports%6%"],
+                "tags": [
+                    "Hub%Sports%6%"
+                ],
                 "sortOrder": 414010
             },
             {
                 "id": "Hub.Sports.7.HD.sg",
                 "name": "SG: Hub Sports 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.7.HD.sg.png",
-                "tags": ["Hub%Sports%7%"],
+                "tags": [
+                    "Hub%Sports%7%"
+                ],
                 "sortOrder": 414020
             },
             {
                 "id": "Hub.Sports.8.HD.sg",
                 "name": "SG: Hub Sports 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Sports.8.HD.sg.png",
-                "tags": ["Hub%Sports%8%"],
+                "tags": [
+                    "Hub%Sports%8%"
+                ],
                 "sortOrder": 414030
             },
             {
@@ -7379,203 +7402,261 @@
                 "id": "Fight.Sports.(HD).sg",
                 "name": "SG: FIGHT SPORTS HD",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Fight.Sports.HD.sg.png",
-                "tags": ["%fight.sports.(hd).sg%"],
+                "tags": [
+                    "%fight.sports.(hd).sg%"
+                ],
                 "sortOrder": 414610
             },
             {
                 "id": "SPOTV.(HD).sg",
                 "name": "SG: SPOTV",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPOTV.sg.png",
-                "tags": ["%spotv.(hd).sg%"],
+                "tags": [
+                    "%spotv.(hd).sg%"
+                ],
                 "sortOrder": 414620
             },
             {
                 "id": "SPOTV.2.(HD).sg",
                 "name": "SG: SPOTV 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/SPOTV.2.sg.png",
-                "tags": ["%spotv.2.(hd).sg%"],
+                "tags": [
+                    "%spotv.2.(hd).sg%"
+                ],
                 "sortOrder": 414630
             },
             {
                 "id": "BBC.One.EastHD.uk",
                 "name": "UK: BBC One",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/BBC.One.uk.png",
-                "tags": ["%bbc.one.easthd.uk%"],
+                "tags": [
+                    "%bbc.one.easthd.uk%"
+                ],
                 "sortOrder": 414640
             },
             {
                 "id": "FUSSBALL.TV.1.de",
                 "name": "DE: Fussball TV 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Fussball.TV.1.de.png",
-                "tags": ["%fussball.tv.1.de%"],
+                "tags": [
+                    "%fussball.tv.1.de%"
+                ],
                 "sortOrder": 414650
             },
             {
                 "id": "FUSSBALL.TV.2.de",
                 "name": "DE: Fussball TV 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Fussball.TV.2.de.png",
-                "tags": ["%fussball.tv.2.de%"],
+                "tags": [
+                    "%fussball.tv.2.de%"
+                ],
                 "sortOrder": 414660
             },
             {
                 "id": "FUSSBALL.TV.3.de",
                 "name": "DE: Fussball TV 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Fussball.TV.3.de.png",
-                "tags": ["%fussball.tv.3.de%"],
+                "tags": [
+                    "%fussball.tv.3.de%"
+                ],
                 "sortOrder": 414670
             },
             {
                 "id": "TSN.4.HD.ca2",
                 "name": "CA: TSN 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TSN.4.ca.png",
-                "tags": ["%tsn.4.hd.ca2%"],
+                "tags": [
+                    "%tsn.4.hd.ca2%"
+                ],
                 "sortOrder": 414680
             },
             {
                 "id": "DAZN.2.it.it",
                 "name": "IT: DAZN 2",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/dazn-de.png",
-                "tags": ["%itdazn2%"],
+                "tags": [
+                    "%itdazn2%"
+                ],
                 "sortOrder": 414681
             },
             {
                 "id": "DAZN.1.it.it",
                 "name": "IT: DAZN ZONA",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/dazn-de.png",
-                "tags": ["%itdaznzona%"],
+                "tags": [
+                    "%itdaznzona%"
+                ],
                 "sortOrder": 414682
             },
             {
                 "id": "Eurosport.Italia.it",
                 "name": "IT: Eurosport",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/eurosport_fr_1.png",
-                "tags": ["%iteurosport%"],
+                "tags": [
+                    "%iteurosport%"
+                ],
                 "sortOrder": 414683
             },
             {
                 "id": "Eurosport.2.Italia.it",
                 "name": "IT: Eurosport 2",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/eurosport_fr_2.png",
-                "tags": ["%iteurosport2%"],
+                "tags": [
+                    "%iteurosport2%"
+                ],
                 "sortOrder": 414684
             },
             {
                 "id": "Rai1.it",
                 "name": "IT: Rai 1",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/rai_1.png",
-                "tags": ["%itrai1%"],
+                "tags": [
+                    "%itrai1%"
+                ],
                 "sortOrder": 414685
             },
             {
                 "id": "Rai2.it",
                 "name": "IT: Rai 2",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/rai_2.png",
-                "tags": ["%itrai2%"],
+                "tags": [
+                    "%itrai2%"
+                ],
                 "sortOrder": 414686
             },
             {
                 "id": "Rai3.it",
                 "name": "IT: Rai 3",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/rai_3.png",
-                "tags": ["%itrai3%"],
+                "tags": [
+                    "%itrai3%"
+                ],
                 "sortOrder": 414687
             },
             {
                 "id": "Rai4.it",
                 "name": "IT: Rai 4",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/rai_4.png",
-                "tags": ["%itrai4%"],
+                "tags": [
+                    "%itrai4%"
+                ],
                 "sortOrder": 414688
             },
             {
                 "id": "Rai5.it",
                 "name": "IT: Rai 5",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/rai_5.png",
-                "tags": ["%itrai5%"],
+                "tags": [
+                    "%itrai5%"
+                ],
                 "sortOrder": 414689
             },
             {
                 "id": "RaiSport.it",
                 "name": "IT: Rai Sport",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/rai_sport.png",
-                "tags": ["%itraisport1%"],
+                "tags": [
+                    "%itraisport1%"
+                ],
                 "sortOrder": 414690
             },
             {
                 "id": "Sky.Sport.24.it",
                 "name": "IT: Sky Sport 24",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-24-it.png",
-                "tags": ["%itskysport24%"],
+                "tags": [
+                    "%itskysport24%"
+                ],
                 "sortOrder": 414691
             },
             {
                 "id": "Sky.Sport.Arena.it",
                 "name": "IT: Sky Sport Arena",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-arena-it.png",
-                "tags": ["%itskysportarena%"],
+                "tags": [
+                    "%itskysportarena%"
+                ],
                 "sortOrder": 414692
             },
             {
                 "id": "Sky.Sport.Calcio.it",
                 "name": "IT: Sky Sport Calcio",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-it.png",
-                "tags": ["%itskysportcalcio%"],
+                "tags": [
+                    "%itskysportcalcio%"
+                ],
                 "sortOrder": 414693
             },
             {
                 "id": "Sky.Sport.F1.it",
                 "name": "IT: Sky Sport F1",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-f1-it.png",
-                "tags": ["%itskysportf1%"],
+                "tags": [
+                    "%itskysportf1%"
+                ],
                 "sortOrder": 414694
             },
             {
                 "id": "Sky.Sport.Calcio.it",
                 "name": "IT: Sky Sport Football",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sports-football-uk.png",
-                "tags": ["%itskysportfootball%"],
+                "tags": [
+                    "%itskysportfootball%"
+                ],
                 "sortOrder": 414695
             },
             {
                 "id": "Sky.Sport.Golf.it",
                 "name": "IT: Sky Sport Golf",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-it.png",
-                "tags": ["%itskysportgolf%"],
+                "tags": [
+                    "%itskysportgolf%"
+                ],
                 "sortOrder": 414696
             },
             {
                 "id": "Sky.Sport.MotoGP.it",
                 "name": "IT: Sky Sport MotoGP",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-it.png",
-                "tags": ["%itskysportmotogp%"],
+                "tags": [
+                    "%itskysportmotogp%"
+                ],
                 "sortOrder": 414697
             },
             {
                 "id": "Sky.Sport.NBA.it",
                 "name": "IT: Sky Sport NBA",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-nba-it.png",
-                "tags": ["%itskysportnba%"],
+                "tags": [
+                    "%itskysportnba%"
+                ],
                 "sortOrder": 414698
             },
             {
                 "id": "Sky.Sport.Tennis.it",
                 "name": "IT: Sky Sport Tennis",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-moto-gp-it.png",
-                "tags": ["%itskysporttennis%"],
+                "tags": [
+                    "%itskysporttennis%"
+                ],
                 "sortOrder": 414699
             },
             {
                 "id": "Sky.Sport.Uno.it",
                 "name": "IT: Sky Sport Uno",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-it.png",
-                "tags": ["%itskysportuno%"],
+                "tags": [
+                    "%itskysportuno%"
+                ],
                 "sortOrder": 414701
             },
             {
                 "id": "SuperTennis.HD.it",
                 "name": "IT: Super Tennis",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-tennis-it.png",
-                "tags": ["%itsupertennis%"],
+                "tags": [
+                    "%itsupertennis%"
+                ],
                 "sortOrder": 414702
             },
             {
@@ -8454,6 +8535,87 @@
                 ],
                 "enabled": true,
                 "sortOrder": 490000
+            },
+            {
+                "id": "Arena.PREMIUM.4.rs",
+                "name": "RS: Arena Premium 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.PREMIUM.4.rs.png",
+                "tags": [
+                    "%arena%premium%4%"
+                ],
+                "sortOrder": 370004
+            },
+            {
+                "id": "Arena.PREMIUM.5.rs",
+                "name": "RS: Arena Premium 5",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.PREMIUM.5.rs.png",
+                "tags": [
+                    "%arena%premium%5%"
+                ],
+                "sortOrder": 370005
+            },
+            {
+                "id": "Arena.Sport.1.cz",
+                "name": "CZ: Arena Sport 1",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/czech-republic/arena-sport-1-cz.png",
+                "tags": [
+                    "%arena%sport%1%🇨🇿%"
+                ],
+                "sortOrder": 371000
+            },
+            {
+                "id": "Arena.Sport.2.cz",
+                "name": "CZ: Arena Sport 2",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/czech-republic/arena-sport-2-cz.png",
+                "tags": [
+                    "%arena%sport%2%🇨🇿%"
+                ],
+                "sortOrder": 371000
+            },
+            {
+                "id": "Arena.Sport.Tennis.rs",
+                "name": "RS: Arena Sport Tennis",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Arena.Sport.Tennis.rs.png",
+                "tags": [
+                    "%arena%sports%tennis%"
+                ],
+                "sortOrder": 372000
+            },
+            {
+                "id": "TSN.5.ca2",
+                "name": "TSN 5 (Canada)",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-5-ca.png",
+                "tags": [
+                    "%tsn%5%"
+                ],
+                "sortOrder": 250005
+            },
+            {
+                "id": "beINSports1.au",
+                "name": "Bein Sports 1 (Aus)",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/australia/bein-sports-1-au.png",
+                "tags": [
+                    "%bein%sports%1%au%"
+                ],
+                "sortOrder": 151000
+            },
+            {
+                "id": "beINSports2.au",
+                "name": "Bein Sports 2 (Aus)",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/australia/bein-sports-2-au.png",
+                "tags": [
+                    "%bein%sports%2%au%"
+                ],
+                "sortOrder": 151000
+            },
+            {
+                "id": "beINSports3.au",
+                "name": "Bein Sports 3 (Aus)",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/australia/bein-sports-3-au.png",
+                "tags": [
+                    "%bein%sports%3%au%"
+                ],
+                "sortOrder": 151000
             }
         ]
     },
