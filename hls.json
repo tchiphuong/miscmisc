@@ -2751,20 +2751,22 @@
             {
                 "id": "beIN.Sports.Xtra.2.mena",
                 "name": "AR: beIN Sports Xtra 2",
-                "logo": "",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports2.au.png",
                 "tags": [
                     "AR - BEIN SPORTS XTRA 2 HEVC"
                 ],
-                "sortOrder": 22000
+                "sortOrder": 22000,
+                "enabled": true
             },
             {
                 "id": "beIN.Sports.Xtra.3.mena",
                 "name": "AR: beIN Sports Xtra 3",
-                "logo": "",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beINSports3.au.png",
                 "tags": [
                     "AR - BEIN SPORTS XTRA 3 FHD¹"
                 ],
-                "sortOrder": 23000
+                "sortOrder": 23000,
+                "enabled": true
             },
             {
                 "id": "beINSports1.au",
@@ -5484,7 +5486,11 @@
                 "name": "LV: GO3 Sports Extra 1",
                 "logo": "https://images.weserv.nl/?w=256&h=256&fit=contain&url=https%3A%2F%2Fi.ibb.co.com%2FFb8YXK5g%2FGo3live.png?t=2026-03-19T04:49:58Z",
                 "sortOrder": 272000,
-                "tags": [],
+                "tags": [
+                    "GO3 SPORTS EXTRA",
+                    "GO3 SPORTS EXTRA 1",
+                    "%Go3SportsExtra%"
+                ],
                 "enabled": true
             },
             {
@@ -7094,13 +7100,10 @@
                 "name": "SG: Hub Premier 1",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.1.sg.png",
                 "tags": [
-                    "Hub Premier EPL 01",
-                    "Hub Premier  EPL 01",
-                    "Hub Premier1 FHD",
-                    "Hub Premier 1 FHD",
-                    "Hub Premier 1 HD",
-                    "HUB Premier 1",
-                    "Hub Premier 1 HD (UK)"
+                    "Hub%Premier% 1",
+                    "Hub%Premier% 1 %",
+                    "Hub%Premier1 %",
+                    "Hub%Premier%01%"
                 ],
                 "sortOrder": 399000
             },
@@ -7109,12 +7112,7 @@
                 "name": "SG: Hub Premier 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.2.sg.png",
                 "tags": [
-                    "Hub Premier EPL 02",
-                    "Hub Premier  EPL 02",
-                    "Hub Premier2 FHD",
-                    "Hub Premier 2 FHD",
-                    "HUB Premier 2",
-                    "Hub Premier 2 HD (UK)"
+                    "Hub%Premier%2%"
                 ],
                 "sortOrder": 400000
             },
@@ -7123,12 +7121,7 @@
                 "name": "SG: Hub Premier 3",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.3.sg.png",
                 "tags": [
-                    "Hub Premier EPL 03",
-                    "Hub Premier  EPL 03",
-                    "Hub Premier3 FHD",
-                    "Hub Premier 3 FHD",
-                    "HUB Premier 3",
-                    "Hub Premier 3 HD (UK)"
+                    "Hub%Premier%3%"
                 ],
                 "sortOrder": 401000
             },
@@ -7137,11 +7130,7 @@
                 "name": "SG: Hub Premier 4",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.4.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 04",
-                    "Hub Premier4 FHD",
-                    "Hub Premier 4 FHD",
-                    "HUB Premier 4",
-                    "Hub Premier 4 HD (UK)"
+                    "Hub%Premier%4%"
                 ],
                 "sortOrder": 402000
             },
@@ -7150,11 +7139,7 @@
                 "name": "SG: Hub Premier 5",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.5.sg.png",
                 "tags": [
-                    "Hub Premier EPL 05",
-                    "Hub Premier  EPL 05",
-                    "Hub Premier 5 FHD",
-                    "HUB Premier 5",
-                    "Hub Premier 5 HD (UK)"
+                    "Hub%Premier%5%"
                 ],
                 "sortOrder": 403000
             },
@@ -7163,11 +7148,7 @@
                 "name": "SG: Hub Premier 6",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.6.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 06",
-                    "Hub Premier6 FHD",
-                    "Hub Premier 6 FHD",
-                    "HUB Premier 6",
-                    "Hub Premier 6 HD (UK)"
+                    "Hub%Premier%6%"
                 ],
                 "sortOrder": 404000
             },
@@ -7176,25 +7157,17 @@
                 "name": "SG: Hub Premier 7",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.7.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 07",
-                    "Hub Premier7 FHD",
-                    "Hub Premier 7 FHD",
-                    "HUB Premier 7",
-                    "Hub Premier 7 HD (UK)"
+                    "Hub%Premier%7%"
                 ],
-                "sortOrder": 405000
+                "sortOrder": 405000,
+                "enabled": true
             },
             {
                 "id": "Hub.Premier.8.sg",
                 "name": "SG: Hub Premier 8",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.8.sg.png",
                 "tags": [
-                    "Hub Premier EPL 08",
-                    "Hub Premier  EPL 08",
-                    "Hub Premier8 FHD",
-                    "Hub Premier 8 FHD",
-                    "HUB Premier 8",
-                    "Hub Premier 8 HD (UK)"
+                    "Hub%Premier%8%"
                 ],
                 "sortOrder": 406000
             },
@@ -7203,11 +7176,7 @@
                 "name": "SG: Hub Premier 9",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.9.sg.png",
                 "tags": [
-                    "Hub Premier  EPL 09",
-                    "Hub Premier9 FHD",
-                    "Hub Premier 9 FHD",
-                    "HUB Premier 9",
-                    "Hub Premier 9 HD (UK)"
+                    "Hub%Premier%9%"
                 ],
                 "sortOrder": 407000
             },
@@ -7216,11 +7185,7 @@
                 "name": "SG: Hub Premier 10",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.10.sg.png",
                 "tags": [
-                    "Hub Premier EPL 10",
-                    "Hub Premier  EPL 10",
-                    "Hub Premier10 FHD",
-                    "Hub Premier 10 FHD",
-                    "HUB Premier 10"
+                    "Hub%Premier%10%"
                 ],
                 "sortOrder": 408000
             },
@@ -7229,11 +7194,7 @@
                 "name": "SG: Hub Premier 11",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Hub.Premier.11.sg.png",
                 "tags": [
-                    "Hub Premier EPL 11",
-                    "Hub Premier  EPL 11",
-                    "Hub Premier11 FHD",
-                    "Hub Premier 11 FHD",
-                    "HUB Premier 11"
+                    "Hub%Premier%11%"
                 ],
                 "sortOrder": 409000
             },
@@ -7321,6 +7282,76 @@
                 ],
                 "enabled": true,
                 "sortOrder": 414000
+            },
+            {
+                "id": "beIN.Sports.1.sg",
+                "name": "SG: beIN Sports 1",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.1.sg.png",
+                "tags": [
+                    "%SG%beIN%Sports%1%",
+                    "%beIN%Sports%1%SG%",
+                    "%SGP%beIN%Sports%1%",
+                    "%beIN%Sports%1%SGP%",
+                    "%beIN%Sports%1%🇸🇬%",
+                    "%bein.sports.1%sg%"
+                ],
+                "sortOrder": 414100
+            },
+            {
+                "id": "beIN.Sports.2.sg",
+                "name": "SG: beIN Sports 2",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.2.sg.png",
+                "tags": [
+                    "%SG%beIN%Sports%2%",
+                    "%beIN%Sports%2%SG%",
+                    "%SGP%beIN%Sports%2%",
+                    "%beIN%Sports%2%SGP%",
+                    "%beIN%Sports%2%🇸🇬%",
+                    "%bein.sports.2%sg%"
+                ],
+                "sortOrder": 414200
+            },
+            {
+                "id": "beIN.Sports.3.sg",
+                "name": "SG: beIN Sports 3",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.3.sg.png",
+                "tags": [
+                    "%SG%beIN%Sports%3%",
+                    "%beIN%Sports%3%SG%",
+                    "%SGP%beIN%Sports%3%",
+                    "%beIN%Sports%3%SGP%",
+                    "%beIN%Sports%3%🇸🇬%",
+                    "%bein.sports.3%sg%"
+                ],
+                "sortOrder": 414300
+            },
+            {
+                "id": "beIN.Sports.4.sg",
+                "name": "SG: beIN Sports 4",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.4.sg.png",
+                "tags": [
+                    "%SG%beIN%Sports%4%",
+                    "%beIN%Sports%4%SG%",
+                    "%SGP%beIN%Sports%4%",
+                    "%beIN%Sports%4%SGP%",
+                    "%beIN%Sports%4%🇸🇬%",
+                    "%bein.sports.4%sg%"
+                ],
+                "sortOrder": 414400
+            },
+            {
+                "id": "beIN.Sports.5.sg",
+                "name": "SG: beIN Sports 5",
+                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/beIN.Sports.5.sg.png",
+                "tags": [
+                    "%SG%beIN%Sports%5%",
+                    "%beIN%Sports%5%SG%",
+                    "%SGP%beIN%Sports%5%",
+                    "%beIN%Sports%5%SGP%",
+                    "%beIN%Sports%5%🇸🇬%",
+                    "%bein.sports.5%sg%"
+                ],
+                "sortOrder": 414500
             },
             {
                 "id": "NBA.TV.sg",
