@@ -3230,11 +3230,7 @@
                 "name": "CZ: Eurosport 2",
                 "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Eurosport.2.cz.png",
                 "tags": [
-                    "eurosport2.cz",
-                    "CZ: EUROSPORT 2 HD",
-                    "EuroSport 2 CZ",
-                    "EUROSPORT 2 🇸🇰",
-                    "EUROSPORT 2"
+                    "%eurosport_2%"
                 ],
                 "sortOrder": 67000
             },
@@ -3681,17 +3677,6 @@
                     "DE:Sport.Digital"
                 ],
                 "sortOrder": 113000
-            },
-            {
-                "id": "sportdigital.Fussball.de",
-                "name": "DE: SportDigital FUSSBALL",
-                "logo": "https://r2.thesportsdb.com/images/media/channel/logo/m6qkm51712223494.png",
-                "tags": [
-                    "SportDigital FUSSBALL DE"
-                ],
-                "thumbnail": "",
-                "enabled": true,
-                "sortOrder": 114000
             },
             {
                 "id": "SS.Blitz.Africa.HD.ng",
@@ -6250,15 +6235,6 @@
                 "sortOrder": 326000
             },
             {
-                "id": "Benfica.TV.pt",
-                "name": "PT: Benfica TV",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/Benfica.TV.pt.png",
-                "tags": [
-                    "PT: Benfica TV HD"
-                ],
-                "sortOrder": 327000
-            },
-            {
                 "id": "Canal.11.HD.pt",
                 "name": "PT: Canal 11",
                 "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Logo_Canal_11_FPF_1.svg/1200px-Logo_Canal_11_FPF_1.svg.png",
@@ -7462,33 +7438,6 @@
                 "sortOrder": 414670
             },
             {
-                "id": "TSN.4.HD.ca2",
-                "name": "CA: TSN 4",
-                "logo": "https://tchiphuong.github.io/miscmisc/iptv/img/sport/TSN.4.ca.png",
-                "tags": [
-                    "%tsn.4.hd.ca2%"
-                ],
-                "sortOrder": 414680
-            },
-            {
-                "id": "DAZN.2.it.it",
-                "name": "IT: DAZN 2",
-                "logo": "http://logo.myppir.fr:8080/images/logo/channel/dazn-de.png",
-                "tags": [
-                    "%itdazn2%"
-                ],
-                "sortOrder": 414681
-            },
-            {
-                "id": "DAZN.1.it.it",
-                "name": "IT: DAZN ZONA",
-                "logo": "http://logo.myppir.fr:8080/images/logo/channel/dazn-de.png",
-                "tags": [
-                    "%itdaznzona%"
-                ],
-                "sortOrder": 414682
-            },
-            {
                 "id": "Eurosport.Italia.it",
                 "name": "IT: Eurosport",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/eurosport_fr_1.png",
@@ -7552,15 +7501,6 @@
                 "sortOrder": 414689
             },
             {
-                "id": "RaiSport.it",
-                "name": "IT: Rai Sport",
-                "logo": "http://logo.myppir.fr:8080/images/logo/channel/rai_sport.png",
-                "tags": [
-                    "%itraisport1%"
-                ],
-                "sortOrder": 414690
-            },
-            {
                 "id": "Sky.Sport.24.it",
                 "name": "IT: Sky Sport 24",
                 "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sport-24-it.png",
@@ -7595,15 +7535,6 @@
                     "%itskysportf1%"
                 ],
                 "sortOrder": 414694
-            },
-            {
-                "id": "Sky.Sport.Calcio.it",
-                "name": "IT: Sky Sport Football",
-                "logo": "http://logo.myppir.fr:8080/images/logo/channel/sky-sports-football-uk.png",
-                "tags": [
-                    "%itskysportfootball%"
-                ],
-                "sortOrder": 414695
             },
             {
                 "id": "Sky.Sport.Golf.it",
@@ -8504,11 +8435,10 @@
             },
             {
                 "id": "ESPNEWS.HD.us2",
-                "name": "US: ESPN NEWS",
+                "name": "US: ESPNEWS",
                 "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/espnews-us.png",
                 "tags": [
-                    "espn-news",
-                    "US:ESPNEWS"
+                    "%espnews%"
                 ],
                 "enabled": true,
                 "sortOrder": 488000
@@ -8582,40 +8512,112 @@
                 "sortOrder": 372000
             },
             {
-                "id": "TSN.5.ca2",
-                "name": "TSN 5 (Canada)",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/canada/tsn-5-ca.png",
+                "id": "Canal.ESPN.(Argentina).ar",
+                "name": "AR: ESPN",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-ar.png",
                 "tags": [
-                    "%tsn%5%"
+                    "%espn%"
                 ],
-                "sortOrder": 250005
+                "sortOrder": 260001
             },
             {
-                "id": "beINSports1.au",
-                "name": "Bein Sports 1 (Aus)",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/australia/bein-sports-1-au.png",
+                "id": "[EPN2HAA].ESPN2.Argentina.uy",
+                "name": "AR: ESPN 2",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png",
                 "tags": [
-                    "%bein%sports%1%au%"
+                    "%espn%2%"
                 ],
-                "sortOrder": 151000
+                "sortOrder": 260002
             },
             {
-                "id": "beINSports2.au",
-                "name": "Bein Sports 2 (Aus)",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/australia/bein-sports-2-au.png",
+                "id": "Canal.ESPN.3.(Argentina).ar",
+                "name": "AR: ESPN 3",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png",
                 "tags": [
-                    "%bein%sports%2%au%"
+                    "%espn%3%"
                 ],
-                "sortOrder": 151000
+                "sortOrder": 260003
             },
             {
-                "id": "beINSports3.au",
-                "name": "Bein Sports 3 (Aus)",
-                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/australia/bein-sports-3-au.png",
+                "id": "ESPN.5.HD.uy",
+                "name": "AR: ESPN 5",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-5-ar.png",
                 "tags": [
-                    "%bein%sports%3%au%"
+                    "%espn%5%"
                 ],
-                "sortOrder": 151000
+                "sortOrder": 260005
+            },
+            {
+                "id": "ESPN.Deportes.HD.us2",
+                "name": "US: ESPN DEPORTES",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/espn-deportes-us.png",
+                "tags": [
+                    "%espn%deportes%"
+                ],
+                "sortOrder": 260100
+            },
+            {
+                "id": "Canal.ESPN.Premium.(Chile).sv",
+                "name": "AR: ESPN PREMIUM",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-premium-ar.png",
+                "tags": [
+                    "%espn%premium%"
+                ],
+                "sortOrder": 260000
+            },
+            {
+                "id": "Eurosport.1.hr",
+                "name": "HR: Eurosport 1",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/croatia/eurosport-1-hr.png",
+                "tags": [
+                    "%eurosport%1%"
+                ],
+                "sortOrder": 270001
+            },
+            {
+                "id": "[EUROSHD].Eurosport.1.HD.se",
+                "name": "SE: Eurosport 1",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/sweden/eurosport-1-se.png",
+                "tags": [
+                    "%eurosport%1%"
+                ],
+                "sortOrder": 270002
+            },
+            {
+                "id": "[EURSP2H].Eurosport.2.HD.se",
+                "name": "SE: Eurosport 2",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/sweden/eurosport-2-se.png",
+                "tags": [
+                    "%eurosport%2%"
+                ],
+                "sortOrder": 270003
+            },
+            {
+                "id": "Sky.Sport.ch",
+                "name": "Sky Sport",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/germany/sky-sport-de.png",
+                "tags": [
+                    "%sky%sport%"
+                ],
+                "sortOrder": 280001
+            },
+            {
+                "id": "Sky.Sports.LaLiga.mx",
+                "name": "MX: SKY SPORT LALIGA",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/mexico/sky-sports-mx.png",
+                "tags": [
+                    "%sky%sport%laliga%"
+                ],
+                "sortOrder": 280002
+            },
+            {
+                "id": "Sky.Sports.Cricket.uk",
+                "name": "Sky Sports Cricket",
+                "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-cricket-uk.png",
+                "tags": [
+                    "%sky%sports%cricket%"
+                ],
+                "sortOrder": 280003
             }
         ]
     },
